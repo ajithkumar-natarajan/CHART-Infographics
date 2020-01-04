@@ -1,0 +1,871 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 696,
+                        "x0": 320,
+                        "y0": 17
+                    },
+                    "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 996,
+                        "y0": 926
+                    },
+                    "text": "800"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 183,
+                        "y0": 926
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 584,
+                        "y0": 926
+                    },
+                    "text": "400"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 42,
+                        "x0": 1196,
+                        "y0": 926
+                    },
+                    "text": "1000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 378,
+                        "y0": 926
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 790,
+                        "y0": 926
+                    },
+                    "text": "600"
+                },
+                {
+                    "bb": {
+                        "height": 24,
+                        "width": 45,
+                        "x0": 18,
+                        "y0": 257
+                    },
+                    "text": "2010"
+                },
+                {
+                    "bb": {
+                        "height": 24,
+                        "width": 45,
+                        "x0": 18,
+                        "y0": 686
+                    },
+                    "text": "2015"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 696,
+                            "x0": 320,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 996,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 183,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 584,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 42,
+                            "x0": 1196,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 378,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 790,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 7,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 8,
+                        "text": "2015"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 696,
+                            "x0": 320,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 996,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 183,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 584,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 42,
+                            "x0": 1196,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 378,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 790,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 7,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 8,
+                        "text": "2015"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 865,
+                "width": 1180,
+                "x0": 78,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 262
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 691
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1011,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 187,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 599,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1216,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 393,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 805,
+                            "y": 906
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 696,
+                            "x0": 320,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 996,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 183,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 584,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 42,
+                            "x0": 1196,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 378,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 790,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 7,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 8,
+                        "text": "2015"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 696,
+                            "x0": 320,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 996,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 183,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 584,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 42,
+                            "x0": 1196,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 378,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 790,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 7,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 8,
+                        "text": "2015"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 865,
+                    "width": 1180,
+                    "x0": 78,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 262
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 691
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1011,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 187,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 599,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1216,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 393,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 805,
+                                "y": 906
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 11.5,
+                        "max": 634.0,
+                        "median": 62.0,
+                        "min": 3.0,
+                        "third_quartile": 261.5
+                    },
+                    "name": "2015"
+                },
+                {
+                    "data": {
+                        "first_quartile": 16.0,
+                        "max": 829.8005776012186,
+                        "median": 72.0,
+                        "min": 3.0,
+                        "third_quartile": 344.5838422349169
+                    },
+                    "name": "2010"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 205,
+                                "y0": 231
+                            },
+                            "x": 205,
+                            "y": 263
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 1042,
+                                "y0": 247
+                            },
+                            "x": 1042,
+                            "y": 263
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 262,
+                                "y0": 231
+                            },
+                            "x": 262,
+                            "y": 263
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 191,
+                                "y0": 247
+                            },
+                            "x": 191,
+                            "y": 263
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 543,
+                                "y0": 231
+                            },
+                            "x": 543,
+                            "y": 263
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 200,
+                                "y0": 660
+                            },
+                            "x": 200,
+                            "y": 692
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 841,
+                                "y0": 676
+                            },
+                            "x": 841,
+                            "y": 692
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 252,
+                                "y0": 660
+                            },
+                            "x": 252,
+                            "y": 692
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 191,
+                                "y0": 676
+                            },
+                            "x": 191,
+                            "y": 692
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 457,
+                                "y0": 660
+                            },
+                            "x": 457,
+                            "y": 692
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

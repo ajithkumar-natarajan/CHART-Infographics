@@ -1,0 +1,729 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 382,
+                        "x0": 495,
+                        "y0": 19
+                    },
+                    "text": "Secondary education, general pupils t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 52,
+                        "x0": 1025,
+                        "y0": 924
+                    },
+                    "text": "80000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 53,
+                        "x0": 321,
+                        "y0": 924
+                    },
+                    "text": "20000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 52,
+                        "x0": 556,
+                        "y0": 924
+                    },
+                    "text": "40000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 52,
+                        "x0": 790,
+                        "y0": 924
+                    },
+                    "text": "60000"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 79,
+                        "x0": 19,
+                        "y0": 674
+                    },
+                    "text": "French\nPolynesia"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 66,
+                        "x0": 32,
+                        "y0": 257
+                    },
+                    "text": "Somalia"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 382,
+                            "x0": 495,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Secondary education, general pupils t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 1025,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "80000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 53,
+                            "x0": 321,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 556,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 790,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "60000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 79,
+                            "x0": 19,
+                            "y0": 674
+                        },
+                        "id": 5,
+                        "text": "French\nPolynesia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 66,
+                            "x0": 32,
+                            "y0": 257
+                        },
+                        "id": 6,
+                        "text": "Somalia"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 382,
+                            "x0": 495,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Secondary education, general pupils t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 1025,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "80000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 53,
+                            "x0": 321,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 556,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 790,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "60000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 79,
+                            "x0": 19,
+                            "y0": 674
+                        },
+                        "id": 5,
+                        "text": "French\nPolynesia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 66,
+                            "x0": 32,
+                            "y0": 257
+                        },
+                        "id": 6,
+                        "text": "Somalia"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 861,
+                "width": 1144,
+                "x0": 114,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 114,
+                            "y": 690
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 114,
+                            "y": 263
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1050,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 346,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 581,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 816,
+                            "y": 904
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 382,
+                            "x0": 495,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Secondary education, general pupils t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 1025,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "80000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 53,
+                            "x0": 321,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 556,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 790,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "60000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 79,
+                            "x0": 19,
+                            "y0": 674
+                        },
+                        "id": 5,
+                        "text": "French\nPolynesia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 66,
+                            "x0": 32,
+                            "y0": 257
+                        },
+                        "id": 6,
+                        "text": "Somalia"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 382,
+                            "x0": 495,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Secondary education, general pupils t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 1025,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "80000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 53,
+                            "x0": 321,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 556,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 52,
+                            "x0": 790,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "60000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 79,
+                            "x0": 19,
+                            "y0": 674
+                        },
+                        "id": 5,
+                        "text": "French\nPolynesia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 66,
+                            "x0": 32,
+                            "y0": 257
+                        },
+                        "id": 6,
+                        "text": "Somalia"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 861,
+                    "width": 1144,
+                    "x0": 114,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 114,
+                                "y": 690
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 114,
+                                "y": 263
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1050,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 346,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 581,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 816,
+                                "y": 904
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 9111.364659833896,
+                        "max": 22500.0,
+                        "median": 12595.27890507726,
+                        "min": 5383.0,
+                        "third_quartile": 15522.71700694563
+                    },
+                    "name": "French Polynesia"
+                },
+                {
+                    "data": {
+                        "first_quartile": 14011.638670908611,
+                        "max": 92441.0,
+                        "median": 30829.689394167974,
+                        "min": 6308.0,
+                        "third_quartile": 80636.59667049238
+                    },
+                    "name": "Somalia"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 277,
+                                "y0": 232
+                            },
+                            "x": 277,
+                            "y": 264
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 1197,
+                                "y0": 248
+                            },
+                            "x": 1197,
+                            "y": 264
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 474,
+                                "y0": 232
+                            },
+                            "x": 474,
+                            "y": 264
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 187,
+                                "y0": 248
+                            },
+                            "x": 187,
+                            "y": 264
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 1059,
+                                "y0": 232
+                            },
+                            "x": 1059,
+                            "y": 264
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 219,
+                                "y0": 659
+                            },
+                            "x": 219,
+                            "y": 691
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 377,
+                                "y0": 675
+                            },
+                            "x": 377,
+                            "y": 691
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 260,
+                                "y0": 659
+                            },
+                            "x": 260,
+                            "y": 691
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 176,
+                                "y0": 675
+                            },
+                            "x": 176,
+                            "y": 691
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 295,
+                                "y0": 659
+                            },
+                            "x": 295,
+                            "y": 691
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

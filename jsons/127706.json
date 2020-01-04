@@ -1,0 +1,1128 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 159,
+                        "x0": 571,
+                        "y0": 14
+                    },
+                    "text": "Labor force, total t"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 19,
+                        "x0": 632,
+                        "y0": 910
+                    },
+                    "text": "PHL"
+                },
+                {
+                    "bb": {
+                        "height": 27,
+                        "width": 18,
+                        "x0": 875,
+                        "y0": 910
+                    },
+                    "text": "ITA"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 19,
+                        "x0": 1117,
+                        "y0": 910
+                    },
+                    "text": "FRA"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 19,
+                        "x0": 146,
+                        "y0": 910
+                    },
+                    "text": "ETH"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 20,
+                        "x0": 388,
+                        "y0": 910
+                    },
+                    "text": "UKR"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 746
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 566
+                    },
+                    "text": "3"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 205
+                    },
+                    "text": "5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 386
+                    },
+                    "text": "4"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 159,
+                            "x0": 571,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total t"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 19,
+                            "x0": 632,
+                            "y0": 910
+                        },
+                        "id": 1,
+                        "text": "PHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 18,
+                            "x0": 875,
+                            "y0": 910
+                        },
+                        "id": 2,
+                        "text": "ITA"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 19,
+                            "x0": 1117,
+                            "y0": 910
+                        },
+                        "id": 3,
+                        "text": "FRA"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 19,
+                            "x0": 146,
+                            "y0": 910
+                        },
+                        "id": 4,
+                        "text": "ETH"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 20,
+                            "x0": 388,
+                            "y0": 910
+                        },
+                        "id": 5,
+                        "text": "UKR"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 746
+                        },
+                        "id": 6,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 566
+                        },
+                        "id": 7,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 205
+                        },
+                        "id": 8,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 386
+                        },
+                        "id": 9,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 159,
+                            "x0": 571,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total t"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 19,
+                            "x0": 632,
+                            "y0": 910
+                        },
+                        "id": 1,
+                        "text": "PHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 18,
+                            "x0": 875,
+                            "y0": 910
+                        },
+                        "id": 2,
+                        "text": "ITA"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 19,
+                            "x0": 1117,
+                            "y0": 910
+                        },
+                        "id": 3,
+                        "text": "FRA"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 19,
+                            "x0": 146,
+                            "y0": 910
+                        },
+                        "id": 4,
+                        "text": "ETH"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 20,
+                            "x0": 388,
+                            "y0": 910
+                        },
+                        "id": 5,
+                        "text": "UKR"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 746
+                        },
+                        "id": 6,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 566
+                        },
+                        "id": 7,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 205
+                        },
+                        "id": 8,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 386
+                        },
+                        "id": 9,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 854,
+                "width": 1222,
+                "x0": 40,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 650,
+                            "y": 894
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 893,
+                            "y": 894
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 1136,
+                            "y": 894
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 164,
+                            "y": 894
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 407,
+                            "y": 894
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 751
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 570
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 210
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 394
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 159,
+                            "x0": 571,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total t"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 19,
+                            "x0": 632,
+                            "y0": 910
+                        },
+                        "id": 1,
+                        "text": "PHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 18,
+                            "x0": 875,
+                            "y0": 910
+                        },
+                        "id": 2,
+                        "text": "ITA"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 19,
+                            "x0": 1117,
+                            "y0": 910
+                        },
+                        "id": 3,
+                        "text": "FRA"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 19,
+                            "x0": 146,
+                            "y0": 910
+                        },
+                        "id": 4,
+                        "text": "ETH"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 20,
+                            "x0": 388,
+                            "y0": 910
+                        },
+                        "id": 5,
+                        "text": "UKR"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 746
+                        },
+                        "id": 6,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 566
+                        },
+                        "id": 7,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 205
+                        },
+                        "id": 8,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 386
+                        },
+                        "id": 9,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 159,
+                            "x0": 571,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total t"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 19,
+                            "x0": 632,
+                            "y0": 910
+                        },
+                        "id": 1,
+                        "text": "PHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 18,
+                            "x0": 875,
+                            "y0": 910
+                        },
+                        "id": 2,
+                        "text": "ITA"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 19,
+                            "x0": 1117,
+                            "y0": 910
+                        },
+                        "id": 3,
+                        "text": "FRA"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 19,
+                            "x0": 146,
+                            "y0": 910
+                        },
+                        "id": 4,
+                        "text": "ETH"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 20,
+                            "x0": 388,
+                            "y0": 910
+                        },
+                        "id": 5,
+                        "text": "UKR"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 746
+                        },
+                        "id": 6,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 566
+                        },
+                        "id": 7,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 205
+                        },
+                        "id": 8,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 386
+                        },
+                        "id": 9,
+                        "text": "4"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 854,
+                    "width": 1222,
+                    "x0": 40,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 650,
+                                "y": 894
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 893,
+                                "y": 894
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 1136,
+                                "y": 894
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 164,
+                                "y": 894
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 407,
+                                "y": 894
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 751
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 570
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 210
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 394
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 26562322.264087163,
+                        "max": 51449891.0,
+                        "median": 32312863.685424767,
+                        "min": 20132057.0,
+                        "third_quartile": 40148763.829160795
+                    },
+                    "name": "ETH"
+                },
+                {
+                    "data": {
+                        "first_quartile": 21845954.702114772,
+                        "max": 24730864.0,
+                        "median": 22514746.66878452,
+                        "min": 20510251.0,
+                        "third_quartile": 23861344.92479923
+                    },
+                    "name": "UKR"
+                },
+                {
+                    "data": {
+                        "first_quartile": 29699410.367779702,
+                        "max": 44643618.0,
+                        "median": 35682571.25355864,
+                        "min": 22741143.0,
+                        "third_quartile": 40272680.799083464
+                    },
+                    "name": "PHL"
+                },
+                {
+                    "data": {
+                        "first_quartile": 23272359.321074452,
+                        "max": 25584166.0,
+                        "median": 24070058.548757248,
+                        "min": 22871561.0,
+                        "third_quartile": 24647417.529283844
+                    },
+                    "name": "ITA"
+                },
+                {
+                    "data": {
+                        "first_quartile": 27028643.641572796,
+                        "max": 30366046.0,
+                        "median": 28580829.808617268,
+                        "min": 25976881.0,
+                        "third_quartile": 29524862.65823987
+                    },
+                    "name": "FRA"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 590,
+                                "y0": 577
+                            },
+                            "x": 651,
+                            "y": 577
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 620,
+                                "y0": 307
+                            },
+                            "x": 651,
+                            "y": 307
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 590,
+                                "y0": 469
+                            },
+                            "x": 651,
+                            "y": 469
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 620,
+                                "y0": 702
+                            },
+                            "x": 651,
+                            "y": 702
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 590,
+                                "y0": 577
+                            },
+                            "x": 651,
+                            "y": 386
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 833,
+                                "y0": 693
+                            },
+                            "x": 894,
+                            "y": 693
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 863,
+                                "y0": 651
+                            },
+                            "x": 894,
+                            "y": 651
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 833,
+                                "y0": 678
+                            },
+                            "x": 894,
+                            "y": 678
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 863,
+                                "y0": 700
+                            },
+                            "x": 894,
+                            "y": 700
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 833,
+                                "y0": 693
+                            },
+                            "x": 894,
+                            "y": 668
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 1076,
+                                "y0": 625
+                            },
+                            "x": 1137,
+                            "y": 625
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 1106,
+                                "y0": 565
+                            },
+                            "x": 1137,
+                            "y": 565
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 1076,
+                                "y0": 597
+                            },
+                            "x": 1137,
+                            "y": 597
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 1106,
+                                "y0": 644
+                            },
+                            "x": 1137,
+                            "y": 644
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 1076,
+                                "y0": 625
+                            },
+                            "x": 1137,
+                            "y": 580
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 104,
+                                "y0": 633
+                            },
+                            "x": 165,
+                            "y": 634
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 135,
+                                "y0": 185
+                            },
+                            "x": 165,
+                            "y": 185
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 104,
+                                "y0": 530
+                            },
+                            "x": 165,
+                            "y": 530
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 135,
+                                "y0": 749
+                            },
+                            "x": 165,
+                            "y": 749
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 104,
+                                "y0": 633
+                            },
+                            "x": 165,
+                            "y": 389
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 347,
+                                "y0": 718
+                            },
+                            "x": 408,
+                            "y": 718
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 377,
+                                "y0": 666
+                            },
+                            "x": 408,
+                            "y": 666
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 347,
+                                "y0": 706
+                            },
+                            "x": 408,
+                            "y": 706
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 61,
+                                "x0": 377,
+                                "y0": 743
+                            },
+                            "x": 408,
+                            "y": 743
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 347,
+                                "y0": 718
+                            },
+                            "x": 408,
+                            "y": 682
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

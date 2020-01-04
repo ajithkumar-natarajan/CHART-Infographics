@@ -1,0 +1,809 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 776,
+                        "x0": 94,
+                        "y0": 15
+                    },
+                    "text": "State/ UTs wise Annual Plan as percentage to GSDP(Current Prices) from 1997-98 to 2013-14 as per 30 Nov 2014"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 568,
+                        "y0": 933
+                    },
+                    "text": "6"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 735,
+                        "y0": 933
+                    },
+                    "text": "8"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 1065,
+                        "y0": 933
+                    },
+                    "text": "12"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 234,
+                        "y0": 933
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 898,
+                        "y0": 933
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 1232,
+                        "y0": 933
+                    },
+                    "text": "14"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 401,
+                        "y0": 933
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 27,
+                        "width": 59,
+                        "x0": 16,
+                        "y0": 485
+                    },
+                    "text": "2005-06"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 776,
+                            "x0": 94,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "State/ UTs wise Annual Plan as percentage to GSDP(Current Prices) from 1997-98 to 2013-14 as per 30 Nov 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 568,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 735,
+                            "y0": 933
+                        },
+                        "id": 2,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1065,
+                            "y0": 933
+                        },
+                        "id": 3,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 234,
+                            "y0": 933
+                        },
+                        "id": 4,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 898,
+                            "y0": 933
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1232,
+                            "y0": 933
+                        },
+                        "id": 6,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 401,
+                            "y0": 933
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 59,
+                            "x0": 16,
+                            "y0": 485
+                        },
+                        "id": 8,
+                        "text": "2005-06"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 776,
+                            "x0": 94,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "State/ UTs wise Annual Plan as percentage to GSDP(Current Prices) from 1997-98 to 2013-14 as per 30 Nov 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 568,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 735,
+                            "y0": 933
+                        },
+                        "id": 2,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1065,
+                            "y0": 933
+                        },
+                        "id": 3,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 234,
+                            "y0": 933
+                        },
+                        "id": 4,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 898,
+                            "y0": 933
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1232,
+                            "y0": 933
+                        },
+                        "id": 6,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 401,
+                            "y0": 933
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 59,
+                            "x0": 16,
+                            "y0": 485
+                        },
+                        "id": 8,
+                        "text": "2005-06"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 854,
+                "width": 1171,
+                "x0": 91,
+                "y0": 63
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 91,
+                            "y": 489
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 571,
+                            "y": 913
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 739,
+                            "y": 913
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 1073,
+                            "y": 913
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 237,
+                            "y": 913
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 906,
+                            "y": 913
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1240,
+                            "y": 913
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 404,
+                            "y": 913
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 776,
+                            "x0": 94,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "State/ UTs wise Annual Plan as percentage to GSDP(Current Prices) from 1997-98 to 2013-14 as per 30 Nov 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 568,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 735,
+                            "y0": 933
+                        },
+                        "id": 2,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1065,
+                            "y0": 933
+                        },
+                        "id": 3,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 234,
+                            "y0": 933
+                        },
+                        "id": 4,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 898,
+                            "y0": 933
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1232,
+                            "y0": 933
+                        },
+                        "id": 6,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 401,
+                            "y0": 933
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 59,
+                            "x0": 16,
+                            "y0": 485
+                        },
+                        "id": 8,
+                        "text": "2005-06"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 776,
+                            "x0": 94,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "State/ UTs wise Annual Plan as percentage to GSDP(Current Prices) from 1997-98 to 2013-14 as per 30 Nov 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 568,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 735,
+                            "y0": 933
+                        },
+                        "id": 2,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1065,
+                            "y0": 933
+                        },
+                        "id": 3,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 234,
+                            "y0": 933
+                        },
+                        "id": 4,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 898,
+                            "y0": 933
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1232,
+                            "y0": 933
+                        },
+                        "id": 6,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 401,
+                            "y0": 933
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 59,
+                            "x0": 16,
+                            "y0": 485
+                        },
+                        "id": 8,
+                        "text": "2005-06"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 854,
+                    "width": 1171,
+                    "x0": 91,
+                    "y0": 63
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 91,
+                                "y": 489
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 571,
+                                "y": 913
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 739,
+                                "y": 913
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 1073,
+                                "y": 913
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 237,
+                                "y": 913
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 906,
+                                "y": 913
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1240,
+                                "y": 913
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 404,
+                                "y": 913
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 3.4925,
+                        "max": 11.88,
+                        "median": 6.085,
+                        "min": 2.6,
+                        "third_quartile": 9.56
+                    },
+                    "name": "2005-06"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 127,
+                                "width": 0,
+                                "x0": 363,
+                                "y0": 426
+                            },
+                            "x": 363,
+                            "y": 490
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 1064,
+                                "y0": 458
+                            },
+                            "x": 1064,
+                            "y": 490
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 127,
+                                "width": 0,
+                                "x0": 579,
+                                "y0": 426
+                            },
+                            "x": 579,
+                            "y": 490
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 288,
+                                "y0": 458
+                            },
+                            "x": 288,
+                            "y": 490
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 127,
+                                "width": 0,
+                                "x0": 870,
+                                "y0": 426
+                            },
+                            "x": 870,
+                            "y": 490
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

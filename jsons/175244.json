@@ -1,0 +1,1421 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 375,
+                        "x0": 103,
+                        "y0": 15
+                    },
+                    "text": "Electric power consumption (kWh per capita)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 630,
+                        "y0": 934
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 14,
+                        "x0": 14,
+                        "y0": 406
+                    },
+                    "text": "2010"
+                },
+                {
+                    "bb": {
+                        "height": 88,
+                        "width": 56,
+                        "x0": 99,
+                        "y0": 820
+                    },
+                    "text": "Brunei\nDarussalam"
+                },
+                {
+                    "bb": {
+                        "height": 57,
+                        "width": 32,
+                        "x0": 298,
+                        "y0": 820
+                    },
+                    "text": "Rwanda"
+                },
+                {
+                    "bb": {
+                        "height": 88,
+                        "width": 42,
+                        "x0": 463,
+                        "y0": 820
+                    },
+                    "text": "South Sudan"
+                },
+                {
+                    "bb": {
+                        "height": 59,
+                        "width": 32,
+                        "x0": 648,
+                        "y0": 820
+                    },
+                    "text": "Namibia"
+                },
+                {
+                    "bb": {
+                        "height": 51,
+                        "width": 30,
+                        "x0": 826,
+                        "y0": 820
+                    },
+                    "text": "Greece"
+                },
+                {
+                    "bb": {
+                        "height": 103,
+                        "width": 61,
+                        "x0": 969,
+                        "y0": 820
+                    },
+                    "text": "Turks and\nCaicos Islands"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 33,
+                        "x0": 1172,
+                        "y0": 820
+                    },
+                    "text": "Grenada"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 74,
+                        "y0": 762
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 48,
+                        "y0": 666
+                    },
+                    "text": "2000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 48,
+                        "y0": 570
+                    },
+                    "text": "4000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 48,
+                        "y0": 475
+                    },
+                    "text": "6000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 48,
+                        "y0": 379
+                    },
+                    "text": "8000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 44,
+                        "x0": 39,
+                        "y0": 283
+                    },
+                    "text": "10000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 44,
+                        "x0": 39,
+                        "y0": 187
+                    },
+                    "text": "12000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 44,
+                        "x0": 39,
+                        "y0": 91
+                    },
+                    "text": "14000"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 375,
+                            "x0": 103,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Electric power consumption (kWh per capita)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 630,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 406
+                        },
+                        "id": 2,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 56,
+                            "x0": 99,
+                            "y0": 820
+                        },
+                        "id": 3,
+                        "text": "Brunei\nDarussalam"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 32,
+                            "x0": 298,
+                            "y0": 820
+                        },
+                        "id": 4,
+                        "text": "Rwanda"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 42,
+                            "x0": 463,
+                            "y0": 820
+                        },
+                        "id": 5,
+                        "text": "South Sudan"
+                    },
+                    {
+                        "bb": {
+                            "height": 59,
+                            "width": 32,
+                            "x0": 648,
+                            "y0": 820
+                        },
+                        "id": 6,
+                        "text": "Namibia"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 30,
+                            "x0": 826,
+                            "y0": 820
+                        },
+                        "id": 7,
+                        "text": "Greece"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 61,
+                            "x0": 969,
+                            "y0": 820
+                        },
+                        "id": 8,
+                        "text": "Turks and\nCaicos Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 33,
+                            "x0": 1172,
+                            "y0": 820
+                        },
+                        "id": 9,
+                        "text": "Grenada"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 74,
+                            "y0": 762
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 666
+                        },
+                        "id": 11,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 570
+                        },
+                        "id": 12,
+                        "text": "4000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 475
+                        },
+                        "id": 13,
+                        "text": "6000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 379
+                        },
+                        "id": 14,
+                        "text": "8000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 283
+                        },
+                        "id": 15,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 187
+                        },
+                        "id": 16,
+                        "text": "12000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 91
+                        },
+                        "id": 17,
+                        "text": "14000"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 375,
+                            "x0": 103,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Electric power consumption (kWh per capita)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 630,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 406
+                        },
+                        "id": 2,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 56,
+                            "x0": 99,
+                            "y0": 820
+                        },
+                        "id": 3,
+                        "text": "Brunei\nDarussalam"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 32,
+                            "x0": 298,
+                            "y0": 820
+                        },
+                        "id": 4,
+                        "text": "Rwanda"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 42,
+                            "x0": 463,
+                            "y0": 820
+                        },
+                        "id": 5,
+                        "text": "South Sudan"
+                    },
+                    {
+                        "bb": {
+                            "height": 59,
+                            "width": 32,
+                            "x0": 648,
+                            "y0": 820
+                        },
+                        "id": 6,
+                        "text": "Namibia"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 30,
+                            "x0": 826,
+                            "y0": 820
+                        },
+                        "id": 7,
+                        "text": "Greece"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 61,
+                            "x0": 969,
+                            "y0": 820
+                        },
+                        "id": 8,
+                        "text": "Turks and\nCaicos Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 33,
+                            "x0": 1172,
+                            "y0": 820
+                        },
+                        "id": 9,
+                        "text": "Grenada"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 74,
+                            "y0": 762
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 666
+                        },
+                        "id": 11,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 570
+                        },
+                        "id": 12,
+                        "text": "4000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 475
+                        },
+                        "id": 13,
+                        "text": "6000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 379
+                        },
+                        "id": 14,
+                        "text": "8000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 283
+                        },
+                        "id": 15,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 187
+                        },
+                        "id": 16,
+                        "text": "12000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 91
+                        },
+                        "id": 17,
+                        "text": "14000"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 762,
+                "width": 1162,
+                "x0": 99,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 154,
+                            "y": 804
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 329,
+                            "y": 804
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 504,
+                            "y": 804
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 679,
+                            "y": 804
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 854,
+                            "y": 804
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1029,
+                            "y": 804
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 804
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 99,
+                            "y": 767
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 99,
+                            "y": 671
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 99,
+                            "y": 575
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 99,
+                            "y": 479
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 99,
+                            "y": 383
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 99,
+                            "y": 288
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 99,
+                            "y": 192
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 99,
+                            "y": 96
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 375,
+                            "x0": 103,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Electric power consumption (kWh per capita)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 630,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 406
+                        },
+                        "id": 2,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 56,
+                            "x0": 99,
+                            "y0": 820
+                        },
+                        "id": 3,
+                        "text": "Brunei\nDarussalam"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 32,
+                            "x0": 298,
+                            "y0": 820
+                        },
+                        "id": 4,
+                        "text": "Rwanda"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 42,
+                            "x0": 463,
+                            "y0": 820
+                        },
+                        "id": 5,
+                        "text": "South Sudan"
+                    },
+                    {
+                        "bb": {
+                            "height": 59,
+                            "width": 32,
+                            "x0": 648,
+                            "y0": 820
+                        },
+                        "id": 6,
+                        "text": "Namibia"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 30,
+                            "x0": 826,
+                            "y0": 820
+                        },
+                        "id": 7,
+                        "text": "Greece"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 61,
+                            "x0": 969,
+                            "y0": 820
+                        },
+                        "id": 8,
+                        "text": "Turks and\nCaicos Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 33,
+                            "x0": 1172,
+                            "y0": 820
+                        },
+                        "id": 9,
+                        "text": "Grenada"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 74,
+                            "y0": 762
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 666
+                        },
+                        "id": 11,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 570
+                        },
+                        "id": 12,
+                        "text": "4000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 475
+                        },
+                        "id": 13,
+                        "text": "6000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 379
+                        },
+                        "id": 14,
+                        "text": "8000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 283
+                        },
+                        "id": 15,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 187
+                        },
+                        "id": 16,
+                        "text": "12000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 91
+                        },
+                        "id": 17,
+                        "text": "14000"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 375,
+                            "x0": 103,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Electric power consumption (kWh per capita)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 630,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 406
+                        },
+                        "id": 2,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 56,
+                            "x0": 99,
+                            "y0": 820
+                        },
+                        "id": 3,
+                        "text": "Brunei\nDarussalam"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 32,
+                            "x0": 298,
+                            "y0": 820
+                        },
+                        "id": 4,
+                        "text": "Rwanda"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 42,
+                            "x0": 463,
+                            "y0": 820
+                        },
+                        "id": 5,
+                        "text": "South Sudan"
+                    },
+                    {
+                        "bb": {
+                            "height": 59,
+                            "width": 32,
+                            "x0": 648,
+                            "y0": 820
+                        },
+                        "id": 6,
+                        "text": "Namibia"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 30,
+                            "x0": 826,
+                            "y0": 820
+                        },
+                        "id": 7,
+                        "text": "Greece"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 61,
+                            "x0": 969,
+                            "y0": 820
+                        },
+                        "id": 8,
+                        "text": "Turks and\nCaicos Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 33,
+                            "x0": 1172,
+                            "y0": 820
+                        },
+                        "id": 9,
+                        "text": "Grenada"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 74,
+                            "y0": 762
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 666
+                        },
+                        "id": 11,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 570
+                        },
+                        "id": 12,
+                        "text": "4000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 475
+                        },
+                        "id": 13,
+                        "text": "6000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 48,
+                            "y0": 379
+                        },
+                        "id": 14,
+                        "text": "8000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 283
+                        },
+                        "id": 15,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 187
+                        },
+                        "id": 16,
+                        "text": "12000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 44,
+                            "x0": 39,
+                            "y0": 91
+                        },
+                        "id": 17,
+                        "text": "14000"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 762,
+                    "width": 1162,
+                    "x0": 99,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 154,
+                                "y": 804
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 329,
+                                "y": 804
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 504,
+                                "y": 804
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 679,
+                                "y": 804
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 854,
+                                "y": 804
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1029,
+                                "y": 804
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 804
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 99,
+                                "y": 767
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 99,
+                                "y": 671
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 99,
+                                "y": 575
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 99,
+                                "y": 479
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 99,
+                                "y": 383
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 99,
+                                "y": 288
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 99,
+                                "y": 192
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 99,
+                                "y": 96
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Brunei Darussalam",
+                            "y": "8809.71126583"
+                        },
+                        {
+                            "x": "Rwanda",
+                            "y": "24.4009345558"
+                        },
+                        {
+                            "x": "South Sudan",
+                            "y": "24.4009345558"
+                        },
+                        {
+                            "x": "Namibia",
+                            "y": "1546.58862399"
+                        },
+                        {
+                            "x": "Greece",
+                            "y": "5333.43955554"
+                        },
+                        {
+                            "x": "Turks and Caicos Islands",
+                            "y": "1798.2649231015525"
+                        },
+                        {
+                            "x": "Grenada",
+                            "y": "14353.184096627498"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 155,
+                            "y": 346
+                        },
+                        {
+                            "x": 330,
+                            "y": 766
+                        },
+                        {
+                            "x": 505,
+                            "y": 766
+                        },
+                        {
+                            "x": 680,
+                            "y": 693
+                        },
+                        {
+                            "x": 855,
+                            "y": 512
+                        },
+                        {
+                            "x": 1030,
+                            "y": 681
+                        },
+                        {
+                            "x": 1205,
+                            "y": 80
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

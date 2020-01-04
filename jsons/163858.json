@@ -1,0 +1,1682 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 258,
+                        "x0": 542,
+                        "y0": 15
+                    },
+                    "text": "Stock Markets, US$_monthly_2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 55,
+                        "x0": 644,
+                        "y0": 933
+                    },
+                    "text": "Country"
+                },
+                {
+                    "bb": {
+                        "height": 65,
+                        "width": 14,
+                        "x0": 14,
+                        "y0": 384
+                    },
+                    "text": "2016M02"
+                },
+                {
+                    "bb": {
+                        "height": 41,
+                        "width": 20,
+                        "x0": 118,
+                        "y0": 806
+                    },
+                    "text": "Spain"
+                },
+                {
+                    "bb": {
+                        "height": 65,
+                        "width": 24,
+                        "x0": 202,
+                        "y0": 806
+                    },
+                    "text": "Denmark"
+                },
+                {
+                    "bb": {
+                        "height": 67,
+                        "width": 25,
+                        "x0": 291,
+                        "y0": 806
+                    },
+                    "text": "Colombia"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 19,
+                        "x0": 386,
+                        "y0": 806
+                    },
+                    "text": "Italy"
+                },
+                {
+                    "bb": {
+                        "height": 92,
+                        "width": 29,
+                        "x0": 464,
+                        "y0": 806
+                    },
+                    "text": "New Zealand"
+                },
+                {
+                    "bb": {
+                        "height": 42,
+                        "width": 20,
+                        "x0": 562,
+                        "y0": 806
+                    },
+                    "text": "China"
+                },
+                {
+                    "bb": {
+                        "height": 86,
+                        "width": 28,
+                        "x0": 643,
+                        "y0": 806
+                    },
+                    "text": "South Africa"
+                },
+                {
+                    "bb": {
+                        "height": 55,
+                        "width": 23,
+                        "x0": 737,
+                        "y0": 806
+                    },
+                    "text": "Uganda"
+                },
+                {
+                    "bb": {
+                        "height": 70,
+                        "width": 25,
+                        "x0": 824,
+                        "y0": 806
+                    },
+                    "text": "Argentina"
+                },
+                {
+                    "bb": {
+                        "height": 116,
+                        "width": 49,
+                        "x0": 889,
+                        "y0": 806
+                    },
+                    "text": "Hong Kong SAR,\nChina"
+                },
+                {
+                    "bb": {
+                        "height": 54,
+                        "width": 23,
+                        "x0": 1004,
+                        "y0": 806
+                    },
+                    "text": "Norway"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 26,
+                        "x0": 1090,
+                        "y0": 806
+                    },
+                    "text": "Singapore"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 22,
+                        "x0": 1183,
+                        "y0": 806
+                    },
+                    "text": "Malawi"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 39,
+                        "y0": 667
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 39,
+                        "y0": 521
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 39,
+                        "y0": 375
+                    },
+                    "text": "300"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 39,
+                        "y0": 229
+                    },
+                    "text": "400"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 39,
+                        "y0": 83
+                    },
+                    "text": "500"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 258,
+                            "x0": 542,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 55,
+                            "x0": 644,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 384
+                        },
+                        "id": 2,
+                        "text": "2016M02"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 20,
+                            "x0": 118,
+                            "y0": 806
+                        },
+                        "id": 3,
+                        "text": "Spain"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 24,
+                            "x0": 202,
+                            "y0": 806
+                        },
+                        "id": 4,
+                        "text": "Denmark"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 25,
+                            "x0": 291,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "Colombia"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 19,
+                            "x0": 386,
+                            "y0": 806
+                        },
+                        "id": 6,
+                        "text": "Italy"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 29,
+                            "x0": 464,
+                            "y0": 806
+                        },
+                        "id": 7,
+                        "text": "New Zealand"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 20,
+                            "x0": 562,
+                            "y0": 806
+                        },
+                        "id": 8,
+                        "text": "China"
+                    },
+                    {
+                        "bb": {
+                            "height": 86,
+                            "width": 28,
+                            "x0": 643,
+                            "y0": 806
+                        },
+                        "id": 9,
+                        "text": "South Africa"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 23,
+                            "x0": 737,
+                            "y0": 806
+                        },
+                        "id": 10,
+                        "text": "Uganda"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 25,
+                            "x0": 824,
+                            "y0": 806
+                        },
+                        "id": 11,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 49,
+                            "x0": 889,
+                            "y0": 806
+                        },
+                        "id": 12,
+                        "text": "Hong Kong SAR,\nChina"
+                    },
+                    {
+                        "bb": {
+                            "height": 54,
+                            "width": 23,
+                            "x0": 1004,
+                            "y0": 806
+                        },
+                        "id": 13,
+                        "text": "Norway"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 26,
+                            "x0": 1090,
+                            "y0": 806
+                        },
+                        "id": 14,
+                        "text": "Singapore"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 22,
+                            "x0": 1183,
+                            "y0": 806
+                        },
+                        "id": 15,
+                        "text": "Malawi"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 667
+                        },
+                        "id": 16,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 521
+                        },
+                        "id": 17,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 375
+                        },
+                        "id": 18,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 229
+                        },
+                        "id": 19,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 83
+                        },
+                        "id": 20,
+                        "text": "500"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 258,
+                            "x0": 542,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 55,
+                            "x0": 644,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 384
+                        },
+                        "id": 2,
+                        "text": "2016M02"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 20,
+                            "x0": 118,
+                            "y0": 806
+                        },
+                        "id": 3,
+                        "text": "Spain"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 24,
+                            "x0": 202,
+                            "y0": 806
+                        },
+                        "id": 4,
+                        "text": "Denmark"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 25,
+                            "x0": 291,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "Colombia"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 19,
+                            "x0": 386,
+                            "y0": 806
+                        },
+                        "id": 6,
+                        "text": "Italy"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 29,
+                            "x0": 464,
+                            "y0": 806
+                        },
+                        "id": 7,
+                        "text": "New Zealand"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 20,
+                            "x0": 562,
+                            "y0": 806
+                        },
+                        "id": 8,
+                        "text": "China"
+                    },
+                    {
+                        "bb": {
+                            "height": 86,
+                            "width": 28,
+                            "x0": 643,
+                            "y0": 806
+                        },
+                        "id": 9,
+                        "text": "South Africa"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 23,
+                            "x0": 737,
+                            "y0": 806
+                        },
+                        "id": 10,
+                        "text": "Uganda"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 25,
+                            "x0": 824,
+                            "y0": 806
+                        },
+                        "id": 11,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 49,
+                            "x0": 889,
+                            "y0": 806
+                        },
+                        "id": 12,
+                        "text": "Hong Kong SAR,\nChina"
+                    },
+                    {
+                        "bb": {
+                            "height": 54,
+                            "width": 23,
+                            "x0": 1004,
+                            "y0": 806
+                        },
+                        "id": 13,
+                        "text": "Norway"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 26,
+                            "x0": 1090,
+                            "y0": 806
+                        },
+                        "id": 14,
+                        "text": "Singapore"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 22,
+                            "x0": 1183,
+                            "y0": 806
+                        },
+                        "id": 15,
+                        "text": "Malawi"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 667
+                        },
+                        "id": 16,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 521
+                        },
+                        "id": 17,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 375
+                        },
+                        "id": 18,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 229
+                        },
+                        "id": 19,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 83
+                        },
+                        "id": 20,
+                        "text": "500"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 748,
+                "width": 1180,
+                "x0": 81,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 137,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 226,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 315,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 404,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 492,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 581,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 670,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 759,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 848,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 937,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 1026,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 1115,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 790
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 671
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 525
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 379
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 233
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 87
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 258,
+                            "x0": 542,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 55,
+                            "x0": 644,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 384
+                        },
+                        "id": 2,
+                        "text": "2016M02"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 20,
+                            "x0": 118,
+                            "y0": 806
+                        },
+                        "id": 3,
+                        "text": "Spain"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 24,
+                            "x0": 202,
+                            "y0": 806
+                        },
+                        "id": 4,
+                        "text": "Denmark"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 25,
+                            "x0": 291,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "Colombia"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 19,
+                            "x0": 386,
+                            "y0": 806
+                        },
+                        "id": 6,
+                        "text": "Italy"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 29,
+                            "x0": 464,
+                            "y0": 806
+                        },
+                        "id": 7,
+                        "text": "New Zealand"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 20,
+                            "x0": 562,
+                            "y0": 806
+                        },
+                        "id": 8,
+                        "text": "China"
+                    },
+                    {
+                        "bb": {
+                            "height": 86,
+                            "width": 28,
+                            "x0": 643,
+                            "y0": 806
+                        },
+                        "id": 9,
+                        "text": "South Africa"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 23,
+                            "x0": 737,
+                            "y0": 806
+                        },
+                        "id": 10,
+                        "text": "Uganda"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 25,
+                            "x0": 824,
+                            "y0": 806
+                        },
+                        "id": 11,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 49,
+                            "x0": 889,
+                            "y0": 806
+                        },
+                        "id": 12,
+                        "text": "Hong Kong SAR,\nChina"
+                    },
+                    {
+                        "bb": {
+                            "height": 54,
+                            "width": 23,
+                            "x0": 1004,
+                            "y0": 806
+                        },
+                        "id": 13,
+                        "text": "Norway"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 26,
+                            "x0": 1090,
+                            "y0": 806
+                        },
+                        "id": 14,
+                        "text": "Singapore"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 22,
+                            "x0": 1183,
+                            "y0": 806
+                        },
+                        "id": 15,
+                        "text": "Malawi"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 667
+                        },
+                        "id": 16,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 521
+                        },
+                        "id": 17,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 375
+                        },
+                        "id": 18,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 229
+                        },
+                        "id": 19,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 83
+                        },
+                        "id": 20,
+                        "text": "500"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 258,
+                            "x0": 542,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 55,
+                            "x0": 644,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 384
+                        },
+                        "id": 2,
+                        "text": "2016M02"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 20,
+                            "x0": 118,
+                            "y0": 806
+                        },
+                        "id": 3,
+                        "text": "Spain"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 24,
+                            "x0": 202,
+                            "y0": 806
+                        },
+                        "id": 4,
+                        "text": "Denmark"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 25,
+                            "x0": 291,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "Colombia"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 19,
+                            "x0": 386,
+                            "y0": 806
+                        },
+                        "id": 6,
+                        "text": "Italy"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 29,
+                            "x0": 464,
+                            "y0": 806
+                        },
+                        "id": 7,
+                        "text": "New Zealand"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 20,
+                            "x0": 562,
+                            "y0": 806
+                        },
+                        "id": 8,
+                        "text": "China"
+                    },
+                    {
+                        "bb": {
+                            "height": 86,
+                            "width": 28,
+                            "x0": 643,
+                            "y0": 806
+                        },
+                        "id": 9,
+                        "text": "South Africa"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 23,
+                            "x0": 737,
+                            "y0": 806
+                        },
+                        "id": 10,
+                        "text": "Uganda"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 25,
+                            "x0": 824,
+                            "y0": 806
+                        },
+                        "id": 11,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 49,
+                            "x0": 889,
+                            "y0": 806
+                        },
+                        "id": 12,
+                        "text": "Hong Kong SAR,\nChina"
+                    },
+                    {
+                        "bb": {
+                            "height": 54,
+                            "width": 23,
+                            "x0": 1004,
+                            "y0": 806
+                        },
+                        "id": 13,
+                        "text": "Norway"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 26,
+                            "x0": 1090,
+                            "y0": 806
+                        },
+                        "id": 14,
+                        "text": "Singapore"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 22,
+                            "x0": 1183,
+                            "y0": 806
+                        },
+                        "id": 15,
+                        "text": "Malawi"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 667
+                        },
+                        "id": 16,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 521
+                        },
+                        "id": 17,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 375
+                        },
+                        "id": 18,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 229
+                        },
+                        "id": 19,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 83
+                        },
+                        "id": 20,
+                        "text": "500"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 748,
+                    "width": 1180,
+                    "x0": 81,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 137,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 226,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 315,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 404,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 492,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 581,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 670,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 759,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 848,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 937,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 1026,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 1115,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 790
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 671
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 525
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 379
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 233
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 87
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Spain",
+                            "y": "53.09728"
+                        },
+                        {
+                            "x": "Denmark",
+                            "y": "174.2289"
+                        },
+                        {
+                            "x": "Colombia",
+                            "y": "44.89854"
+                        },
+                        {
+                            "x": "Italy",
+                            "y": "57.50749"
+                        },
+                        {
+                            "x": "New Zealand",
+                            "y": "129.7701"
+                        },
+                        {
+                            "x": "China",
+                            "y": "92.12271"
+                        },
+                        {
+                            "x": "South Africa",
+                            "y": "83.57418"
+                        },
+                        {
+                            "x": "Uganda",
+                            "y": "130.9052"
+                        },
+                        {
+                            "x": "Argentina",
+                            "y": "506.2119"
+                        },
+                        {
+                            "x": "Hong Kong SAR, China",
+                            "y": "89.1564"
+                        },
+                        {
+                            "x": "Norway",
+                            "y": "96.26483"
+                        },
+                        {
+                            "x": "Singapore",
+                            "y": "90.68435"
+                        },
+                        {
+                            "x": "Malawi",
+                            "y": "55.09546"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 138,
+                            "y": 741
+                        },
+                        {
+                            "x": 227,
+                            "y": 564
+                        },
+                        {
+                            "x": 316,
+                            "y": 753
+                        },
+                        {
+                            "x": 405,
+                            "y": 734
+                        },
+                        {
+                            "x": 493,
+                            "y": 629
+                        },
+                        {
+                            "x": 582,
+                            "y": 684
+                        },
+                        {
+                            "x": 671,
+                            "y": 696
+                        },
+                        {
+                            "x": 760,
+                            "y": 627
+                        },
+                        {
+                            "x": 849,
+                            "y": 79
+                        },
+                        {
+                            "x": 938,
+                            "y": 688
+                        },
+                        {
+                            "x": 1027,
+                            "y": 678
+                        },
+                        {
+                            "x": 1116,
+                            "y": 686
+                        },
+                        {
+                            "x": 1205,
+                            "y": 738
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

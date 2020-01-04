@@ -1,0 +1,667 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 746,
+                        "x0": 59,
+                        "y0": 19
+                    },
+                    "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 20,
+                        "x0": 637,
+                        "y0": 903
+                    },
+                    "text": "HND"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 850
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 671
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 492
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 314
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 135
+                    },
+                    "text": "60"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 746,
+                            "x0": 59,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 20,
+                            "x0": 637,
+                            "y0": 903
+                        },
+                        "id": 1,
+                        "text": "HND"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 850
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 671
+                        },
+                        "id": 3,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 492
+                        },
+                        "id": 4,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 314
+                        },
+                        "id": 5,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 135
+                        },
+                        "id": 6,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 746,
+                            "x0": 59,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 20,
+                            "x0": 637,
+                            "y0": 903
+                        },
+                        "id": 1,
+                        "text": "HND"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 850
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 671
+                        },
+                        "id": 3,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 492
+                        },
+                        "id": 4,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 314
+                        },
+                        "id": 5,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 135
+                        },
+                        "id": 6,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 840,
+                "width": 1203,
+                "x0": 55,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 656,
+                            "y": 887
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 856
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 677
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 498
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 320
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 141
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 746,
+                            "x0": 59,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 20,
+                            "x0": 637,
+                            "y0": 903
+                        },
+                        "id": 1,
+                        "text": "HND"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 850
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 671
+                        },
+                        "id": 3,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 492
+                        },
+                        "id": 4,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 314
+                        },
+                        "id": 5,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 135
+                        },
+                        "id": 6,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 746,
+                            "x0": 59,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 20,
+                            "x0": 637,
+                            "y0": 903
+                        },
+                        "id": 1,
+                        "text": "HND"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 850
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 671
+                        },
+                        "id": 3,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 492
+                        },
+                        "id": 4,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 314
+                        },
+                        "id": 5,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 135
+                        },
+                        "id": 6,
+                        "text": "60"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 840,
+                    "width": 1203,
+                    "x0": 55,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 656,
+                                "y": 887
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 856
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 677
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 498
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 320
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 141
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 32.1804225231674,
+                        "max": 57.3402593746,
+                        "median": 42.553188864258836,
+                        "min": 26.2815657483,
+                        "third_quartile": 47.65904141568642
+                    },
+                    "name": "HND"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 567,
+                                "y0": 639
+                            },
+                            "x": 657,
+                            "y": 639
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 612,
+                                "y0": 189
+                            },
+                            "x": 657,
+                            "y": 189
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 567,
+                                "y0": 454
+                            },
+                            "x": 657,
+                            "y": 454
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 612,
+                                "y0": 744
+                            },
+                            "x": 657,
+                            "y": 744
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 567,
+                                "y0": 639
+                            },
+                            "x": 657,
+                            "y": 362
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

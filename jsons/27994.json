@@ -1,0 +1,1229 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 228,
+                        "x0": 622,
+                        "y0": 19
+                    },
+                    "text": "Ecuador 1993 Export"
+                },
+                {
+                    "bb": {
+                        "height": 90,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 405
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 691,
+                        "y0": 924
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 30,
+                        "x0": 186,
+                        "y0": 869
+                    },
+                    "text": "0.00"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 30,
+                        "x0": 319,
+                        "y0": 869
+                    },
+                    "text": "0.25"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 30,
+                        "x0": 451,
+                        "y0": 869
+                    },
+                    "text": "0.50"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 30,
+                        "x0": 583,
+                        "y0": 869
+                    },
+                    "text": "0.75"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 30,
+                        "x0": 715,
+                        "y0": 869
+                    },
+                    "text": "1.00"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 30,
+                        "x0": 848,
+                        "y0": 869
+                    },
+                    "text": "1.25"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 30,
+                        "x0": 980,
+                        "y0": 869
+                    },
+                    "text": "1.50"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 30,
+                        "x0": 1112,
+                        "y0": 869
+                    },
+                    "text": "1.75"
+                },
+                {
+                    "bb": {
+                        "height": 80,
+                        "width": 150,
+                        "x0": 47,
+                        "y0": 723
+                    },
+                    "text": "Woven fabric of\nother vegetable\ntextile fibre,\npaper"
+                },
+                {
+                    "bb": {
+                        "height": 80,
+                        "width": 140,
+                        "x0": 57,
+                        "y0": 516
+                    },
+                    "text": "Non-refractory\nsurfacing\npreparations\nnes"
+                },
+                {
+                    "bb": {
+                        "height": 101,
+                        "width": 120,
+                        "x0": 77,
+                        "y0": 298
+                    },
+                    "text": "Duplicating\nstylos,\npen/pencil\nholders, pen\nparts"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 120,
+                        "x0": 77,
+                        "y0": 121
+                    },
+                    "text": "Maize except\nseed corn"
+                },
+                {
+                    "bb": {
+                        "height": 13,
+                        "width": 26,
+                        "x0": 1228,
+                        "y0": 922
+                    },
+                    "text": ""
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 228,
+                            "x0": 622,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Ecuador 1993 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 405
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 186,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 319,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 451,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 583,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 715,
+                            "y0": 869
+                        },
+                        "id": 7,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 848,
+                            "y0": 869
+                        },
+                        "id": 8,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 980,
+                            "y0": 869
+                        },
+                        "id": 9,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 1112,
+                            "y0": 869
+                        },
+                        "id": 10,
+                        "text": "1.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 723
+                        },
+                        "id": 11,
+                        "text": "Woven fabric of\nother vegetable\ntextile fibre,\npaper"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 516
+                        },
+                        "id": 12,
+                        "text": "Non-refractory\nsurfacing\npreparations\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 298
+                        },
+                        "id": 13,
+                        "text": "Duplicating\nstylos,\npen/pencil\nholders, pen\nparts"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 121
+                        },
+                        "id": 14,
+                        "text": "Maize except\nseed corn"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 26,
+                            "x0": 1228,
+                            "y0": 922
+                        },
+                        "id": 15,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "ignore"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 228,
+                            "x0": 622,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Ecuador 1993 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 405
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 186,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 319,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 451,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 583,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 715,
+                            "y0": 869
+                        },
+                        "id": 7,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 848,
+                            "y0": 869
+                        },
+                        "id": 8,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 980,
+                            "y0": 869
+                        },
+                        "id": 9,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 1112,
+                            "y0": 869
+                        },
+                        "id": 10,
+                        "text": "1.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 723
+                        },
+                        "id": 11,
+                        "text": "Woven fabric of\nother vegetable\ntextile fibre,\npaper"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 516
+                        },
+                        "id": 12,
+                        "text": "Non-refractory\nsurfacing\npreparations\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 298
+                        },
+                        "id": 13,
+                        "text": "Duplicating\nstylos,\npen/pencil\nholders, pen\nparts"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 121
+                        },
+                        "id": 14,
+                        "text": "Maize except\nseed corn"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 26,
+                            "x0": 1228,
+                            "y0": 922
+                        },
+                        "id": 15,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 806,
+                "width": 1045,
+                "x0": 213,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 761
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 553
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 345
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 138
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 216,
+                            "y": 849
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 348,
+                            "y": 849
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 480,
+                            "y": 849
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 612,
+                            "y": 849
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 745,
+                            "y": 849
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 877,
+                            "y": 849
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1009,
+                            "y": 849
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1141,
+                            "y": 849
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 228,
+                            "x0": 622,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Ecuador 1993 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 405
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 186,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 319,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 451,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 583,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 715,
+                            "y0": 869
+                        },
+                        "id": 7,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 848,
+                            "y0": 869
+                        },
+                        "id": 8,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 980,
+                            "y0": 869
+                        },
+                        "id": 9,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 1112,
+                            "y0": 869
+                        },
+                        "id": 10,
+                        "text": "1.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 723
+                        },
+                        "id": 11,
+                        "text": "Woven fabric of\nother vegetable\ntextile fibre,\npaper"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 516
+                        },
+                        "id": 12,
+                        "text": "Non-refractory\nsurfacing\npreparations\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 298
+                        },
+                        "id": 13,
+                        "text": "Duplicating\nstylos,\npen/pencil\nholders, pen\nparts"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 121
+                        },
+                        "id": 14,
+                        "text": "Maize except\nseed corn"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 26,
+                            "x0": 1228,
+                            "y0": 922
+                        },
+                        "id": 15,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 228,
+                            "x0": 622,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Ecuador 1993 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 405
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 186,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 319,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 451,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 583,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 715,
+                            "y0": 869
+                        },
+                        "id": 7,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 848,
+                            "y0": 869
+                        },
+                        "id": 8,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 980,
+                            "y0": 869
+                        },
+                        "id": 9,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 30,
+                            "x0": 1112,
+                            "y0": 869
+                        },
+                        "id": 10,
+                        "text": "1.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 723
+                        },
+                        "id": 11,
+                        "text": "Woven fabric of\nother vegetable\ntextile fibre,\npaper"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 516
+                        },
+                        "id": 12,
+                        "text": "Non-refractory\nsurfacing\npreparations\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 298
+                        },
+                        "id": 13,
+                        "text": "Duplicating\nstylos,\npen/pencil\nholders, pen\nparts"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 121
+                        },
+                        "id": 14,
+                        "text": "Maize except\nseed corn"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 26,
+                            "x0": 1228,
+                            "y0": 922
+                        },
+                        "id": 15,
+                        "text": ""
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "ignore"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 806,
+                    "width": 1045,
+                    "x0": 213,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 761
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 553
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 345
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 138
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 216,
+                                "y": 849
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 348,
+                                "y": 849
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 480,
+                                "y": 849
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 612,
+                                "y": 849
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 745,
+                                "y": 849
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 877,
+                                "y": 849
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1009,
+                                "y": 849
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1141,
+                                "y": 849
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Woven fabric of other vegetable textile fibre, paper",
+                            "y": "27.0"
+                        },
+                        {
+                            "x": "Non-refractory surfacing preparations nes",
+                            "y": "3972.0"
+                        },
+                        {
+                            "x": "Duplicating stylos, pen/pencil holders, pen parts",
+                            "y": "13.0"
+                        },
+                        {
+                            "x": "Maize except seed corn",
+                            "y": "17232688.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 104,
+                        "width": 912,
+                        "x0": 217,
+                        "y0": 87
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

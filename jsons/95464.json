@@ -1,0 +1,1866 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 820,
+                        "x0": 256,
+                        "y0": 15
+                    },
+                    "text": "Employment in services, female (% of female employment) (modeled ILO estimate) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 25,
+                        "x0": 654,
+                        "y0": 934
+                    },
+                    "text": "EUU"
+                },
+                {
+                    "bb": {
+                        "height": 25,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 445
+                    },
+                    "text": "PST"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 33,
+                        "x0": 103,
+                        "y0": 889
+                    },
+                    "text": "67.5"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 33,
+                        "x0": 250,
+                        "y0": 889
+                    },
+                    "text": "70.0"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 33,
+                        "x0": 397,
+                        "y0": 889
+                    },
+                    "text": "72.5"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 33,
+                        "x0": 543,
+                        "y0": 889
+                    },
+                    "text": "75.0"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 33,
+                        "x0": 690,
+                        "y0": 889
+                    },
+                    "text": "77.5"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 33,
+                        "x0": 837,
+                        "y0": 889
+                    },
+                    "text": "80.0"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 33,
+                        "x0": 984,
+                        "y0": 889
+                    },
+                    "text": "82.5"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 33,
+                        "x0": 1131,
+                        "y0": 889
+                    },
+                    "text": "85.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 38,
+                        "y0": 774
+                    },
+                    "text": "74"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 38,
+                        "y0": 671
+                    },
+                    "text": "76"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 38,
+                        "y0": 568
+                    },
+                    "text": "78"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 38,
+                        "y0": 465
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 38,
+                        "y0": 362
+                    },
+                    "text": "82"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 38,
+                        "y0": 259
+                    },
+                    "text": "84"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 38,
+                        "y0": 156
+                    },
+                    "text": "86"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 38,
+                        "y0": 53
+                    },
+                    "text": "88"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 820,
+                            "x0": 256,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in services, female (% of female employment) (modeled ILO estimate) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 654,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "EUU"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 445
+                        },
+                        "id": 2,
+                        "text": "PST"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 103,
+                            "y0": 889
+                        },
+                        "id": 3,
+                        "text": "67.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 250,
+                            "y0": 889
+                        },
+                        "id": 4,
+                        "text": "70.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 397,
+                            "y0": 889
+                        },
+                        "id": 5,
+                        "text": "72.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 543,
+                            "y0": 889
+                        },
+                        "id": 6,
+                        "text": "75.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 690,
+                            "y0": 889
+                        },
+                        "id": 7,
+                        "text": "77.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 837,
+                            "y0": 889
+                        },
+                        "id": 8,
+                        "text": "80.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 984,
+                            "y0": 889
+                        },
+                        "id": 9,
+                        "text": "82.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 1131,
+                            "y0": 889
+                        },
+                        "id": 10,
+                        "text": "85.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 774
+                        },
+                        "id": 11,
+                        "text": "74"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 671
+                        },
+                        "id": 12,
+                        "text": "76"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 568
+                        },
+                        "id": 13,
+                        "text": "78"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 465
+                        },
+                        "id": 14,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 362
+                        },
+                        "id": 15,
+                        "text": "82"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 259
+                        },
+                        "id": 16,
+                        "text": "84"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 156
+                        },
+                        "id": 17,
+                        "text": "86"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 53
+                        },
+                        "id": 18,
+                        "text": "88"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 820,
+                            "x0": 256,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in services, female (% of female employment) (modeled ILO estimate) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 654,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "EUU"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 445
+                        },
+                        "id": 2,
+                        "text": "PST"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 103,
+                            "y0": 889
+                        },
+                        "id": 3,
+                        "text": "67.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 250,
+                            "y0": 889
+                        },
+                        "id": 4,
+                        "text": "70.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 397,
+                            "y0": 889
+                        },
+                        "id": 5,
+                        "text": "72.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 543,
+                            "y0": 889
+                        },
+                        "id": 6,
+                        "text": "75.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 690,
+                            "y0": 889
+                        },
+                        "id": 7,
+                        "text": "77.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 837,
+                            "y0": 889
+                        },
+                        "id": 8,
+                        "text": "80.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 984,
+                            "y0": 889
+                        },
+                        "id": 9,
+                        "text": "82.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 1131,
+                            "y0": 889
+                        },
+                        "id": 10,
+                        "text": "85.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 774
+                        },
+                        "id": 11,
+                        "text": "74"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 671
+                        },
+                        "id": 12,
+                        "text": "76"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 568
+                        },
+                        "id": 13,
+                        "text": "78"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 465
+                        },
+                        "id": 14,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 362
+                        },
+                        "id": 15,
+                        "text": "82"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 259
+                        },
+                        "id": 16,
+                        "text": "84"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 156
+                        },
+                        "id": 17,
+                        "text": "86"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 53
+                        },
+                        "id": 18,
+                        "text": "88"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 831,
+                "width": 1190,
+                "x0": 71,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 135,
+                            "y": 873
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 282,
+                            "y": 873
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 428,
+                            "y": 873
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 575,
+                            "y": 873
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 722,
+                            "y": 873
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 869,
+                            "y": 873
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1016,
+                            "y": 873
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1162,
+                            "y": 873
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 778
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 675
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 572
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 469
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 367
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 264
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 161
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 58
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 820,
+                            "x0": 256,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in services, female (% of female employment) (modeled ILO estimate) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 654,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "EUU"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 445
+                        },
+                        "id": 2,
+                        "text": "PST"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 103,
+                            "y0": 889
+                        },
+                        "id": 3,
+                        "text": "67.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 250,
+                            "y0": 889
+                        },
+                        "id": 4,
+                        "text": "70.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 397,
+                            "y0": 889
+                        },
+                        "id": 5,
+                        "text": "72.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 543,
+                            "y0": 889
+                        },
+                        "id": 6,
+                        "text": "75.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 690,
+                            "y0": 889
+                        },
+                        "id": 7,
+                        "text": "77.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 837,
+                            "y0": 889
+                        },
+                        "id": 8,
+                        "text": "80.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 984,
+                            "y0": 889
+                        },
+                        "id": 9,
+                        "text": "82.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 1131,
+                            "y0": 889
+                        },
+                        "id": 10,
+                        "text": "85.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 774
+                        },
+                        "id": 11,
+                        "text": "74"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 671
+                        },
+                        "id": 12,
+                        "text": "76"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 568
+                        },
+                        "id": 13,
+                        "text": "78"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 465
+                        },
+                        "id": 14,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 362
+                        },
+                        "id": 15,
+                        "text": "82"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 259
+                        },
+                        "id": 16,
+                        "text": "84"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 156
+                        },
+                        "id": 17,
+                        "text": "86"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 53
+                        },
+                        "id": 18,
+                        "text": "88"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 820,
+                            "x0": 256,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in services, female (% of female employment) (modeled ILO estimate) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 654,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "EUU"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 445
+                        },
+                        "id": 2,
+                        "text": "PST"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 103,
+                            "y0": 889
+                        },
+                        "id": 3,
+                        "text": "67.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 250,
+                            "y0": 889
+                        },
+                        "id": 4,
+                        "text": "70.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 397,
+                            "y0": 889
+                        },
+                        "id": 5,
+                        "text": "72.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 543,
+                            "y0": 889
+                        },
+                        "id": 6,
+                        "text": "75.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 690,
+                            "y0": 889
+                        },
+                        "id": 7,
+                        "text": "77.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 837,
+                            "y0": 889
+                        },
+                        "id": 8,
+                        "text": "80.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 984,
+                            "y0": 889
+                        },
+                        "id": 9,
+                        "text": "82.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 33,
+                            "x0": 1131,
+                            "y0": 889
+                        },
+                        "id": 10,
+                        "text": "85.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 774
+                        },
+                        "id": 11,
+                        "text": "74"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 671
+                        },
+                        "id": 12,
+                        "text": "76"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 568
+                        },
+                        "id": 13,
+                        "text": "78"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 465
+                        },
+                        "id": 14,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 362
+                        },
+                        "id": 15,
+                        "text": "82"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 259
+                        },
+                        "id": 16,
+                        "text": "84"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 156
+                        },
+                        "id": 17,
+                        "text": "86"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 38,
+                            "y0": 53
+                        },
+                        "id": 18,
+                        "text": "88"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 831,
+                    "width": 1190,
+                    "x0": 71,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 135,
+                                "y": 873
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 282,
+                                "y": 873
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 428,
+                                "y": 873
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 575,
+                                "y": 873
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 722,
+                                "y": 873
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 869,
+                                "y": 873
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1016,
+                                "y": 873
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1162,
+                                "y": 873
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 778
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 675
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 572
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 469
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 367
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 264
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 161
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 58
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "80.4362285047",
+                            "y": 83.5285234115
+                        },
+                        {
+                            "x": "70.60857978761844",
+                            "y": 79.32889019175558
+                        },
+                        {
+                            "x": "84.9298480715",
+                            "y": 86.91909706
+                        },
+                        {
+                            "x": "76.65699620538236",
+                            "y": 83.43269445267052
+                        },
+                        {
+                            "x": "79.2681252822",
+                            "y": 82.5163424651
+                        },
+                        {
+                            "x": "77.5004977162",
+                            "y": 81.3777167901
+                        },
+                        {
+                            "x": "78.09088583002521",
+                            "y": 85.72945287397414
+                        },
+                        {
+                            "x": "73.68589309753735",
+                            "y": 85.64590125983743
+                        },
+                        {
+                            "x": "83.401899937",
+                            "y": 85.75849269
+                        },
+                        {
+                            "x": "83.66641617415092",
+                            "y": 83.06502440869852
+                        },
+                        {
+                            "x": "84.0032777111",
+                            "y": 86.198178723
+                        },
+                        {
+                            "x": "81.5688649206",
+                            "y": 84.5013994786
+                        },
+                        {
+                            "x": "71.5929982381",
+                            "y": 76.028716262
+                        },
+                        {
+                            "x": "82.7392714885",
+                            "y": 85.3791293302
+                        },
+                        {
+                            "x": "73.06924772045565",
+                            "y": 86.91909706
+                        },
+                        {
+                            "x": "70.4467987669",
+                            "y": 75.7554893503
+                        },
+                        {
+                            "x": "73.9101942146",
+                            "y": 77.8413334742
+                        },
+                        {
+                            "x": "74.92545392023112",
+                            "y": 86.91909706
+                        },
+                        {
+                            "x": "76.3127276804",
+                            "y": 80.6202934788
+                        },
+                        {
+                            "x": "81.89152576132719",
+                            "y": 76.86135566626051
+                        },
+                        {
+                            "x": "74.3597320996",
+                            "y": 78.4395638848
+                        },
+                        {
+                            "x": "83.56282873220644",
+                            "y": 82.04586173281065
+                        },
+                        {
+                            "x": "81.501915838331",
+                            "y": 83.95633284701134
+                        },
+                        {
+                            "x": "84.8926689265514",
+                            "y": 80.2417887848113
+                        },
+                        {
+                            "x": "82.78487389775059",
+                            "y": 78.63467111637199
+                        },
+                        {
+                            "x": "82.14984932021184",
+                            "y": 78.82465247774886
+                        },
+                        {
+                            "x": "80.7601721109",
+                            "y": 83.7714124585
+                        },
+                        {
+                            "x": "83.2403413332",
+                            "y": 85.6934991763
+                        },
+                        {
+                            "x": "76.96829545048185",
+                            "y": 82.77106267977622
+                        },
+                        {
+                            "x": "74.32236948732648",
+                            "y": 85.26230747982405
+                        },
+                        {
+                            "x": "79.9457735336",
+                            "y": 83.1992242621
+                        },
+                        {
+                            "x": "82.66710563378663",
+                            "y": 82.52923877896632
+                        },
+                        {
+                            "x": "84.5208791357",
+                            "y": 86.6756483547
+                        },
+                        {
+                            "x": "79.63391122969732",
+                            "y": 77.11300225384102
+                        },
+                        {
+                            "x": "75.0393576629181",
+                            "y": 73.67254850843106
+                        },
+                        {
+                            "x": "73.04756684006561",
+                            "y": 82.99022314182103
+                        },
+                        {
+                            "x": "73.4377090542",
+                            "y": 77.3704982742
+                        },
+                        {
+                            "x": "84.8036190547",
+                            "y": 86.9049323822
+                        },
+                        {
+                            "x": "76.71236771562695",
+                            "y": 86.91129744577185
+                        },
+                        {
+                            "x": "73.81514294313418",
+                            "y": 84.4129532879659
+                        },
+                        {
+                            "x": "79.09265838630112",
+                            "y": 85.15016186471978
+                        },
+                        {
+                            "x": "80.45873062612105",
+                            "y": 82.94881872826298
+                        },
+                        {
+                            "x": "78.3978118817",
+                            "y": 81.9365078104
+                        },
+                        {
+                            "x": "72.3164384986",
+                            "y": 76.6711292854
+                        },
+                        {
+                            "x": "84.1323580387",
+                            "y": 86.5664820725
+                        },
+                        {
+                            "x": "75.90485733857359",
+                            "y": 84.31531371295726
+                        },
+                        {
+                            "x": "68.1354264799",
+                            "y": 73.5868209585
+                        },
+                        {
+                            "x": "75.1397480233",
+                            "y": 79.1798816094
+                        },
+                        {
+                            "x": "83.6313168632",
+                            "y": 85.9435973606
+                        },
+                        {
+                            "x": "75.8403068032",
+                            "y": 79.8635462769
+                        },
+                        {
+                            "x": "80.04309290953614",
+                            "y": 86.91909706
+                        },
+                        {
+                            "x": "75.45061116431765",
+                            "y": 85.72393138979763
+                        },
+                        {
+                            "x": "69.1813163961",
+                            "y": 74.2691643848
+                        },
+                        {
+                            "x": "74.37757636856341",
+                            "y": 76.5216364616173
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": [
+                    {
+                        "x": 896,
+                        "y": 289
+                    },
+                    {
+                        "x": 318,
+                        "y": 505
+                    },
+                    {
+                        "x": 1159,
+                        "y": 114
+                    },
+                    {
+                        "x": 674,
+                        "y": 294
+                    },
+                    {
+                        "x": 827,
+                        "y": 341
+                    },
+                    {
+                        "x": 723,
+                        "y": 400
+                    },
+                    {
+                        "x": 758,
+                        "y": 176
+                    },
+                    {
+                        "x": 499,
+                        "y": 180
+                    },
+                    {
+                        "x": 1070,
+                        "y": 174
+                    },
+                    {
+                        "x": 1085,
+                        "y": 313
+                    },
+                    {
+                        "x": 1105,
+                        "y": 151
+                    },
+                    {
+                        "x": 962,
+                        "y": 239
+                    },
+                    {
+                        "x": 376,
+                        "y": 675
+                    },
+                    {
+                        "x": 1031,
+                        "y": 194
+                    },
+                    {
+                        "x": 463,
+                        "y": 114
+                    },
+                    {
+                        "x": 309,
+                        "y": 689
+                    },
+                    {
+                        "x": 512,
+                        "y": 582
+                    },
+                    {
+                        "x": 572,
+                        "y": 114
+                    },
+                    {
+                        "x": 653,
+                        "y": 439
+                    },
+                    {
+                        "x": 981,
+                        "y": 632
+                    },
+                    {
+                        "x": 539,
+                        "y": 551
+                    },
+                    {
+                        "x": 1079,
+                        "y": 365
+                    },
+                    {
+                        "x": 958,
+                        "y": 267
+                    },
+                    {
+                        "x": 1157,
+                        "y": 458
+                    },
+                    {
+                        "x": 1033,
+                        "y": 541
+                    },
+                    {
+                        "x": 996,
+                        "y": 531
+                    },
+                    {
+                        "x": 915,
+                        "y": 276
+                    },
+                    {
+                        "x": 1060,
+                        "y": 177
+                    },
+                    {
+                        "x": 692,
+                        "y": 328
+                    },
+                    {
+                        "x": 536,
+                        "y": 200
+                    },
+                    {
+                        "x": 867,
+                        "y": 306
+                    },
+                    {
+                        "x": 1027,
+                        "y": 340
+                    },
+                    {
+                        "x": 1135,
+                        "y": 127
+                    },
+                    {
+                        "x": 848,
+                        "y": 619
+                    },
+                    {
+                        "x": 579,
+                        "y": 796
+                    },
+                    {
+                        "x": 462,
+                        "y": 317
+                    },
+                    {
+                        "x": 485,
+                        "y": 606
+                    },
+                    {
+                        "x": 1152,
+                        "y": 115
+                    },
+                    {
+                        "x": 677,
+                        "y": 115
+                    },
+                    {
+                        "x": 507,
+                        "y": 243
+                    },
+                    {
+                        "x": 817,
+                        "y": 205
+                    },
+                    {
+                        "x": 897,
+                        "y": 319
+                    },
+                    {
+                        "x": 776,
+                        "y": 371
+                    },
+                    {
+                        "x": 419,
+                        "y": 642
+                    },
+                    {
+                        "x": 1113,
+                        "y": 132
+                    },
+                    {
+                        "x": 629,
+                        "y": 248
+                    },
+                    {
+                        "x": 173,
+                        "y": 801
+                    },
+                    {
+                        "x": 584,
+                        "y": 513
+                    },
+                    {
+                        "x": 1083,
+                        "y": 165
+                    },
+                    {
+                        "x": 626,
+                        "y": 478
+                    },
+                    {
+                        "x": 872,
+                        "y": 114
+                    },
+                    {
+                        "x": 603,
+                        "y": 176
+                    },
+                    {
+                        "x": 235,
+                        "y": 766
+                    },
+                    {
+                        "x": 540,
+                        "y": 650
+                    }
+                ]
+            }
+        }
+    }
+}

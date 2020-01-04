@@ -1,0 +1,896 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 444,
+                        "x0": 127,
+                        "y0": 19
+                    },
+                    "text": "Population ages 0-14 (% of total) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 441
+                    },
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 676,
+                        "y0": 924
+                    },
+                    "text": "TSS"
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 19,
+                        "x0": 108,
+                        "y0": 892
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 333,
+                        "y0": 892
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 559,
+                        "y0": 892
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 785,
+                        "y0": 892
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 1011,
+                        "y0": 892
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 753
+                    },
+                    "text": "1967.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 454
+                    },
+                    "text": "1972.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 156
+                    },
+                    "text": "1968.0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 444,
+                            "x0": 127,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Population ages 0-14 (% of total) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 441
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 676,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "TSS"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 108,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 333,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 559,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 785,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1011,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 753
+                        },
+                        "id": 8,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 454
+                        },
+                        "id": 9,
+                        "text": "1972.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 156
+                        },
+                        "id": 10,
+                        "text": "1968.0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 444,
+                            "x0": 127,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Population ages 0-14 (% of total) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 441
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 676,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "TSS"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 108,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 333,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 559,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 785,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1011,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 753
+                        },
+                        "id": 8,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 454
+                        },
+                        "id": 9,
+                        "text": "1972.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 156
+                        },
+                        "id": 10,
+                        "text": "1968.0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 829,
+                "width": 1135,
+                "x0": 123,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 759
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 460
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 162
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 126,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 352,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 578,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 804,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1030,
+                            "y": 872
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 444,
+                            "x0": 127,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Population ages 0-14 (% of total) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 441
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 676,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "TSS"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 108,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 333,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 559,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 785,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1011,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 753
+                        },
+                        "id": 8,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 454
+                        },
+                        "id": 9,
+                        "text": "1972.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 156
+                        },
+                        "id": 10,
+                        "text": "1968.0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 444,
+                            "x0": 127,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Population ages 0-14 (% of total) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 441
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 676,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "TSS"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 108,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 333,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 559,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 785,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1011,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 753
+                        },
+                        "id": 8,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 454
+                        },
+                        "id": 9,
+                        "text": "1972.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 156
+                        },
+                        "id": 10,
+                        "text": "1968.0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 829,
+                    "width": 1135,
+                    "x0": 123,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 759
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 460
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 162
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 126,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 352,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 578,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 804,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1030,
+                                "y": 872
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1967.0",
+                            "y": "44.0729739676"
+                        },
+                        {
+                            "x": "1972.0",
+                            "y": "44.5356363685"
+                        },
+                        {
+                            "x": "1968.0",
+                            "y": "44.145449514"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 149,
+                        "width": 996,
+                        "x0": 127,
+                        "y0": 686
+                    },
+                    {
+                        "height": 149,
+                        "width": 1007,
+                        "x0": 127,
+                        "y0": 387
+                    },
+                    {
+                        "height": 149,
+                        "width": 998,
+                        "x0": 127,
+                        "y0": 88
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

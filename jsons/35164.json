@@ -1,0 +1,1265 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 372,
+                        "x0": 550,
+                        "y0": 19
+                    },
+                    "text": "Trinidad and Tobago 2011 Import"
+                },
+                {
+                    "bb": {
+                        "height": 90,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 396
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 691,
+                        "y0": 924
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 15,
+                        "width": 20,
+                        "x0": 196,
+                        "y0": 850
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 36,
+                        "x0": 315,
+                        "y0": 850
+                    },
+                    "text": "100000"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 36,
+                        "x0": 450,
+                        "y0": 850
+                    },
+                    "text": "200000"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 36,
+                        "x0": 586,
+                        "y0": 850
+                    },
+                    "text": "300000"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 36,
+                        "x0": 721,
+                        "y0": 850
+                    },
+                    "text": "400000"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 36,
+                        "x0": 856,
+                        "y0": 850
+                    },
+                    "text": "500000"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 36,
+                        "x0": 991,
+                        "y0": 850
+                    },
+                    "text": "600000"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 36,
+                        "x0": 1126,
+                        "y0": 850
+                    },
+                    "text": "700000"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 120,
+                        "x0": 77,
+                        "y0": 728
+                    },
+                    "text": "Horses, live\npure-bred\nbreeding"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 100,
+                        "x0": 97,
+                        "y0": 581
+                    },
+                    "text": "Propellent\npowders"
+                },
+                {
+                    "bb": {
+                        "height": 80,
+                        "width": 150,
+                        "x0": 47,
+                        "y0": 403
+                    },
+                    "text": "Cereal bran,\nsharps, residue\nexcept maize,\nwheat, ric"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 150,
+                        "x0": 47,
+                        "y0": 255
+                    },
+                    "text": "Parts and\naccessories for\npianos"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 137,
+                        "y0": 119
+                    },
+                    "text": "Millet"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 372,
+                            "x0": 550,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Trinidad and Tobago 2011 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 20,
+                            "x0": 196,
+                            "y0": 850
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 315,
+                            "y0": 850
+                        },
+                        "id": 4,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 450,
+                            "y0": 850
+                        },
+                        "id": 5,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 586,
+                            "y0": 850
+                        },
+                        "id": 6,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 721,
+                            "y0": 850
+                        },
+                        "id": 7,
+                        "text": "400000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 856,
+                            "y0": 850
+                        },
+                        "id": 8,
+                        "text": "500000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 991,
+                            "y0": 850
+                        },
+                        "id": 9,
+                        "text": "600000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 1126,
+                            "y0": 850
+                        },
+                        "id": 10,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 728
+                        },
+                        "id": 11,
+                        "text": "Horses, live\npure-bred\nbreeding"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 100,
+                            "x0": 97,
+                            "y0": 581
+                        },
+                        "id": 12,
+                        "text": "Propellent\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 403
+                        },
+                        "id": 13,
+                        "text": "Cereal bran,\nsharps, residue\nexcept maize,\nwheat, ric"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 255
+                        },
+                        "id": 14,
+                        "text": "Parts and\naccessories for\npianos"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 137,
+                            "y0": 119
+                        },
+                        "id": 15,
+                        "text": "Millet"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 372,
+                            "x0": 550,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Trinidad and Tobago 2011 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 20,
+                            "x0": 196,
+                            "y0": 850
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 315,
+                            "y0": 850
+                        },
+                        "id": 4,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 450,
+                            "y0": 850
+                        },
+                        "id": 5,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 586,
+                            "y0": 850
+                        },
+                        "id": 6,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 721,
+                            "y0": 850
+                        },
+                        "id": 7,
+                        "text": "400000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 856,
+                            "y0": 850
+                        },
+                        "id": 8,
+                        "text": "500000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 991,
+                            "y0": 850
+                        },
+                        "id": 9,
+                        "text": "600000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 1126,
+                            "y0": 850
+                        },
+                        "id": 10,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 728
+                        },
+                        "id": 11,
+                        "text": "Horses, live\npure-bred\nbreeding"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 100,
+                            "x0": 97,
+                            "y0": 581
+                        },
+                        "id": 12,
+                        "text": "Propellent\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 403
+                        },
+                        "id": 13,
+                        "text": "Cereal bran,\nsharps, residue\nexcept maize,\nwheat, ric"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 255
+                        },
+                        "id": 14,
+                        "text": "Parts and\naccessories for\npianos"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 137,
+                            "y0": 119
+                        },
+                        "id": 15,
+                        "text": "Millet"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 787,
+                "width": 1045,
+                "x0": 213,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 755
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 597
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 440
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 282
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 125
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 216,
+                            "y": 830
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 351,
+                            "y": 830
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 486,
+                            "y": 830
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 621,
+                            "y": 830
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 756,
+                            "y": 830
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 891,
+                            "y": 830
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1026,
+                            "y": 830
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1162,
+                            "y": 830
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 372,
+                            "x0": 550,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Trinidad and Tobago 2011 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 20,
+                            "x0": 196,
+                            "y0": 850
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 315,
+                            "y0": 850
+                        },
+                        "id": 4,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 450,
+                            "y0": 850
+                        },
+                        "id": 5,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 586,
+                            "y0": 850
+                        },
+                        "id": 6,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 721,
+                            "y0": 850
+                        },
+                        "id": 7,
+                        "text": "400000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 856,
+                            "y0": 850
+                        },
+                        "id": 8,
+                        "text": "500000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 991,
+                            "y0": 850
+                        },
+                        "id": 9,
+                        "text": "600000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 1126,
+                            "y0": 850
+                        },
+                        "id": 10,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 728
+                        },
+                        "id": 11,
+                        "text": "Horses, live\npure-bred\nbreeding"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 100,
+                            "x0": 97,
+                            "y0": 581
+                        },
+                        "id": 12,
+                        "text": "Propellent\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 403
+                        },
+                        "id": 13,
+                        "text": "Cereal bran,\nsharps, residue\nexcept maize,\nwheat, ric"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 255
+                        },
+                        "id": 14,
+                        "text": "Parts and\naccessories for\npianos"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 137,
+                            "y0": 119
+                        },
+                        "id": 15,
+                        "text": "Millet"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 372,
+                            "x0": 550,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Trinidad and Tobago 2011 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 20,
+                            "x0": 196,
+                            "y0": 850
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 315,
+                            "y0": 850
+                        },
+                        "id": 4,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 450,
+                            "y0": 850
+                        },
+                        "id": 5,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 586,
+                            "y0": 850
+                        },
+                        "id": 6,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 721,
+                            "y0": 850
+                        },
+                        "id": 7,
+                        "text": "400000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 856,
+                            "y0": 850
+                        },
+                        "id": 8,
+                        "text": "500000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 991,
+                            "y0": 850
+                        },
+                        "id": 9,
+                        "text": "600000"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 36,
+                            "x0": 1126,
+                            "y0": 850
+                        },
+                        "id": 10,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 728
+                        },
+                        "id": 11,
+                        "text": "Horses, live\npure-bred\nbreeding"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 100,
+                            "x0": 97,
+                            "y0": 581
+                        },
+                        "id": 12,
+                        "text": "Propellent\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 403
+                        },
+                        "id": 13,
+                        "text": "Cereal bran,\nsharps, residue\nexcept maize,\nwheat, ric"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 255
+                        },
+                        "id": 14,
+                        "text": "Parts and\naccessories for\npianos"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 137,
+                            "y0": 119
+                        },
+                        "id": 15,
+                        "text": "Millet"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 787,
+                    "width": 1045,
+                    "x0": 213,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 755
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 597
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 440
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 282
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 125
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 216,
+                                "y": 830
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 351,
+                                "y": 830
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 486,
+                                "y": 830
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 621,
+                                "y": 830
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 756,
+                                "y": 830
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 891,
+                                "y": 830
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1026,
+                                "y": 830
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1162,
+                                "y": 830
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Horses, live pure-bred breeding",
+                            "y": "713.0"
+                        },
+                        {
+                            "x": "Propellent powders",
+                            "y": "1809.0"
+                        },
+                        {
+                            "x": "Cereal bran, sharps, residue except maize, wheat, ric",
+                            "y": "731837.0"
+                        },
+                        {
+                            "x": "Parts and accessories for pianos",
+                            "y": "3.0"
+                        },
+                        {
+                            "x": "Millet",
+                            "y": "95894.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 79,
+                        "width": 1,
+                        "x0": 217,
+                        "y0": 717
+                    },
+                    {
+                        "height": 79,
+                        "width": 2,
+                        "x0": 217,
+                        "y0": 559
+                    },
+                    {
+                        "height": 79,
+                        "width": 989,
+                        "x0": 217,
+                        "y0": 401
+                    },
+                    {
+                        "height": 79,
+                        "width": 130,
+                        "x0": 217,
+                        "y0": 86
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

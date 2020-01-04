@@ -1,0 +1,1013 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 263,
+                        "x0": 163,
+                        "y0": 14
+                    },
+                    "text": "acs2015_county_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 534,
+                        "y0": 929
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 1095,
+                        "y0": 929
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 258,
+                        "y0": 929
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 393,
+                        "y0": 929
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 1235,
+                        "y0": 929
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 814,
+                        "y0": 929
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 674,
+                        "y0": 929
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 954,
+                        "y0": 929
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 127,
+                        "x0": 16,
+                        "y0": 247
+                    },
+                    "text": "8109ColoradoSag\nuache"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 125,
+                        "x0": 19,
+                        "y0": 679
+                    },
+                    "text": "37069North Caro\nlinaFranklin"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 163,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 534,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1095,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 258,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 393,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1235,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 814,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 674,
+                            "y0": 929
+                        },
+                        "id": 7,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 954,
+                            "y0": 929
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 127,
+                            "x0": 16,
+                            "y0": 247
+                        },
+                        "id": 9,
+                        "text": "8109ColoradoSag\nuache"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 125,
+                            "x0": 19,
+                            "y0": 679
+                        },
+                        "id": 10,
+                        "text": "37069North Caro\nlinaFranklin"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 163,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 534,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1095,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 258,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 393,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1235,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 814,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 674,
+                            "y0": 929
+                        },
+                        "id": 7,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 954,
+                            "y0": 929
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 127,
+                            "x0": 16,
+                            "y0": 247
+                        },
+                        "id": 9,
+                        "text": "8109ColoradoSag\nuache"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 125,
+                            "x0": 19,
+                            "y0": 679
+                        },
+                        "id": 10,
+                        "text": "37069North Caro\nlinaFranklin"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 873,
+                "width": 1102,
+                "x0": 159,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 159,
+                            "y": 249
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 159,
+                            "y": 692
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 541,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 1102,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 401,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 1243,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 822,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 682,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 962,
+                            "y": 909
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 163,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 534,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1095,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 258,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 393,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1235,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 814,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 674,
+                            "y0": 929
+                        },
+                        "id": 7,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 954,
+                            "y0": 929
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 127,
+                            "x0": 16,
+                            "y0": 247
+                        },
+                        "id": 9,
+                        "text": "8109ColoradoSag\nuache"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 125,
+                            "x0": 19,
+                            "y0": 679
+                        },
+                        "id": 10,
+                        "text": "37069North Caro\nlinaFranklin"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 163,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 534,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1095,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 258,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 393,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 1235,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 814,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 674,
+                            "y0": 929
+                        },
+                        "id": 7,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 954,
+                            "y0": 929
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 127,
+                            "x0": 16,
+                            "y0": 247
+                        },
+                        "id": 9,
+                        "text": "8109ColoradoSag\nuache"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 125,
+                            "x0": 19,
+                            "y0": 679
+                        },
+                        "id": 10,
+                        "text": "37069North Caro\nlinaFranklin"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 873,
+                    "width": 1102,
+                    "x0": 159,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 159,
+                                "y": 249
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 159,
+                                "y": 692
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 541,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 1102,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 261,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 401,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 1243,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 822,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 682,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 962,
+                                "y": 909
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 2.2750000000000004,
+                        "max": 25.5,
+                        "median": 9.202390428640514,
+                        "min": 0.4,
+                        "third_quartile": 21.75119521432026
+                    },
+                    "name": "37069North CarolinaFranklin"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.725,
+                        "max": 56.9,
+                        "median": 16.680106477402656,
+                        "min": 0.4,
+                        "third_quartile": 37.24005323870132
+                    },
+                    "name": "8109ColoradoSaguache"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 294,
+                                "y0": 661
+                            },
+                            "x": 294,
+                            "y": 693
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 620,
+                                "y0": 677
+                            },
+                            "x": 620,
+                            "y": 693
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 391,
+                                "y0": 661
+                            },
+                            "x": 391,
+                            "y": 693
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 268,
+                                "y0": 677
+                            },
+                            "x": 268,
+                            "y": 693
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 567,
+                                "y0": 661
+                            },
+                            "x": 567,
+                            "y": 693
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 272,
+                                "y0": 228
+                            },
+                            "x": 272,
+                            "y": 260
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 1060,
+                                "y0": 244
+                            },
+                            "x": 1060,
+                            "y": 260
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 496,
+                                "y0": 228
+                            },
+                            "x": 496,
+                            "y": 260
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 268,
+                                "y0": 244
+                            },
+                            "x": 268,
+                            "y": 260
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 784,
+                                "y0": 228
+                            },
+                            "x": 784,
+                            "y": 260
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,1358 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 201,
+                        "x0": 89,
+                        "y0": 14
+                    },
+                    "text": "Guyana 2006 Re-Export"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 634,
+                        "y0": 926
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 70,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 369
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 123,
+                        "width": 93,
+                        "x0": 48,
+                        "y0": 783
+                    },
+                    "text": "Keys, including\nblanks for\nkeys, of base\nmetal"
+                },
+                {
+                    "bb": {
+                        "height": 109,
+                        "width": 103,
+                        "x0": 191,
+                        "y0": 783
+                    },
+                    "text": "Boots,\nsoles/uppers\nrubber or\nplastic, over\nankle, ne"
+                },
+                {
+                    "bb": {
+                        "height": 91,
+                        "width": 83,
+                        "x0": 363,
+                        "y0": 783
+                    },
+                    "text": "Collages,\nsimilar\ndecorative\nplaques"
+                },
+                {
+                    "bb": {
+                        "height": 132,
+                        "width": 96,
+                        "x0": 501,
+                        "y0": 783
+                    },
+                    "text": "Uncooked pasta,\nnot stuffed or\nprepared,\nwithout eggs"
+                },
+                {
+                    "bb": {
+                        "height": 123,
+                        "width": 107,
+                        "x0": 642,
+                        "y0": 783
+                    },
+                    "text": "Staples,\noffice,\nupholstery,\npackage etc of\nbase meta"
+                },
+                {
+                    "bb": {
+                        "height": 79,
+                        "width": 51,
+                        "x0": 850,
+                        "y0": 783
+                    },
+                    "text": "Turmeric\n(curcuma)"
+                },
+                {
+                    "bb": {
+                        "height": 103,
+                        "width": 59,
+                        "x0": 994,
+                        "y0": 783
+                    },
+                    "text": "Lignite,\nagglomerated"
+                },
+                {
+                    "bb": {
+                        "height": 125,
+                        "width": 94,
+                        "x0": 1111,
+                        "y0": 783
+                    },
+                    "text": "Woven fabric of\njute/bast\nfibre, not unbl\neach/bleache"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 60,
+                        "y0": 732
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 600
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 51,
+                        "y0": 467
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 335
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 203
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 43,
+                        "y0": 71
+                    },
+                    "text": "100"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 201,
+                            "x0": 89,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Guyana 2006 Re-Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 634,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 369
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 93,
+                            "x0": 48,
+                            "y0": 783
+                        },
+                        "id": 3,
+                        "text": "Keys, including\nblanks for\nkeys, of base\nmetal"
+                    },
+                    {
+                        "bb": {
+                            "height": 109,
+                            "width": 103,
+                            "x0": 191,
+                            "y0": 783
+                        },
+                        "id": 4,
+                        "text": "Boots,\nsoles/uppers\nrubber or\nplastic, over\nankle, ne"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 83,
+                            "x0": 363,
+                            "y0": 783
+                        },
+                        "id": 5,
+                        "text": "Collages,\nsimilar\ndecorative\nplaques"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 96,
+                            "x0": 501,
+                            "y0": 783
+                        },
+                        "id": 6,
+                        "text": "Uncooked pasta,\nnot stuffed or\nprepared,\nwithout eggs"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 107,
+                            "x0": 642,
+                            "y0": 783
+                        },
+                        "id": 7,
+                        "text": "Staples,\noffice,\nupholstery,\npackage etc of\nbase meta"
+                    },
+                    {
+                        "bb": {
+                            "height": 79,
+                            "width": 51,
+                            "x0": 850,
+                            "y0": 783
+                        },
+                        "id": 8,
+                        "text": "Turmeric\n(curcuma)"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 59,
+                            "x0": 994,
+                            "y0": 783
+                        },
+                        "id": 9,
+                        "text": "Lignite,\nagglomerated"
+                    },
+                    {
+                        "bb": {
+                            "height": 125,
+                            "width": 94,
+                            "x0": 1111,
+                            "y0": 783
+                        },
+                        "id": 10,
+                        "text": "Woven fabric of\njute/bast\nfibre, not unbl\neach/bleache"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 60,
+                            "y0": 732
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 600
+                        },
+                        "id": 12,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 467
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 335
+                        },
+                        "id": 14,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 203
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 71
+                        },
+                        "id": 16,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 201,
+                            "x0": 89,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Guyana 2006 Re-Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 634,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 369
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 93,
+                            "x0": 48,
+                            "y0": 783
+                        },
+                        "id": 3,
+                        "text": "Keys, including\nblanks for\nkeys, of base\nmetal"
+                    },
+                    {
+                        "bb": {
+                            "height": 109,
+                            "width": 103,
+                            "x0": 191,
+                            "y0": 783
+                        },
+                        "id": 4,
+                        "text": "Boots,\nsoles/uppers\nrubber or\nplastic, over\nankle, ne"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 83,
+                            "x0": 363,
+                            "y0": 783
+                        },
+                        "id": 5,
+                        "text": "Collages,\nsimilar\ndecorative\nplaques"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 96,
+                            "x0": 501,
+                            "y0": 783
+                        },
+                        "id": 6,
+                        "text": "Uncooked pasta,\nnot stuffed or\nprepared,\nwithout eggs"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 107,
+                            "x0": 642,
+                            "y0": 783
+                        },
+                        "id": 7,
+                        "text": "Staples,\noffice,\nupholstery,\npackage etc of\nbase meta"
+                    },
+                    {
+                        "bb": {
+                            "height": 79,
+                            "width": 51,
+                            "x0": 850,
+                            "y0": 783
+                        },
+                        "id": 8,
+                        "text": "Turmeric\n(curcuma)"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 59,
+                            "x0": 994,
+                            "y0": 783
+                        },
+                        "id": 9,
+                        "text": "Lignite,\nagglomerated"
+                    },
+                    {
+                        "bb": {
+                            "height": 125,
+                            "width": 94,
+                            "x0": 1111,
+                            "y0": 783
+                        },
+                        "id": 10,
+                        "text": "Woven fabric of\njute/bast\nfibre, not unbl\neach/bleache"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 60,
+                            "y0": 732
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 600
+                        },
+                        "id": 12,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 467
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 335
+                        },
+                        "id": 14,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 203
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 71
+                        },
+                        "id": 16,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 727,
+                "width": 1176,
+                "x0": 85,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 141,
+                            "y": 767
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 293,
+                            "y": 767
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 444,
+                            "y": 767
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 596,
+                            "y": 767
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 748,
+                            "y": 767
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 900,
+                            "y": 767
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1052,
+                            "y": 767
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1145,
+                            "y": 767
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 736
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 604
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 472
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 340
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 208
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 75
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 201,
+                            "x0": 89,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Guyana 2006 Re-Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 634,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 369
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 93,
+                            "x0": 48,
+                            "y0": 783
+                        },
+                        "id": 3,
+                        "text": "Keys, including\nblanks for\nkeys, of base\nmetal"
+                    },
+                    {
+                        "bb": {
+                            "height": 109,
+                            "width": 103,
+                            "x0": 191,
+                            "y0": 783
+                        },
+                        "id": 4,
+                        "text": "Boots,\nsoles/uppers\nrubber or\nplastic, over\nankle, ne"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 83,
+                            "x0": 363,
+                            "y0": 783
+                        },
+                        "id": 5,
+                        "text": "Collages,\nsimilar\ndecorative\nplaques"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 96,
+                            "x0": 501,
+                            "y0": 783
+                        },
+                        "id": 6,
+                        "text": "Uncooked pasta,\nnot stuffed or\nprepared,\nwithout eggs"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 107,
+                            "x0": 642,
+                            "y0": 783
+                        },
+                        "id": 7,
+                        "text": "Staples,\noffice,\nupholstery,\npackage etc of\nbase meta"
+                    },
+                    {
+                        "bb": {
+                            "height": 79,
+                            "width": 51,
+                            "x0": 850,
+                            "y0": 783
+                        },
+                        "id": 8,
+                        "text": "Turmeric\n(curcuma)"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 59,
+                            "x0": 994,
+                            "y0": 783
+                        },
+                        "id": 9,
+                        "text": "Lignite,\nagglomerated"
+                    },
+                    {
+                        "bb": {
+                            "height": 125,
+                            "width": 94,
+                            "x0": 1111,
+                            "y0": 783
+                        },
+                        "id": 10,
+                        "text": "Woven fabric of\njute/bast\nfibre, not unbl\neach/bleache"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 60,
+                            "y0": 732
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 600
+                        },
+                        "id": 12,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 467
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 335
+                        },
+                        "id": 14,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 203
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 71
+                        },
+                        "id": 16,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 201,
+                            "x0": 89,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Guyana 2006 Re-Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 634,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 369
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 93,
+                            "x0": 48,
+                            "y0": 783
+                        },
+                        "id": 3,
+                        "text": "Keys, including\nblanks for\nkeys, of base\nmetal"
+                    },
+                    {
+                        "bb": {
+                            "height": 109,
+                            "width": 103,
+                            "x0": 191,
+                            "y0": 783
+                        },
+                        "id": 4,
+                        "text": "Boots,\nsoles/uppers\nrubber or\nplastic, over\nankle, ne"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 83,
+                            "x0": 363,
+                            "y0": 783
+                        },
+                        "id": 5,
+                        "text": "Collages,\nsimilar\ndecorative\nplaques"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 96,
+                            "x0": 501,
+                            "y0": 783
+                        },
+                        "id": 6,
+                        "text": "Uncooked pasta,\nnot stuffed or\nprepared,\nwithout eggs"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 107,
+                            "x0": 642,
+                            "y0": 783
+                        },
+                        "id": 7,
+                        "text": "Staples,\noffice,\nupholstery,\npackage etc of\nbase meta"
+                    },
+                    {
+                        "bb": {
+                            "height": 79,
+                            "width": 51,
+                            "x0": 850,
+                            "y0": 783
+                        },
+                        "id": 8,
+                        "text": "Turmeric\n(curcuma)"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 59,
+                            "x0": 994,
+                            "y0": 783
+                        },
+                        "id": 9,
+                        "text": "Lignite,\nagglomerated"
+                    },
+                    {
+                        "bb": {
+                            "height": 125,
+                            "width": 94,
+                            "x0": 1111,
+                            "y0": 783
+                        },
+                        "id": 10,
+                        "text": "Woven fabric of\njute/bast\nfibre, not unbl\neach/bleache"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 60,
+                            "y0": 732
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 600
+                        },
+                        "id": 12,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 467
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 335
+                        },
+                        "id": 14,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 203
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 71
+                        },
+                        "id": 16,
+                        "text": "100"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 727,
+                    "width": 1176,
+                    "x0": 85,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 141,
+                                "y": 767
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 293,
+                                "y": 767
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 444,
+                                "y": 767
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 596,
+                                "y": 767
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 748,
+                                "y": 767
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 900,
+                                "y": 767
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1052,
+                                "y": 767
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1145,
+                                "y": 767
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 736
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 604
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 472
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 340
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 208
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 75
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Keys, including blanks for keys, of base metal",
+                            "y": "8.0"
+                        },
+                        {
+                            "x": "Boots, soles/uppers rubber or plastic, over ankle, ne",
+                            "y": "42.0"
+                        },
+                        {
+                            "x": "Collages, similar decorative plaques",
+                            "y": "52.0"
+                        },
+                        {
+                            "x": "Uncooked pasta, not stuffed or prepared, without eggs",
+                            "y": "21.0"
+                        },
+                        {
+                            "x": "Staples, office, upholstery, package etc of base meta",
+                            "y": "4.0"
+                        },
+                        {
+                            "x": "Turmeric (curcuma)",
+                            "y": "100.0"
+                        },
+                        {
+                            "x": "Lignite, agglomerated",
+                            "y": "15.0"
+                        },
+                        {
+                            "x": "Woven fabric of jute/bast fibre, not unbleach/bleache",
+                            "y": "1.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 142,
+                            "y": 684
+                        },
+                        {
+                            "x": 294,
+                            "y": 460
+                        },
+                        {
+                            "x": 445,
+                            "y": 394
+                        },
+                        {
+                            "x": 597,
+                            "y": 599
+                        },
+                        {
+                            "x": 749,
+                            "y": 711
+                        },
+                        {
+                            "x": 901,
+                            "y": 76
+                        },
+                        {
+                            "x": 1053,
+                            "y": 638
+                        },
+                        {
+                            "x": 1205,
+                            "y": 731
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

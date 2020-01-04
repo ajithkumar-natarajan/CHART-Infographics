@@ -1,0 +1,815 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 708,
+                        "x0": 547,
+                        "y0": 19
+                    },
+                    "text": "Cause of death, by non-communicable diseases (% of total)_2"
+                },
+                {
+                    "bb": {
+                        "height": 120,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 402
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 716,
+                        "y0": 924
+                    },
+                    "text": "2005"
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 18,
+                        "x0": 198,
+                        "y0": 892
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 415,
+                        "y0": 892
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 633,
+                        "y0": 892
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 850,
+                        "y0": 892
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 1068,
+                        "y0": 892
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 140,
+                        "x0": 57,
+                        "y0": 704
+                    },
+                    "text": "Not classified"
+                },
+                {
+                    "bb": {
+                        "height": 80,
+                        "width": 150,
+                        "x0": 47,
+                        "y0": 174
+                    },
+                    "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 708,
+                            "x0": 547,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by non-communicable diseases (% of total)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 402
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 716,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "2005"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 198,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 415,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 633,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 850,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1068,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 704
+                        },
+                        "id": 8,
+                        "text": "Not classified"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 174
+                        },
+                        "id": 9,
+                        "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 708,
+                            "x0": 547,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by non-communicable diseases (% of total)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 402
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 716,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "2005"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 198,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 415,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 633,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 850,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1068,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 704
+                        },
+                        "id": 8,
+                        "text": "Not classified"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 174
+                        },
+                        "id": 9,
+                        "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 829,
+                "width": 1045,
+                "x0": 213,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 710
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 212
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 216,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 433,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 651,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 868,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1086,
+                            "y": 872
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 708,
+                            "x0": 547,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by non-communicable diseases (% of total)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 402
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 716,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "2005"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 198,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 415,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 633,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 850,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1068,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 704
+                        },
+                        "id": 8,
+                        "text": "Not classified"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 174
+                        },
+                        "id": 9,
+                        "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 708,
+                            "x0": 547,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by non-communicable diseases (% of total)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 402
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 716,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "2005"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 198,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 415,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 633,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 850,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1068,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 704
+                        },
+                        "id": 8,
+                        "text": "Not classified"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 174
+                        },
+                        "id": 9,
+                        "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 829,
+                    "width": 1045,
+                    "x0": 213,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 710
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 212
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 216,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 433,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 651,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 868,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1086,
+                                "y": 872
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Not classified",
+                            "y": "78.71487613209177"
+                        },
+                        {
+                            "x": "Europe & Central Asia (excluding high income)",
+                            "y": "83.9712378372"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 249,
+                        "width": 856,
+                        "x0": 217,
+                        "y0": 586
+                    },
+                    {
+                        "height": 249,
+                        "width": 914,
+                        "x0": 217,
+                        "y0": 88
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

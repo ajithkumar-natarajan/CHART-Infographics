@@ -1,0 +1,1655 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 364,
+                        "x0": 894,
+                        "y0": 15
+                    },
+                    "text": "Population ages 15-64, male (% of total) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 658,
+                        "y0": 932
+                    },
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 14,
+                        "x0": 14,
+                        "y0": 426
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 19,
+                        "x0": 123,
+                        "y0": 871
+                    },
+                    "text": "1967.0"
+                },
+                {
+                    "bb": {
+                        "height": 49,
+                        "width": 19,
+                        "x0": 389,
+                        "y0": 871
+                    },
+                    "text": "2008.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 19,
+                        "x0": 655,
+                        "y0": 871
+                    },
+                    "text": "1982.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 19,
+                        "x0": 920,
+                        "y0": 871
+                    },
+                    "text": "1979.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 19,
+                        "x0": 1186,
+                        "y0": 871
+                    },
+                    "text": "1966.0"
+                },
+                {
+                    "bb": {
+                        "height": 6,
+                        "width": 16,
+                        "x0": 54,
+                        "y0": 850
+                    },
+                    "text": "50.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 39,
+                        "y0": 748
+                    },
+                    "text": "52.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 39,
+                        "y0": 649
+                    },
+                    "text": "55.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 39,
+                        "y0": 550
+                    },
+                    "text": "57.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 39,
+                        "y0": 450
+                    },
+                    "text": "60.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 39,
+                        "y0": 351
+                    },
+                    "text": "62.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 39,
+                        "y0": 252
+                    },
+                    "text": "65.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 39,
+                        "y0": 153
+                    },
+                    "text": "67.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 39,
+                        "y0": 54
+                    },
+                    "text": "70.0"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 111,
+                        "x0": 819,
+                        "y0": 58
+                    },
+                    "text": "Latin America &\nthe Caribbean\n(IDA & IBRD\ncountries)"
+                },
+                {
+                    "bb": {
+                        "height": 30,
+                        "width": 84,
+                        "x0": 997,
+                        "y0": 74
+                    },
+                    "text": "Europe &\nCentral Asia"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 98,
+                        "x0": 1148,
+                        "y0": 58
+                    },
+                    "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 364,
+                            "x0": 894,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Population ages 15-64, male (% of total) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 658,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 426
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 123,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 19,
+                            "x0": 389,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2008.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 655,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1982.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 920,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "1979.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 1186,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "1966.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 6,
+                            "width": 16,
+                            "x0": 54,
+                            "y0": 850
+                        },
+                        "id": 8,
+                        "text": "50.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 748
+                        },
+                        "id": 9,
+                        "text": "52.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 649
+                        },
+                        "id": 10,
+                        "text": "55.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 550
+                        },
+                        "id": 11,
+                        "text": "57.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 450
+                        },
+                        "id": 12,
+                        "text": "60.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 351
+                        },
+                        "id": 13,
+                        "text": "62.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 252
+                        },
+                        "id": 14,
+                        "text": "65.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 153
+                        },
+                        "id": 15,
+                        "text": "67.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 54
+                        },
+                        "id": 16,
+                        "text": "70.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 111,
+                            "x0": 819,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "Latin America &\nthe Caribbean\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 84,
+                            "x0": 997,
+                            "y0": 74
+                        },
+                        "id": 18,
+                        "text": "Europe &\nCentral Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 98,
+                            "x0": 1148,
+                            "y0": 58
+                        },
+                        "id": 19,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 18,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 19,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 364,
+                            "x0": 894,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Population ages 15-64, male (% of total) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 658,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 426
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 123,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 19,
+                            "x0": 389,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2008.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 655,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1982.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 920,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "1979.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 1186,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "1966.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 6,
+                            "width": 16,
+                            "x0": 54,
+                            "y0": 850
+                        },
+                        "id": 8,
+                        "text": "50.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 748
+                        },
+                        "id": 9,
+                        "text": "52.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 649
+                        },
+                        "id": 10,
+                        "text": "55.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 550
+                        },
+                        "id": 11,
+                        "text": "57.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 450
+                        },
+                        "id": 12,
+                        "text": "60.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 351
+                        },
+                        "id": 13,
+                        "text": "62.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 252
+                        },
+                        "id": 14,
+                        "text": "65.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 153
+                        },
+                        "id": 15,
+                        "text": "67.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 54
+                        },
+                        "id": 16,
+                        "text": "70.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 111,
+                            "x0": 819,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "Latin America &\nthe Caribbean\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 84,
+                            "x0": 997,
+                            "y0": 74
+                        },
+                        "id": 18,
+                        "text": "Europe &\nCentral Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 98,
+                            "x0": 1148,
+                            "y0": 58
+                        },
+                        "id": 19,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 813,
+                "width": 1176,
+                "x0": 86,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 141,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 407,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 673,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 938,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 855
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 852
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 753
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 653
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 554
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 455
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 356
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 257
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 157
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 86,
+                            "y": 58
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 364,
+                            "x0": 894,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Population ages 15-64, male (% of total) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 658,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 426
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 123,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 19,
+                            "x0": 389,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2008.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 655,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1982.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 920,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "1979.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 1186,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "1966.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 6,
+                            "width": 16,
+                            "x0": 54,
+                            "y0": 850
+                        },
+                        "id": 8,
+                        "text": "50.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 748
+                        },
+                        "id": 9,
+                        "text": "52.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 649
+                        },
+                        "id": 10,
+                        "text": "55.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 550
+                        },
+                        "id": 11,
+                        "text": "57.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 450
+                        },
+                        "id": 12,
+                        "text": "60.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 351
+                        },
+                        "id": 13,
+                        "text": "62.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 252
+                        },
+                        "id": 14,
+                        "text": "65.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 153
+                        },
+                        "id": 15,
+                        "text": "67.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 54
+                        },
+                        "id": 16,
+                        "text": "70.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 111,
+                            "x0": 819,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "Latin America &\nthe Caribbean\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 84,
+                            "x0": 997,
+                            "y0": 74
+                        },
+                        "id": 18,
+                        "text": "Europe &\nCentral Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 98,
+                            "x0": 1148,
+                            "y0": 58
+                        },
+                        "id": 19,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 28,
+                        "x0": 780,
+                        "y0": 82
+                    },
+                    "id": 17
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 28,
+                        "x0": 958,
+                        "y0": 85
+                    },
+                    "id": 18
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 28,
+                        "x0": 1109,
+                        "y0": 81
+                    },
+                    "id": 19
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 364,
+                            "x0": 894,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Population ages 15-64, male (% of total) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 658,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 426
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 123,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 19,
+                            "x0": 389,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2008.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 655,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1982.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 920,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "1979.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 19,
+                            "x0": 1186,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "1966.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 6,
+                            "width": 16,
+                            "x0": 54,
+                            "y0": 850
+                        },
+                        "id": 8,
+                        "text": "50.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 748
+                        },
+                        "id": 9,
+                        "text": "52.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 649
+                        },
+                        "id": 10,
+                        "text": "55.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 550
+                        },
+                        "id": 11,
+                        "text": "57.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 450
+                        },
+                        "id": 12,
+                        "text": "60.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 351
+                        },
+                        "id": 13,
+                        "text": "62.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 252
+                        },
+                        "id": 14,
+                        "text": "65.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 153
+                        },
+                        "id": 15,
+                        "text": "67.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 39,
+                            "y0": 54
+                        },
+                        "id": 16,
+                        "text": "70.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 111,
+                            "x0": 819,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "Latin America &\nthe Caribbean\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 84,
+                            "x0": 997,
+                            "y0": 74
+                        },
+                        "id": 18,
+                        "text": "Europe &\nCentral Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 98,
+                            "x0": 1148,
+                            "y0": 58
+                        },
+                        "id": 19,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 813,
+                    "width": 1176,
+                    "x0": 86,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 141,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 407,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 673,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 938,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 855
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 852
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 753
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 653
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 554
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 455
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 356
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 257
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 157
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 86,
+                                "y": 58
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 28,
+                            "x0": 780,
+                            "y0": 82
+                        },
+                        "id": 17
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 28,
+                            "x0": 958,
+                            "y0": 85
+                        },
+                        "id": 18
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 28,
+                            "x0": 1109,
+                            "y0": 81
+                        },
+                        "id": 19
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1967.0",
+                            "y": "62.9991003091"
+                        },
+                        {
+                            "x": "2008.0",
+                            "y": "69.4159944094"
+                        },
+                        {
+                            "x": "1982.0",
+                            "y": "66.2953699588"
+                        },
+                        {
+                            "x": "1979.0",
+                            "y": "65.3483257848"
+                        },
+                        {
+                            "x": "1966.0",
+                            "y": "62.920714409"
+                        }
+                    ],
+                    "name": "Europe & Central Asia"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "1967.0",
+                            "y": "52.7630658075"
+                        },
+                        {
+                            "x": "2008.0",
+                            "y": "64.7811371344"
+                        },
+                        {
+                            "x": "1982.0",
+                            "y": "56.0332253811"
+                        },
+                        {
+                            "x": "1979.0",
+                            "y": "55.2656662397"
+                        },
+                        {
+                            "x": "1966.0",
+                            "y": "52.7036506344"
+                        }
+                    ],
+                    "name": "Latin America & the Caribbean (IDA & IBRD countries)"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "1967.0",
+                            "y": "52.5195229285"
+                        },
+                        {
+                            "x": "2008.0",
+                            "y": "51.7348058187"
+                        },
+                        {
+                            "x": "1982.0",
+                            "y": "50.9442007039"
+                        },
+                        {
+                            "x": "1979.0",
+                            "y": "51.3232284212"
+                        },
+                        {
+                            "x": "1966.0",
+                            "y": "52.6946484665"
+                        }
+                    ],
+                    "name": "Heavily indebted poor countries (HIPC)"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 142,
+                            "y": 337
+                        },
+                        {
+                            "x": 408,
+                            "y": 82
+                        },
+                        {
+                            "x": 674,
+                            "y": 206
+                        },
+                        {
+                            "x": 939,
+                            "y": 244
+                        },
+                        {
+                            "x": 1205,
+                            "y": 340
+                        }
+                    ],
+                    [
+                        {
+                            "x": 142,
+                            "y": 743
+                        },
+                        {
+                            "x": 408,
+                            "y": 266
+                        },
+                        {
+                            "x": 674,
+                            "y": 613
+                        },
+                        {
+                            "x": 939,
+                            "y": 644
+                        },
+                        {
+                            "x": 1205,
+                            "y": 745
+                        }
+                    ],
+                    [
+                        {
+                            "x": 142,
+                            "y": 753
+                        },
+                        {
+                            "x": 408,
+                            "y": 784
+                        },
+                        {
+                            "x": 674,
+                            "y": 815
+                        },
+                        {
+                            "x": 939,
+                            "y": 800
+                        },
+                        {
+                            "x": 1205,
+                            "y": 746
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

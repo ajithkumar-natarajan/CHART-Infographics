@@ -1,0 +1,942 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 159,
+                        "x0": 74,
+                        "y0": 14
+                    },
+                    "text": "Labor force, total t"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 52,
+                        "x0": 511,
+                        "y0": 929
+                    },
+                    "text": "900000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 61,
+                        "x0": 665,
+                        "y0": 929
+                    },
+                    "text": "1000000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 52,
+                        "x0": 353,
+                        "y0": 929
+                    },
+                    "text": "800000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 62,
+                        "x0": 823,
+                        "y0": 929
+                    },
+                    "text": "1100000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 53,
+                        "x0": 195,
+                        "y0": 929
+                    },
+                    "text": "700000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 61,
+                        "x0": 1140,
+                        "y0": 929
+                    },
+                    "text": "1300000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 61,
+                        "x0": 981,
+                        "y0": 929
+                    },
+                    "text": "1200000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 32,
+                        "x0": 23,
+                        "y0": 688
+                    },
+                    "text": "LSO"
+                },
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 39,
+                        "x0": 15,
+                        "y0": 255
+                    },
+                    "text": "MNG"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 159,
+                            "x0": 74,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 511,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "900000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 665,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "1000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 353,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "800000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 62,
+                            "x0": 823,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "1100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 195,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 1140,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "1300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 981,
+                            "y0": 929
+                        },
+                        "id": 7,
+                        "text": "1200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 23,
+                            "y0": 688
+                        },
+                        "id": 8,
+                        "text": "LSO"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 39,
+                            "x0": 15,
+                            "y0": 255
+                        },
+                        "id": 9,
+                        "text": "MNG"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 159,
+                            "x0": 74,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 511,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "900000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 665,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "1000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 353,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "800000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 62,
+                            "x0": 823,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "1100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 195,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 1140,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "1300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 981,
+                            "y0": 929
+                        },
+                        "id": 7,
+                        "text": "1200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 23,
+                            "y0": 688
+                        },
+                        "id": 8,
+                        "text": "LSO"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 39,
+                            "x0": 15,
+                            "y0": 255
+                        },
+                        "id": 9,
+                        "text": "MNG"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 873,
+                "width": 1191,
+                "x0": 70,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 70,
+                            "y": 692
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 70,
+                            "y": 259
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 537,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 695,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 378,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 853,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 220,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1169,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1011,
+                            "y": 909
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 159,
+                            "x0": 74,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 511,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "900000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 665,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "1000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 353,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "800000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 62,
+                            "x0": 823,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "1100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 195,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 1140,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "1300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 981,
+                            "y0": 929
+                        },
+                        "id": 7,
+                        "text": "1200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 23,
+                            "y0": 688
+                        },
+                        "id": 8,
+                        "text": "LSO"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 39,
+                            "x0": 15,
+                            "y0": 255
+                        },
+                        "id": 9,
+                        "text": "MNG"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 159,
+                            "x0": 74,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 511,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "900000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 665,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "1000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 353,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "800000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 62,
+                            "x0": 823,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "1100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 195,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 1140,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "1300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 61,
+                            "x0": 981,
+                            "y0": 929
+                        },
+                        "id": 7,
+                        "text": "1200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 23,
+                            "y0": 688
+                        },
+                        "id": 8,
+                        "text": "LSO"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 39,
+                            "x0": 15,
+                            "y0": 255
+                        },
+                        "id": 9,
+                        "text": "MNG"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 873,
+                    "width": 1191,
+                    "x0": 70,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 70,
+                                "y": 692
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 70,
+                                "y": 259
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 537,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 695,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 378,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 853,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 220,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1169,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1011,
+                                "y": 909
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 776599.5854284104,
+                        "max": 959047.0,
+                        "median": 817906.3127387415,
+                        "min": 678788.0,
+                        "third_quartile": 864035.5
+                    },
+                    "name": "LSO"
+                },
+                {
+                    "data": {
+                        "first_quartile": 914886.5488703242,
+                        "max": 1283503.0,
+                        "median": 1020865.5680024424,
+                        "min": 739337.0,
+                        "third_quartile": 1125297.4837365581
+                    },
+                    "name": "MNG"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 342,
+                                "y0": 661
+                            },
+                            "x": 342,
+                            "y": 693
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 631,
+                                "y0": 677
+                            },
+                            "x": 631,
+                            "y": 693
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 408,
+                                "y0": 661
+                            },
+                            "x": 408,
+                            "y": 693
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 188,
+                                "y0": 677
+                            },
+                            "x": 188,
+                            "y": 693
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 481,
+                                "y0": 661
+                            },
+                            "x": 481,
+                            "y": 693
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 561,
+                                "y0": 228
+                            },
+                            "x": 561,
+                            "y": 260
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 1144,
+                                "y0": 244
+                            },
+                            "x": 1144,
+                            "y": 260
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 729,
+                                "y0": 228
+                            },
+                            "x": 729,
+                            "y": 260
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 283,
+                                "y0": 244
+                            },
+                            "x": 283,
+                            "y": 260
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 894,
+                                "y0": 228
+                            },
+                            "x": 894,
+                            "y": 260
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

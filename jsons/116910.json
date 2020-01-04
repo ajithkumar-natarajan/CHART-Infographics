@@ -1,0 +1,3233 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 500,
+                        "x0": 83,
+                        "y0": 15
+                    },
+                    "text": "Age dependency ratio (% of working-age population)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 34,
+                        "x0": 654,
+                        "y0": 933
+                    },
+                    "text": "1962"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 443
+                    },
+                    "text": "1965"
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 19,
+                        "x0": 176,
+                        "y0": 894
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 19,
+                        "x0": 314,
+                        "y0": 894
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 19,
+                        "x0": 452,
+                        "y0": 894
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 19,
+                        "x0": 590,
+                        "y0": 894
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 19,
+                        "x0": 728,
+                        "y0": 894
+                    },
+                    "text": "90"
+                },
+                {
+                    "bb": {
+                        "height": 28,
+                        "width": 22,
+                        "x0": 863,
+                        "y0": 894
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 28,
+                        "width": 22,
+                        "x0": 1001,
+                        "y0": 894
+                    },
+                    "text": "110"
+                },
+                {
+                    "bb": {
+                        "height": 28,
+                        "width": 22,
+                        "x0": 1139,
+                        "y0": 894
+                    },
+                    "text": "120"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 47,
+                        "y0": 867
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 47,
+                        "y0": 773
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 47,
+                        "y0": 679
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 47,
+                        "y0": 586
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 47,
+                        "y0": 492
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 17,
+                        "x0": 47,
+                        "y0": 398
+                    },
+                    "text": "90"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 25,
+                        "x0": 38,
+                        "y0": 305
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 25,
+                        "x0": 38,
+                        "y0": 211
+                    },
+                    "text": "110"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 25,
+                        "x0": 38,
+                        "y0": 118
+                    },
+                    "text": "120"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 500,
+                            "x0": 83,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 34,
+                            "x0": 654,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "1962"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 443
+                        },
+                        "id": 2,
+                        "text": "1965"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 176,
+                            "y0": 894
+                        },
+                        "id": 3,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 314,
+                            "y0": 894
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 452,
+                            "y0": 894
+                        },
+                        "id": 5,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 590,
+                            "y0": 894
+                        },
+                        "id": 6,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 728,
+                            "y0": 894
+                        },
+                        "id": 7,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 863,
+                            "y0": 894
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 1001,
+                            "y0": 894
+                        },
+                        "id": 9,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 1139,
+                            "y0": 894
+                        },
+                        "id": 10,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 867
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 773
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 679
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 586
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 492
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 398
+                        },
+                        "id": 16,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 305
+                        },
+                        "id": 17,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 211
+                        },
+                        "id": 18,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 118
+                        },
+                        "id": 19,
+                        "text": "120"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 500,
+                            "x0": 83,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 34,
+                            "x0": 654,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "1962"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 443
+                        },
+                        "id": 2,
+                        "text": "1965"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 176,
+                            "y0": 894
+                        },
+                        "id": 3,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 314,
+                            "y0": 894
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 452,
+                            "y0": 894
+                        },
+                        "id": 5,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 590,
+                            "y0": 894
+                        },
+                        "id": 6,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 728,
+                            "y0": 894
+                        },
+                        "id": 7,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 863,
+                            "y0": 894
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 1001,
+                            "y0": 894
+                        },
+                        "id": 9,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 1139,
+                            "y0": 894
+                        },
+                        "id": 10,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 867
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 773
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 679
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 586
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 492
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 398
+                        },
+                        "id": 16,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 305
+                        },
+                        "id": 17,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 211
+                        },
+                        "id": 18,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 118
+                        },
+                        "id": 19,
+                        "text": "120"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 836,
+                "width": 1182,
+                "x0": 80,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 194,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 332,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 470,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 608,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 746,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 884,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1022,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1159,
+                            "y": 878
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 871
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 777
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 684
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 590
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 497
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 403
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 309
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 216
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 80,
+                            "y": 122
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 500,
+                            "x0": 83,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 34,
+                            "x0": 654,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "1962"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 443
+                        },
+                        "id": 2,
+                        "text": "1965"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 176,
+                            "y0": 894
+                        },
+                        "id": 3,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 314,
+                            "y0": 894
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 452,
+                            "y0": 894
+                        },
+                        "id": 5,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 590,
+                            "y0": 894
+                        },
+                        "id": 6,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 728,
+                            "y0": 894
+                        },
+                        "id": 7,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 863,
+                            "y0": 894
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 1001,
+                            "y0": 894
+                        },
+                        "id": 9,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 1139,
+                            "y0": 894
+                        },
+                        "id": 10,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 867
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 773
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 679
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 586
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 492
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 398
+                        },
+                        "id": 16,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 305
+                        },
+                        "id": 17,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 211
+                        },
+                        "id": 18,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 118
+                        },
+                        "id": 19,
+                        "text": "120"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 500,
+                            "x0": 83,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 34,
+                            "x0": 654,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "1962"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 443
+                        },
+                        "id": 2,
+                        "text": "1965"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 176,
+                            "y0": 894
+                        },
+                        "id": 3,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 314,
+                            "y0": 894
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 452,
+                            "y0": 894
+                        },
+                        "id": 5,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 590,
+                            "y0": 894
+                        },
+                        "id": 6,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 19,
+                            "x0": 728,
+                            "y0": 894
+                        },
+                        "id": 7,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 863,
+                            "y0": 894
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 1001,
+                            "y0": 894
+                        },
+                        "id": 9,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 28,
+                            "width": 22,
+                            "x0": 1139,
+                            "y0": 894
+                        },
+                        "id": 10,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 867
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 773
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 679
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 586
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 492
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 17,
+                            "x0": 47,
+                            "y0": 398
+                        },
+                        "id": 16,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 305
+                        },
+                        "id": 17,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 211
+                        },
+                        "id": 18,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 25,
+                            "x0": 38,
+                            "y0": 118
+                        },
+                        "id": 19,
+                        "text": "120"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 836,
+                    "width": 1182,
+                    "x0": 80,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 194,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 332,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 470,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 608,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 746,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 884,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1022,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1159,
+                                "y": 878
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 871
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 777
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 684
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 590
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 497
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 403
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 309
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 216
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 80,
+                                "y": 122
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "88.794956007",
+                            "y": 93.7715629237
+                        },
+                        {
+                            "x": "96.6025755148",
+                            "y": 97.5138781907
+                        },
+                        {
+                            "x": "73.3718197609",
+                            "y": 70.8388896339
+                        },
+                        {
+                            "x": "58.7763776965",
+                            "y": 58.0672428382
+                        },
+                        {
+                            "x": "117.97081707",
+                            "y": 120.889003083
+                        },
+                        {
+                            "x": "84.1936493039",
+                            "y": 84.0291339843
+                        },
+                        {
+                            "x": "89.1253785749",
+                            "y": 97.2615554705
+                        },
+                        {
+                            "x": "54.5885444482",
+                            "y": 53.6828087754
+                        },
+                        {
+                            "x": "76.9546337721",
+                            "y": 79.0780251234
+                        },
+                        {
+                            "x": "64.8478353664",
+                            "y": 61.7586342313
+                        },
+                        {
+                            "x": "48.9691751079",
+                            "y": 92.09028985927378
+                        },
+                        {
+                            "x": "87.294672313",
+                            "y": 89.020950377
+                        },
+                        {
+                            "x": "83.5087703357",
+                            "y": 90.6497159645
+                        },
+                        {
+                            "x": "94.6819942073",
+                            "y": 96.5441946227
+                        },
+                        {
+                            "x": "73.9163550755",
+                            "y": 68.9827284309
+                        },
+                        {
+                            "x": "97.5027065467",
+                            "y": 97.5995951169
+                        },
+                        {
+                            "x": "86.6419234333",
+                            "y": 85.990216656
+                        },
+                        {
+                            "x": "93.0799811076",
+                            "y": 95.3348204246
+                        },
+                        {
+                            "x": "86.0894653849",
+                            "y": 86.8839783159
+                        },
+                        {
+                            "x": "91.0490335439",
+                            "y": 93.288920332
+                        },
+                        {
+                            "x": "103.992390989",
+                            "y": 103.700151917
+                        },
+                        {
+                            "x": "53.0413516411",
+                            "y": 52.76056737
+                        },
+                        {
+                            "x": "95.4887030309",
+                            "y": 97.263558597
+                        },
+                        {
+                            "x": "73.688357917",
+                            "y": 72.6583968644
+                        },
+                        {
+                            "x": "83.2406470759",
+                            "y": 85.7045639146
+                        },
+                        {
+                            "x": "91.0325262281",
+                            "y": 92.3876027246
+                        },
+                        {
+                            "x": "98.6002263107",
+                            "y": 102.268855506
+                        },
+                        {
+                            "x": "89.2145076703",
+                            "y": 100.534958063
+                        },
+                        {
+                            "x": "83.27574301439178",
+                            "y": 88.23068391150527
+                        },
+                        {
+                            "x": "96.8162853863",
+                            "y": 108.429850316
+                        },
+                        {
+                            "x": "88.85591519952615",
+                            "y": 80.19366102975302
+                        },
+                        {
+                            "x": "61.3226982055",
+                            "y": 60.04716588
+                        },
+                        {
+                            "x": "89.4785469904",
+                            "y": 92.1328479255
+                        },
+                        {
+                            "x": "87.5342639001",
+                            "y": 87.7227194594
+                        },
+                        {
+                            "x": "62.3200550592",
+                            "y": 62.2161160538
+                        },
+                        {
+                            "x": "85.9273992442",
+                            "y": 89.3094537535
+                        },
+                        {
+                            "x": "50.0037908364",
+                            "y": 48.5038419419
+                        },
+                        {
+                            "x": "76.2809753576",
+                            "y": 78.9775816057
+                        },
+                        {
+                            "x": "93.727548435",
+                            "y": 95.7258049428
+                        },
+                        {
+                            "x": "83.8800405534",
+                            "y": 79.7555625196
+                        },
+                        {
+                            "x": "54.292830873",
+                            "y": 57.4750583041
+                        },
+                        {
+                            "x": "52.56486257823771",
+                            "y": 89.64533569761016
+                        },
+                        {
+                            "x": "89.1063373016288",
+                            "y": 77.10299927073311
+                        },
+                        {
+                            "x": "86.943418651",
+                            "y": 93.6009781944
+                        },
+                        {
+                            "x": "67.4450079583",
+                            "y": 72.6143281085
+                        },
+                        {
+                            "x": "70.0167162719",
+                            "y": 70.7611607985
+                        },
+                        {
+                            "x": "55.3207904428",
+                            "y": 53.5530425754
+                        },
+                        {
+                            "x": "85.7842084267",
+                            "y": 87.7273641177
+                        },
+                        {
+                            "x": "69.8858431281",
+                            "y": 69.6249935544
+                        },
+                        {
+                            "x": "86.9449048905",
+                            "y": 87.7563803192
+                        },
+                        {
+                            "x": "85.7948788809",
+                            "y": 85.1562348486
+                        },
+                        {
+                            "x": "85.9963476206",
+                            "y": 94.9725377606
+                        },
+                        {
+                            "x": "82.4540912335",
+                            "y": 68.9783441781
+                        },
+                        {
+                            "x": "56.9455645283",
+                            "y": 57.3820789569
+                        },
+                        {
+                            "x": "86.2533424059",
+                            "y": 82.7173755386
+                        },
+                        {
+                            "x": "114.48196797562836",
+                            "y": 71.98444874084824
+                        },
+                        {
+                            "x": "93.13930209741105",
+                            "y": 99.3586802266984
+                        },
+                        {
+                            "x": "77.32584597730751",
+                            "y": 89.50137563577468
+                        },
+                        {
+                            "x": "58.4286037092",
+                            "y": 56.5024731453
+                        },
+                        {
+                            "x": "65.69844129478142",
+                            "y": 68.01293119894903
+                        },
+                        {
+                            "x": "102.150537634",
+                            "y": 105.541459257
+                        },
+                        {
+                            "x": "79.95839096824281",
+                            "y": 89.16129776389067
+                        },
+                        {
+                            "x": "79.2541062612",
+                            "y": 82.3134951751
+                        },
+                        {
+                            "x": "70.9148627757",
+                            "y": 68.6642329162
+                        },
+                        {
+                            "x": "86.061865955",
+                            "y": 84.5991490113
+                        },
+                        {
+                            "x": "79.08216772868849",
+                            "y": 90.95969834235646
+                        },
+                        {
+                            "x": "101.575717508",
+                            "y": 101.917317312
+                        },
+                        {
+                            "x": "79.4751132139",
+                            "y": 81.0019118479
+                        },
+                        {
+                            "x": "95.6517180456",
+                            "y": 96.6250824035
+                        },
+                        {
+                            "x": "79.9358393057",
+                            "y": 80.957029655
+                        },
+                        {
+                            "x": "54.9644810488",
+                            "y": 56.9186913558
+                        },
+                        {
+                            "x": "93.9469004939",
+                            "y": 95.6470081176
+                        },
+                        {
+                            "x": "70.9967628563",
+                            "y": 69.1652500346
+                        },
+                        {
+                            "x": "81.86585505013261",
+                            "y": 87.96148794248882
+                        },
+                        {
+                            "x": "91.0538204483",
+                            "y": 91.4981550724
+                        },
+                        {
+                            "x": "103.240537748",
+                            "y": 106.818721906
+                        },
+                        {
+                            "x": "76.6248965837",
+                            "y": 77.9445631186
+                        },
+                        {
+                            "x": "80.0816570716",
+                            "y": 80.891028876
+                        },
+                        {
+                            "x": "67.9929081712",
+                            "y": 77.7131729793
+                        },
+                        {
+                            "x": "103.176576643",
+                            "y": 104.889425313
+                        },
+                        {
+                            "x": "73.11373005316435",
+                            "y": 60.27693995736185
+                        },
+                        {
+                            "x": "93.6652702619",
+                            "y": 97.3927152457
+                        },
+                        {
+                            "x": "87.7772290563",
+                            "y": 94.9834101959
+                        },
+                        {
+                            "x": "104.907879017",
+                            "y": 108.312669444
+                        },
+                        {
+                            "x": "63.75830155077149",
+                            "y": 73.74446462896917
+                        },
+                        {
+                            "x": "76.2046955138",
+                            "y": 77.8933524371
+                        },
+                        {
+                            "x": "55.2233487263",
+                            "y": 54.2976929008
+                        },
+                        {
+                            "x": "79.9309261079",
+                            "y": 83.538290954
+                        },
+                        {
+                            "x": "88.73775482631781",
+                            "y": 91.2187723676393
+                        },
+                        {
+                            "x": "90.9460259986",
+                            "y": 98.3162482848
+                        },
+                        {
+                            "x": "56.3767174073",
+                            "y": 57.3397834274
+                        },
+                        {
+                            "x": "119.975723534",
+                            "y": 120.396607168
+                        },
+                        {
+                            "x": "95.0627655761",
+                            "y": 96.4095074136
+                        },
+                        {
+                            "x": "83.8830298114",
+                            "y": 88.0953244586
+                        },
+                        {
+                            "x": "77.7592184543",
+                            "y": 80.0890341895
+                        },
+                        {
+                            "x": "96.3746093137",
+                            "y": 102.731515309
+                        },
+                        {
+                            "x": "51.2481149153",
+                            "y": 50.9620497607
+                        },
+                        {
+                            "x": "89.7841248755",
+                            "y": 88.813643565
+                        },
+                        {
+                            "x": "53.0291036951",
+                            "y": 53.23212138
+                        },
+                        {
+                            "x": "72.7285018929",
+                            "y": 72.4400987666
+                        },
+                        {
+                            "x": "83.7077472181",
+                            "y": 82.5583347322
+                        },
+                        {
+                            "x": "89.1205232825",
+                            "y": 90.2560613551
+                        },
+                        {
+                            "x": "85.3383458647",
+                            "y": 85.566068259
+                        },
+                        {
+                            "x": "105.17078335330648",
+                            "y": 83.38418747920709
+                        },
+                        {
+                            "x": "98.7247471109",
+                            "y": 104.443962332
+                        },
+                        {
+                            "x": "96.3437847728",
+                            "y": 97.2183703224
+                        },
+                        {
+                            "x": "66.17115472672384",
+                            "y": 79.70368541498232
+                        },
+                        {
+                            "x": "66.7000097068",
+                            "y": 65.3776192383
+                        },
+                        {
+                            "x": "99.0164537182",
+                            "y": 99.2151985591
+                        },
+                        {
+                            "x": "100.958154615",
+                            "y": 102.932913052
+                        },
+                        {
+                            "x": "97.0549340476",
+                            "y": 96.0574997852
+                        },
+                        {
+                            "x": "87.0871191876",
+                            "y": 86.1340078048
+                        },
+                        {
+                            "x": "59.7175619111",
+                            "y": 60.5273504606
+                        },
+                        {
+                            "x": "77.6867630598",
+                            "y": 78.6863204535
+                        },
+                        {
+                            "x": "97.08701994734298",
+                            "y": 67.5423385263589
+                        },
+                        {
+                            "x": "91.5851381152",
+                            "y": 92.3872019528
+                        },
+                        {
+                            "x": "89.9907765732",
+                            "y": 92.7873878765
+                        },
+                        {
+                            "x": "107.391604954",
+                            "y": 109.232161186
+                        },
+                        {
+                            "x": "85.2743908772",
+                            "y": 83.9227228021
+                        },
+                        {
+                            "x": "82.1073940068",
+                            "y": 82.4640753323
+                        },
+                        {
+                            "x": "81.0602648726",
+                            "y": 81.2546724125
+                        },
+                        {
+                            "x": "58.8117695105",
+                            "y": 54.3482679609
+                        },
+                        {
+                            "x": "78.7393119552",
+                            "y": 80.6588239185
+                        },
+                        {
+                            "x": "83.69077573728859",
+                            "y": 47.1295016813
+                        },
+                        {
+                            "x": "56.1335639618",
+                            "y": 57.3245209299
+                        },
+                        {
+                            "x": "87.0457485922",
+                            "y": 89.7750658668
+                        },
+                        {
+                            "x": "51.201691954",
+                            "y": 54.7526408733
+                        },
+                        {
+                            "x": "84.0049999209",
+                            "y": 86.0193468846
+                        },
+                        {
+                            "x": "52.8174211397",
+                            "y": 52.1189071634
+                        },
+                        {
+                            "x": "70.2103542574",
+                            "y": 69.0890234594
+                        },
+                        {
+                            "x": "83.5872261308",
+                            "y": 85.7278102391
+                        },
+                        {
+                            "x": "84.0640023339",
+                            "y": 85.7384916699
+                        },
+                        {
+                            "x": "99.9918289851",
+                            "y": 100.478644519
+                        },
+                        {
+                            "x": "86.2370265091",
+                            "y": 88.6430241298
+                        },
+                        {
+                            "x": "69.6357985943",
+                            "y": 66.5069609657
+                        },
+                        {
+                            "x": "88.3370515393",
+                            "y": 88.0637302846
+                        },
+                        {
+                            "x": "102.921294506",
+                            "y": 108.294239724
+                        },
+                        {
+                            "x": "79.8693485407",
+                            "y": 82.0248942402
+                        },
+                        {
+                            "x": "93.765182245",
+                            "y": 93.3099225405
+                        },
+                        {
+                            "x": "76.1742234469",
+                            "y": 70.5059627185
+                        },
+                        {
+                            "x": "77.3176985845",
+                            "y": 77.6196062527
+                        },
+                        {
+                            "x": "97.1166231609",
+                            "y": 103.815078746
+                        },
+                        {
+                            "x": "91.8106858282",
+                            "y": 102.112874884
+                        },
+                        {
+                            "x": "95.0409621754",
+                            "y": 100.068366051
+                        },
+                        {
+                            "x": "52.9371646784",
+                            "y": 50.8970399556
+                        },
+                        {
+                            "x": "83.75799307135713",
+                            "y": 80.74086096756668
+                        },
+                        {
+                            "x": "92.2592238691",
+                            "y": 91.0413877478
+                        },
+                        {
+                            "x": "51.7090257948",
+                            "y": 50.8425639773
+                        },
+                        {
+                            "x": "72.7419397285",
+                            "y": 72.6775948654
+                        },
+                        {
+                            "x": "53.1156400369",
+                            "y": 53.5100040594
+                        },
+                        {
+                            "x": "86.9283183572",
+                            "y": 85.2890322639
+                        },
+                        {
+                            "x": "71.76517050356598",
+                            "y": 101.03558313232436
+                        },
+                        {
+                            "x": "80.2614590058",
+                            "y": 68.658872077
+                        },
+                        {
+                            "x": "85.4193138501",
+                            "y": 83.6394737914
+                        },
+                        {
+                            "x": "79.20762530036822",
+                            "y": 90.2490567624869
+                        },
+                        {
+                            "x": "89.0041490846",
+                            "y": 93.059490796
+                        },
+                        {
+                            "x": "105.501232268",
+                            "y": 106.550821289
+                        },
+                        {
+                            "x": "80.3904388594",
+                            "y": 79.5895322248
+                        },
+                        {
+                            "x": "63.3451480545",
+                            "y": 61.825956099
+                        },
+                        {
+                            "x": "87.2277821747",
+                            "y": 87.9218585875
+                        },
+                        {
+                            "x": "68.21492580028486",
+                            "y": 81.94644727204604
+                        },
+                        {
+                            "x": "88.927619935",
+                            "y": 96.5421808862
+                        },
+                        {
+                            "x": "61.6743662037",
+                            "y": 62.8167717538
+                        },
+                        {
+                            "x": "63.2395057167",
+                            "y": 60.9121002909
+                        },
+                        {
+                            "x": "78.8464633926",
+                            "y": 80.561205851
+                        },
+                        {
+                            "x": "85.4406588408",
+                            "y": 79.6280715604
+                        },
+                        {
+                            "x": "63.0987762937",
+                            "y": 64.5584054388
+                        },
+                        {
+                            "x": "87.6493358942",
+                            "y": 94.8543641651
+                        },
+                        {
+                            "x": "89.4135701635",
+                            "y": 88.2466642319
+                        },
+                        {
+                            "x": "84.2957283473",
+                            "y": 85.9355809594
+                        },
+                        {
+                            "x": "52.3002305468",
+                            "y": 50.7348985572
+                        },
+                        {
+                            "x": "57.2999599429",
+                            "y": 57.2046631605
+                        },
+                        {
+                            "x": "89.107011761",
+                            "y": 88.9790574701
+                        },
+                        {
+                            "x": "76.2395755825",
+                            "y": 75.2540580939
+                        },
+                        {
+                            "x": "70.6064022746",
+                            "y": 69.5748730964
+                        },
+                        {
+                            "x": "48.983381308",
+                            "y": 49.725515435
+                        },
+                        {
+                            "x": "84.8795753961",
+                            "y": 86.6101800301
+                        },
+                        {
+                            "x": "94.3383791139",
+                            "y": 96.0779011363
+                        },
+                        {
+                            "x": "105.723122754",
+                            "y": 109.216138941
+                        },
+                        {
+                            "x": "90.241549585",
+                            "y": 88.5247066693
+                        },
+                        {
+                            "x": "61.7513951016",
+                            "y": 63.9869365772
+                        },
+                        {
+                            "x": "75.49701790753558",
+                            "y": 105.14520546232009
+                        },
+                        {
+                            "x": "64.1266264031",
+                            "y": 67.0162676801
+                        },
+                        {
+                            "x": "99.4713239083",
+                            "y": 100.562547976
+                        },
+                        {
+                            "x": "89.6111317347",
+                            "y": 91.604382874
+                        },
+                        {
+                            "x": "94.3740916172",
+                            "y": 95.0628297765
+                        },
+                        {
+                            "x": "80.2208736909",
+                            "y": 79.5015529377
+                        },
+                        {
+                            "x": "78.125630248",
+                            "y": 79.7431308781
+                        },
+                        {
+                            "x": "94.7003718122",
+                            "y": 96.6744785248
+                        },
+                        {
+                            "x": "83.2205554959",
+                            "y": 83.9030302582
+                        },
+                        {
+                            "x": "74.0065982405",
+                            "y": 80.5224234546
+                        },
+                        {
+                            "x": "83.7212891197",
+                            "y": 91.5090913421
+                        },
+                        {
+                            "x": "88.8312139114",
+                            "y": 89.3938120176
+                        },
+                        {
+                            "x": "82.5606010667",
+                            "y": 84.9169058495
+                        },
+                        {
+                            "x": "54.3998953154",
+                            "y": 54.9890159179
+                        },
+                        {
+                            "x": "109.153289954",
+                            "y": 109.371430735
+                        },
+                        {
+                            "x": "53.3425053312",
+                            "y": 54.1756606379
+                        },
+                        {
+                            "x": "92.9495252593",
+                            "y": 98.2083991652
+                        },
+                        {
+                            "x": "51.4155481924",
+                            "y": 50.6384139932
+                        },
+                        {
+                            "x": "100.596884871",
+                            "y": 106.989790435
+                        },
+                        {
+                            "x": "61.7341084678",
+                            "y": 68.1630942742
+                        },
+                        {
+                            "x": "77.6589992142",
+                            "y": 75.0374482548
+                        },
+                        {
+                            "x": "109.309640449",
+                            "y": 115.790099346
+                        },
+                        {
+                            "x": "99.4365088788",
+                            "y": 101.876979527
+                        },
+                        {
+                            "x": "78.2803834533",
+                            "y": 87.9175903075
+                        },
+                        {
+                            "x": "84.7926948196",
+                            "y": 88.2585189363
+                        },
+                        {
+                            "x": "79.3384539233",
+                            "y": 78.3965662555
+                        },
+                        {
+                            "x": "79.6739604069",
+                            "y": 82.6162061064
+                        },
+                        {
+                            "x": "52.2419200236",
+                            "y": 47.1295016813
+                        },
+                        {
+                            "x": "71.0901727198",
+                            "y": 69.5157335721
+                        },
+                        {
+                            "x": "100.884875631",
+                            "y": 96.3309857963
+                        },
+                        {
+                            "x": "84.3445778007",
+                            "y": 85.4919449517
+                        },
+                        {
+                            "x": "89.74565092682907",
+                            "y": 90.92683917820796
+                        },
+                        {
+                            "x": "95.2152008061",
+                            "y": 94.4840043981
+                        },
+                        {
+                            "x": "83.8533513987",
+                            "y": 85.3258142242
+                        },
+                        {
+                            "x": "82.4819489034",
+                            "y": 85.4788875649
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": [
+                    {
+                        "x": 730,
+                        "y": 369
+                    },
+                    {
+                        "x": 838,
+                        "y": 334
+                    },
+                    {
+                        "x": 517,
+                        "y": 583
+                    },
+                    {
+                        "x": 316,
+                        "y": 703
+                    },
+                    {
+                        "x": 1132,
+                        "y": 115
+                    },
+                    {
+                        "x": 667,
+                        "y": 460
+                    },
+                    {
+                        "x": 735,
+                        "y": 336
+                    },
+                    {
+                        "x": 258,
+                        "y": 744
+                    },
+                    {
+                        "x": 567,
+                        "y": 506
+                    },
+                    {
+                        "x": 400,
+                        "y": 668
+                    },
+                    {
+                        "x": 181,
+                        "y": 384
+                    },
+                    {
+                        "x": 709,
+                        "y": 413
+                    },
+                    {
+                        "x": 657,
+                        "y": 398
+                    },
+                    {
+                        "x": 811,
+                        "y": 343
+                    },
+                    {
+                        "x": 525,
+                        "y": 601
+                    },
+                    {
+                        "x": 850,
+                        "y": 333
+                    },
+                    {
+                        "x": 700,
+                        "y": 441
+                    },
+                    {
+                        "x": 789,
+                        "y": 354
+                    },
+                    {
+                        "x": 693,
+                        "y": 433
+                    },
+                    {
+                        "x": 761,
+                        "y": 373
+                    },
+                    {
+                        "x": 940,
+                        "y": 276
+                    },
+                    {
+                        "x": 237,
+                        "y": 753
+                    },
+                    {
+                        "x": 822,
+                        "y": 336
+                    },
+                    {
+                        "x": 522,
+                        "y": 566
+                    },
+                    {
+                        "x": 654,
+                        "y": 444
+                    },
+                    {
+                        "x": 761,
+                        "y": 382
+                    },
+                    {
+                        "x": 865,
+                        "y": 289
+                    },
+                    {
+                        "x": 736,
+                        "y": 305
+                    },
+                    {
+                        "x": 654,
+                        "y": 421
+                    },
+                    {
+                        "x": 841,
+                        "y": 231
+                    },
+                    {
+                        "x": 731,
+                        "y": 496
+                    },
+                    {
+                        "x": 351,
+                        "y": 684
+                    },
+                    {
+                        "x": 740,
+                        "y": 384
+                    },
+                    {
+                        "x": 713,
+                        "y": 425
+                    },
+                    {
+                        "x": 365,
+                        "y": 664
+                    },
+                    {
+                        "x": 691,
+                        "y": 410
+                    },
+                    {
+                        "x": 195,
+                        "y": 792
+                    },
+                    {
+                        "x": 558,
+                        "y": 507
+                    },
+                    {
+                        "x": 798,
+                        "y": 350
+                    },
+                    {
+                        "x": 662,
+                        "y": 500
+                    },
+                    {
+                        "x": 254,
+                        "y": 708
+                    },
+                    {
+                        "x": 231,
+                        "y": 407
+                    },
+                    {
+                        "x": 734,
+                        "y": 525
+                    },
+                    {
+                        "x": 705,
+                        "y": 370
+                    },
+                    {
+                        "x": 436,
+                        "y": 567
+                    },
+                    {
+                        "x": 471,
+                        "y": 584
+                    },
+                    {
+                        "x": 269,
+                        "y": 745
+                    },
+                    {
+                        "x": 689,
+                        "y": 425
+                    },
+                    {
+                        "x": 469,
+                        "y": 595
+                    },
+                    {
+                        "x": 705,
+                        "y": 425
+                    },
+                    {
+                        "x": 689,
+                        "y": 449
+                    },
+                    {
+                        "x": 692,
+                        "y": 357
+                    },
+                    {
+                        "x": 643,
+                        "y": 601
+                    },
+                    {
+                        "x": 291,
+                        "y": 709
+                    },
+                    {
+                        "x": 695,
+                        "y": 472
+                    },
+                    {
+                        "x": 1084,
+                        "y": 573
+                    },
+                    {
+                        "x": 790,
+                        "y": 316
+                    },
+                    {
+                        "x": 572,
+                        "y": 409
+                    },
+                    {
+                        "x": 311,
+                        "y": 718
+                    },
+                    {
+                        "x": 412,
+                        "y": 610
+                    },
+                    {
+                        "x": 914,
+                        "y": 258
+                    },
+                    {
+                        "x": 608,
+                        "y": 412
+                    },
+                    {
+                        "x": 599,
+                        "y": 476
+                    },
+                    {
+                        "x": 484,
+                        "y": 604
+                    },
+                    {
+                        "x": 692,
+                        "y": 455
+                    },
+                    {
+                        "x": 596,
+                        "y": 395
+                    },
+                    {
+                        "x": 906,
+                        "y": 292
+                    },
+                    {
+                        "x": 602,
+                        "y": 488
+                    },
+                    {
+                        "x": 825,
+                        "y": 342
+                    },
+                    {
+                        "x": 608,
+                        "y": 489
+                    },
+                    {
+                        "x": 264,
+                        "y": 714
+                    },
+                    {
+                        "x": 801,
+                        "y": 351
+                    },
+                    {
+                        "x": 485,
+                        "y": 599
+                    },
+                    {
+                        "x": 635,
+                        "y": 423
+                    },
+                    {
+                        "x": 761,
+                        "y": 390
+                    },
+                    {
+                        "x": 929,
+                        "y": 246
+                    },
+                    {
+                        "x": 562,
+                        "y": 517
+                    },
+                    {
+                        "x": 610,
+                        "y": 489
+                    },
+                    {
+                        "x": 443,
+                        "y": 519
+                    },
+                    {
+                        "x": 928,
+                        "y": 265
+                    },
+                    {
+                        "x": 514,
+                        "y": 682
+                    },
+                    {
+                        "x": 797,
+                        "y": 335
+                    },
+                    {
+                        "x": 716,
+                        "y": 357
+                    },
+                    {
+                        "x": 952,
+                        "y": 232
+                    },
+                    {
+                        "x": 385,
+                        "y": 556
+                    },
+                    {
+                        "x": 557,
+                        "y": 517
+                    },
+                    {
+                        "x": 267,
+                        "y": 738
+                    },
+                    {
+                        "x": 608,
+                        "y": 464
+                    },
+                    {
+                        "x": 729,
+                        "y": 393
+                    },
+                    {
+                        "x": 760,
+                        "y": 326
+                    },
+                    {
+                        "x": 283,
+                        "y": 710
+                    },
+                    {
+                        "x": 1160,
+                        "y": 119
+                    },
+                    {
+                        "x": 817,
+                        "y": 344
+                    },
+                    {
+                        "x": 662,
+                        "y": 422
+                    },
+                    {
+                        "x": 578,
+                        "y": 497
+                    },
+                    {
+                        "x": 835,
+                        "y": 285
+                    },
+                    {
+                        "x": 212,
+                        "y": 769
+                    },
+                    {
+                        "x": 744,
+                        "y": 415
+                    },
+                    {
+                        "x": 237,
+                        "y": 748
+                    },
+                    {
+                        "x": 509,
+                        "y": 568
+                    },
+                    {
+                        "x": 660,
+                        "y": 474
+                    },
+                    {
+                        "x": 735,
+                        "y": 402
+                    },
+                    {
+                        "x": 682,
+                        "y": 445
+                    },
+                    {
+                        "x": 956,
+                        "y": 466
+                    },
+                    {
+                        "x": 867,
+                        "y": 269
+                    },
+                    {
+                        "x": 834,
+                        "y": 336
+                    },
+                    {
+                        "x": 418,
+                        "y": 500
+                    },
+                    {
+                        "x": 425,
+                        "y": 634
+                    },
+                    {
+                        "x": 871,
+                        "y": 318
+                    },
+                    {
+                        "x": 898,
+                        "y": 283
+                    },
+                    {
+                        "x": 844,
+                        "y": 347
+                    },
+                    {
+                        "x": 707,
+                        "y": 440
+                    },
+                    {
+                        "x": 329,
+                        "y": 680
+                    },
+                    {
+                        "x": 577,
+                        "y": 510
+                    },
+                    {
+                        "x": 844,
+                        "y": 614
+                    },
+                    {
+                        "x": 769,
+                        "y": 382
+                    },
+                    {
+                        "x": 747,
+                        "y": 378
+                    },
+                    {
+                        "x": 987,
+                        "y": 224
+                    },
+                    {
+                        "x": 682,
+                        "y": 461
+                    },
+                    {
+                        "x": 638,
+                        "y": 474
+                    },
+                    {
+                        "x": 623,
+                        "y": 486
+                    },
+                    {
+                        "x": 317,
+                        "y": 738
+                    },
+                    {
+                        "x": 591,
+                        "y": 491
+                    },
+                    {
+                        "x": 660,
+                        "y": 805
+                    },
+                    {
+                        "x": 280,
+                        "y": 710
+                    },
+                    {
+                        "x": 706,
+                        "y": 406
+                    },
+                    {
+                        "x": 212,
+                        "y": 734
+                    },
+                    {
+                        "x": 664,
+                        "y": 441
+                    },
+                    {
+                        "x": 234,
+                        "y": 759
+                    },
+                    {
+                        "x": 474,
+                        "y": 600
+                    },
+                    {
+                        "x": 658,
+                        "y": 444
+                    },
+                    {
+                        "x": 665,
+                        "y": 444
+                    },
+                    {
+                        "x": 885,
+                        "y": 306
+                    },
+                    {
+                        "x": 695,
+                        "y": 417
+                    },
+                    {
+                        "x": 466,
+                        "y": 624
+                    },
+                    {
+                        "x": 724,
+                        "y": 422
+                    },
+                    {
+                        "x": 925,
+                        "y": 233
+                    },
+                    {
+                        "x": 607,
+                        "y": 479
+                    },
+                    {
+                        "x": 799,
+                        "y": 373
+                    },
+                    {
+                        "x": 556,
+                        "y": 586
+                    },
+                    {
+                        "x": 572,
+                        "y": 520
+                    },
+                    {
+                        "x": 845,
+                        "y": 275
+                    },
+                    {
+                        "x": 772,
+                        "y": 291
+                    },
+                    {
+                        "x": 816,
+                        "y": 310
+                    },
+                    {
+                        "x": 236,
+                        "y": 770
+                    },
+                    {
+                        "x": 661,
+                        "y": 491
+                    },
+                    {
+                        "x": 778,
+                        "y": 394
+                    },
+                    {
+                        "x": 219,
+                        "y": 771
+                    },
+                    {
+                        "x": 509,
+                        "y": 566
+                    },
+                    {
+                        "x": 238,
+                        "y": 746
+                    },
+                    {
+                        "x": 704,
+                        "y": 448
+                    },
+                    {
+                        "x": 495,
+                        "y": 301
+                    },
+                    {
+                        "x": 612,
+                        "y": 604
+                    },
+                    {
+                        "x": 684,
+                        "y": 463
+                    },
+                    {
+                        "x": 598,
+                        "y": 402
+                    },
+                    {
+                        "x": 733,
+                        "y": 375
+                    },
+                    {
+                        "x": 960,
+                        "y": 249
+                    },
+                    {
+                        "x": 614,
+                        "y": 501
+                    },
+                    {
+                        "x": 379,
+                        "y": 668
+                    },
+                    {
+                        "x": 709,
+                        "y": 423
+                    },
+                    {
+                        "x": 446,
+                        "y": 479
+                    },
+                    {
+                        "x": 732,
+                        "y": 343
+                    },
+                    {
+                        "x": 356,
+                        "y": 658
+                    },
+                    {
+                        "x": 378,
+                        "y": 676
+                    },
+                    {
+                        "x": 593,
+                        "y": 492
+                    },
+                    {
+                        "x": 684,
+                        "y": 501
+                    },
+                    {
+                        "x": 376,
+                        "y": 642
+                    },
+                    {
+                        "x": 714,
+                        "y": 358
+                    },
+                    {
+                        "x": 739,
+                        "y": 420
+                    },
+                    {
+                        "x": 668,
+                        "y": 442
+                    },
+                    {
+                        "x": 227,
+                        "y": 772
+                    },
+                    {
+                        "x": 296,
+                        "y": 711
+                    },
+                    {
+                        "x": 734,
+                        "y": 413
+                    },
+                    {
+                        "x": 557,
+                        "y": 542
+                    },
+                    {
+                        "x": 479,
+                        "y": 595
+                    },
+                    {
+                        "x": 181,
+                        "y": 781
+                    },
+                    {
+                        "x": 676,
+                        "y": 436
+                    },
+                    {
+                        "x": 807,
+                        "y": 347
+                    },
+                    {
+                        "x": 964,
+                        "y": 224
+                    },
+                    {
+                        "x": 750,
+                        "y": 418
+                    },
+                    {
+                        "x": 357,
+                        "y": 647
+                    },
+                    {
+                        "x": 547,
+                        "y": 262
+                    },
+                    {
+                        "x": 390,
+                        "y": 619
+                    },
+                    {
+                        "x": 877,
+                        "y": 305
+                    },
+                    {
+                        "x": 741,
+                        "y": 389
+                    },
+                    {
+                        "x": 807,
+                        "y": 357
+                    },
+                    {
+                        "x": 612,
+                        "y": 502
+                    },
+                    {
+                        "x": 583,
+                        "y": 500
+                    },
+                    {
+                        "x": 812,
+                        "y": 341
+                    },
+                    {
+                        "x": 653,
+                        "y": 461
+                    },
+                    {
+                        "x": 526,
+                        "y": 493
+                    },
+                    {
+                        "x": 660,
+                        "y": 390
+                    },
+                    {
+                        "x": 731,
+                        "y": 410
+                    },
+                    {
+                        "x": 644,
+                        "y": 452
+                    },
+                    {
+                        "x": 256,
+                        "y": 732
+                    },
+                    {
+                        "x": 1011,
+                        "y": 223
+                    },
+                    {
+                        "x": 241,
+                        "y": 739
+                    },
+                    {
+                        "x": 787,
+                        "y": 327
+                    },
+                    {
+                        "x": 215,
+                        "y": 772
+                    },
+                    {
+                        "x": 893,
+                        "y": 245
+                    },
+                    {
+                        "x": 357,
+                        "y": 608
+                    },
+                    {
+                        "x": 577,
+                        "y": 544
+                    },
+                    {
+                        "x": 1013,
+                        "y": 162
+                    },
+                    {
+                        "x": 877,
+                        "y": 293
+                    },
+                    {
+                        "x": 585,
+                        "y": 423
+                    },
+                    {
+                        "x": 675,
+                        "y": 420
+                    },
+                    {
+                        "x": 600,
+                        "y": 513
+                    },
+                    {
+                        "x": 604,
+                        "y": 473
+                    },
+                    {
+                        "x": 226,
+                        "y": 805
+                    },
+                    {
+                        "x": 486,
+                        "y": 596
+                    },
+                    {
+                        "x": 897,
+                        "y": 345
+                    },
+                    {
+                        "x": 669,
+                        "y": 446
+                    },
+                    {
+                        "x": 743,
+                        "y": 395
+                    },
+                    {
+                        "x": 819,
+                        "y": 362
+                    },
+                    {
+                        "x": 662,
+                        "y": 448
+                    },
+                    {
+                        "x": 643,
+                        "y": 446
+                    }
+                ]
+            }
+        }
+    }
+}

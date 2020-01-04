@@ -1,0 +1,1887 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 126,
+                        "x0": 88,
+                        "y0": 19
+                    },
+                    "text": "core dataset"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 137,
+                        "x0": 603,
+                        "y0": 922
+                    },
+                    "text": "Employee Name"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 385
+                    },
+                    "text": "Age"
+                },
+                {
+                    "bb": {
+                        "height": 85,
+                        "width": 31,
+                        "x0": 110,
+                        "y0": 770
+                    },
+                    "text": "Jung, Judy"
+                },
+                {
+                    "bb": {
+                        "height": 97,
+                        "width": 53,
+                        "x0": 184,
+                        "y0": 770
+                    },
+                    "text": "Estremera,\nMiguel"
+                },
+                {
+                    "bb": {
+                        "height": 140,
+                        "width": 41,
+                        "x0": 293,
+                        "y0": 770
+                    },
+                    "text": "Nguyen, Dheepa"
+                },
+                {
+                    "bb": {
+                        "height": 120,
+                        "width": 37,
+                        "x0": 393,
+                        "y0": 770
+                    },
+                    "text": "Oliver, Brooke"
+                },
+                {
+                    "bb": {
+                        "height": 124,
+                        "width": 38,
+                        "x0": 489,
+                        "y0": 770
+                    },
+                    "text": "Gonzalez, Juan"
+                },
+                {
+                    "bb": {
+                        "height": 116,
+                        "width": 37,
+                        "x0": 587,
+                        "y0": 770
+                    },
+                    "text": "Gold, Shenice"
+                },
+                {
+                    "bb": {
+                        "height": 118,
+                        "width": 37,
+                        "x0": 683,
+                        "y0": 770
+                    },
+                    "text": "Owad, Clinton"
+                },
+                {
+                    "bb": {
+                        "height": 127,
+                        "width": 38,
+                        "x0": 778,
+                        "y0": 770
+                    },
+                    "text": "Daneault, Lynn"
+                },
+                {
+                    "bb": {
+                        "height": 112,
+                        "width": 56,
+                        "x0": 857,
+                        "y0": 770
+                    },
+                    "text": "Handschiegl,\nJoanne"
+                },
+                {
+                    "bb": {
+                        "height": 105,
+                        "width": 55,
+                        "x0": 954,
+                        "y0": 770
+                    },
+                    "text": "MacLennan,\nSamuel"
+                },
+                {
+                    "bb": {
+                        "height": 105,
+                        "width": 35,
+                        "x0": 1071,
+                        "y0": 770
+                    },
+                    "text": "Dolan, Linda"
+                },
+                {
+                    "bb": {
+                        "height": 118,
+                        "width": 37,
+                        "x0": 1165,
+                        "y0": 770
+                    },
+                    "text": "Bozzi, Charles"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 712
+                    },
+                    "text": "25"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 632
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 553
+                    },
+                    "text": "35"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 473
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 394
+                    },
+                    "text": "45"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 314
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 235
+                    },
+                    "text": "55"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 155
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 75
+                    },
+                    "text": "65"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 126,
+                            "x0": 88,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "core dataset"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 137,
+                            "x0": 603,
+                            "y0": 922
+                        },
+                        "id": 1,
+                        "text": "Employee Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 385
+                        },
+                        "id": 2,
+                        "text": "Age"
+                    },
+                    {
+                        "bb": {
+                            "height": 85,
+                            "width": 31,
+                            "x0": 110,
+                            "y0": 770
+                        },
+                        "id": 3,
+                        "text": "Jung, Judy"
+                    },
+                    {
+                        "bb": {
+                            "height": 97,
+                            "width": 53,
+                            "x0": 184,
+                            "y0": 770
+                        },
+                        "id": 4,
+                        "text": "Estremera,\nMiguel"
+                    },
+                    {
+                        "bb": {
+                            "height": 140,
+                            "width": 41,
+                            "x0": 293,
+                            "y0": 770
+                        },
+                        "id": 5,
+                        "text": "Nguyen, Dheepa"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 37,
+                            "x0": 393,
+                            "y0": 770
+                        },
+                        "id": 6,
+                        "text": "Oliver, Brooke"
+                    },
+                    {
+                        "bb": {
+                            "height": 124,
+                            "width": 38,
+                            "x0": 489,
+                            "y0": 770
+                        },
+                        "id": 7,
+                        "text": "Gonzalez, Juan"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 37,
+                            "x0": 587,
+                            "y0": 770
+                        },
+                        "id": 8,
+                        "text": "Gold, Shenice"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 37,
+                            "x0": 683,
+                            "y0": 770
+                        },
+                        "id": 9,
+                        "text": "Owad, Clinton"
+                    },
+                    {
+                        "bb": {
+                            "height": 127,
+                            "width": 38,
+                            "x0": 778,
+                            "y0": 770
+                        },
+                        "id": 10,
+                        "text": "Daneault, Lynn"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 56,
+                            "x0": 857,
+                            "y0": 770
+                        },
+                        "id": 11,
+                        "text": "Handschiegl,\nJoanne"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 55,
+                            "x0": 954,
+                            "y0": 770
+                        },
+                        "id": 12,
+                        "text": "MacLennan,\nSamuel"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 35,
+                            "x0": 1071,
+                            "y0": 770
+                        },
+                        "id": 13,
+                        "text": "Dolan, Linda"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 37,
+                            "x0": 1165,
+                            "y0": 770
+                        },
+                        "id": 14,
+                        "text": "Bozzi, Charles"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 712
+                        },
+                        "id": 15,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 632
+                        },
+                        "id": 16,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 553
+                        },
+                        "id": 17,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 473
+                        },
+                        "id": 18,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 394
+                        },
+                        "id": 19,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 314
+                        },
+                        "id": 20,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 235
+                        },
+                        "id": 21,
+                        "text": "55"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 155
+                        },
+                        "id": 22,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 75
+                        },
+                        "id": 23,
+                        "text": "65"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 22,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 23,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 126,
+                            "x0": 88,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "core dataset"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 137,
+                            "x0": 603,
+                            "y0": 922
+                        },
+                        "id": 1,
+                        "text": "Employee Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 385
+                        },
+                        "id": 2,
+                        "text": "Age"
+                    },
+                    {
+                        "bb": {
+                            "height": 85,
+                            "width": 31,
+                            "x0": 110,
+                            "y0": 770
+                        },
+                        "id": 3,
+                        "text": "Jung, Judy"
+                    },
+                    {
+                        "bb": {
+                            "height": 97,
+                            "width": 53,
+                            "x0": 184,
+                            "y0": 770
+                        },
+                        "id": 4,
+                        "text": "Estremera,\nMiguel"
+                    },
+                    {
+                        "bb": {
+                            "height": 140,
+                            "width": 41,
+                            "x0": 293,
+                            "y0": 770
+                        },
+                        "id": 5,
+                        "text": "Nguyen, Dheepa"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 37,
+                            "x0": 393,
+                            "y0": 770
+                        },
+                        "id": 6,
+                        "text": "Oliver, Brooke"
+                    },
+                    {
+                        "bb": {
+                            "height": 124,
+                            "width": 38,
+                            "x0": 489,
+                            "y0": 770
+                        },
+                        "id": 7,
+                        "text": "Gonzalez, Juan"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 37,
+                            "x0": 587,
+                            "y0": 770
+                        },
+                        "id": 8,
+                        "text": "Gold, Shenice"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 37,
+                            "x0": 683,
+                            "y0": 770
+                        },
+                        "id": 9,
+                        "text": "Owad, Clinton"
+                    },
+                    {
+                        "bb": {
+                            "height": 127,
+                            "width": 38,
+                            "x0": 778,
+                            "y0": 770
+                        },
+                        "id": 10,
+                        "text": "Daneault, Lynn"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 56,
+                            "x0": 857,
+                            "y0": 770
+                        },
+                        "id": 11,
+                        "text": "Handschiegl,\nJoanne"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 55,
+                            "x0": 954,
+                            "y0": 770
+                        },
+                        "id": 12,
+                        "text": "MacLennan,\nSamuel"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 35,
+                            "x0": 1071,
+                            "y0": 770
+                        },
+                        "id": 13,
+                        "text": "Dolan, Linda"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 37,
+                            "x0": 1165,
+                            "y0": 770
+                        },
+                        "id": 14,
+                        "text": "Bozzi, Charles"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 712
+                        },
+                        "id": 15,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 632
+                        },
+                        "id": 16,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 553
+                        },
+                        "id": 17,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 473
+                        },
+                        "id": 18,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 394
+                        },
+                        "id": 19,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 314
+                        },
+                        "id": 20,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 235
+                        },
+                        "id": 21,
+                        "text": "55"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 155
+                        },
+                        "id": 22,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 75
+                        },
+                        "id": 23,
+                        "text": "65"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 707,
+                "width": 1174,
+                "x0": 84,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 140,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 236,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 333,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 429,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 526,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 622,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 719,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 815,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 912,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 1008,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 1104,
+                            "y": 754
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 1201,
+                            "y": 754
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 718
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 638
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 559
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 479
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 400
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 320
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 241
+                        }
+                    },
+                    {
+                        "id": 22,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 161
+                        }
+                    },
+                    {
+                        "id": 23,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 81
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 126,
+                            "x0": 88,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "core dataset"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 137,
+                            "x0": 603,
+                            "y0": 922
+                        },
+                        "id": 1,
+                        "text": "Employee Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 385
+                        },
+                        "id": 2,
+                        "text": "Age"
+                    },
+                    {
+                        "bb": {
+                            "height": 85,
+                            "width": 31,
+                            "x0": 110,
+                            "y0": 770
+                        },
+                        "id": 3,
+                        "text": "Jung, Judy"
+                    },
+                    {
+                        "bb": {
+                            "height": 97,
+                            "width": 53,
+                            "x0": 184,
+                            "y0": 770
+                        },
+                        "id": 4,
+                        "text": "Estremera,\nMiguel"
+                    },
+                    {
+                        "bb": {
+                            "height": 140,
+                            "width": 41,
+                            "x0": 293,
+                            "y0": 770
+                        },
+                        "id": 5,
+                        "text": "Nguyen, Dheepa"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 37,
+                            "x0": 393,
+                            "y0": 770
+                        },
+                        "id": 6,
+                        "text": "Oliver, Brooke"
+                    },
+                    {
+                        "bb": {
+                            "height": 124,
+                            "width": 38,
+                            "x0": 489,
+                            "y0": 770
+                        },
+                        "id": 7,
+                        "text": "Gonzalez, Juan"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 37,
+                            "x0": 587,
+                            "y0": 770
+                        },
+                        "id": 8,
+                        "text": "Gold, Shenice"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 37,
+                            "x0": 683,
+                            "y0": 770
+                        },
+                        "id": 9,
+                        "text": "Owad, Clinton"
+                    },
+                    {
+                        "bb": {
+                            "height": 127,
+                            "width": 38,
+                            "x0": 778,
+                            "y0": 770
+                        },
+                        "id": 10,
+                        "text": "Daneault, Lynn"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 56,
+                            "x0": 857,
+                            "y0": 770
+                        },
+                        "id": 11,
+                        "text": "Handschiegl,\nJoanne"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 55,
+                            "x0": 954,
+                            "y0": 770
+                        },
+                        "id": 12,
+                        "text": "MacLennan,\nSamuel"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 35,
+                            "x0": 1071,
+                            "y0": 770
+                        },
+                        "id": 13,
+                        "text": "Dolan, Linda"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 37,
+                            "x0": 1165,
+                            "y0": 770
+                        },
+                        "id": 14,
+                        "text": "Bozzi, Charles"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 712
+                        },
+                        "id": 15,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 632
+                        },
+                        "id": 16,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 553
+                        },
+                        "id": 17,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 473
+                        },
+                        "id": 18,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 394
+                        },
+                        "id": 19,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 314
+                        },
+                        "id": 20,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 235
+                        },
+                        "id": 21,
+                        "text": "55"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 155
+                        },
+                        "id": 22,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 75
+                        },
+                        "id": 23,
+                        "text": "65"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 126,
+                            "x0": 88,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "core dataset"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 137,
+                            "x0": 603,
+                            "y0": 922
+                        },
+                        "id": 1,
+                        "text": "Employee Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 385
+                        },
+                        "id": 2,
+                        "text": "Age"
+                    },
+                    {
+                        "bb": {
+                            "height": 85,
+                            "width": 31,
+                            "x0": 110,
+                            "y0": 770
+                        },
+                        "id": 3,
+                        "text": "Jung, Judy"
+                    },
+                    {
+                        "bb": {
+                            "height": 97,
+                            "width": 53,
+                            "x0": 184,
+                            "y0": 770
+                        },
+                        "id": 4,
+                        "text": "Estremera,\nMiguel"
+                    },
+                    {
+                        "bb": {
+                            "height": 140,
+                            "width": 41,
+                            "x0": 293,
+                            "y0": 770
+                        },
+                        "id": 5,
+                        "text": "Nguyen, Dheepa"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 37,
+                            "x0": 393,
+                            "y0": 770
+                        },
+                        "id": 6,
+                        "text": "Oliver, Brooke"
+                    },
+                    {
+                        "bb": {
+                            "height": 124,
+                            "width": 38,
+                            "x0": 489,
+                            "y0": 770
+                        },
+                        "id": 7,
+                        "text": "Gonzalez, Juan"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 37,
+                            "x0": 587,
+                            "y0": 770
+                        },
+                        "id": 8,
+                        "text": "Gold, Shenice"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 37,
+                            "x0": 683,
+                            "y0": 770
+                        },
+                        "id": 9,
+                        "text": "Owad, Clinton"
+                    },
+                    {
+                        "bb": {
+                            "height": 127,
+                            "width": 38,
+                            "x0": 778,
+                            "y0": 770
+                        },
+                        "id": 10,
+                        "text": "Daneault, Lynn"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 56,
+                            "x0": 857,
+                            "y0": 770
+                        },
+                        "id": 11,
+                        "text": "Handschiegl,\nJoanne"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 55,
+                            "x0": 954,
+                            "y0": 770
+                        },
+                        "id": 12,
+                        "text": "MacLennan,\nSamuel"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 35,
+                            "x0": 1071,
+                            "y0": 770
+                        },
+                        "id": 13,
+                        "text": "Dolan, Linda"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 37,
+                            "x0": 1165,
+                            "y0": 770
+                        },
+                        "id": 14,
+                        "text": "Bozzi, Charles"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 712
+                        },
+                        "id": 15,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 632
+                        },
+                        "id": 16,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 553
+                        },
+                        "id": 17,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 473
+                        },
+                        "id": 18,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 394
+                        },
+                        "id": 19,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 314
+                        },
+                        "id": 20,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 235
+                        },
+                        "id": 21,
+                        "text": "55"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 155
+                        },
+                        "id": 22,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 75
+                        },
+                        "id": 23,
+                        "text": "65"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 22,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 23,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 707,
+                    "width": 1174,
+                    "x0": 84,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 140,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 236,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 333,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 429,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 526,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 622,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 719,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 815,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 912,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 1008,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 1104,
+                                "y": 754
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 1201,
+                                "y": 754
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 718
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 638
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 559
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 479
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 400
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 320
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 241
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 161
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 81
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Jung, Judy  ",
+                            "y": "31.0"
+                        },
+                        {
+                            "x": "Estremera, Miguel",
+                            "y": "34.0"
+                        },
+                        {
+                            "x": "Nguyen, Dheepa",
+                            "y": "28.0"
+                        },
+                        {
+                            "x": "Oliver, Brooke ",
+                            "y": "65.0"
+                        },
+                        {
+                            "x": "Gonzalez, Juan",
+                            "y": "53.0"
+                        },
+                        {
+                            "x": "Gold, Shenice  ",
+                            "y": "25.0"
+                        },
+                        {
+                            "x": "Owad, Clinton",
+                            "y": "38.0"
+                        },
+                        {
+                            "x": "Daneault, Lynn",
+                            "y": "27.0"
+                        },
+                        {
+                            "x": "Handschiegl, Joanne",
+                            "y": "40.0"
+                        },
+                        {
+                            "x": "MacLennan, Samuel",
+                            "y": "45.0"
+                        },
+                        {
+                            "x": "Dolan, Linda",
+                            "y": "29.0"
+                        },
+                        {
+                            "x": "Bozzi, Charles",
+                            "y": "47.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 141,
+                            "y": 623
+                        },
+                        {
+                            "x": 237,
+                            "y": 576
+                        },
+                        {
+                            "x": 334,
+                            "y": 671
+                        },
+                        {
+                            "x": 430,
+                            "y": 82
+                        },
+                        {
+                            "x": 527,
+                            "y": 273
+                        },
+                        {
+                            "x": 623,
+                            "y": 719
+                        },
+                        {
+                            "x": 720,
+                            "y": 512
+                        },
+                        {
+                            "x": 816,
+                            "y": 687
+                        },
+                        {
+                            "x": 913,
+                            "y": 480
+                        },
+                        {
+                            "x": 1009,
+                            "y": 401
+                        },
+                        {
+                            "x": 1105,
+                            "y": 655
+                        },
+                        {
+                            "x": 1202,
+                            "y": 369
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

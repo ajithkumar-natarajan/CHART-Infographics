@@ -1,0 +1,738 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 163,
+                        "x0": 576,
+                        "y0": 14
+                    },
+                    "text": "Labor force, total 2"
+                },
+                {
+                    "bb": {
+                        "height": 37,
+                        "width": 19,
+                        "x0": 638,
+                        "y0": 907
+                    },
+                    "text": "2015"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 16,
+                        "y0": 525
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 16,
+                        "y0": 805
+                    },
+                    "text": "0.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 16,
+                        "y0": 244
+                    },
+                    "text": "2.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 16,
+                        "y0": 104
+                    },
+                    "text": "2.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 16,
+                        "y0": 665
+                    },
+                    "text": "0.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 16,
+                        "y0": 384
+                    },
+                    "text": "1.5"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 163,
+                            "x0": 576,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 19,
+                            "x0": 638,
+                            "y0": 907
+                        },
+                        "id": 1,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 525
+                        },
+                        "id": 2,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 805
+                        },
+                        "id": 3,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 244
+                        },
+                        "id": 4,
+                        "text": "2.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 104
+                        },
+                        "id": 5,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 665
+                        },
+                        "id": 6,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 384
+                        },
+                        "id": 7,
+                        "text": "1.5"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 163,
+                            "x0": 576,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 19,
+                            "x0": 638,
+                            "y0": 907
+                        },
+                        "id": 1,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 525
+                        },
+                        "id": 2,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 805
+                        },
+                        "id": 3,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 244
+                        },
+                        "id": 4,
+                        "text": "2.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 104
+                        },
+                        "id": 5,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 665
+                        },
+                        "id": 6,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 384
+                        },
+                        "id": 7,
+                        "text": "1.5"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 851,
+                "width": 1208,
+                "x0": 53,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 656,
+                            "y": 891
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 53,
+                            "y": 529
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 53,
+                            "y": 810
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 53,
+                            "y": 249
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 53,
+                            "y": 108
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 53,
+                            "y": 670
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 53,
+                            "y": 389
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 163,
+                            "x0": 576,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 19,
+                            "x0": 638,
+                            "y0": 907
+                        },
+                        "id": 1,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 525
+                        },
+                        "id": 2,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 805
+                        },
+                        "id": 3,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 244
+                        },
+                        "id": 4,
+                        "text": "2.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 104
+                        },
+                        "id": 5,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 665
+                        },
+                        "id": 6,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 384
+                        },
+                        "id": 7,
+                        "text": "1.5"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 163,
+                            "x0": 576,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Labor force, total 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 19,
+                            "x0": 638,
+                            "y0": 907
+                        },
+                        "id": 1,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 525
+                        },
+                        "id": 2,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 805
+                        },
+                        "id": 3,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 244
+                        },
+                        "id": 4,
+                        "text": "2.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 104
+                        },
+                        "id": 5,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 665
+                        },
+                        "id": 6,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 16,
+                            "y0": 384
+                        },
+                        "id": 7,
+                        "text": "1.5"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 851,
+                    "width": 1208,
+                    "x0": 53,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 656,
+                                "y": 891
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 53,
+                                "y": 529
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 53,
+                                "y": 810
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 53,
+                                "y": 249
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 53,
+                                "y": 108
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 53,
+                                "y": 670
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 53,
+                                "y": 389
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 180478834.75,
+                        "max": 2187361564.0,
+                        "median": 391031672.0,
+                        "min": 823450.0,
+                        "third_quartile": 996733464.0
+                    },
+                    "name": "2015"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 180,
+                                "x0": 567,
+                                "y0": 760
+                            },
+                            "x": 657,
+                            "y": 760
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 612,
+                                "y0": 197
+                            },
+                            "x": 657,
+                            "y": 197
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 180,
+                                "x0": 567,
+                                "y0": 701
+                            },
+                            "x": 657,
+                            "y": 701
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 612,
+                                "y0": 811
+                            },
+                            "x": 657,
+                            "y": 811
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 180,
+                                "x0": 567,
+                                "y0": 760
+                            },
+                            "x": 657,
+                            "y": 531
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

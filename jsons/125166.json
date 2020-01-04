@@ -1,0 +1,1545 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 832,
+                        "x0": 301,
+                        "y0": 19
+                    },
+                    "text": "Adjusted net enrollment rate, primary, female (% of primary school age children) t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 791,
+                        "y0": 924
+                    },
+                    "text": "95.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 48,
+                        "x0": 1186,
+                        "y0": 924
+                    },
+                    "text": "102.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 925,
+                        "y0": 924
+                    },
+                    "text": "97.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 657,
+                        "y0": 924
+                    },
+                    "text": "92.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 390,
+                        "y0": 924
+                    },
+                    "text": "87.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 257,
+                        "y0": 924
+                    },
+                    "text": "85.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 524,
+                        "y0": 924
+                    },
+                    "text": "90.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 47,
+                        "x0": 1053,
+                        "y0": 924
+                    },
+                    "text": "100.0"
+                },
+                {
+                    "bb": {
+                        "height": 29,
+                        "width": 63,
+                        "x0": 96,
+                        "y0": 826
+                    },
+                    "text": "Estonia"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 80,
+                        "x0": 79,
+                        "y0": 115
+                    },
+                    "text": "Dominica"
+                },
+                {
+                    "bb": {
+                        "height": 29,
+                        "width": 62,
+                        "x0": 98,
+                        "y0": 542
+                    },
+                    "text": "Greece"
+                },
+                {
+                    "bb": {
+                        "height": 57,
+                        "width": 110,
+                        "x0": 50,
+                        "y0": 247
+                    },
+                    "text": "Trinidad and\nTobago"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 73,
+                        "x0": 87,
+                        "y0": 684
+                    },
+                    "text": "Uruguay"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 140,
+                        "x0": 20,
+                        "y0": 389
+                    },
+                    "text": "Hong Kong SAR,\nChina"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 832,
+                            "x0": 301,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Adjusted net enrollment rate, primary, female (% of primary school age children) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 791,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "95.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 48,
+                            "x0": 1186,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "102.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 925,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "97.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 657,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "92.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 390,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "87.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 257,
+                            "y0": 924
+                        },
+                        "id": 6,
+                        "text": "85.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 524,
+                            "y0": 924
+                        },
+                        "id": 7,
+                        "text": "90.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 47,
+                            "x0": 1053,
+                            "y0": 924
+                        },
+                        "id": 8,
+                        "text": "100.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 63,
+                            "x0": 96,
+                            "y0": 826
+                        },
+                        "id": 9,
+                        "text": "Estonia"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 80,
+                            "x0": 79,
+                            "y0": 115
+                        },
+                        "id": 10,
+                        "text": "Dominica"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 62,
+                            "x0": 98,
+                            "y0": 542
+                        },
+                        "id": 11,
+                        "text": "Greece"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 110,
+                            "x0": 50,
+                            "y0": 247
+                        },
+                        "id": 12,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 73,
+                            "x0": 87,
+                            "y0": 684
+                        },
+                        "id": 13,
+                        "text": "Uruguay"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 140,
+                            "x0": 20,
+                            "y0": 389
+                        },
+                        "id": 14,
+                        "text": "Hong Kong SAR,\nChina"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 832,
+                            "x0": 301,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Adjusted net enrollment rate, primary, female (% of primary school age children) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 791,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "95.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 48,
+                            "x0": 1186,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "102.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 925,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "97.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 657,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "92.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 390,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "87.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 257,
+                            "y0": 924
+                        },
+                        "id": 6,
+                        "text": "85.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 524,
+                            "y0": 924
+                        },
+                        "id": 7,
+                        "text": "90.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 47,
+                            "x0": 1053,
+                            "y0": 924
+                        },
+                        "id": 8,
+                        "text": "100.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 63,
+                            "x0": 96,
+                            "y0": 826
+                        },
+                        "id": 9,
+                        "text": "Estonia"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 80,
+                            "x0": 79,
+                            "y0": 115
+                        },
+                        "id": 10,
+                        "text": "Dominica"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 62,
+                            "x0": 98,
+                            "y0": 542
+                        },
+                        "id": 11,
+                        "text": "Greece"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 110,
+                            "x0": 50,
+                            "y0": 247
+                        },
+                        "id": 12,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 73,
+                            "x0": 87,
+                            "y0": 684
+                        },
+                        "id": 13,
+                        "text": "Uruguay"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 140,
+                            "x0": 20,
+                            "y0": 389
+                        },
+                        "id": 14,
+                        "text": "Hong Kong SAR,\nChina"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 861,
+                "width": 1083,
+                "x0": 176,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 176,
+                            "y": 832
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 176,
+                            "y": 121
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 176,
+                            "y": 548
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 176,
+                            "y": 263
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 176,
+                            "y": 690
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 176,
+                            "y": 405
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 808,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 1209,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 942,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 675,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 408,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 274,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 541,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1076,
+                            "y": 904
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 832,
+                            "x0": 301,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Adjusted net enrollment rate, primary, female (% of primary school age children) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 791,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "95.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 48,
+                            "x0": 1186,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "102.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 925,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "97.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 657,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "92.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 390,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "87.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 257,
+                            "y0": 924
+                        },
+                        "id": 6,
+                        "text": "85.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 524,
+                            "y0": 924
+                        },
+                        "id": 7,
+                        "text": "90.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 47,
+                            "x0": 1053,
+                            "y0": 924
+                        },
+                        "id": 8,
+                        "text": "100.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 63,
+                            "x0": 96,
+                            "y0": 826
+                        },
+                        "id": 9,
+                        "text": "Estonia"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 80,
+                            "x0": 79,
+                            "y0": 115
+                        },
+                        "id": 10,
+                        "text": "Dominica"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 62,
+                            "x0": 98,
+                            "y0": 542
+                        },
+                        "id": 11,
+                        "text": "Greece"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 110,
+                            "x0": 50,
+                            "y0": 247
+                        },
+                        "id": 12,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 73,
+                            "x0": 87,
+                            "y0": 684
+                        },
+                        "id": 13,
+                        "text": "Uruguay"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 140,
+                            "x0": 20,
+                            "y0": 389
+                        },
+                        "id": 14,
+                        "text": "Hong Kong SAR,\nChina"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 832,
+                            "x0": 301,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Adjusted net enrollment rate, primary, female (% of primary school age children) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 791,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "95.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 48,
+                            "x0": 1186,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "102.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 925,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "97.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 657,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "92.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 390,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "87.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 257,
+                            "y0": 924
+                        },
+                        "id": 6,
+                        "text": "85.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 524,
+                            "y0": 924
+                        },
+                        "id": 7,
+                        "text": "90.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 47,
+                            "x0": 1053,
+                            "y0": 924
+                        },
+                        "id": 8,
+                        "text": "100.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 63,
+                            "x0": 96,
+                            "y0": 826
+                        },
+                        "id": 9,
+                        "text": "Estonia"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 80,
+                            "x0": 79,
+                            "y0": 115
+                        },
+                        "id": 10,
+                        "text": "Dominica"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 62,
+                            "x0": 98,
+                            "y0": 542
+                        },
+                        "id": 11,
+                        "text": "Greece"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 110,
+                            "x0": 50,
+                            "y0": 247
+                        },
+                        "id": 12,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 73,
+                            "x0": 87,
+                            "y0": 684
+                        },
+                        "id": 13,
+                        "text": "Uruguay"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 140,
+                            "x0": 20,
+                            "y0": 389
+                        },
+                        "id": 14,
+                        "text": "Hong Kong SAR,\nChina"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 861,
+                    "width": 1083,
+                    "x0": 176,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 176,
+                                "y": 832
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 176,
+                                "y": 121
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 176,
+                                "y": 548
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 176,
+                                "y": 263
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 176,
+                                "y": 690
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 176,
+                                "y": 405
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 808,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 1209,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 942,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 675,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 408,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 274,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 541,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1076,
+                                "y": 904
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 94.36479609949858,
+                        "max": 99.9837036133,
+                        "median": 95.78893763138733,
+                        "min": 89.12720845713469,
+                        "third_quartile": 98.19422574833101
+                    },
+                    "name": "Estonia"
+                },
+                {
+                    "data": {
+                        "first_quartile": 93.03310653220935,
+                        "max": 99.404838562,
+                        "median": 95.02533000932479,
+                        "min": 89.80559546775041,
+                        "third_quartile": 97.1511101565005
+                    },
+                    "name": "Uruguay"
+                },
+                {
+                    "data": {
+                        "first_quartile": 91.37831702070102,
+                        "max": 96.5943069458,
+                        "median": 93.27614974975,
+                        "min": 87.1630935669,
+                        "third_quartile": 94.46201896665
+                    },
+                    "name": "Greece"
+                },
+                {
+                    "data": {
+                        "first_quartile": 92.67631793056658,
+                        "max": 98.9194107056,
+                        "median": 94.56480626942543,
+                        "min": 86.5589370728,
+                        "third_quartile": 97.696786880475
+                    },
+                    "name": "Hong Kong SAR, China"
+                },
+                {
+                    "data": {
+                        "first_quartile": 91.884649276725,
+                        "max": 98.6808395386,
+                        "median": 93.26969146729999,
+                        "min": 86.6403427124,
+                        "third_quartile": 96.095968246425
+                    },
+                    "name": "Trinidad and Tobago"
+                },
+                {
+                    "data": {
+                        "first_quartile": 89.90000349488065,
+                        "max": 99.7898712158,
+                        "median": 93.82979460166086,
+                        "min": 87.0589828491,
+                        "third_quartile": 97.15090217221045
+                    },
+                    "name": "Dominica"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 775,
+                                "y0": 798
+                            },
+                            "x": 775,
+                            "y": 834
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 1076,
+                                "y0": 816
+                            },
+                            "x": 1076,
+                            "y": 834
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 852,
+                                "y0": 798
+                            },
+                            "x": 852,
+                            "y": 834
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 496,
+                                "y0": 816
+                            },
+                            "x": 496,
+                            "y": 834
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 980,
+                                "y0": 798
+                            },
+                            "x": 980,
+                            "y": 834
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 537,
+                                "y0": 86
+                            },
+                            "x": 537,
+                            "y": 122
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 1065,
+                                "y0": 104
+                            },
+                            "x": 1065,
+                            "y": 122
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 747,
+                                "y0": 86
+                            },
+                            "x": 747,
+                            "y": 122
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 385,
+                                "y0": 104
+                            },
+                            "x": 385,
+                            "y": 122
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 924,
+                                "y0": 86
+                            },
+                            "x": 924,
+                            "y": 122
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 685,
+                                "y0": 371
+                            },
+                            "x": 685,
+                            "y": 407
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 1019,
+                                "y0": 389
+                            },
+                            "x": 1019,
+                            "y": 407
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 786,
+                                "y0": 371
+                            },
+                            "x": 786,
+                            "y": 407
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 358,
+                                "y0": 389
+                            },
+                            "x": 358,
+                            "y": 407
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 953,
+                                "y0": 371
+                            },
+                            "x": 953,
+                            "y": 407
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 616,
+                                "y0": 513
+                            },
+                            "x": 616,
+                            "y": 549
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 895,
+                                "y0": 531
+                            },
+                            "x": 895,
+                            "y": 549
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 717,
+                                "y0": 513
+                            },
+                            "x": 717,
+                            "y": 549
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 391,
+                                "y0": 531
+                            },
+                            "x": 391,
+                            "y": 549
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 781,
+                                "y0": 513
+                            },
+                            "x": 781,
+                            "y": 549
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 704,
+                                "y0": 656
+                            },
+                            "x": 704,
+                            "y": 692
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 1045,
+                                "y0": 673
+                            },
+                            "x": 1045,
+                            "y": 691
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 811,
+                                "y0": 656
+                            },
+                            "x": 811,
+                            "y": 692
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 532,
+                                "y0": 673
+                            },
+                            "x": 532,
+                            "y": 691
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 924,
+                                "y0": 656
+                            },
+                            "x": 924,
+                            "y": 692
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 643,
+                                "y0": 229
+                            },
+                            "x": 643,
+                            "y": 265
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 1006,
+                                "y0": 246
+                            },
+                            "x": 1006,
+                            "y": 264
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 717,
+                                "y0": 229
+                            },
+                            "x": 717,
+                            "y": 265
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 363,
+                                "y0": 246
+                            },
+                            "x": 363,
+                            "y": 264
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 868,
+                                "y0": 229
+                            },
+                            "x": 868,
+                            "y": 265
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

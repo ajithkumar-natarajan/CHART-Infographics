@@ -1,0 +1,1199 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 431,
+                        "x0": 61,
+                        "y0": 14
+                    },
+                    "text": "School enrollment, secondary, female (% gross) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 15,
+                        "x0": 166,
+                        "y0": 912
+                    },
+                    "text": "LMY"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 15,
+                        "x0": 405,
+                        "y0": 912
+                    },
+                    "text": "LCN"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 15,
+                        "x0": 1123,
+                        "y0": 912
+                    },
+                    "text": "MIC"
+                },
+                {
+                    "bb": {
+                        "height": 25,
+                        "width": 15,
+                        "x0": 645,
+                        "y0": 912
+                    },
+                    "text": "IBT"
+                },
+                {
+                    "bb": {
+                        "height": 30,
+                        "width": 15,
+                        "x0": 884,
+                        "y0": 912
+                    },
+                    "text": "TEA"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 304
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 827
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 478
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 24,
+                        "y0": 653
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 129
+                    },
+                    "text": "100"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 431,
+                            "x0": 61,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "School enrollment, secondary, female (% gross) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 15,
+                            "x0": 166,
+                            "y0": 912
+                        },
+                        "id": 1,
+                        "text": "LMY"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 15,
+                            "x0": 405,
+                            "y0": 912
+                        },
+                        "id": 2,
+                        "text": "LCN"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 15,
+                            "x0": 1123,
+                            "y0": 912
+                        },
+                        "id": 3,
+                        "text": "MIC"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 15,
+                            "x0": 645,
+                            "y0": 912
+                        },
+                        "id": 4,
+                        "text": "IBT"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 15,
+                            "x0": 884,
+                            "y0": 912
+                        },
+                        "id": 5,
+                        "text": "TEA"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 304
+                        },
+                        "id": 6,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 827
+                        },
+                        "id": 7,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 478
+                        },
+                        "id": 8,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 653
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 129
+                        },
+                        "id": 10,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 431,
+                            "x0": 61,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "School enrollment, secondary, female (% gross) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 15,
+                            "x0": 166,
+                            "y0": 912
+                        },
+                        "id": 1,
+                        "text": "LMY"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 15,
+                            "x0": 405,
+                            "y0": 912
+                        },
+                        "id": 2,
+                        "text": "LCN"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 15,
+                            "x0": 1123,
+                            "y0": 912
+                        },
+                        "id": 3,
+                        "text": "MIC"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 15,
+                            "x0": 645,
+                            "y0": 912
+                        },
+                        "id": 4,
+                        "text": "IBT"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 15,
+                            "x0": 884,
+                            "y0": 912
+                        },
+                        "id": 5,
+                        "text": "TEA"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 304
+                        },
+                        "id": 6,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 827
+                        },
+                        "id": 7,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 478
+                        },
+                        "id": 8,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 653
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 129
+                        },
+                        "id": 10,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 855,
+                "width": 1204,
+                "x0": 58,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 180,
+                            "y": 895
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 419,
+                            "y": 895
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 1137,
+                            "y": 895
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 659,
+                            "y": 895
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 898,
+                            "y": 895
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 308
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 831
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 483
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 657
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 134
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 431,
+                            "x0": 61,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "School enrollment, secondary, female (% gross) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 15,
+                            "x0": 166,
+                            "y0": 912
+                        },
+                        "id": 1,
+                        "text": "LMY"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 15,
+                            "x0": 405,
+                            "y0": 912
+                        },
+                        "id": 2,
+                        "text": "LCN"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 15,
+                            "x0": 1123,
+                            "y0": 912
+                        },
+                        "id": 3,
+                        "text": "MIC"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 15,
+                            "x0": 645,
+                            "y0": 912
+                        },
+                        "id": 4,
+                        "text": "IBT"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 15,
+                            "x0": 884,
+                            "y0": 912
+                        },
+                        "id": 5,
+                        "text": "TEA"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 304
+                        },
+                        "id": 6,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 827
+                        },
+                        "id": 7,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 478
+                        },
+                        "id": 8,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 653
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 129
+                        },
+                        "id": 10,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 431,
+                            "x0": 61,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "School enrollment, secondary, female (% gross) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 15,
+                            "x0": 166,
+                            "y0": 912
+                        },
+                        "id": 1,
+                        "text": "LMY"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 15,
+                            "x0": 405,
+                            "y0": 912
+                        },
+                        "id": 2,
+                        "text": "LCN"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 15,
+                            "x0": 1123,
+                            "y0": 912
+                        },
+                        "id": 3,
+                        "text": "MIC"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 15,
+                            "x0": 645,
+                            "y0": 912
+                        },
+                        "id": 4,
+                        "text": "IBT"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 15,
+                            "x0": 884,
+                            "y0": 912
+                        },
+                        "id": 5,
+                        "text": "TEA"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 304
+                        },
+                        "id": 6,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 827
+                        },
+                        "id": 7,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 478
+                        },
+                        "id": 8,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 653
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 129
+                        },
+                        "id": 10,
+                        "text": "100"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 855,
+                    "width": 1204,
+                    "x0": 58,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 180,
+                                "y": 895
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 419,
+                                "y": 895
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 1137,
+                                "y": 895
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 659,
+                                "y": 895
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 898,
+                                "y": 895
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 308
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 831
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 483
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 657
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 134
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 35.6615375,
+                        "max": 72.09543,
+                        "median": 44.18477,
+                        "min": 26.40568,
+                        "third_quartile": 56.671690023129216
+                    },
+                    "name": "LMY"
+                },
+                {
+                    "data": {
+                        "first_quartile": 67.89536973446398,
+                        "max": 97.1961,
+                        "median": 78.672365,
+                        "min": 39.40424,
+                        "third_quartile": 90.10683081448654
+                    },
+                    "name": "LCN"
+                },
+                {
+                    "data": {
+                        "first_quartile": 35.0899825,
+                        "max": 72.18252,
+                        "median": 42.89074825944462,
+                        "min": 26.76928,
+                        "third_quartile": 54.67536983073359
+                    },
+                    "name": "IBT"
+                },
+                {
+                    "data": {
+                        "first_quartile": 34.547945,
+                        "max": 87.29247,
+                        "median": 53.649635,
+                        "min": 26.94493,
+                        "third_quartile": 70.91083655682311
+                    },
+                    "name": "TEA"
+                },
+                {
+                    "data": {
+                        "first_quartile": 36.7063725,
+                        "max": 77.89507,
+                        "median": 46.82027,
+                        "min": 27.78856,
+                        "third_quartile": 60.313922500000004
+                    },
+                    "name": "MIC"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 121,
+                                "y0": 696
+                            },
+                            "x": 181,
+                            "y": 696
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 151,
+                                "y0": 378
+                            },
+                            "x": 181,
+                            "y": 378
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 121,
+                                "y0": 622
+                            },
+                            "x": 181,
+                            "y": 622
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 151,
+                                "y0": 777
+                            },
+                            "x": 181,
+                            "y": 777
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 121,
+                                "y0": 696
+                            },
+                            "x": 181,
+                            "y": 513
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 361,
+                                "y0": 415
+                            },
+                            "x": 420,
+                            "y": 415
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 390,
+                                "y0": 159
+                            },
+                            "x": 420,
+                            "y": 159
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 361,
+                                "y0": 321
+                            },
+                            "x": 420,
+                            "y": 321
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 390,
+                                "y0": 663
+                            },
+                            "x": 420,
+                            "y": 663
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 361,
+                                "y0": 415
+                            },
+                            "x": 420,
+                            "y": 221
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 1079,
+                                "y0": 687
+                            },
+                            "x": 1138,
+                            "y": 687
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 1108,
+                                "y0": 328
+                            },
+                            "x": 1138,
+                            "y": 328
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 1079,
+                                "y0": 599
+                            },
+                            "x": 1138,
+                            "y": 599
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 1108,
+                                "y0": 765
+                            },
+                            "x": 1138,
+                            "y": 765
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 1079,
+                                "y0": 687
+                            },
+                            "x": 1138,
+                            "y": 481
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 600,
+                                "y0": 701
+                            },
+                            "x": 660,
+                            "y": 701
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 630,
+                                "y0": 377
+                            },
+                            "x": 660,
+                            "y": 377
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 600,
+                                "y0": 633
+                            },
+                            "x": 660,
+                            "y": 633
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 630,
+                                "y0": 773
+                            },
+                            "x": 660,
+                            "y": 773
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 600,
+                                "y0": 701
+                            },
+                            "x": 660,
+                            "y": 530
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 839,
+                                "y0": 706
+                            },
+                            "x": 899,
+                            "y": 705
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 869,
+                                "y0": 246
+                            },
+                            "x": 899,
+                            "y": 246
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 839,
+                                "y0": 539
+                            },
+                            "x": 899,
+                            "y": 539
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 869,
+                                "y0": 772
+                            },
+                            "x": 899,
+                            "y": 772
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 839,
+                                "y0": 706
+                            },
+                            "x": 899,
+                            "y": 388
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

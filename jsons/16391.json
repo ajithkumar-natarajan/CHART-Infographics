@@ -1,0 +1,1627 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 756,
+                        "x0": 177,
+                        "y0": 19
+                    },
+                    "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                },
+                {
+                    "bb": {
+                        "height": 120,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 396
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 686,
+                        "y0": 924
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 19,
+                        "x0": 158,
+                        "y0": 882
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 305,
+                        "y0": 882
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 453,
+                        "y0": 882
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 601,
+                        "y0": 882
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 749,
+                        "y0": 882
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 20,
+                        "x0": 896,
+                        "y0": 882
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 20,
+                        "x0": 1044,
+                        "y0": 882
+                    },
+                    "text": "120"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 20,
+                        "x0": 1192,
+                        "y0": 882
+                    },
+                    "text": "140"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 80,
+                        "x0": 77,
+                        "y0": 766
+                    },
+                    "text": "Djibouti"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 110,
+                        "x0": 47,
+                        "y0": 555
+                    },
+                    "text": "Netherlands"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 107,
+                        "y0": 344
+                    },
+                    "text": "Tonga"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 100,
+                        "x0": 57,
+                        "y0": 133
+                    },
+                    "text": "San Marino"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 960,
+                        "y0": 66
+                    },
+                    "text": "1984"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 960,
+                        "y0": 92
+                    },
+                    "text": "1973"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1080,
+                        "y0": 66
+                    },
+                    "text": "1963"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1200,
+                        "y0": 66
+                    },
+                    "text": "1965"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 756,
+                            "x0": 177,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 686,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 158,
+                            "y0": 882
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 305,
+                            "y0": 882
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 453,
+                            "y0": 882
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 601,
+                            "y0": 882
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 749,
+                            "y0": 882
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 896,
+                            "y0": 882
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1044,
+                            "y0": 882
+                        },
+                        "id": 9,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1192,
+                            "y0": 882
+                        },
+                        "id": 10,
+                        "text": "140"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 80,
+                            "x0": 77,
+                            "y0": 766
+                        },
+                        "id": 11,
+                        "text": "Djibouti"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 110,
+                            "x0": 47,
+                            "y0": 555
+                        },
+                        "id": 12,
+                        "text": "Netherlands"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 107,
+                            "y0": 344
+                        },
+                        "id": 13,
+                        "text": "Tonga"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 57,
+                            "y0": 133
+                        },
+                        "id": 14,
+                        "text": "San Marino"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "1984"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 92
+                        },
+                        "id": 16,
+                        "text": "1973"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "1963"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 18,
+                        "text": "1965"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 18,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 756,
+                            "x0": 177,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 686,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 158,
+                            "y0": 882
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 305,
+                            "y0": 882
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 453,
+                            "y0": 882
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 601,
+                            "y0": 882
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 749,
+                            "y0": 882
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 896,
+                            "y0": 882
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1044,
+                            "y0": 882
+                        },
+                        "id": 9,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1192,
+                            "y0": 882
+                        },
+                        "id": 10,
+                        "text": "140"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 80,
+                            "x0": 77,
+                            "y0": 766
+                        },
+                        "id": 11,
+                        "text": "Djibouti"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 110,
+                            "x0": 47,
+                            "y0": 555
+                        },
+                        "id": 12,
+                        "text": "Netherlands"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 107,
+                            "y0": 344
+                        },
+                        "id": 13,
+                        "text": "Tonga"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 57,
+                            "y0": 133
+                        },
+                        "id": 14,
+                        "text": "San Marino"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "1984"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 92
+                        },
+                        "id": 16,
+                        "text": "1973"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "1963"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 18,
+                        "text": "1965"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 819,
+                "width": 1085,
+                "x0": 173,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 173,
+                            "y": 772
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 173,
+                            "y": 561
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 173,
+                            "y": 350
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 173,
+                            "y": 139
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 176,
+                            "y": 862
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 324,
+                            "y": 862
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 472,
+                            "y": 862
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 619,
+                            "y": 862
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 767,
+                            "y": 862
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 915,
+                            "y": 862
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1063,
+                            "y": 862
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1211,
+                            "y": 862
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 756,
+                            "x0": 177,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 686,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 158,
+                            "y0": 882
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 305,
+                            "y0": 882
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 453,
+                            "y0": 882
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 601,
+                            "y0": 882
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 749,
+                            "y0": 882
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 896,
+                            "y0": 882
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1044,
+                            "y0": 882
+                        },
+                        "id": 9,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1192,
+                            "y0": 882
+                        },
+                        "id": 10,
+                        "text": "140"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 80,
+                            "x0": 77,
+                            "y0": 766
+                        },
+                        "id": 11,
+                        "text": "Djibouti"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 110,
+                            "x0": 47,
+                            "y0": 555
+                        },
+                        "id": 12,
+                        "text": "Netherlands"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 107,
+                            "y0": 344
+                        },
+                        "id": 13,
+                        "text": "Tonga"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 57,
+                            "y0": 133
+                        },
+                        "id": 14,
+                        "text": "San Marino"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "1984"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 92
+                        },
+                        "id": 16,
+                        "text": "1973"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "1963"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 18,
+                        "text": "1965"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 913,
+                        "y0": 68
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 913,
+                        "y0": 94
+                    },
+                    "id": 16
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1033,
+                        "y0": 68
+                    },
+                    "id": 17
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1153,
+                        "y0": 68
+                    },
+                    "id": 18
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 756,
+                            "x0": 177,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 686,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 158,
+                            "y0": 882
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 305,
+                            "y0": 882
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 453,
+                            "y0": 882
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 601,
+                            "y0": 882
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 749,
+                            "y0": 882
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 896,
+                            "y0": 882
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1044,
+                            "y0": 882
+                        },
+                        "id": 9,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1192,
+                            "y0": 882
+                        },
+                        "id": 10,
+                        "text": "140"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 80,
+                            "x0": 77,
+                            "y0": 766
+                        },
+                        "id": 11,
+                        "text": "Djibouti"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 110,
+                            "x0": 47,
+                            "y0": 555
+                        },
+                        "id": 12,
+                        "text": "Netherlands"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 107,
+                            "y0": 344
+                        },
+                        "id": 13,
+                        "text": "Tonga"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 57,
+                            "y0": 133
+                        },
+                        "id": 14,
+                        "text": "San Marino"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "1984"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 92
+                        },
+                        "id": 16,
+                        "text": "1973"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "1963"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 18,
+                        "text": "1965"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 819,
+                    "width": 1085,
+                    "x0": 173,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 173,
+                                "y": 772
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 173,
+                                "y": 561
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 173,
+                                "y": 350
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 173,
+                                "y": 139
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 176,
+                                "y": 862
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 324,
+                                "y": 862
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 472,
+                                "y": 862
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 619,
+                                "y": 862
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 767,
+                                "y": 862
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 915,
+                                "y": 862
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1063,
+                                "y": 862
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1211,
+                                "y": 862
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 913,
+                            "y0": 68
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 913,
+                            "y0": 94
+                        },
+                        "id": 16
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1033,
+                            "y0": 68
+                        },
+                        "id": 17
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1153,
+                            "y0": 68
+                        },
+                        "id": 18
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Djibouti",
+                            "y": "29.553535004682935"
+                        },
+                        {
+                            "x": "Netherlands",
+                            "y": "16.5336027259"
+                        },
+                        {
+                            "x": "Tonga",
+                            "y": "27.115548444491548"
+                        },
+                        {
+                            "x": "San Marino",
+                            "y": "34.93553847854387"
+                        }
+                    ],
+                    "name": "1963"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Djibouti",
+                            "y": "9.75339429205"
+                        },
+                        {
+                            "x": "Netherlands",
+                            "y": "15.9503282387"
+                        },
+                        {
+                            "x": "Tonga",
+                            "y": "39.48219693765362"
+                        },
+                        {
+                            "x": "San Marino",
+                            "y": "9.75339429205"
+                        }
+                    ],
+                    "name": "1965"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Djibouti",
+                            "y": "38.88301730924161"
+                        },
+                        {
+                            "x": "Netherlands",
+                            "y": "17.2970341498"
+                        },
+                        {
+                            "x": "Tonga",
+                            "y": "41.43181560212031"
+                        },
+                        {
+                            "x": "San Marino",
+                            "y": "25.469606404845948"
+                        }
+                    ],
+                    "name": "1973"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Djibouti",
+                            "y": "40.01532697682565"
+                        },
+                        {
+                            "x": "Netherlands",
+                            "y": "21.5373409874"
+                        },
+                        {
+                            "x": "Tonga",
+                            "y": "30.7892476574873"
+                        },
+                        {
+                            "x": "San Marino",
+                            "y": "7.1365318505317035"
+                        }
+                    ],
+                    "name": "1984"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 105,
+                        "width": 296,
+                        "x0": 177,
+                        "y0": 720
+                    },
+                    {
+                        "height": 105,
+                        "width": 288,
+                        "x0": 473,
+                        "y0": 720
+                    },
+                    {
+                        "height": 105,
+                        "width": 219,
+                        "x0": 760,
+                        "y0": 720
+                    },
+                    {
+                        "height": 105,
+                        "width": 72,
+                        "x0": 979,
+                        "y0": 720
+                    },
+                    {
+                        "height": 105,
+                        "width": 159,
+                        "x0": 177,
+                        "y0": 509
+                    },
+                    {
+                        "height": 105,
+                        "width": 128,
+                        "x0": 336,
+                        "y0": 509
+                    },
+                    {
+                        "height": 105,
+                        "width": 122,
+                        "x0": 464,
+                        "y0": 509
+                    },
+                    {
+                        "height": 105,
+                        "width": 118,
+                        "x0": 586,
+                        "y0": 509
+                    },
+                    {
+                        "height": 105,
+                        "width": 228,
+                        "x0": 177,
+                        "y0": 298
+                    },
+                    {
+                        "height": 105,
+                        "width": 307,
+                        "x0": 404,
+                        "y0": 298
+                    },
+                    {
+                        "height": 105,
+                        "width": 201,
+                        "x0": 711,
+                        "y0": 298
+                    },
+                    {
+                        "height": 105,
+                        "width": 292,
+                        "x0": 912,
+                        "y0": 298
+                    },
+                    {
+                        "height": 105,
+                        "width": 53,
+                        "x0": 177,
+                        "y0": 88
+                    },
+                    {
+                        "height": 105,
+                        "width": 188,
+                        "x0": 229,
+                        "y0": 88
+                    },
+                    {
+                        "height": 105,
+                        "width": 258,
+                        "x0": 418,
+                        "y0": 88
+                    },
+                    {
+                        "height": 105,
+                        "width": 72,
+                        "x0": 676,
+                        "y0": 88
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

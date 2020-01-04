@@ -1,0 +1,1658 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 175,
+                        "x0": 588,
+                        "y0": 14
+                    },
+                    "text": "USA 2006 Re-Export"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 637,
+                        "y0": 925
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 70,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 373
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 104,
+                        "width": 76,
+                        "x0": 70,
+                        "y0": 792
+                    },
+                    "text": "Maize bran,\nsharps, other\nresidues"
+                },
+                {
+                    "bb": {
+                        "height": 116,
+                        "width": 106,
+                        "x0": 157,
+                        "y0": 792
+                    },
+                    "text": "Natural cork,\ndebacked,\nroughly\nsquared, in\nblocks et"
+                },
+                {
+                    "bb": {
+                        "height": 114,
+                        "width": 53,
+                        "x0": 329,
+                        "y0": 792
+                    },
+                    "text": "Safety headgear"
+                },
+                {
+                    "bb": {
+                        "height": 116,
+                        "width": 80,
+                        "x0": 419,
+                        "y0": 792
+                    },
+                    "text": "Knit or crochet\nfabric of\ncotton, nes"
+                },
+                {
+                    "bb": {
+                        "height": 100,
+                        "width": 87,
+                        "x0": 530,
+                        "y0": 792
+                    },
+                    "text": "Original\nengravings,\nprints and\nlithographs"
+                },
+                {
+                    "bb": {
+                        "height": 105,
+                        "width": 89,
+                        "x0": 645,
+                        "y0": 792
+                    },
+                    "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                },
+                {
+                    "bb": {
+                        "height": 123,
+                        "width": 109,
+                        "x0": 743,
+                        "y0": 792
+                    },
+                    "text": "Tanned or\ndressed whole\nfurskins and\npieces,\nassemble"
+                },
+                {
+                    "bb": {
+                        "height": 117,
+                        "width": 80,
+                        "x0": 889,
+                        "y0": 792
+                    },
+                    "text": "Ground-nut oil-\ncake and other\nsolid residues"
+                },
+                {
+                    "bb": {
+                        "height": 112,
+                        "width": 92,
+                        "x0": 996,
+                        "y0": 792
+                    },
+                    "text": "Tea and mate\nextracts,\nessences and\nconcentrates"
+                },
+                {
+                    "bb": {
+                        "height": 102,
+                        "width": 89,
+                        "x0": 1116,
+                        "y0": 792
+                    },
+                    "text": "Raw furskin\npieces (e.g.\nheads, tails,\npaws)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 30,
+                        "x0": 43,
+                        "y0": 734
+                    },
+                    "text": "0.00"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 30,
+                        "x0": 43,
+                        "y0": 635
+                    },
+                    "text": "0.25"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 30,
+                        "x0": 43,
+                        "y0": 536
+                    },
+                    "text": "0.50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 43,
+                        "y0": 437
+                    },
+                    "text": "0.75"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 43,
+                        "y0": 338
+                    },
+                    "text": "1.00"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 43,
+                        "y0": 239
+                    },
+                    "text": "1.25"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 43,
+                        "y0": 141
+                    },
+                    "text": "1.50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 43,
+                        "y0": 42
+                    },
+                    "text": "1.75"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 175,
+                            "x0": 588,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "USA 2006 Re-Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 637,
+                            "y0": 925
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 373
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 76,
+                            "x0": 70,
+                            "y0": 792
+                        },
+                        "id": 3,
+                        "text": "Maize bran,\nsharps, other\nresidues"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 106,
+                            "x0": 157,
+                            "y0": 792
+                        },
+                        "id": 4,
+                        "text": "Natural cork,\ndebacked,\nroughly\nsquared, in\nblocks et"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 53,
+                            "x0": 329,
+                            "y0": 792
+                        },
+                        "id": 5,
+                        "text": "Safety headgear"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 80,
+                            "x0": 419,
+                            "y0": 792
+                        },
+                        "id": 6,
+                        "text": "Knit or crochet\nfabric of\ncotton, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 100,
+                            "width": 87,
+                            "x0": 530,
+                            "y0": 792
+                        },
+                        "id": 7,
+                        "text": "Original\nengravings,\nprints and\nlithographs"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 89,
+                            "x0": 645,
+                            "y0": 792
+                        },
+                        "id": 8,
+                        "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 109,
+                            "x0": 743,
+                            "y0": 792
+                        },
+                        "id": 9,
+                        "text": "Tanned or\ndressed whole\nfurskins and\npieces,\nassemble"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 80,
+                            "x0": 889,
+                            "y0": 792
+                        },
+                        "id": 10,
+                        "text": "Ground-nut oil-\ncake and other\nsolid residues"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 92,
+                            "x0": 996,
+                            "y0": 792
+                        },
+                        "id": 11,
+                        "text": "Tea and mate\nextracts,\nessences and\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 89,
+                            "x0": 1116,
+                            "y0": 792
+                        },
+                        "id": 12,
+                        "text": "Raw furskin\npieces (e.g.\nheads, tails,\npaws)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 734
+                        },
+                        "id": 13,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 635
+                        },
+                        "id": 14,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 536
+                        },
+                        "id": 15,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 437
+                        },
+                        "id": 16,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 338
+                        },
+                        "id": 17,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 239
+                        },
+                        "id": 18,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 141
+                        },
+                        "id": 19,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 42
+                        },
+                        "id": 20,
+                        "text": "1.75"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 175,
+                            "x0": 588,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "USA 2006 Re-Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 637,
+                            "y0": 925
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 373
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 76,
+                            "x0": 70,
+                            "y0": 792
+                        },
+                        "id": 3,
+                        "text": "Maize bran,\nsharps, other\nresidues"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 106,
+                            "x0": 157,
+                            "y0": 792
+                        },
+                        "id": 4,
+                        "text": "Natural cork,\ndebacked,\nroughly\nsquared, in\nblocks et"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 53,
+                            "x0": 329,
+                            "y0": 792
+                        },
+                        "id": 5,
+                        "text": "Safety headgear"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 80,
+                            "x0": 419,
+                            "y0": 792
+                        },
+                        "id": 6,
+                        "text": "Knit or crochet\nfabric of\ncotton, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 100,
+                            "width": 87,
+                            "x0": 530,
+                            "y0": 792
+                        },
+                        "id": 7,
+                        "text": "Original\nengravings,\nprints and\nlithographs"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 89,
+                            "x0": 645,
+                            "y0": 792
+                        },
+                        "id": 8,
+                        "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 109,
+                            "x0": 743,
+                            "y0": 792
+                        },
+                        "id": 9,
+                        "text": "Tanned or\ndressed whole\nfurskins and\npieces,\nassemble"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 80,
+                            "x0": 889,
+                            "y0": 792
+                        },
+                        "id": 10,
+                        "text": "Ground-nut oil-\ncake and other\nsolid residues"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 92,
+                            "x0": 996,
+                            "y0": 792
+                        },
+                        "id": 11,
+                        "text": "Tea and mate\nextracts,\nessences and\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 89,
+                            "x0": 1116,
+                            "y0": 792
+                        },
+                        "id": 12,
+                        "text": "Raw furskin\npieces (e.g.\nheads, tails,\npaws)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 734
+                        },
+                        "id": 13,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 635
+                        },
+                        "id": 14,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 536
+                        },
+                        "id": 15,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 437
+                        },
+                        "id": 16,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 338
+                        },
+                        "id": 17,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 239
+                        },
+                        "id": 18,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 141
+                        },
+                        "id": 19,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 42
+                        },
+                        "id": 20,
+                        "text": "1.75"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 736,
+                "width": 1172,
+                "x0": 90,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 145,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 263,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 380,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 498,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 616,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 733,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 851,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 969,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 1086,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 776
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 738
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 639
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 541
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 442
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 343
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 244
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 145
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 46
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 175,
+                            "x0": 588,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "USA 2006 Re-Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 637,
+                            "y0": 925
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 373
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 76,
+                            "x0": 70,
+                            "y0": 792
+                        },
+                        "id": 3,
+                        "text": "Maize bran,\nsharps, other\nresidues"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 106,
+                            "x0": 157,
+                            "y0": 792
+                        },
+                        "id": 4,
+                        "text": "Natural cork,\ndebacked,\nroughly\nsquared, in\nblocks et"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 53,
+                            "x0": 329,
+                            "y0": 792
+                        },
+                        "id": 5,
+                        "text": "Safety headgear"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 80,
+                            "x0": 419,
+                            "y0": 792
+                        },
+                        "id": 6,
+                        "text": "Knit or crochet\nfabric of\ncotton, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 100,
+                            "width": 87,
+                            "x0": 530,
+                            "y0": 792
+                        },
+                        "id": 7,
+                        "text": "Original\nengravings,\nprints and\nlithographs"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 89,
+                            "x0": 645,
+                            "y0": 792
+                        },
+                        "id": 8,
+                        "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 109,
+                            "x0": 743,
+                            "y0": 792
+                        },
+                        "id": 9,
+                        "text": "Tanned or\ndressed whole\nfurskins and\npieces,\nassemble"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 80,
+                            "x0": 889,
+                            "y0": 792
+                        },
+                        "id": 10,
+                        "text": "Ground-nut oil-\ncake and other\nsolid residues"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 92,
+                            "x0": 996,
+                            "y0": 792
+                        },
+                        "id": 11,
+                        "text": "Tea and mate\nextracts,\nessences and\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 89,
+                            "x0": 1116,
+                            "y0": 792
+                        },
+                        "id": 12,
+                        "text": "Raw furskin\npieces (e.g.\nheads, tails,\npaws)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 734
+                        },
+                        "id": 13,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 635
+                        },
+                        "id": 14,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 536
+                        },
+                        "id": 15,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 437
+                        },
+                        "id": 16,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 338
+                        },
+                        "id": 17,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 239
+                        },
+                        "id": 18,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 141
+                        },
+                        "id": 19,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 42
+                        },
+                        "id": 20,
+                        "text": "1.75"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 175,
+                            "x0": 588,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "USA 2006 Re-Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 637,
+                            "y0": 925
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 373
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 76,
+                            "x0": 70,
+                            "y0": 792
+                        },
+                        "id": 3,
+                        "text": "Maize bran,\nsharps, other\nresidues"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 106,
+                            "x0": 157,
+                            "y0": 792
+                        },
+                        "id": 4,
+                        "text": "Natural cork,\ndebacked,\nroughly\nsquared, in\nblocks et"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 53,
+                            "x0": 329,
+                            "y0": 792
+                        },
+                        "id": 5,
+                        "text": "Safety headgear"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 80,
+                            "x0": 419,
+                            "y0": 792
+                        },
+                        "id": 6,
+                        "text": "Knit or crochet\nfabric of\ncotton, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 100,
+                            "width": 87,
+                            "x0": 530,
+                            "y0": 792
+                        },
+                        "id": 7,
+                        "text": "Original\nengravings,\nprints and\nlithographs"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 89,
+                            "x0": 645,
+                            "y0": 792
+                        },
+                        "id": 8,
+                        "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 109,
+                            "x0": 743,
+                            "y0": 792
+                        },
+                        "id": 9,
+                        "text": "Tanned or\ndressed whole\nfurskins and\npieces,\nassemble"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 80,
+                            "x0": 889,
+                            "y0": 792
+                        },
+                        "id": 10,
+                        "text": "Ground-nut oil-\ncake and other\nsolid residues"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 92,
+                            "x0": 996,
+                            "y0": 792
+                        },
+                        "id": 11,
+                        "text": "Tea and mate\nextracts,\nessences and\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 89,
+                            "x0": 1116,
+                            "y0": 792
+                        },
+                        "id": 12,
+                        "text": "Raw furskin\npieces (e.g.\nheads, tails,\npaws)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 734
+                        },
+                        "id": 13,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 635
+                        },
+                        "id": 14,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 30,
+                            "x0": 43,
+                            "y0": 536
+                        },
+                        "id": 15,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 437
+                        },
+                        "id": 16,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 338
+                        },
+                        "id": 17,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 239
+                        },
+                        "id": 18,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 141
+                        },
+                        "id": 19,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 43,
+                            "y0": 42
+                        },
+                        "id": 20,
+                        "text": "1.75"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 736,
+                    "width": 1172,
+                    "x0": 90,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 145,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 263,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 380,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 498,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 616,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 733,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 851,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 969,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 1086,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 776
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 738
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 639
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 541
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 442
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 343
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 244
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 145
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 46
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Maize bran, sharps, other residues",
+                            "y": "122000.0"
+                        },
+                        {
+                            "x": "Natural cork, debacked, roughly squared, in blocks et",
+                            "y": "2661.0"
+                        },
+                        {
+                            "x": "Safety headgear",
+                            "y": "459714.0"
+                        },
+                        {
+                            "x": "Knit or crochet fabric of cotton, nes",
+                            "y": "63342.0"
+                        },
+                        {
+                            "x": "Original engravings, prints and lithographs",
+                            "y": "15.0"
+                        },
+                        {
+                            "x": "Cargo containers designed for carriage",
+                            "y": "16754648.0"
+                        },
+                        {
+                            "x": "Tanned or dressed whole furskins and pieces, assemble",
+                            "y": "2103.0"
+                        },
+                        {
+                            "x": "Ground-nut oil-cake and other solid residues",
+                            "y": "1096164.0"
+                        },
+                        {
+                            "x": "Tea and mate extracts, essences and concentrates",
+                            "y": "257185.0"
+                        },
+                        {
+                            "x": "Raw furskin pieces (e.g. heads, tails, paws)",
+                            "y": "15.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 146,
+                            "y": 734
+                        },
+                        {
+                            "x": 264,
+                            "y": 739
+                        },
+                        {
+                            "x": 381,
+                            "y": 721
+                        },
+                        {
+                            "x": 499,
+                            "y": 737
+                        },
+                        {
+                            "x": 617,
+                            "y": 739
+                        },
+                        {
+                            "x": 734,
+                            "y": 77
+                        },
+                        {
+                            "x": 852,
+                            "y": 739
+                        },
+                        {
+                            "x": 970,
+                            "y": 696
+                        },
+                        {
+                            "x": 1087,
+                            "y": 729
+                        },
+                        {
+                            "x": 1205,
+                            "y": 739
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

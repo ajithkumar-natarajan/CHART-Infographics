@@ -1,0 +1,738 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 564,
+                        "x0": 378,
+                        "y0": 15
+                    },
+                    "text": "All India Consumer Price Index (Rural /Urban) up to December 2014"
+                },
+                {
+                    "bb": {
+                        "height": 107,
+                        "width": 36,
+                        "x0": 624,
+                        "y0": 838
+                    },
+                    "text": "Recreation and\nAmusement"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 585
+                    },
+                    "text": "105"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 84
+                    },
+                    "text": "125"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 711
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 335
+                    },
+                    "text": "115"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 460
+                    },
+                    "text": "110"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 210
+                    },
+                    "text": "120"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 564,
+                            "x0": 378,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "All India Consumer Price Index (Rural /Urban) up to December 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 107,
+                            "width": 36,
+                            "x0": 624,
+                            "y0": 838
+                        },
+                        "id": 1,
+                        "text": "Recreation and\nAmusement"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 585
+                        },
+                        "id": 2,
+                        "text": "105"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 84
+                        },
+                        "id": 3,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 711
+                        },
+                        "id": 4,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 335
+                        },
+                        "id": 5,
+                        "text": "115"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 460
+                        },
+                        "id": 6,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 210
+                        },
+                        "id": 7,
+                        "text": "120"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 564,
+                            "x0": 378,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "All India Consumer Price Index (Rural /Urban) up to December 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 107,
+                            "width": 36,
+                            "x0": 624,
+                            "y0": 838
+                        },
+                        "id": 1,
+                        "text": "Recreation and\nAmusement"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 585
+                        },
+                        "id": 2,
+                        "text": "105"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 84
+                        },
+                        "id": 3,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 711
+                        },
+                        "id": 4,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 335
+                        },
+                        "id": 5,
+                        "text": "115"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 460
+                        },
+                        "id": 6,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 210
+                        },
+                        "id": 7,
+                        "text": "120"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 779,
+                "width": 1204,
+                "x0": 58,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 659,
+                            "y": 821
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 590
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 89
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 715
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 339
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 465
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 214
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 564,
+                            "x0": 378,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "All India Consumer Price Index (Rural /Urban) up to December 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 107,
+                            "width": 36,
+                            "x0": 624,
+                            "y0": 838
+                        },
+                        "id": 1,
+                        "text": "Recreation and\nAmusement"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 585
+                        },
+                        "id": 2,
+                        "text": "105"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 84
+                        },
+                        "id": 3,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 711
+                        },
+                        "id": 4,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 335
+                        },
+                        "id": 5,
+                        "text": "115"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 460
+                        },
+                        "id": 6,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 210
+                        },
+                        "id": 7,
+                        "text": "120"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 564,
+                            "x0": 378,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "All India Consumer Price Index (Rural /Urban) up to December 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 107,
+                            "width": 36,
+                            "x0": 624,
+                            "y0": 838
+                        },
+                        "id": 1,
+                        "text": "Recreation and\nAmusement"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 585
+                        },
+                        "id": 2,
+                        "text": "105"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 84
+                        },
+                        "id": 3,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 711
+                        },
+                        "id": 4,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 335
+                        },
+                        "id": 5,
+                        "text": "115"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 460
+                        },
+                        "id": 6,
+                        "text": "110"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 210
+                        },
+                        "id": 7,
+                        "text": "120"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 779,
+                    "width": 1204,
+                    "x0": 58,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 659,
+                                "y": 821
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 590
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 89
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 715
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 339
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 465
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 214
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 104.77499999999999,
+                        "max": 121.7,
+                        "median": 108.275,
+                        "min": 101.0,
+                        "third_quartile": 112.22500000000001
+                    },
+                    "name": "Recreation and Amusement"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 570,
+                                "y0": 597
+                            },
+                            "x": 660,
+                            "y": 597
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 615,
+                                "y0": 173
+                            },
+                            "x": 660,
+                            "y": 173
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 570,
+                                "y0": 509
+                            },
+                            "x": 660,
+                            "y": 509
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 615,
+                                "y0": 691
+                            },
+                            "x": 660,
+                            "y": 691
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 570,
+                                "y0": 597
+                            },
+                            "x": 660,
+                            "y": 410
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

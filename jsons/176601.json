@@ -1,0 +1,1336 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 543,
+                        "x0": 93,
+                        "y0": 19
+                    },
+                    "text": "Main cooking fuel: agricultural crop (% of households)"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 114,
+                        "x0": 617,
+                        "y0": 924
+                    },
+                    "text": "Country Code"
+                },
+                {
+                    "bb": {
+                        "height": 56,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 423
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 38,
+                        "width": 26,
+                        "x0": 120,
+                        "y0": 870
+                    },
+                    "text": "BEN"
+                },
+                {
+                    "bb": {
+                        "height": 43,
+                        "width": 28,
+                        "x0": 330,
+                        "y0": 870
+                    },
+                    "text": "ABW"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 25,
+                        "x0": 543,
+                        "y0": 870
+                    },
+                    "text": "SLB"
+                },
+                {
+                    "bb": {
+                        "height": 41,
+                        "width": 27,
+                        "x0": 752,
+                        "y0": 870
+                    },
+                    "text": "MKD"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 26,
+                        "x0": 965,
+                        "y0": 870
+                    },
+                    "text": "PRY"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 25,
+                        "x0": 1177,
+                        "y0": 870
+                    },
+                    "text": "PSE"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 781
+                    },
+                    "text": "0.1"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 632
+                    },
+                    "text": "0.2"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 483
+                    },
+                    "text": "0.3"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 333
+                    },
+                    "text": "0.4"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 184
+                    },
+                    "text": "0.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 42,
+                        "x0": 1076,
+                        "y0": 66
+                    },
+                    "text": "2010"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 42,
+                        "x0": 1198,
+                        "y0": 66
+                    },
+                    "text": "2008"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 543,
+                            "x0": 93,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Main cooking fuel: agricultural crop (% of households)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 617,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 26,
+                            "x0": 120,
+                            "y0": 870
+                        },
+                        "id": 3,
+                        "text": "BEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 28,
+                            "x0": 330,
+                            "y0": 870
+                        },
+                        "id": 4,
+                        "text": "ABW"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 543,
+                            "y0": 870
+                        },
+                        "id": 5,
+                        "text": "SLB"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 27,
+                            "x0": 752,
+                            "y0": 870
+                        },
+                        "id": 6,
+                        "text": "MKD"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 26,
+                            "x0": 965,
+                            "y0": 870
+                        },
+                        "id": 7,
+                        "text": "PRY"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 1177,
+                            "y0": 870
+                        },
+                        "id": 8,
+                        "text": "PSE"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 781
+                        },
+                        "id": 9,
+                        "text": "0.1"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 632
+                        },
+                        "id": 10,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 483
+                        },
+                        "id": 11,
+                        "text": "0.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 333
+                        },
+                        "id": 12,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 184
+                        },
+                        "id": 13,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1076,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1198,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "2008"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 543,
+                            "x0": 93,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Main cooking fuel: agricultural crop (% of households)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 617,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 26,
+                            "x0": 120,
+                            "y0": 870
+                        },
+                        "id": 3,
+                        "text": "BEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 28,
+                            "x0": 330,
+                            "y0": 870
+                        },
+                        "id": 4,
+                        "text": "ABW"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 543,
+                            "y0": 870
+                        },
+                        "id": 5,
+                        "text": "SLB"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 27,
+                            "x0": 752,
+                            "y0": 870
+                        },
+                        "id": 6,
+                        "text": "MKD"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 26,
+                            "x0": 965,
+                            "y0": 870
+                        },
+                        "id": 7,
+                        "text": "PRY"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 1177,
+                            "y0": 870
+                        },
+                        "id": 8,
+                        "text": "PSE"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 781
+                        },
+                        "id": 9,
+                        "text": "0.1"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 632
+                        },
+                        "id": 10,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 483
+                        },
+                        "id": 11,
+                        "text": "0.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 333
+                        },
+                        "id": 12,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 184
+                        },
+                        "id": 13,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1076,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1198,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "2008"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 807,
+                "width": 1169,
+                "x0": 90,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 145,
+                            "y": 854
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 356,
+                            "y": 854
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 567,
+                            "y": 854
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 779,
+                            "y": 854
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 990,
+                            "y": 854
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1201,
+                            "y": 854
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 787
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 638
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 489
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 339
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 190
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 543,
+                            "x0": 93,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Main cooking fuel: agricultural crop (% of households)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 617,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 26,
+                            "x0": 120,
+                            "y0": 870
+                        },
+                        "id": 3,
+                        "text": "BEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 28,
+                            "x0": 330,
+                            "y0": 870
+                        },
+                        "id": 4,
+                        "text": "ABW"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 543,
+                            "y0": 870
+                        },
+                        "id": 5,
+                        "text": "SLB"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 27,
+                            "x0": 752,
+                            "y0": 870
+                        },
+                        "id": 6,
+                        "text": "MKD"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 26,
+                            "x0": 965,
+                            "y0": 870
+                        },
+                        "id": 7,
+                        "text": "PRY"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 1177,
+                            "y0": 870
+                        },
+                        "id": 8,
+                        "text": "PSE"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 781
+                        },
+                        "id": 9,
+                        "text": "0.1"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 632
+                        },
+                        "id": 10,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 483
+                        },
+                        "id": 11,
+                        "text": "0.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 333
+                        },
+                        "id": 12,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 184
+                        },
+                        "id": 13,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1076,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1198,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "2008"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 33,
+                        "x0": 1029,
+                        "y0": 66
+                    },
+                    "id": 14
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 33,
+                        "x0": 1151,
+                        "y0": 66
+                    },
+                    "id": 15
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 543,
+                            "x0": 93,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Main cooking fuel: agricultural crop (% of households)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 617,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 26,
+                            "x0": 120,
+                            "y0": 870
+                        },
+                        "id": 3,
+                        "text": "BEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 28,
+                            "x0": 330,
+                            "y0": 870
+                        },
+                        "id": 4,
+                        "text": "ABW"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 543,
+                            "y0": 870
+                        },
+                        "id": 5,
+                        "text": "SLB"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 27,
+                            "x0": 752,
+                            "y0": 870
+                        },
+                        "id": 6,
+                        "text": "MKD"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 26,
+                            "x0": 965,
+                            "y0": 870
+                        },
+                        "id": 7,
+                        "text": "PRY"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 1177,
+                            "y0": 870
+                        },
+                        "id": 8,
+                        "text": "PSE"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 781
+                        },
+                        "id": 9,
+                        "text": "0.1"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 632
+                        },
+                        "id": 10,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 483
+                        },
+                        "id": 11,
+                        "text": "0.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 333
+                        },
+                        "id": 12,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 184
+                        },
+                        "id": 13,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1076,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1198,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "2008"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 807,
+                    "width": 1169,
+                    "x0": 90,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 145,
+                                "y": 854
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 356,
+                                "y": 854
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 567,
+                                "y": 854
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 779,
+                                "y": 854
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 990,
+                                "y": 854
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1201,
+                                "y": 854
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 787
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 638
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 489
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 339
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 190
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 33,
+                            "x0": 1029,
+                            "y0": 66
+                        },
+                        "id": 14
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 33,
+                            "x0": 1151,
+                            "y0": 66
+                        },
+                        "id": 15
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "BEN",
+                            "y": "0.0990487157084221"
+                        },
+                        {
+                            "x": "ABW",
+                            "y": "0.09454042855340991"
+                        },
+                        {
+                            "x": "SLB",
+                            "y": "0.09801375167748577"
+                        },
+                        {
+                            "x": "MKD",
+                            "y": 0.5699574033181966
+                        },
+                        {
+                            "x": "PRY",
+                            "y": "0.1790995348980628"
+                        },
+                        {
+                            "x": "PSE",
+                            "y": "0.1809856467391225"
+                        }
+                    ],
+                    "name": "2010"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "BEN",
+                            "y": "0.08238562275982808"
+                        },
+                        {
+                            "x": "ABW",
+                            "y": "0.326257557249249"
+                        },
+                        {
+                            "x": "SLB",
+                            "y": "0.2468199448073305"
+                        },
+                        {
+                            "x": "MKD",
+                            "y": "0.13184732612767677"
+                        },
+                        {
+                            "x": "PRY",
+                            "y": "0.19473930023809788"
+                        },
+                        {
+                            "x": "PSE",
+                            "y": "0.09945497624965019"
+                        }
+                    ],
+                    "name": "2008"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 146,
+                            "y": 789
+                        },
+                        {
+                            "x": 357,
+                            "y": 796
+                        },
+                        {
+                            "x": 568,
+                            "y": 791
+                        },
+                        {
+                            "x": 780,
+                            "y": 87
+                        },
+                        {
+                            "x": 991,
+                            "y": 670
+                        },
+                        {
+                            "x": 1202,
+                            "y": 667
+                        }
+                    ],
+                    [
+                        {
+                            "x": 146,
+                            "y": 814
+                        },
+                        {
+                            "x": 357,
+                            "y": 450
+                        },
+                        {
+                            "x": 568,
+                            "y": 569
+                        },
+                        {
+                            "x": 780,
+                            "y": 740
+                        },
+                        {
+                            "x": 991,
+                            "y": 647
+                        },
+                        {
+                            "x": 1202,
+                            "y": 789
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

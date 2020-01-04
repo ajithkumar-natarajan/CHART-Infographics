@@ -1,0 +1,1412 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 577,
+                        "x0": 678,
+                        "y0": 19
+                    },
+                    "text": "Population ages 30-34, female (% of female population) t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 427,
+                        "y0": 924
+                    },
+                    "text": "6.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 272,
+                        "y0": 924
+                    },
+                    "text": "5.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 118,
+                        "y0": 924
+                    },
+                    "text": "5.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 1200,
+                        "y0": 924
+                    },
+                    "text": "8.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 1045,
+                        "y0": 924
+                    },
+                    "text": "8.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 736,
+                        "y0": 924
+                    },
+                    "text": "7.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 582,
+                        "y0": 924
+                    },
+                    "text": "6.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 891,
+                        "y0": 924
+                    },
+                    "text": "7.5"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 73,
+                        "x0": 31,
+                        "y0": 471
+                    },
+                    "text": "Hungary"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 70,
+                        "x0": 34,
+                        "y0": 812
+                    },
+                    "text": "Belgium"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 72,
+                        "x0": 33,
+                        "y0": 129
+                    },
+                    "text": "Lao PDR"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 68,
+                        "x0": 36,
+                        "y0": 641
+                    },
+                    "text": "Sweden"
+                },
+                {
+                    "bb": {
+                        "height": 36,
+                        "width": 85,
+                        "x0": 19,
+                        "y0": 300
+                    },
+                    "text": "Swaziland"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 577,
+                            "x0": 678,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Population ages 30-34, female (% of female population) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 427,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "6.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 272,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "5.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 118,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "5.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1200,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "8.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1045,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "8.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 736,
+                            "y0": 924
+                        },
+                        "id": 6,
+                        "text": "7.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 582,
+                            "y0": 924
+                        },
+                        "id": 7,
+                        "text": "6.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 891,
+                            "y0": 924
+                        },
+                        "id": 8,
+                        "text": "7.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 73,
+                            "x0": 31,
+                            "y0": 471
+                        },
+                        "id": 9,
+                        "text": "Hungary"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 70,
+                            "x0": 34,
+                            "y0": 812
+                        },
+                        "id": 10,
+                        "text": "Belgium"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 72,
+                            "x0": 33,
+                            "y0": 129
+                        },
+                        "id": 11,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 68,
+                            "x0": 36,
+                            "y0": 641
+                        },
+                        "id": 12,
+                        "text": "Sweden"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 85,
+                            "x0": 19,
+                            "y0": 300
+                        },
+                        "id": 13,
+                        "text": "Swaziland"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 577,
+                            "x0": 678,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Population ages 30-34, female (% of female population) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 427,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "6.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 272,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "5.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 118,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "5.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1200,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "8.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1045,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "8.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 736,
+                            "y0": 924
+                        },
+                        "id": 6,
+                        "text": "7.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 582,
+                            "y0": 924
+                        },
+                        "id": 7,
+                        "text": "6.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 891,
+                            "y0": 924
+                        },
+                        "id": 8,
+                        "text": "7.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 73,
+                            "x0": 31,
+                            "y0": 471
+                        },
+                        "id": 9,
+                        "text": "Hungary"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 70,
+                            "x0": 34,
+                            "y0": 812
+                        },
+                        "id": 10,
+                        "text": "Belgium"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 72,
+                            "x0": 33,
+                            "y0": 129
+                        },
+                        "id": 11,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 68,
+                            "x0": 36,
+                            "y0": 641
+                        },
+                        "id": 12,
+                        "text": "Sweden"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 85,
+                            "x0": 19,
+                            "y0": 300
+                        },
+                        "id": 13,
+                        "text": "Swaziland"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 861,
+                "width": 1138,
+                "x0": 120,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 477
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 818
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 135
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 647
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 120,
+                            "y": 306
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 439,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 285,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 130,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1212,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 1057,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 748,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 594,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 903,
+                            "y": 904
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 577,
+                            "x0": 678,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Population ages 30-34, female (% of female population) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 427,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "6.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 272,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "5.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 118,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "5.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1200,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "8.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1045,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "8.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 736,
+                            "y0": 924
+                        },
+                        "id": 6,
+                        "text": "7.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 582,
+                            "y0": 924
+                        },
+                        "id": 7,
+                        "text": "6.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 891,
+                            "y0": 924
+                        },
+                        "id": 8,
+                        "text": "7.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 73,
+                            "x0": 31,
+                            "y0": 471
+                        },
+                        "id": 9,
+                        "text": "Hungary"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 70,
+                            "x0": 34,
+                            "y0": 812
+                        },
+                        "id": 10,
+                        "text": "Belgium"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 72,
+                            "x0": 33,
+                            "y0": 129
+                        },
+                        "id": 11,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 68,
+                            "x0": 36,
+                            "y0": 641
+                        },
+                        "id": 12,
+                        "text": "Sweden"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 85,
+                            "x0": 19,
+                            "y0": 300
+                        },
+                        "id": 13,
+                        "text": "Swaziland"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 577,
+                            "x0": 678,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Population ages 30-34, female (% of female population) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 427,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "6.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 272,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "5.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 118,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "5.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1200,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "8.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1045,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "8.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 736,
+                            "y0": 924
+                        },
+                        "id": 6,
+                        "text": "7.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 582,
+                            "y0": 924
+                        },
+                        "id": 7,
+                        "text": "6.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 891,
+                            "y0": 924
+                        },
+                        "id": 8,
+                        "text": "7.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 73,
+                            "x0": 31,
+                            "y0": 471
+                        },
+                        "id": 9,
+                        "text": "Hungary"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 70,
+                            "x0": 34,
+                            "y0": 812
+                        },
+                        "id": 10,
+                        "text": "Belgium"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 72,
+                            "x0": 33,
+                            "y0": 129
+                        },
+                        "id": 11,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 68,
+                            "x0": 36,
+                            "y0": 641
+                        },
+                        "id": 12,
+                        "text": "Sweden"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 85,
+                            "x0": 19,
+                            "y0": 300
+                        },
+                        "id": 13,
+                        "text": "Swaziland"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 861,
+                    "width": 1138,
+                    "x0": 120,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 477
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 818
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 135
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 647
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 120,
+                                "y": 306
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 439,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 285,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 130,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1212,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 1057,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 748,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 594,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 903,
+                                "y": 904
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 6.324881525532501,
+                        "max": 7.72960611401,
+                        "median": 6.69420277746,
+                        "min": 5.56563684807,
+                        "third_quartile": 7.2348244915525
+                    },
+                    "name": "Belgium"
+                },
+                {
+                    "data": {
+                        "first_quartile": 6.024106012842499,
+                        "max": 7.76793523432,
+                        "median": 6.516962434125,
+                        "min": 5.56633732792,
+                        "third_quartile": 6.8591271555225
+                    },
+                    "name": "Sweden"
+                },
+                {
+                    "data": {
+                        "first_quartile": 6.489861679692501,
+                        "max": 8.04762027921,
+                        "median": 6.7846078662650005,
+                        "min": 5.57022833126,
+                        "third_quartile": 7.3216985343375
+                    },
+                    "name": "Hungary"
+                },
+                {
+                    "data": {
+                        "first_quartile": 5.90081710581,
+                        "max": 6.41127040647,
+                        "median": 6.002723507765,
+                        "min": 5.5851407241,
+                        "third_quartile": 6.1134744406575
+                    },
+                    "name": "Swaziland"
+                },
+                {
+                    "data": {
+                        "first_quartile": 5.96795033215,
+                        "max": 7.12921788927,
+                        "median": 6.151798120385,
+                        "min": 5.5760173082,
+                        "third_quartile": 6.480555450984999
+                    },
+                    "name": "Lao PDR"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 592,
+                                "y0": 435
+                            },
+                            "x": 592,
+                            "y": 478
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 1073,
+                                "y0": 456
+                            },
+                            "x": 1073,
+                            "y": 477
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 683,
+                                "y0": 435
+                            },
+                            "x": 683,
+                            "y": 478
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 307,
+                                "y0": 456
+                            },
+                            "x": 307,
+                            "y": 477
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 849,
+                                "y0": 435
+                            },
+                            "x": 849,
+                            "y": 478
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 541,
+                                "y0": 776
+                            },
+                            "x": 541,
+                            "y": 819
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 975,
+                                "y0": 798
+                            },
+                            "x": 975,
+                            "y": 819
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 655,
+                                "y0": 776
+                            },
+                            "x": 655,
+                            "y": 819
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 306,
+                                "y0": 798
+                            },
+                            "x": 306,
+                            "y": 819
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 822,
+                                "y0": 776
+                            },
+                            "x": 822,
+                            "y": 819
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 430,
+                                "y0": 93
+                            },
+                            "x": 430,
+                            "y": 136
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 789,
+                                "y0": 115
+                            },
+                            "x": 789,
+                            "y": 136
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 487,
+                                "y0": 93
+                            },
+                            "x": 487,
+                            "y": 136
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 309,
+                                "y0": 115
+                            },
+                            "x": 309,
+                            "y": 136
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 589,
+                                "y0": 93
+                            },
+                            "x": 589,
+                            "y": 136
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 448,
+                                "y0": 606
+                            },
+                            "x": 448,
+                            "y": 649
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 987,
+                                "y0": 627
+                            },
+                            "x": 987,
+                            "y": 648
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 600,
+                                "y0": 606
+                            },
+                            "x": 600,
+                            "y": 649
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 306,
+                                "y0": 627
+                            },
+                            "x": 306,
+                            "y": 648
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 706,
+                                "y0": 606
+                            },
+                            "x": 706,
+                            "y": 649
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 409,
+                                "y0": 264
+                            },
+                            "x": 409,
+                            "y": 307
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 567,
+                                "y0": 285
+                            },
+                            "x": 567,
+                            "y": 306
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 441,
+                                "y0": 264
+                            },
+                            "x": 441,
+                            "y": 307
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 312,
+                                "y0": 285
+                            },
+                            "x": 312,
+                            "y": 306
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 475,
+                                "y0": 264
+                            },
+                            "x": 475,
+                            "y": 307
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

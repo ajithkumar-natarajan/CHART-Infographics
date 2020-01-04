@@ -1,0 +1,1137 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 544,
+                        "x0": 396,
+                        "y0": 17
+                    },
+                    "text": "Prevalence of HIV, total (% of population ages 15-49)"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 1187,
+                        "y0": 926
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 384,
+                        "y0": 926
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 10,
+                        "x0": 788,
+                        "y0": 926
+                    },
+                    "text": "6"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 586,
+                        "y0": 926
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 990,
+                        "y0": 926
+                    },
+                    "text": "8"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 182,
+                        "y0": 926
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 43,
+                        "x0": 19,
+                        "y0": 578
+                    },
+                    "text": "1993"
+                },
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 43,
+                        "x0": 18,
+                        "y0": 150
+                    },
+                    "text": "2013"
+                },
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 43,
+                        "x0": 18,
+                        "y0": 364
+                    },
+                    "text": "2014"
+                },
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 43,
+                        "x0": 19,
+                        "y0": 793
+                    },
+                    "text": "1991"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 544,
+                            "x0": 396,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Prevalence of HIV, total (% of population ages 15-49)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 1187,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 384,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 788,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 586,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 990,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 182,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 19,
+                            "y0": 578
+                        },
+                        "id": 7,
+                        "text": "1993"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 18,
+                            "y0": 150
+                        },
+                        "id": 8,
+                        "text": "2013"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 18,
+                            "y0": 364
+                        },
+                        "id": 9,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 19,
+                            "y0": 793
+                        },
+                        "id": 10,
+                        "text": "1991"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 544,
+                            "x0": 396,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Prevalence of HIV, total (% of population ages 15-49)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 1187,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 384,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 788,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 586,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 990,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 182,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 19,
+                            "y0": 578
+                        },
+                        "id": 7,
+                        "text": "1993"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 18,
+                            "y0": 150
+                        },
+                        "id": 8,
+                        "text": "2013"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 18,
+                            "y0": 364
+                        },
+                        "id": 9,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 19,
+                            "y0": 793
+                        },
+                        "id": 10,
+                        "text": "1991"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 865,
+                "width": 1181,
+                "x0": 78,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 584
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 155
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 374
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 798
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1196,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 388,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 792,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 590,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 994,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 186,
+                            "y": 906
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 544,
+                            "x0": 396,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Prevalence of HIV, total (% of population ages 15-49)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 1187,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 384,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 788,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 586,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 990,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 182,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 19,
+                            "y0": 578
+                        },
+                        "id": 7,
+                        "text": "1993"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 18,
+                            "y0": 150
+                        },
+                        "id": 8,
+                        "text": "2013"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 18,
+                            "y0": 364
+                        },
+                        "id": 9,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 19,
+                            "y0": 793
+                        },
+                        "id": 10,
+                        "text": "1991"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 544,
+                            "x0": 396,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Prevalence of HIV, total (% of population ages 15-49)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 1187,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 384,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 788,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 586,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 990,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 182,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 19,
+                            "y0": 578
+                        },
+                        "id": 7,
+                        "text": "1993"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 18,
+                            "y0": 150
+                        },
+                        "id": 8,
+                        "text": "2013"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 18,
+                            "y0": 364
+                        },
+                        "id": 9,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 43,
+                            "x0": 19,
+                            "y0": 793
+                        },
+                        "id": 10,
+                        "text": "1991"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 865,
+                    "width": 1181,
+                    "x0": 78,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 584
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 155
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 374
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 798
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1196,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 388,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 792,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 590,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 994,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 186,
+                                "y": 906
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.1,
+                        "max": 4.351219798621926,
+                        "median": 0.2,
+                        "min": 0.1,
+                        "third_quartile": 1.8133059819921962
+                    },
+                    "name": "1991"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.1,
+                        "max": 6.9,
+                        "median": 0.5,
+                        "min": 0.1,
+                        "third_quartile": 2.9314697902926037
+                    },
+                    "name": "1993"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.1,
+                        "max": 7.228590908359036,
+                        "median": 0.5,
+                        "min": 0.1,
+                        "third_quartile": 2.992646605946918
+                    },
+                    "name": "2014"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.1,
+                        "max": 8.476920484509494,
+                        "median": 0.9,
+                        "min": 0.1,
+                        "third_quartile": 3.574503050972613
+                    },
+                    "name": "2013"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 197,
+                                "y0": 537
+                            },
+                            "x": 197,
+                            "y": 585
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 48,
+                                "width": 0,
+                                "x0": 884,
+                                "y0": 561
+                            },
+                            "x": 884,
+                            "y": 585
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 238,
+                                "y0": 537
+                            },
+                            "x": 238,
+                            "y": 585
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 48,
+                                "width": 0,
+                                "x0": 197,
+                                "y0": 561
+                            },
+                            "x": 197,
+                            "y": 585
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 483,
+                                "y0": 537
+                            },
+                            "x": 483,
+                            "y": 585
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 197,
+                                "y0": 108
+                            },
+                            "x": 197,
+                            "y": 156
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 48,
+                                "width": 0,
+                                "x0": 1043,
+                                "y0": 132
+                            },
+                            "x": 1043,
+                            "y": 156
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 278,
+                                "y0": 108
+                            },
+                            "x": 278,
+                            "y": 156
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 48,
+                                "width": 0,
+                                "x0": 197,
+                                "y0": 132
+                            },
+                            "x": 197,
+                            "y": 156
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 548,
+                                "y0": 108
+                            },
+                            "x": 548,
+                            "y": 156
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 197,
+                                "y0": 322
+                            },
+                            "x": 197,
+                            "y": 370
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 48,
+                                "width": 0,
+                                "x0": 917,
+                                "y0": 346
+                            },
+                            "x": 917,
+                            "y": 370
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 238,
+                                "y0": 322
+                            },
+                            "x": 238,
+                            "y": 370
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 48,
+                                "width": 0,
+                                "x0": 197,
+                                "y0": 346
+                            },
+                            "x": 197,
+                            "y": 370
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 489,
+                                "y0": 322
+                            },
+                            "x": 489,
+                            "y": 370
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 197,
+                                "y0": 751
+                            },
+                            "x": 197,
+                            "y": 799
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 48,
+                                "width": 0,
+                                "x0": 627,
+                                "y0": 775
+                            },
+                            "x": 627,
+                            "y": 799
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 207,
+                                "y0": 751
+                            },
+                            "x": 207,
+                            "y": 799
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 48,
+                                "width": 0,
+                                "x0": 197,
+                                "y0": 775
+                            },
+                            "x": 197,
+                            "y": 799
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 96,
+                                "width": 0,
+                                "x0": 370,
+                                "y0": 751
+                            },
+                            "x": 370,
+                            "y": 799
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,1565 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 717,
+                        "x0": 541,
+                        "y0": 15
+                    },
+                    "text": "Borrowed from a financial institution or used a credit card, older adults (% age 25+) 2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 616,
+                        "y0": 932
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 394
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 88,
+                        "width": 18,
+                        "x0": 111,
+                        "y0": 807
+                    },
+                    "text": "High income"
+                },
+                {
+                    "bb": {
+                        "height": 110,
+                        "width": 67,
+                        "x0": 241,
+                        "y0": 807
+                    },
+                    "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                },
+                {
+                    "bb": {
+                        "height": 114,
+                        "width": 68,
+                        "x0": 420,
+                        "y0": 807
+                    },
+                    "text": "Latin America &\nCaribbean\n(excluding high\nincome)"
+                },
+                {
+                    "bb": {
+                        "height": 101,
+                        "width": 18,
+                        "x0": 648,
+                        "y0": 807
+                    },
+                    "text": "North America"
+                },
+                {
+                    "bb": {
+                        "height": 111,
+                        "width": 19,
+                        "x0": 827,
+                        "y0": 807
+                    },
+                    "text": "OECD members"
+                },
+                {
+                    "bb": {
+                        "height": 110,
+                        "width": 67,
+                        "x0": 958,
+                        "y0": 807
+                    },
+                    "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                },
+                {
+                    "bb": {
+                        "height": 110,
+                        "width": 67,
+                        "x0": 1137,
+                        "y0": 807
+                    },
+                    "text": "Sub-Saharan\nAfrica\n(excluding high\nincome)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 740
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 635
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 530
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 425
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 320
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 215
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 110
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1109,
+                        "y0": 58
+                    },
+                    "text": "2017"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1210,
+                        "y0": 58
+                    },
+                    "text": "2014"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 717,
+                            "x0": 541,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Borrowed from a financial institution or used a credit card, older adults (% age 25+) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 394
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 18,
+                            "x0": 111,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "High income"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 241,
+                            "y0": 807
+                        },
+                        "id": 4,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 68,
+                            "x0": 420,
+                            "y0": 807
+                        },
+                        "id": 5,
+                        "text": "Latin America &\nCaribbean\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 18,
+                            "x0": 648,
+                            "y0": 807
+                        },
+                        "id": 6,
+                        "text": "North America"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 19,
+                            "x0": 827,
+                            "y0": 807
+                        },
+                        "id": 7,
+                        "text": "OECD members"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 958,
+                            "y0": 807
+                        },
+                        "id": 8,
+                        "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 1137,
+                            "y0": 807
+                        },
+                        "id": 9,
+                        "text": "Sub-Saharan\nAfrica\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 740
+                        },
+                        "id": 10,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 635
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 530
+                        },
+                        "id": 12,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 425
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 320
+                        },
+                        "id": 14,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 215
+                        },
+                        "id": 15,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 110
+                        },
+                        "id": 16,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "2014"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 18,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 717,
+                            "x0": 541,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Borrowed from a financial institution or used a credit card, older adults (% age 25+) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 394
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 18,
+                            "x0": 111,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "High income"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 241,
+                            "y0": 807
+                        },
+                        "id": 4,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 68,
+                            "x0": 420,
+                            "y0": 807
+                        },
+                        "id": 5,
+                        "text": "Latin America &\nCaribbean\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 18,
+                            "x0": 648,
+                            "y0": 807
+                        },
+                        "id": 6,
+                        "text": "North America"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 19,
+                            "x0": 827,
+                            "y0": 807
+                        },
+                        "id": 7,
+                        "text": "OECD members"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 958,
+                            "y0": 807
+                        },
+                        "id": 8,
+                        "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 1137,
+                            "y0": 807
+                        },
+                        "id": 9,
+                        "text": "Sub-Saharan\nAfrica\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 740
+                        },
+                        "id": 10,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 635
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 530
+                        },
+                        "id": 12,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 425
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 320
+                        },
+                        "id": 14,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 215
+                        },
+                        "id": 15,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 110
+                        },
+                        "id": 16,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "2014"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 749,
+                "width": 1189,
+                "x0": 72,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 128,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 307,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 487,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 666,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 845,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1024,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 791
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 745
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 640
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 535
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 430
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 325
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 220
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 114
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 717,
+                            "x0": 541,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Borrowed from a financial institution or used a credit card, older adults (% age 25+) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 394
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 18,
+                            "x0": 111,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "High income"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 241,
+                            "y0": 807
+                        },
+                        "id": 4,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 68,
+                            "x0": 420,
+                            "y0": 807
+                        },
+                        "id": 5,
+                        "text": "Latin America &\nCaribbean\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 18,
+                            "x0": 648,
+                            "y0": 807
+                        },
+                        "id": 6,
+                        "text": "North America"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 19,
+                            "x0": 827,
+                            "y0": 807
+                        },
+                        "id": 7,
+                        "text": "OECD members"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 958,
+                            "y0": 807
+                        },
+                        "id": 8,
+                        "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 1137,
+                            "y0": 807
+                        },
+                        "id": 9,
+                        "text": "Sub-Saharan\nAfrica\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 740
+                        },
+                        "id": 10,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 635
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 530
+                        },
+                        "id": 12,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 425
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 320
+                        },
+                        "id": 14,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 215
+                        },
+                        "id": 15,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 110
+                        },
+                        "id": 16,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "2014"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 28,
+                        "x0": 1070,
+                        "y0": 59
+                    },
+                    "id": 17
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 28,
+                        "x0": 1171,
+                        "y0": 56
+                    },
+                    "id": 18
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 717,
+                            "x0": 541,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Borrowed from a financial institution or used a credit card, older adults (% age 25+) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 394
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 18,
+                            "x0": 111,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "High income"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 241,
+                            "y0": 807
+                        },
+                        "id": 4,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 68,
+                            "x0": 420,
+                            "y0": 807
+                        },
+                        "id": 5,
+                        "text": "Latin America &\nCaribbean\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 18,
+                            "x0": 648,
+                            "y0": 807
+                        },
+                        "id": 6,
+                        "text": "North America"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 19,
+                            "x0": 827,
+                            "y0": 807
+                        },
+                        "id": 7,
+                        "text": "OECD members"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 958,
+                            "y0": 807
+                        },
+                        "id": 8,
+                        "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 67,
+                            "x0": 1137,
+                            "y0": 807
+                        },
+                        "id": 9,
+                        "text": "Sub-Saharan\nAfrica\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 740
+                        },
+                        "id": 10,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 635
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 530
+                        },
+                        "id": 12,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 425
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 320
+                        },
+                        "id": 14,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 215
+                        },
+                        "id": 15,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 110
+                        },
+                        "id": 16,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "2014"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 749,
+                    "width": 1189,
+                    "x0": 72,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 128,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 307,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 487,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 666,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 845,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1024,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 791
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 745
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 640
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 535
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 430
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 325
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 220
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 114
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 28,
+                            "x0": 1070,
+                            "y0": 59
+                        },
+                        "id": 17
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 28,
+                            "x0": 1171,
+                            "y0": 56
+                        },
+                        "id": 18
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "High income",
+                            "y": "59.0740318298"
+                        },
+                        {
+                            "x": "East Asia & Pacific (excluding high income)",
+                            "y": "22.7490653992"
+                        },
+                        {
+                            "x": "Latin America & Caribbean (excluding high income)",
+                            "y": "23.3379364014"
+                        },
+                        {
+                            "x": "North America",
+                            "y": "73.4362030029"
+                        },
+                        {
+                            "x": "OECD members",
+                            "y": "60.7618865967"
+                        },
+                        {
+                            "x": "Middle East & North Africa (excluding high income)",
+                            "y": "11.3687362671"
+                        },
+                        {
+                            "x": "Sub-Saharan Africa (excluding high income)",
+                            "y": "9.48962402344"
+                        }
+                    ],
+                    "name": "2017"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "High income",
+                            "y": "56.583984375"
+                        },
+                        {
+                            "x": "East Asia & Pacific (excluding high income)",
+                            "y": "19.9672927856"
+                        },
+                        {
+                            "x": "Latin America & Caribbean (excluding high income)",
+                            "y": "28.3002223969"
+                        },
+                        {
+                            "x": "North America",
+                            "y": "71.9211883545"
+                        },
+                        {
+                            "x": "OECD members",
+                            "y": "58.1192207336"
+                        },
+                        {
+                            "x": "Middle East & North Africa (excluding high income)",
+                            "y": "35.545454246528806"
+                        },
+                        {
+                            "x": "Sub-Saharan Africa (excluding high income)",
+                            "y": "9.2017364502"
+                        }
+                    ],
+                    "name": "2014"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 129,
+                            "y": 230
+                        },
+                        {
+                            "x": 308,
+                            "y": 612
+                        },
+                        {
+                            "x": 488,
+                            "y": 606
+                        },
+                        {
+                            "x": 667,
+                            "y": 79
+                        },
+                        {
+                            "x": 846,
+                            "y": 213
+                        },
+                        {
+                            "x": 1025,
+                            "y": 731
+                        },
+                        {
+                            "x": 1204,
+                            "y": 751
+                        }
+                    ],
+                    [
+                        {
+                            "x": 129,
+                            "y": 256
+                        },
+                        {
+                            "x": 308,
+                            "y": 641
+                        },
+                        {
+                            "x": 488,
+                            "y": 554
+                        },
+                        {
+                            "x": 667,
+                            "y": 95
+                        },
+                        {
+                            "x": 846,
+                            "y": 240
+                        },
+                        {
+                            "x": 1025,
+                            "y": 477
+                        },
+                        {
+                            "x": 1204,
+                            "y": 754
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

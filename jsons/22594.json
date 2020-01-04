@@ -1,0 +1,955 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 372,
+                        "x0": 883,
+                        "y0": 19
+                    },
+                    "text": "Trinidad and Tobago 1993 Import"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 631,
+                        "y0": 924
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 90,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 345
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 135,
+                        "width": 67,
+                        "x0": 187,
+                        "y0": 749
+                    },
+                    "text": "Bovine skins,\nwhole, raw"
+                },
+                {
+                    "bb": {
+                        "height": 164,
+                        "width": 112,
+                        "x0": 563,
+                        "y0": 749
+                    },
+                    "text": "Commodities not\nspecified\naccording to\nkind"
+                },
+                {
+                    "bb": {
+                        "height": 164,
+                        "width": 112,
+                        "x0": 985,
+                        "y0": 749
+                    },
+                    "text": "Vegetable fibre\nnes, processed\nnot spun, tow &\nwaste"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 722
+                    },
+                    "text": "0.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 586
+                    },
+                    "text": "0.2"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 451
+                    },
+                    "text": "0.4"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 315
+                    },
+                    "text": "0.6"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 179
+                    },
+                    "text": "0.8"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 44
+                    },
+                    "text": "1.0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 372,
+                            "x0": 883,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Trinidad and Tobago 1993 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 631,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 345
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 135,
+                            "width": 67,
+                            "x0": 187,
+                            "y0": 749
+                        },
+                        "id": 3,
+                        "text": "Bovine skins,\nwhole, raw"
+                    },
+                    {
+                        "bb": {
+                            "height": 164,
+                            "width": 112,
+                            "x0": 563,
+                            "y0": 749
+                        },
+                        "id": 4,
+                        "text": "Commodities not\nspecified\naccording to\nkind"
+                    },
+                    {
+                        "bb": {
+                            "height": 164,
+                            "width": 112,
+                            "x0": 985,
+                            "y0": 749
+                        },
+                        "id": 5,
+                        "text": "Vegetable fibre\nnes, processed\nnot spun, tow &\nwaste"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 722
+                        },
+                        "id": 6,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 586
+                        },
+                        "id": 7,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 451
+                        },
+                        "id": 8,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 315
+                        },
+                        "id": 9,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 179
+                        },
+                        "id": 10,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 44
+                        },
+                        "id": 11,
+                        "text": "1.0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 372,
+                            "x0": 883,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Trinidad and Tobago 1993 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 631,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 345
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 135,
+                            "width": 67,
+                            "x0": 187,
+                            "y0": 749
+                        },
+                        "id": 3,
+                        "text": "Bovine skins,\nwhole, raw"
+                    },
+                    {
+                        "bb": {
+                            "height": 164,
+                            "width": 112,
+                            "x0": 563,
+                            "y0": 749
+                        },
+                        "id": 4,
+                        "text": "Commodities not\nspecified\naccording to\nkind"
+                    },
+                    {
+                        "bb": {
+                            "height": 164,
+                            "width": 112,
+                            "x0": 985,
+                            "y0": 749
+                        },
+                        "id": 5,
+                        "text": "Vegetable fibre\nnes, processed\nnot spun, tow &\nwaste"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 722
+                        },
+                        "id": 6,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 586
+                        },
+                        "id": 7,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 451
+                        },
+                        "id": 8,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 315
+                        },
+                        "id": 9,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 179
+                        },
+                        "id": 10,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 44
+                        },
+                        "id": 11,
+                        "text": "1.0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 685,
+                "width": 1165,
+                "x0": 93,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 254,
+                            "y": 732
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 675,
+                            "y": 732
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 1096,
+                            "y": 732
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 728
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 592
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 457
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 321
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 185
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 50
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 372,
+                            "x0": 883,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Trinidad and Tobago 1993 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 631,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 345
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 135,
+                            "width": 67,
+                            "x0": 187,
+                            "y0": 749
+                        },
+                        "id": 3,
+                        "text": "Bovine skins,\nwhole, raw"
+                    },
+                    {
+                        "bb": {
+                            "height": 164,
+                            "width": 112,
+                            "x0": 563,
+                            "y0": 749
+                        },
+                        "id": 4,
+                        "text": "Commodities not\nspecified\naccording to\nkind"
+                    },
+                    {
+                        "bb": {
+                            "height": 164,
+                            "width": 112,
+                            "x0": 985,
+                            "y0": 749
+                        },
+                        "id": 5,
+                        "text": "Vegetable fibre\nnes, processed\nnot spun, tow &\nwaste"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 722
+                        },
+                        "id": 6,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 586
+                        },
+                        "id": 7,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 451
+                        },
+                        "id": 8,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 315
+                        },
+                        "id": 9,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 179
+                        },
+                        "id": 10,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 44
+                        },
+                        "id": 11,
+                        "text": "1.0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 372,
+                            "x0": 883,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Trinidad and Tobago 1993 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 631,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 345
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 135,
+                            "width": 67,
+                            "x0": 187,
+                            "y0": 749
+                        },
+                        "id": 3,
+                        "text": "Bovine skins,\nwhole, raw"
+                    },
+                    {
+                        "bb": {
+                            "height": 164,
+                            "width": 112,
+                            "x0": 563,
+                            "y0": 749
+                        },
+                        "id": 4,
+                        "text": "Commodities not\nspecified\naccording to\nkind"
+                    },
+                    {
+                        "bb": {
+                            "height": 164,
+                            "width": 112,
+                            "x0": 985,
+                            "y0": 749
+                        },
+                        "id": 5,
+                        "text": "Vegetable fibre\nnes, processed\nnot spun, tow &\nwaste"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 722
+                        },
+                        "id": 6,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 586
+                        },
+                        "id": 7,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 451
+                        },
+                        "id": 8,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 315
+                        },
+                        "id": 9,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 179
+                        },
+                        "id": 10,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 44
+                        },
+                        "id": 11,
+                        "text": "1.0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 685,
+                    "width": 1165,
+                    "x0": 93,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 254,
+                                "y": 732
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 675,
+                                "y": 732
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 1096,
+                                "y": 732
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 728
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 592
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 457
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 321
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 185
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 50
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Bovine skins, whole, raw",
+                            "y": "605.0"
+                        },
+                        {
+                            "x": "Commodities not specified according to kind",
+                            "y": 9006794.87865617
+                        },
+                        {
+                            "x": "Vegetable fibre nes, processed not spun, tow & waste",
+                            "y": "50.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 611,
+                        "width": 211,
+                        "x0": 570,
+                        "y0": 118
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

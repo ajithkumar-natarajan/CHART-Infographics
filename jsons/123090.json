@@ -1,0 +1,942 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 263,
+                        "x0": 52,
+                        "y0": 14
+                    },
+                    "text": "acs2015_county_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 130,
+                        "width": 50,
+                        "x0": 303,
+                        "y0": 814
+                    },
+                    "text": "31165NebraskaSi\noux"
+                },
+                {
+                    "bb": {
+                        "height": 125,
+                        "width": 34,
+                        "x0": 923,
+                        "y0": 814
+                    },
+                    "text": "48153TexasFloyd"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 525
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 133
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 24,
+                        "y0": 721
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 15,
+                        "y0": 623
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 15,
+                        "y0": 329
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 427
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 231
+                    },
+                    "text": "50"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 52,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 130,
+                            "width": 50,
+                            "x0": 303,
+                            "y0": 814
+                        },
+                        "id": 1,
+                        "text": "31165NebraskaSi\noux"
+                    },
+                    {
+                        "bb": {
+                            "height": 125,
+                            "width": 34,
+                            "x0": 923,
+                            "y0": 814
+                        },
+                        "id": 2,
+                        "text": "48153TexasFloyd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 525
+                        },
+                        "id": 3,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 133
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 721
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 623
+                        },
+                        "id": 6,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 329
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 427
+                        },
+                        "id": 8,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 231
+                        },
+                        "id": 9,
+                        "text": "50"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 52,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 130,
+                            "width": 50,
+                            "x0": 303,
+                            "y0": 814
+                        },
+                        "id": 1,
+                        "text": "31165NebraskaSi\noux"
+                    },
+                    {
+                        "bb": {
+                            "height": 125,
+                            "width": 34,
+                            "x0": 923,
+                            "y0": 814
+                        },
+                        "id": 2,
+                        "text": "48153TexasFloyd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 525
+                        },
+                        "id": 3,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 133
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 721
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 623
+                        },
+                        "id": 6,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 329
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 427
+                        },
+                        "id": 8,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 231
+                        },
+                        "id": 9,
+                        "text": "50"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 757,
+                "width": 1213,
+                "x0": 49,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 353,
+                            "y": 797
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 956,
+                            "y": 797
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 529
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 138
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 725
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 627
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 334
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 431
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 236
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 52,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 130,
+                            "width": 50,
+                            "x0": 303,
+                            "y0": 814
+                        },
+                        "id": 1,
+                        "text": "31165NebraskaSi\noux"
+                    },
+                    {
+                        "bb": {
+                            "height": 125,
+                            "width": 34,
+                            "x0": 923,
+                            "y0": 814
+                        },
+                        "id": 2,
+                        "text": "48153TexasFloyd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 525
+                        },
+                        "id": 3,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 133
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 721
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 623
+                        },
+                        "id": 6,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 329
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 427
+                        },
+                        "id": 8,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 231
+                        },
+                        "id": 9,
+                        "text": "50"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 52,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 130,
+                            "width": 50,
+                            "x0": 303,
+                            "y0": 814
+                        },
+                        "id": 1,
+                        "text": "31165NebraskaSi\noux"
+                    },
+                    {
+                        "bb": {
+                            "height": 125,
+                            "width": 34,
+                            "x0": 923,
+                            "y0": 814
+                        },
+                        "id": 2,
+                        "text": "48153TexasFloyd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 525
+                        },
+                        "id": 3,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 133
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 721
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 623
+                        },
+                        "id": 6,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 329
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 427
+                        },
+                        "id": 8,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 231
+                        },
+                        "id": 9,
+                        "text": "50"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 757,
+                    "width": 1213,
+                    "x0": 49,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 353,
+                                "y": 797
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 956,
+                                "y": 797
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 529
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 138
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 725
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 627
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 334
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 431
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 236
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.33014002003003773,
+                        "max": 3.8,
+                        "median": 0.72844739258689,
+                        "min": 0.08846691855733979,
+                        "third_quartile": 3.034083676263407
+                    },
+                    "name": "31165NebraskaSioux"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.1,
+                        "max": 55.8,
+                        "median": 1.35,
+                        "min": 0.08951518926899227,
+                        "third_quartile": 30.65
+                    },
+                    "name": "48153TexasFloyd"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 309,
+                                "y0": 723
+                            },
+                            "x": 354,
+                            "y": 722
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 331,
+                                "y0": 689
+                            },
+                            "x": 354,
+                            "y": 689
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 309,
+                                "y0": 719
+                            },
+                            "x": 354,
+                            "y": 719
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 331,
+                                "y0": 725
+                            },
+                            "x": 354,
+                            "y": 725
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 309,
+                                "y0": 723
+                            },
+                            "x": 354,
+                            "y": 696
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 911,
+                                "y0": 725
+                            },
+                            "x": 957,
+                            "y": 725
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 934,
+                                "y0": 180
+                            },
+                            "x": 957,
+                            "y": 180
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 911,
+                                "y0": 713
+                            },
+                            "x": 957,
+                            "y": 713
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 934,
+                                "y0": 725
+                            },
+                            "x": 957,
+                            "y": 725
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 911,
+                                "y0": 725
+                            },
+                            "x": 957,
+                            "y": 426
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

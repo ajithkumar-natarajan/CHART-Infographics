@@ -1,0 +1,1403 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 746,
+                        "x0": 509,
+                        "y0": 19
+                    },
+                    "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                },
+                {
+                    "bb": {
+                        "height": 38,
+                        "width": 27,
+                        "x0": 331,
+                        "y0": 901
+                    },
+                    "text": "MLT"
+                },
+                {
+                    "bb": {
+                        "height": 36,
+                        "width": 26,
+                        "x0": 730,
+                        "y0": 901
+                    },
+                    "text": "PRT"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 28,
+                        "x0": 529,
+                        "y0": 901
+                    },
+                    "text": "ROU"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 26,
+                        "x0": 930,
+                        "y0": 901
+                    },
+                    "text": "SLB"
+                },
+                {
+                    "bb": {
+                        "height": 38,
+                        "width": 27,
+                        "x0": 132,
+                        "y0": 901
+                    },
+                    "text": "VUT"
+                },
+                {
+                    "bb": {
+                        "height": 41,
+                        "width": 28,
+                        "x0": 1128,
+                        "y0": 901
+                    },
+                    "text": "MUS"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 487
+                    },
+                    "text": "35"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 63
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 346
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 770
+                    },
+                    "text": "25"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 204
+                    },
+                    "text": "45"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 629
+                    },
+                    "text": "30"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 746,
+                            "x0": 509,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 331,
+                            "y0": 901
+                        },
+                        "id": 1,
+                        "text": "MLT"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 26,
+                            "x0": 730,
+                            "y0": 901
+                        },
+                        "id": 2,
+                        "text": "PRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 529,
+                            "y0": 901
+                        },
+                        "id": 3,
+                        "text": "ROU"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 26,
+                            "x0": 930,
+                            "y0": 901
+                        },
+                        "id": 4,
+                        "text": "SLB"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 132,
+                            "y0": 901
+                        },
+                        "id": 5,
+                        "text": "VUT"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 28,
+                            "x0": 1128,
+                            "y0": 901
+                        },
+                        "id": 6,
+                        "text": "MUS"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 487
+                        },
+                        "id": 7,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 63
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 346
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 770
+                        },
+                        "id": 10,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 204
+                        },
+                        "id": 11,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 629
+                        },
+                        "id": 12,
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 746,
+                            "x0": 509,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 331,
+                            "y0": 901
+                        },
+                        "id": 1,
+                        "text": "MLT"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 26,
+                            "x0": 730,
+                            "y0": 901
+                        },
+                        "id": 2,
+                        "text": "PRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 529,
+                            "y0": 901
+                        },
+                        "id": 3,
+                        "text": "ROU"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 26,
+                            "x0": 930,
+                            "y0": 901
+                        },
+                        "id": 4,
+                        "text": "SLB"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 132,
+                            "y0": 901
+                        },
+                        "id": 5,
+                        "text": "VUT"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 28,
+                            "x0": 1128,
+                            "y0": 901
+                        },
+                        "id": 6,
+                        "text": "MUS"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 487
+                        },
+                        "id": 7,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 63
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 346
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 770
+                        },
+                        "id": 10,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 204
+                        },
+                        "id": 11,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 629
+                        },
+                        "id": 12,
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 838,
+                "width": 1203,
+                "x0": 55,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 357,
+                            "y": 885
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 756,
+                            "y": 885
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 556,
+                            "y": 885
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 955,
+                            "y": 885
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 157,
+                            "y": 885
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1154,
+                            "y": 885
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 493
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 69
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 352
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 210
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 635
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 746,
+                            "x0": 509,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 331,
+                            "y0": 901
+                        },
+                        "id": 1,
+                        "text": "MLT"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 26,
+                            "x0": 730,
+                            "y0": 901
+                        },
+                        "id": 2,
+                        "text": "PRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 529,
+                            "y0": 901
+                        },
+                        "id": 3,
+                        "text": "ROU"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 26,
+                            "x0": 930,
+                            "y0": 901
+                        },
+                        "id": 4,
+                        "text": "SLB"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 132,
+                            "y0": 901
+                        },
+                        "id": 5,
+                        "text": "VUT"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 28,
+                            "x0": 1128,
+                            "y0": 901
+                        },
+                        "id": 6,
+                        "text": "MUS"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 487
+                        },
+                        "id": 7,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 63
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 346
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 770
+                        },
+                        "id": 10,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 204
+                        },
+                        "id": 11,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 629
+                        },
+                        "id": 12,
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 746,
+                            "x0": 509,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Cause of death, by injury, ages 15-34, female  (% of relevant age group) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 331,
+                            "y0": 901
+                        },
+                        "id": 1,
+                        "text": "MLT"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 26,
+                            "x0": 730,
+                            "y0": 901
+                        },
+                        "id": 2,
+                        "text": "PRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 529,
+                            "y0": 901
+                        },
+                        "id": 3,
+                        "text": "ROU"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 26,
+                            "x0": 930,
+                            "y0": 901
+                        },
+                        "id": 4,
+                        "text": "SLB"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 132,
+                            "y0": 901
+                        },
+                        "id": 5,
+                        "text": "VUT"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 28,
+                            "x0": 1128,
+                            "y0": 901
+                        },
+                        "id": 6,
+                        "text": "MUS"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 487
+                        },
+                        "id": 7,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 63
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 346
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 770
+                        },
+                        "id": 10,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 204
+                        },
+                        "id": 11,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 629
+                        },
+                        "id": 12,
+                        "text": "30"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 838,
+                    "width": 1203,
+                    "x0": 55,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 357,
+                                "y": 885
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 756,
+                                "y": 885
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 556,
+                                "y": 885
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 955,
+                                "y": 885
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 157,
+                                "y": 885
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1154,
+                                "y": 885
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 493
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 69
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 352
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 210
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 635
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 22.810716431853223,
+                        "max": 25.3309593939,
+                        "median": 23.829523402965776,
+                        "min": 22.27500501,
+                        "third_quartile": 24.45915555826423
+                    },
+                    "name": "VUT"
+                },
+                {
+                    "data": {
+                        "first_quartile": 32.59749284372545,
+                        "max": 49.7127855545,
+                        "median": 40.29695166862605,
+                        "min": 22.6395129934,
+                        "third_quartile": 49.7127855545
+                    },
+                    "name": "MLT"
+                },
+                {
+                    "data": {
+                        "first_quartile": 25.242983704108667,
+                        "max": 29.2325009927,
+                        "median": 27.014188849481087,
+                        "min": 22.7200971493,
+                        "third_quartile": 28.508359316285357
+                    },
+                    "name": "ROU"
+                },
+                {
+                    "data": {
+                        "first_quartile": 23.556325335432337,
+                        "max": 28.8957441273,
+                        "median": 25.336193221085495,
+                        "min": 22.7428563312,
+                        "third_quartile": 28.023966870398517
+                    },
+                    "name": "PRT"
+                },
+                {
+                    "data": {
+                        "first_quartile": 23.214167249637377,
+                        "max": 25.342884518,
+                        "median": 23.7828180889938,
+                        "min": 22.8375637033,
+                        "third_quartile": 24.87276807418388
+                    },
+                    "name": "SLB"
+                },
+                {
+                    "data": {
+                        "first_quartile": 23.766412491953794,
+                        "max": 29.0174569835,
+                        "median": 24.862248607659435,
+                        "min": 22.9375515058,
+                        "third_quartile": 26.502212691239606
+                    },
+                    "name": "MUS"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 308,
+                                "y0": 562
+                            },
+                            "x": 358,
+                            "y": 562
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 333,
+                                "y0": 78
+                            },
+                            "x": 358,
+                            "y": 78
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 308,
+                                "y0": 344
+                            },
+                            "x": 358,
+                            "y": 344
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 333,
+                                "y0": 844
+                            },
+                            "x": 358,
+                            "y": 844
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 308,
+                                "y0": 562
+                            },
+                            "x": 358,
+                            "y": 78
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 707,
+                                "y0": 818
+                            },
+                            "x": 757,
+                            "y": 818
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 732,
+                                "y0": 667
+                            },
+                            "x": 757,
+                            "y": 667
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 707,
+                                "y0": 768
+                            },
+                            "x": 757,
+                            "y": 768
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 732,
+                                "y0": 841
+                            },
+                            "x": 757,
+                            "y": 841
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 707,
+                                "y0": 818
+                            },
+                            "x": 757,
+                            "y": 692
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 507,
+                                "y0": 770
+                            },
+                            "x": 557,
+                            "y": 770
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 532,
+                                "y0": 658
+                            },
+                            "x": 557,
+                            "y": 658
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 507,
+                                "y0": 720
+                            },
+                            "x": 557,
+                            "y": 720
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 532,
+                                "y0": 842
+                            },
+                            "x": 557,
+                            "y": 842
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 507,
+                                "y0": 770
+                            },
+                            "x": 557,
+                            "y": 678
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 906,
+                                "y0": 828
+                            },
+                            "x": 956,
+                            "y": 828
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 931,
+                                "y0": 768
+                            },
+                            "x": 956,
+                            "y": 768
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 906,
+                                "y0": 812
+                            },
+                            "x": 956,
+                            "y": 812
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 931,
+                                "y0": 838
+                            },
+                            "x": 956,
+                            "y": 838
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 906,
+                                "y0": 828
+                            },
+                            "x": 956,
+                            "y": 781
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 109,
+                                "y0": 839
+                            },
+                            "x": 158,
+                            "y": 840
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 133,
+                                "y0": 768
+                            },
+                            "x": 158,
+                            "y": 768
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 109,
+                                "y0": 810
+                            },
+                            "x": 158,
+                            "y": 810
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 133,
+                                "y0": 854
+                            },
+                            "x": 158,
+                            "y": 854
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 109,
+                                "y0": 839
+                            },
+                            "x": 158,
+                            "y": 793
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 1105,
+                                "y0": 812
+                            },
+                            "x": 1155,
+                            "y": 812
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 1130,
+                                "y0": 664
+                            },
+                            "x": 1155,
+                            "y": 664
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 1105,
+                                "y0": 781
+                            },
+                            "x": 1155,
+                            "y": 781
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 50,
+                                "x0": 1130,
+                                "y0": 836
+                            },
+                            "x": 1155,
+                            "y": 836
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 100,
+                                "x0": 1105,
+                                "y0": 812
+                            },
+                            "x": 1155,
+                            "y": 735
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

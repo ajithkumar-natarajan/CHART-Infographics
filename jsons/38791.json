@@ -1,0 +1,957 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 240,
+                        "x0": 1015,
+                        "y0": 19
+                    },
+                    "text": "Dominica 2001 Export"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 641,
+                        "y0": 924
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 90,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 348
+                    },
+                    "text": "trade usd"
+                },
+                {
+                    "bb": {
+                        "height": 158,
+                        "width": 97,
+                        "x0": 243,
+                        "y0": 755
+                    },
+                    "text": "Capsicum or\nPimenta, dried,\ncrushed or\nground"
+                },
+                {
+                    "bb": {
+                        "height": 156,
+                        "width": 77,
+                        "x0": 954,
+                        "y0": 755
+                    },
+                    "text": "Cucumbers and\ngherkins, fresh\nor chilled"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 87,
+                        "y0": 728
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 57,
+                        "y0": 627
+                    },
+                    "text": "5000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 47,
+                        "y0": 526
+                    },
+                    "text": "10000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 47,
+                        "y0": 425
+                    },
+                    "text": "15000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 47,
+                        "y0": 324
+                    },
+                    "text": "20000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 47,
+                        "y0": 223
+                    },
+                    "text": "25000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 47,
+                        "y0": 122
+                    },
+                    "text": "30000"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 1015,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Dominica 2001 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 641,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 348
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 158,
+                            "width": 97,
+                            "x0": 243,
+                            "y0": 755
+                        },
+                        "id": 3,
+                        "text": "Capsicum or\nPimenta, dried,\ncrushed or\nground"
+                    },
+                    {
+                        "bb": {
+                            "height": 156,
+                            "width": 77,
+                            "x0": 954,
+                            "y0": 755
+                        },
+                        "id": 4,
+                        "text": "Cucumbers and\ngherkins, fresh\nor chilled"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 87,
+                            "y0": 728
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 627
+                        },
+                        "id": 6,
+                        "text": "5000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 526
+                        },
+                        "id": 7,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 425
+                        },
+                        "id": 8,
+                        "text": "15000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 324
+                        },
+                        "id": 9,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 223
+                        },
+                        "id": 10,
+                        "text": "25000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 122
+                        },
+                        "id": 11,
+                        "text": "30000"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 1015,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Dominica 2001 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 641,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 348
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 158,
+                            "width": 97,
+                            "x0": 243,
+                            "y0": 755
+                        },
+                        "id": 3,
+                        "text": "Capsicum or\nPimenta, dried,\ncrushed or\nground"
+                    },
+                    {
+                        "bb": {
+                            "height": 156,
+                            "width": 77,
+                            "x0": 954,
+                            "y0": 755
+                        },
+                        "id": 4,
+                        "text": "Cucumbers and\ngherkins, fresh\nor chilled"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 87,
+                            "y0": 728
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 627
+                        },
+                        "id": 6,
+                        "text": "5000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 526
+                        },
+                        "id": 7,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 425
+                        },
+                        "id": 8,
+                        "text": "15000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 324
+                        },
+                        "id": 9,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 223
+                        },
+                        "id": 10,
+                        "text": "25000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 122
+                        },
+                        "id": 11,
+                        "text": "30000"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 691,
+                "width": 1145,
+                "x0": 113,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 340,
+                            "y": 738
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1030,
+                            "y": 738
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 734
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 633
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 532
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 431
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 330
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 229
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 1015,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Dominica 2001 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 641,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 348
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 158,
+                            "width": 97,
+                            "x0": 243,
+                            "y0": 755
+                        },
+                        "id": 3,
+                        "text": "Capsicum or\nPimenta, dried,\ncrushed or\nground"
+                    },
+                    {
+                        "bb": {
+                            "height": 156,
+                            "width": 77,
+                            "x0": 954,
+                            "y0": 755
+                        },
+                        "id": 4,
+                        "text": "Cucumbers and\ngherkins, fresh\nor chilled"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 87,
+                            "y0": 728
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 627
+                        },
+                        "id": 6,
+                        "text": "5000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 526
+                        },
+                        "id": 7,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 425
+                        },
+                        "id": 8,
+                        "text": "15000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 324
+                        },
+                        "id": 9,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 223
+                        },
+                        "id": 10,
+                        "text": "25000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 122
+                        },
+                        "id": 11,
+                        "text": "30000"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 1015,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Dominica 2001 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 641,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 348
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 158,
+                            "width": 97,
+                            "x0": 243,
+                            "y0": 755
+                        },
+                        "id": 3,
+                        "text": "Capsicum or\nPimenta, dried,\ncrushed or\nground"
+                    },
+                    {
+                        "bb": {
+                            "height": 156,
+                            "width": 77,
+                            "x0": 954,
+                            "y0": 755
+                        },
+                        "id": 4,
+                        "text": "Cucumbers and\ngherkins, fresh\nor chilled"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 87,
+                            "y0": 728
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 627
+                        },
+                        "id": 6,
+                        "text": "5000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 526
+                        },
+                        "id": 7,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 425
+                        },
+                        "id": 8,
+                        "text": "15000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 324
+                        },
+                        "id": 9,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 223
+                        },
+                        "id": 10,
+                        "text": "25000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 122
+                        },
+                        "id": 11,
+                        "text": "30000"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 691,
+                    "width": 1145,
+                    "x0": 113,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 340,
+                                "y": 738
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1030,
+                                "y": 738
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 734
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 633
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 532
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 431
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 330
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 229
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 128
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Capsicum or Pimenta, dried, crushed or ground",
+                            "y": "3409"
+                        },
+                        {
+                            "x": "Cucumbers and gherkins, fresh or chilled",
+                            "y": "32288"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 69,
+                        "width": 345,
+                        "x0": 168,
+                        "y0": 666
+                    },
+                    {
+                        "height": 652,
+                        "width": 345,
+                        "x0": 858,
+                        "y0": 83
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,951 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 824,
+                        "x0": 430,
+                        "y0": 17
+                    },
+                    "text": "Imports Merchandise, Customs, current US$, millions, not seas. adj._quarterly_2"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 53,
+                        "x0": 1078,
+                        "y0": 926
+                    },
+                    "text": "35000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 53,
+                        "x0": 822,
+                        "y0": 926
+                    },
+                    "text": "25000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 53,
+                        "x0": 695,
+                        "y0": 926
+                    },
+                    "text": "20000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 53,
+                        "x0": 567,
+                        "y0": 926
+                    },
+                    "text": "15000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 53,
+                        "x0": 439,
+                        "y0": 926
+                    },
+                    "text": "10000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 42,
+                        "x0": 317,
+                        "y0": 926
+                    },
+                    "text": "5000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 53,
+                        "x0": 1205,
+                        "y0": 926
+                    },
+                    "text": "40000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 53,
+                        "x0": 950,
+                        "y0": 926
+                    },
+                    "text": "30000"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 205,
+                        "y0": 926
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 69,
+                        "x0": 18,
+                        "y0": 471
+                    },
+                    "text": "2003Q2"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 824,
+                            "x0": 430,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Imports Merchandise, Customs, current US$, millions, not seas. adj._quarterly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 1078,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "35000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 822,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "25000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 695,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 567,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "15000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 439,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 42,
+                            "x0": 317,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "5000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 1205,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 950,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "30000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 205,
+                            "y0": 926
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 69,
+                            "x0": 18,
+                            "y0": 471
+                        },
+                        "id": 10,
+                        "text": "2003Q2"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 824,
+                            "x0": 430,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Imports Merchandise, Customs, current US$, millions, not seas. adj._quarterly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 1078,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "35000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 822,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "25000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 695,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 567,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "15000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 439,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 42,
+                            "x0": 317,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "5000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 1205,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 950,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "30000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 205,
+                            "y0": 926
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 69,
+                            "x0": 18,
+                            "y0": 471
+                        },
+                        "id": 10,
+                        "text": "2003Q2"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 865,
+                "width": 1156,
+                "x0": 102,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 102,
+                            "y": 477
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1103,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 848,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 720,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 592,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 465,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 337,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1231,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 976,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 209,
+                            "y": 906
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 824,
+                            "x0": 430,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Imports Merchandise, Customs, current US$, millions, not seas. adj._quarterly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 1078,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "35000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 822,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "25000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 695,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 567,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "15000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 439,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 42,
+                            "x0": 317,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "5000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 1205,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 950,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "30000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 205,
+                            "y0": 926
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 69,
+                            "x0": 18,
+                            "y0": 471
+                        },
+                        "id": 10,
+                        "text": "2003Q2"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 824,
+                            "x0": 430,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Imports Merchandise, Customs, current US$, millions, not seas. adj._quarterly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 1078,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "35000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 822,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "25000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 695,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 567,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "15000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 439,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 42,
+                            "x0": 317,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "5000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 1205,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 53,
+                            "x0": 950,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "30000"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 205,
+                            "y0": 926
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 69,
+                            "x0": 18,
+                            "y0": 471
+                        },
+                        "id": 10,
+                        "text": "2003Q2"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 865,
+                    "width": 1156,
+                    "x0": 102,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 102,
+                                "y": 477
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1103,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 848,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 720,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 592,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 465,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 337,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1231,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 976,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 209,
+                                "y": 906
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 334.1495,
+                        "max": 32719.64,
+                        "median": 1969.84,
+                        "min": 0.389801,
+                        "third_quartile": 16472.09
+                    },
+                    "name": "2003Q2"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 129,
+                                "width": 0,
+                                "x0": 219,
+                                "y0": 413
+                            },
+                            "x": 219,
+                            "y": 477
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 1046,
+                                "y0": 445
+                            },
+                            "x": 1046,
+                            "y": 477
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 129,
+                                "width": 0,
+                                "x0": 261,
+                                "y0": 413
+                            },
+                            "x": 261,
+                            "y": 477
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 210,
+                                "y0": 445
+                            },
+                            "x": 210,
+                            "y": 477
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 129,
+                                "width": 0,
+                                "x0": 631,
+                                "y0": 413
+                            },
+                            "x": 631,
+                            "y": 477
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

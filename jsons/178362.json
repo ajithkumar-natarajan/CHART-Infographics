@@ -1,0 +1,1745 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 330,
+                        "x0": 928,
+                        "y0": 15
+                    },
+                    "text": "Low-birthweight babies (% of births) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 658,
+                        "y0": 933
+                    },
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 356,
+                        "width": 14,
+                        "x0": 15,
+                        "y0": 271
+                    },
+                    "text": "Middle East & North Africa (excluding high income)"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 118,
+                        "y0": 871
+                    },
+                    "text": "2015.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 215,
+                        "y0": 871
+                    },
+                    "text": "2011.0"
+                },
+                {
+                    "bb": {
+                        "height": 51,
+                        "width": 25,
+                        "x0": 311,
+                        "y0": 871
+                    },
+                    "text": "1986.0"
+                },
+                {
+                    "bb": {
+                        "height": 51,
+                        "width": 25,
+                        "x0": 408,
+                        "y0": 871
+                    },
+                    "text": "1999.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 505,
+                        "y0": 871
+                    },
+                    "text": "2001.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 601,
+                        "y0": 871
+                    },
+                    "text": "1977.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 698,
+                        "y0": 871
+                    },
+                    "text": "1964.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 794,
+                        "y0": 871
+                    },
+                    "text": "1997.0"
+                },
+                {
+                    "bb": {
+                        "height": 51,
+                        "width": 25,
+                        "x0": 891,
+                        "y0": 871
+                    },
+                    "text": "1981.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 987,
+                        "y0": 871
+                    },
+                    "text": "1987.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 1084,
+                        "y0": 871
+                    },
+                    "text": "1967.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 25,
+                        "x0": 1180,
+                        "y0": 871
+                    },
+                    "text": "2004.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 40,
+                        "y0": 769
+                    },
+                    "text": "13.2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 40,
+                        "y0": 663
+                    },
+                    "text": "13.4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 40,
+                        "y0": 557
+                    },
+                    "text": "13.6"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 40,
+                        "y0": 451
+                    },
+                    "text": "13.8"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 40,
+                        "y0": 345
+                    },
+                    "text": "14.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 40,
+                        "y0": 239
+                    },
+                    "text": "14.2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 40,
+                        "y0": 133
+                    },
+                    "text": "14.4"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 330,
+                            "x0": 928,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Low-birthweight babies (% of births) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 658,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 356,
+                            "width": 14,
+                            "x0": 15,
+                            "y0": 271
+                        },
+                        "id": 2,
+                        "text": "Middle East & North Africa (excluding high income)"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 118,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "2015.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 215,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2011.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 311,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1986.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 408,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "1999.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 505,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "2001.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 601,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "1977.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 698,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "1964.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 794,
+                            "y0": 871
+                        },
+                        "id": 10,
+                        "text": "1997.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 891,
+                            "y0": 871
+                        },
+                        "id": 11,
+                        "text": "1981.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 987,
+                            "y0": 871
+                        },
+                        "id": 12,
+                        "text": "1987.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 1084,
+                            "y0": 871
+                        },
+                        "id": 13,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 1180,
+                            "y0": 871
+                        },
+                        "id": 14,
+                        "text": "2004.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 769
+                        },
+                        "id": 15,
+                        "text": "13.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 663
+                        },
+                        "id": 16,
+                        "text": "13.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 557
+                        },
+                        "id": 17,
+                        "text": "13.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 451
+                        },
+                        "id": 18,
+                        "text": "13.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 345
+                        },
+                        "id": 19,
+                        "text": "14.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 239
+                        },
+                        "id": 20,
+                        "text": "14.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 133
+                        },
+                        "id": 21,
+                        "text": "14.4"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 330,
+                            "x0": 928,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Low-birthweight babies (% of births) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 658,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 356,
+                            "width": 14,
+                            "x0": 15,
+                            "y0": 271
+                        },
+                        "id": 2,
+                        "text": "Middle East & North Africa (excluding high income)"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 118,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "2015.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 215,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2011.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 311,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1986.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 408,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "1999.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 505,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "2001.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 601,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "1977.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 698,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "1964.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 794,
+                            "y0": 871
+                        },
+                        "id": 10,
+                        "text": "1997.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 891,
+                            "y0": 871
+                        },
+                        "id": 11,
+                        "text": "1981.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 987,
+                            "y0": 871
+                        },
+                        "id": 12,
+                        "text": "1987.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 1084,
+                            "y0": 871
+                        },
+                        "id": 13,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 1180,
+                            "y0": 871
+                        },
+                        "id": 14,
+                        "text": "2004.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 769
+                        },
+                        "id": 15,
+                        "text": "13.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 663
+                        },
+                        "id": 16,
+                        "text": "13.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 557
+                        },
+                        "id": 17,
+                        "text": "13.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 451
+                        },
+                        "id": 18,
+                        "text": "13.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 345
+                        },
+                        "id": 19,
+                        "text": "14.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 239
+                        },
+                        "id": 20,
+                        "text": "14.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 133
+                        },
+                        "id": 21,
+                        "text": "14.4"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 813,
+                "width": 1175,
+                "x0": 87,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 142,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 239,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 335,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 528,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 625,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 721,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 818,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 914,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 1011,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 1107,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 855
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 87,
+                            "y": 773
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 87,
+                            "y": 667
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 87,
+                            "y": 561
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 87,
+                            "y": 455
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 87,
+                            "y": 349
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 87,
+                            "y": 243
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "tick_pt": {
+                            "x": 87,
+                            "y": 137
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 330,
+                            "x0": 928,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Low-birthweight babies (% of births) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 658,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 356,
+                            "width": 14,
+                            "x0": 15,
+                            "y0": 271
+                        },
+                        "id": 2,
+                        "text": "Middle East & North Africa (excluding high income)"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 118,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "2015.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 215,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2011.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 311,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1986.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 408,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "1999.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 505,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "2001.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 601,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "1977.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 698,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "1964.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 794,
+                            "y0": 871
+                        },
+                        "id": 10,
+                        "text": "1997.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 891,
+                            "y0": 871
+                        },
+                        "id": 11,
+                        "text": "1981.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 987,
+                            "y0": 871
+                        },
+                        "id": 12,
+                        "text": "1987.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 1084,
+                            "y0": 871
+                        },
+                        "id": 13,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 1180,
+                            "y0": 871
+                        },
+                        "id": 14,
+                        "text": "2004.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 769
+                        },
+                        "id": 15,
+                        "text": "13.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 663
+                        },
+                        "id": 16,
+                        "text": "13.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 557
+                        },
+                        "id": 17,
+                        "text": "13.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 451
+                        },
+                        "id": 18,
+                        "text": "13.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 345
+                        },
+                        "id": 19,
+                        "text": "14.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 239
+                        },
+                        "id": 20,
+                        "text": "14.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 133
+                        },
+                        "id": 21,
+                        "text": "14.4"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 330,
+                            "x0": 928,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Low-birthweight babies (% of births) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 658,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 356,
+                            "width": 14,
+                            "x0": 15,
+                            "y0": 271
+                        },
+                        "id": 2,
+                        "text": "Middle East & North Africa (excluding high income)"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 118,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "2015.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 215,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2011.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 311,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1986.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 408,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "1999.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 505,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "2001.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 601,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "1977.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 698,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "1964.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 794,
+                            "y0": 871
+                        },
+                        "id": 10,
+                        "text": "1997.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 25,
+                            "x0": 891,
+                            "y0": 871
+                        },
+                        "id": 11,
+                        "text": "1981.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 987,
+                            "y0": 871
+                        },
+                        "id": 12,
+                        "text": "1987.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 1084,
+                            "y0": 871
+                        },
+                        "id": 13,
+                        "text": "1967.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 25,
+                            "x0": 1180,
+                            "y0": 871
+                        },
+                        "id": 14,
+                        "text": "2004.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 769
+                        },
+                        "id": 15,
+                        "text": "13.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 663
+                        },
+                        "id": 16,
+                        "text": "13.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 557
+                        },
+                        "id": 17,
+                        "text": "13.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 451
+                        },
+                        "id": 18,
+                        "text": "13.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 345
+                        },
+                        "id": 19,
+                        "text": "14.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 239
+                        },
+                        "id": 20,
+                        "text": "14.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 40,
+                            "y0": 133
+                        },
+                        "id": 21,
+                        "text": "14.4"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 813,
+                    "width": 1175,
+                    "x0": 87,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 142,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 239,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 335,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 432,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 528,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 625,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 721,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 818,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 914,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 1011,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 1107,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 855
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 87,
+                                "y": 773
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 87,
+                                "y": 667
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 87,
+                                "y": 561
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 87,
+                                "y": 455
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 87,
+                                "y": 349
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 87,
+                                "y": 243
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "tick_pt": {
+                                "x": 87,
+                                "y": 137
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "2015.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "2011.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "1986.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "1999.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "2001.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "1977.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "1964.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "1997.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "1981.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "1987.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "1967.0",
+                            "y": "13.8143547962"
+                        },
+                        {
+                            "x": "2004.0",
+                            "y": "13.8143547962"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 143,
+                            "y": 449
+                        },
+                        {
+                            "x": 240,
+                            "y": 449
+                        },
+                        {
+                            "x": 336,
+                            "y": 449
+                        },
+                        {
+                            "x": 433,
+                            "y": 449
+                        },
+                        {
+                            "x": 529,
+                            "y": 449
+                        },
+                        {
+                            "x": 626,
+                            "y": 449
+                        },
+                        {
+                            "x": 722,
+                            "y": 449
+                        },
+                        {
+                            "x": 819,
+                            "y": 449
+                        },
+                        {
+                            "x": 915,
+                            "y": 449
+                        },
+                        {
+                            "x": 1012,
+                            "y": 449
+                        },
+                        {
+                            "x": 1108,
+                            "y": 449
+                        },
+                        {
+                            "x": 1205,
+                            "y": 449
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

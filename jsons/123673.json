@@ -1,0 +1,800 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 365,
+                        "x0": 486,
+                        "y0": 17
+                    },
+                    "text": "Primary education, duration (years)"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 10,
+                        "x0": 752,
+                        "y0": 926
+                    },
+                    "text": "6"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 992,
+                        "y0": 926
+                    },
+                    "text": "7"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 272,
+                        "y0": 926
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 1231,
+                        "y0": 926
+                    },
+                    "text": "8"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 10,
+                        "x0": 512,
+                        "y0": 926
+                    },
+                    "text": "5"
+                },
+                {
+                    "bb": {
+                        "height": 24,
+                        "width": 45,
+                        "x0": 18,
+                        "y0": 686
+                    },
+                    "text": "2004"
+                },
+                {
+                    "bb": {
+                        "height": 24,
+                        "width": 45,
+                        "x0": 18,
+                        "y0": 257
+                    },
+                    "text": "2001"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 365,
+                            "x0": 486,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Primary education, duration (years)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 752,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 992,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "7"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 272,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 1231,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 512,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 6,
+                        "text": "2004"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 7,
+                        "text": "2001"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 365,
+                            "x0": 486,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Primary education, duration (years)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 752,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 992,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "7"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 272,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 1231,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 512,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 6,
+                        "text": "2004"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 7,
+                        "text": "2001"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 865,
+                "width": 1180,
+                "x0": 78,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 691
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 262
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 756,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 996,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 276,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1236,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 516,
+                            "y": 906
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 365,
+                            "x0": 486,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Primary education, duration (years)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 752,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 992,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "7"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 272,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 1231,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 512,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 6,
+                        "text": "2004"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 7,
+                        "text": "2001"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 365,
+                            "x0": 486,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Primary education, duration (years)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 752,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 992,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "7"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 272,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 1231,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 512,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 6,
+                        "text": "2004"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 45,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 7,
+                        "text": "2001"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 865,
+                    "width": 1180,
+                    "x0": 78,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 691
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 262
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 756,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 996,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 276,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1236,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 516,
+                                "y": 906
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 5.0,
+                        "max": 7.261369152238543,
+                        "median": 6.0,
+                        "min": 4.0,
+                        "third_quartile": 6.0
+                    },
+                    "name": "2004"
+                },
+                {
+                    "data": {
+                        "first_quartile": 5.0,
+                        "max": 7.0,
+                        "median": 6.0,
+                        "min": 4.0,
+                        "third_quartile": 6.0
+                    },
+                    "name": "2001"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 517,
+                                "y0": 660
+                            },
+                            "x": 517,
+                            "y": 692
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 1059,
+                                "y0": 676
+                            },
+                            "x": 1059,
+                            "y": 692
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 757,
+                                "y0": 660
+                            },
+                            "x": 757,
+                            "y": 692
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 277,
+                                "y0": 676
+                            },
+                            "x": 277,
+                            "y": 692
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 757,
+                                "y0": 660
+                            },
+                            "x": 757,
+                            "y": 692
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 517,
+                                "y0": 231
+                            },
+                            "x": 517,
+                            "y": 263
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 997,
+                                "y0": 247
+                            },
+                            "x": 997,
+                            "y": 263
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 757,
+                                "y0": 231
+                            },
+                            "x": 757,
+                            "y": 263
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 277,
+                                "y0": 247
+                            },
+                            "x": 277,
+                            "y": 263
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 757,
+                                "y0": 231
+                            },
+                            "x": 757,
+                            "y": 263
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

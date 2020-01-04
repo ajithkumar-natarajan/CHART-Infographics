@@ -1,0 +1,1261 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 652,
+                        "x0": 391,
+                        "y0": 19
+                    },
+                    "text": "Adolescent fertility rate (births per 1,000 women ages 15-19) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 1074,
+                        "y0": 924
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 361,
+                        "y0": 924
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 599,
+                        "y0": 924
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 836,
+                        "y0": 924
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 69,
+                        "width": 130,
+                        "x0": 31,
+                        "y0": 674
+                    },
+                    "text": "Central Europe\nand the Baltics"
+                },
+                {
+                    "bb": {
+                        "height": 86,
+                        "width": 121,
+                        "x0": 40,
+                        "y0": 379
+                    },
+                    "text": "Late-\ndemographic\ndividend"
+                },
+                {
+                    "bb": {
+                        "height": 48,
+                        "width": 121,
+                        "x0": 40,
+                        "y0": 542
+                    },
+                    "text": "North America"
+                },
+                {
+                    "bb": {
+                        "height": 104,
+                        "width": 118,
+                        "x0": 43,
+                        "y0": 84
+                    },
+                    "text": "Europe &\nCentral Asia\n(IDA & IBRD\ncountries)"
+                },
+                {
+                    "bb": {
+                        "height": 51,
+                        "width": 132,
+                        "x0": 28,
+                        "y0": 257
+                    },
+                    "text": "OECD members"
+                },
+                {
+                    "bb": {
+                        "height": 91,
+                        "width": 141,
+                        "x0": 20,
+                        "y0": 806
+                    },
+                    "text": "East Asia &\nPacific (IDA &\nIBRD countries)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 652,
+                            "x0": 391,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Adolescent fertility rate (births per 1,000 women ages 15-19) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 1074,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 361,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 599,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 836,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 130,
+                            "x0": 31,
+                            "y0": 674
+                        },
+                        "id": 5,
+                        "text": "Central Europe\nand the Baltics"
+                    },
+                    {
+                        "bb": {
+                            "height": 86,
+                            "width": 121,
+                            "x0": 40,
+                            "y0": 379
+                        },
+                        "id": 6,
+                        "text": "Late-\ndemographic\ndividend"
+                    },
+                    {
+                        "bb": {
+                            "height": 48,
+                            "width": 121,
+                            "x0": 40,
+                            "y0": 542
+                        },
+                        "id": 7,
+                        "text": "North America"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 118,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 8,
+                        "text": "Europe &\nCentral Asia\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 132,
+                            "x0": 28,
+                            "y0": 257
+                        },
+                        "id": 9,
+                        "text": "OECD members"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 141,
+                            "x0": 20,
+                            "y0": 806
+                        },
+                        "id": 10,
+                        "text": "East Asia &\nPacific (IDA &\nIBRD countries)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 652,
+                            "x0": 391,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Adolescent fertility rate (births per 1,000 women ages 15-19) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 1074,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 361,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 599,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 836,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 130,
+                            "x0": 31,
+                            "y0": 674
+                        },
+                        "id": 5,
+                        "text": "Central Europe\nand the Baltics"
+                    },
+                    {
+                        "bb": {
+                            "height": 86,
+                            "width": 121,
+                            "x0": 40,
+                            "y0": 379
+                        },
+                        "id": 6,
+                        "text": "Late-\ndemographic\ndividend"
+                    },
+                    {
+                        "bb": {
+                            "height": 48,
+                            "width": 121,
+                            "x0": 40,
+                            "y0": 542
+                        },
+                        "id": 7,
+                        "text": "North America"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 118,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 8,
+                        "text": "Europe &\nCentral Asia\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 132,
+                            "x0": 28,
+                            "y0": 257
+                        },
+                        "id": 9,
+                        "text": "OECD members"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 141,
+                            "x0": 20,
+                            "y0": 806
+                        },
+                        "id": 10,
+                        "text": "East Asia &\nPacific (IDA &\nIBRD countries)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 861,
+                "width": 1082,
+                "x0": 177,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 177,
+                            "y": 690
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 177,
+                            "y": 405
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 177,
+                            "y": 548
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 177,
+                            "y": 121
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 177,
+                            "y": 263
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 177,
+                            "y": 832
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1083,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 371,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 608,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 846,
+                            "y": 904
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 652,
+                            "x0": 391,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Adolescent fertility rate (births per 1,000 women ages 15-19) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 1074,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 361,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 599,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 836,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 130,
+                            "x0": 31,
+                            "y0": 674
+                        },
+                        "id": 5,
+                        "text": "Central Europe\nand the Baltics"
+                    },
+                    {
+                        "bb": {
+                            "height": 86,
+                            "width": 121,
+                            "x0": 40,
+                            "y0": 379
+                        },
+                        "id": 6,
+                        "text": "Late-\ndemographic\ndividend"
+                    },
+                    {
+                        "bb": {
+                            "height": 48,
+                            "width": 121,
+                            "x0": 40,
+                            "y0": 542
+                        },
+                        "id": 7,
+                        "text": "North America"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 118,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 8,
+                        "text": "Europe &\nCentral Asia\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 132,
+                            "x0": 28,
+                            "y0": 257
+                        },
+                        "id": 9,
+                        "text": "OECD members"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 141,
+                            "x0": 20,
+                            "y0": 806
+                        },
+                        "id": 10,
+                        "text": "East Asia &\nPacific (IDA &\nIBRD countries)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 652,
+                            "x0": 391,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Adolescent fertility rate (births per 1,000 women ages 15-19) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 1074,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 361,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 599,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 836,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 130,
+                            "x0": 31,
+                            "y0": 674
+                        },
+                        "id": 5,
+                        "text": "Central Europe\nand the Baltics"
+                    },
+                    {
+                        "bb": {
+                            "height": 86,
+                            "width": 121,
+                            "x0": 40,
+                            "y0": 379
+                        },
+                        "id": 6,
+                        "text": "Late-\ndemographic\ndividend"
+                    },
+                    {
+                        "bb": {
+                            "height": 48,
+                            "width": 121,
+                            "x0": 40,
+                            "y0": 542
+                        },
+                        "id": 7,
+                        "text": "North America"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 118,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 8,
+                        "text": "Europe &\nCentral Asia\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 132,
+                            "x0": 28,
+                            "y0": 257
+                        },
+                        "id": 9,
+                        "text": "OECD members"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 141,
+                            "x0": 20,
+                            "y0": 806
+                        },
+                        "id": 10,
+                        "text": "East Asia &\nPacific (IDA &\nIBRD countries)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 861,
+                    "width": 1082,
+                    "x0": 177,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 177,
+                                "y": 690
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 177,
+                                "y": 405
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 177,
+                                "y": 548
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 177,
+                                "y": 121
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 177,
+                                "y": 263
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 177,
+                                "y": 832
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1083,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 371,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 608,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 846,
+                                "y": 904
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 22.2028738196,
+                        "max": 70.1697466251,
+                        "median": 31.45638006295,
+                        "min": 18.9562469931,
+                        "third_quartile": 41.5976423643
+                    },
+                    "name": "East Asia & Pacific (IDA & IBRD countries)"
+                },
+                {
+                    "data": {
+                        "first_quartile": 22.854885936675,
+                        "max": 50.2508770409,
+                        "median": 44.09210260055,
+                        "min": 19.4554224001,
+                        "third_quartile": 46.050906861775
+                    },
+                    "name": "Central Europe and the Baltics"
+                },
+                {
+                    "data": {
+                        "first_quartile": 40.888354016025005,
+                        "max": 79.3052880169,
+                        "median": 50.072330954099996,
+                        "min": 19.6611896395,
+                        "third_quartile": 56.27137362565526
+                    },
+                    "name": "North America"
+                },
+                {
+                    "data": {
+                        "first_quartile": 22.7896258088,
+                        "max": 55.2749698616,
+                        "median": 30.8405873943,
+                        "min": 19.8933440845,
+                        "third_quartile": 36.3782741593
+                    },
+                    "name": "Late-demographic dividend"
+                },
+                {
+                    "data": {
+                        "first_quartile": 31.293070277850003,
+                        "max": 51.1603950556,
+                        "median": 36.459292697500004,
+                        "min": 21.5000742462,
+                        "third_quartile": 46.2075377892
+                    },
+                    "name": "OECD members"
+                },
+                {
+                    "data": {
+                        "first_quartile": 30.495163124799998,
+                        "max": 52.3039575861,
+                        "median": 44.96584626255,
+                        "min": 24.7349333486,
+                        "third_quartile": 49.32454996595
+                    },
+                    "name": "Europe & Central Asia (IDA & IBRD countries)"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 506,
+                                "y0": 229
+                            },
+                            "x": 506,
+                            "y": 265
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 742,
+                                "y0": 246
+                            },
+                            "x": 742,
+                            "y": 264
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 567,
+                                "y0": 229
+                            },
+                            "x": 567,
+                            "y": 265
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 389,
+                                "y0": 246
+                            },
+                            "x": 389,
+                            "y": 264
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 683,
+                                "y0": 229
+                            },
+                            "x": 683,
+                            "y": 265
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 406,
+                                "y0": 656
+                            },
+                            "x": 406,
+                            "y": 692
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 731,
+                                "y0": 673
+                            },
+                            "x": 731,
+                            "y": 691
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 658,
+                                "y0": 656
+                            },
+                            "x": 658,
+                            "y": 692
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 365,
+                                "y0": 673
+                            },
+                            "x": 365,
+                            "y": 691
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 681,
+                                "y0": 656
+                            },
+                            "x": 681,
+                            "y": 692
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 620,
+                                "y0": 513
+                            },
+                            "x": 620,
+                            "y": 549
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 1076,
+                                "y0": 531
+                            },
+                            "x": 1076,
+                            "y": 549
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 729,
+                                "y0": 513
+                            },
+                            "x": 729,
+                            "y": 549
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 368,
+                                "y0": 531
+                            },
+                            "x": 368,
+                            "y": 549
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 802,
+                                "y0": 513
+                            },
+                            "x": 802,
+                            "y": 549
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 398,
+                                "y0": 798
+                            },
+                            "x": 398,
+                            "y": 834
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 967,
+                                "y0": 816
+                            },
+                            "x": 967,
+                            "y": 834
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 508,
+                                "y0": 798
+                            },
+                            "x": 508,
+                            "y": 834
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 359,
+                                "y0": 816
+                            },
+                            "x": 359,
+                            "y": 834
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 628,
+                                "y0": 798
+                            },
+                            "x": 628,
+                            "y": 834
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 496,
+                                "y0": 86
+                            },
+                            "x": 496,
+                            "y": 122
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 755,
+                                "y0": 104
+                            },
+                            "x": 755,
+                            "y": 122
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 668,
+                                "y0": 86
+                            },
+                            "x": 668,
+                            "y": 122
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 428,
+                                "y0": 104
+                            },
+                            "x": 428,
+                            "y": 122
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 720,
+                                "y0": 86
+                            },
+                            "x": 720,
+                            "y": 122
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 405,
+                                "y0": 371
+                            },
+                            "x": 405,
+                            "y": 407
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 791,
+                                "y0": 389
+                            },
+                            "x": 791,
+                            "y": 407
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 500,
+                                "y0": 371
+                            },
+                            "x": 500,
+                            "y": 407
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 370,
+                                "y0": 389
+                            },
+                            "x": 370,
+                            "y": 407
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 71,
+                                "width": 0,
+                                "x0": 566,
+                                "y0": 371
+                            },
+                            "x": 566,
+                            "y": 407
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

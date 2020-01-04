@@ -1,0 +1,738 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 312,
+                        "x0": 504,
+                        "y0": 14
+                    },
+                    "text": "acs2015_census_tract_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 141,
+                        "width": 80,
+                        "x0": 580,
+                        "y0": 800
+                    },
+                    "text": "44007013300Rhod\ne IslandProvide\nnce"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 596
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 33,
+                        "y0": 708
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 146
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 258
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 24,
+                        "y0": 483
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 371
+                    },
+                    "text": "60"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 312,
+                            "x0": 504,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_census_tract_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 80,
+                            "x0": 580,
+                            "y0": 800
+                        },
+                        "id": 1,
+                        "text": "44007013300Rhod\ne IslandProvide\nnce"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 596
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 708
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 146
+                        },
+                        "id": 4,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 258
+                        },
+                        "id": 5,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 483
+                        },
+                        "id": 6,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 371
+                        },
+                        "id": 7,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 312,
+                            "x0": 504,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_census_tract_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 80,
+                            "x0": 580,
+                            "y0": 800
+                        },
+                        "id": 1,
+                        "text": "44007013300Rhod\ne IslandProvide\nnce"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 596
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 708
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 146
+                        },
+                        "id": 4,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 258
+                        },
+                        "id": 5,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 483
+                        },
+                        "id": 6,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 371
+                        },
+                        "id": 7,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 744,
+                "width": 1204,
+                "x0": 58,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 659,
+                            "y": 784
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 600
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 713
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 150
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 263
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 488
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 375
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 312,
+                            "x0": 504,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_census_tract_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 80,
+                            "x0": 580,
+                            "y0": 800
+                        },
+                        "id": 1,
+                        "text": "44007013300Rhod\ne IslandProvide\nnce"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 596
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 708
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 146
+                        },
+                        "id": 4,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 258
+                        },
+                        "id": 5,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 483
+                        },
+                        "id": 6,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 371
+                        },
+                        "id": 7,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 312,
+                            "x0": 504,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_census_tract_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 80,
+                            "x0": 580,
+                            "y0": 800
+                        },
+                        "id": 1,
+                        "text": "44007013300Rhod\ne IslandProvide\nnce"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 596
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 708
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 146
+                        },
+                        "id": 4,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 258
+                        },
+                        "id": 5,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 483
+                        },
+                        "id": 6,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 371
+                        },
+                        "id": 7,
+                        "text": "60"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 744,
+                    "width": 1204,
+                    "x0": 58,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 659,
+                                "y": 784
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 600
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 713
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 150
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 263
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 488
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 375
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.225,
+                        "max": 95.3,
+                        "median": 5.1081397891543885,
+                        "min": 0.05133555241085319,
+                        "third_quartile": 72.73447843731236
+                    },
+                    "name": "44007013300Rhode IslandProvidence"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 570,
+                                "y0": 713
+                            },
+                            "x": 660,
+                            "y": 713
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 615,
+                                "y0": 178
+                            },
+                            "x": 660,
+                            "y": 178
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 570,
+                                "y0": 685
+                            },
+                            "x": 660,
+                            "y": 685
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 615,
+                                "y0": 714
+                            },
+                            "x": 660,
+                            "y": 714
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 570,
+                                "y0": 713
+                            },
+                            "x": 660,
+                            "y": 305
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

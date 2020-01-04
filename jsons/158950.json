@@ -1,0 +1,942 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 618,
+                        "x0": 351,
+                        "y0": 14
+                    },
+                    "text": "Self-employed, female (% of female employment) (modeled ILO estimate)"
+                },
+                {
+                    "bb": {
+                        "height": 36,
+                        "width": 17,
+                        "x0": 343,
+                        "y0": 908
+                    },
+                    "text": "2007"
+                },
+                {
+                    "bb": {
+                        "height": 36,
+                        "width": 17,
+                        "x0": 941,
+                        "y0": 908
+                    },
+                    "text": "2008"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 308
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 681
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 33,
+                        "y0": 806
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 432
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 24,
+                        "y0": 557
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 59
+                    },
+                    "text": "120"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 183
+                    },
+                    "text": "100"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 618,
+                            "x0": 351,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Self-employed, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 17,
+                            "x0": 343,
+                            "y0": 908
+                        },
+                        "id": 1,
+                        "text": "2007"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 17,
+                            "x0": 941,
+                            "y0": 908
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 308
+                        },
+                        "id": 3,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 681
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 432
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 557
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 59
+                        },
+                        "id": 8,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 183
+                        },
+                        "id": 9,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 618,
+                            "x0": 351,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Self-employed, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 17,
+                            "x0": 343,
+                            "y0": 908
+                        },
+                        "id": 1,
+                        "text": "2007"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 17,
+                            "x0": 941,
+                            "y0": 908
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 308
+                        },
+                        "id": 3,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 681
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 432
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 557
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 59
+                        },
+                        "id": 8,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 183
+                        },
+                        "id": 9,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 851,
+                "width": 1204,
+                "x0": 58,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 360,
+                            "y": 891
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 958,
+                            "y": 891
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 312
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 686
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 811
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 437
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 561
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 63
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 188
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 618,
+                            "x0": 351,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Self-employed, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 17,
+                            "x0": 343,
+                            "y0": 908
+                        },
+                        "id": 1,
+                        "text": "2007"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 17,
+                            "x0": 941,
+                            "y0": 908
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 308
+                        },
+                        "id": 3,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 681
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 432
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 557
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 59
+                        },
+                        "id": 8,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 183
+                        },
+                        "id": 9,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 618,
+                            "x0": 351,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Self-employed, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 17,
+                            "x0": 343,
+                            "y0": 908
+                        },
+                        "id": 1,
+                        "text": "2007"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 17,
+                            "x0": 941,
+                            "y0": 908
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 308
+                        },
+                        "id": 3,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 681
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 432
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 557
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 59
+                        },
+                        "id": 8,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 183
+                        },
+                        "id": 9,
+                        "text": "100"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 851,
+                    "width": 1204,
+                    "x0": 58,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 360,
+                                "y": 891
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 958,
+                                "y": 891
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 312
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 686
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 811
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 437
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 561
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 63
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 188
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 13.1949996948,
+                        "max": 98.6750030518,
+                        "median": 35.172000885,
+                        "min": 0.287999987602,
+                        "third_quartile": 67.9785706524273
+                    },
+                    "name": "2007"
+                },
+                {
+                    "data": {
+                        "first_quartile": 13.6149997711,
+                        "max": 98.6330032349,
+                        "median": 41.2210006714,
+                        "min": 0.303999990225,
+                        "third_quartile": 70.9410428983936
+                    },
+                    "name": "2008"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 316,
+                                "y0": 729
+                            },
+                            "x": 361,
+                            "y": 729
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 338,
+                                "y0": 197
+                            },
+                            "x": 361,
+                            "y": 197
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 316,
+                                "y0": 592
+                            },
+                            "x": 361,
+                            "y": 592
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 338,
+                                "y0": 810
+                            },
+                            "x": 361,
+                            "y": 810
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 316,
+                                "y0": 729
+                            },
+                            "x": 361,
+                            "y": 388
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 914,
+                                "y0": 727
+                            },
+                            "x": 959,
+                            "y": 727
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 936,
+                                "y0": 197
+                            },
+                            "x": 959,
+                            "y": 197
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 914,
+                                "y0": 555
+                            },
+                            "x": 959,
+                            "y": 555
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 936,
+                                "y0": 810
+                            },
+                            "x": 959,
+                            "y": 810
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 914,
+                                "y0": 727
+                            },
+                            "x": 959,
+                            "y": 370
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

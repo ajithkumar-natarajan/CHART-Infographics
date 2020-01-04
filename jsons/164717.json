@@ -1,0 +1,1184 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 183,
+                        "x0": 1075,
+                        "y0": 14
+                    },
+                    "text": "Portugal 2009 Import"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 632,
+                        "y0": 927
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 67,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 377
+                    },
+                    "text": "trade usd"
+                },
+                {
+                    "bb": {
+                        "height": 117,
+                        "width": 79,
+                        "x0": 58,
+                        "y0": 796
+                    },
+                    "text": "Cadmium,\nunwrought,\nwaste or scrap,\npowders"
+                },
+                {
+                    "bb": {
+                        "height": 106,
+                        "width": 62,
+                        "x0": 432,
+                        "y0": 796
+                    },
+                    "text": "Carpets of\nmaterials nes,\nknotted"
+                },
+                {
+                    "bb": {
+                        "height": 76,
+                        "width": 41,
+                        "x0": 808,
+                        "y0": 796
+                    },
+                    "text": "Articles of\nlead nes"
+                },
+                {
+                    "bb": {
+                        "height": 120,
+                        "width": 79,
+                        "x0": 1125,
+                        "y0": 796
+                    },
+                    "text": "Milk and cream\npowder\nunsweetened <\n1.5% fat"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 738
+                    },
+                    "text": "0.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 645
+                    },
+                    "text": "0.2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 551
+                    },
+                    "text": "0.4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 458
+                    },
+                    "text": "0.6"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 364
+                    },
+                    "text": "0.8"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 271
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 178
+                    },
+                    "text": "1.2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 84
+                    },
+                    "text": "1.4"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 183,
+                            "x0": 1075,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Portugal 2009 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 79,
+                            "x0": 58,
+                            "y0": 796
+                        },
+                        "id": 3,
+                        "text": "Cadmium,\nunwrought,\nwaste or scrap,\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 62,
+                            "x0": 432,
+                            "y0": 796
+                        },
+                        "id": 4,
+                        "text": "Carpets of\nmaterials nes,\nknotted"
+                    },
+                    {
+                        "bb": {
+                            "height": 76,
+                            "width": 41,
+                            "x0": 808,
+                            "y0": 796
+                        },
+                        "id": 5,
+                        "text": "Articles of\nlead nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 79,
+                            "x0": 1125,
+                            "y0": 796
+                        },
+                        "id": 6,
+                        "text": "Milk and cream\npowder\nunsweetened <\n1.5% fat"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 738
+                        },
+                        "id": 7,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 645
+                        },
+                        "id": 8,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 551
+                        },
+                        "id": 9,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 458
+                        },
+                        "id": 10,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 364
+                        },
+                        "id": 11,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 271
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 178
+                        },
+                        "id": 13,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 14,
+                        "text": "1.4"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 183,
+                            "x0": 1075,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Portugal 2009 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 79,
+                            "x0": 58,
+                            "y0": 796
+                        },
+                        "id": 3,
+                        "text": "Cadmium,\nunwrought,\nwaste or scrap,\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 62,
+                            "x0": 432,
+                            "y0": 796
+                        },
+                        "id": 4,
+                        "text": "Carpets of\nmaterials nes,\nknotted"
+                    },
+                    {
+                        "bb": {
+                            "height": 76,
+                            "width": 41,
+                            "x0": 808,
+                            "y0": 796
+                        },
+                        "id": 5,
+                        "text": "Articles of\nlead nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 79,
+                            "x0": 1125,
+                            "y0": 796
+                        },
+                        "id": 6,
+                        "text": "Milk and cream\npowder\nunsweetened <\n1.5% fat"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 738
+                        },
+                        "id": 7,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 645
+                        },
+                        "id": 8,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 551
+                        },
+                        "id": 9,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 458
+                        },
+                        "id": 10,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 364
+                        },
+                        "id": 11,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 271
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 178
+                        },
+                        "id": 13,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 14,
+                        "text": "1.4"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 740,
+                "width": 1181,
+                "x0": 81,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 136,
+                            "y": 780
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 449,
+                            "y": 780
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 818,
+                            "y": 780
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 780
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 743
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 649
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 556
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 462
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 369
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 276
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 182
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 89
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 183,
+                            "x0": 1075,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Portugal 2009 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 79,
+                            "x0": 58,
+                            "y0": 796
+                        },
+                        "id": 3,
+                        "text": "Cadmium,\nunwrought,\nwaste or scrap,\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 62,
+                            "x0": 432,
+                            "y0": 796
+                        },
+                        "id": 4,
+                        "text": "Carpets of\nmaterials nes,\nknotted"
+                    },
+                    {
+                        "bb": {
+                            "height": 76,
+                            "width": 41,
+                            "x0": 808,
+                            "y0": 796
+                        },
+                        "id": 5,
+                        "text": "Articles of\nlead nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 79,
+                            "x0": 1125,
+                            "y0": 796
+                        },
+                        "id": 6,
+                        "text": "Milk and cream\npowder\nunsweetened <\n1.5% fat"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 738
+                        },
+                        "id": 7,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 645
+                        },
+                        "id": 8,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 551
+                        },
+                        "id": 9,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 458
+                        },
+                        "id": 10,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 364
+                        },
+                        "id": 11,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 271
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 178
+                        },
+                        "id": 13,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 14,
+                        "text": "1.4"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 183,
+                            "x0": 1075,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Portugal 2009 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 79,
+                            "x0": 58,
+                            "y0": 796
+                        },
+                        "id": 3,
+                        "text": "Cadmium,\nunwrought,\nwaste or scrap,\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 62,
+                            "x0": 432,
+                            "y0": 796
+                        },
+                        "id": 4,
+                        "text": "Carpets of\nmaterials nes,\nknotted"
+                    },
+                    {
+                        "bb": {
+                            "height": 76,
+                            "width": 41,
+                            "x0": 808,
+                            "y0": 796
+                        },
+                        "id": 5,
+                        "text": "Articles of\nlead nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 79,
+                            "x0": 1125,
+                            "y0": 796
+                        },
+                        "id": 6,
+                        "text": "Milk and cream\npowder\nunsweetened <\n1.5% fat"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 738
+                        },
+                        "id": 7,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 645
+                        },
+                        "id": 8,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 551
+                        },
+                        "id": 9,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 458
+                        },
+                        "id": 10,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 364
+                        },
+                        "id": 11,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 271
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 178
+                        },
+                        "id": 13,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 14,
+                        "text": "1.4"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 740,
+                    "width": 1181,
+                    "x0": 81,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 136,
+                                "y": 780
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 449,
+                                "y": 780
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 818,
+                                "y": 780
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 780
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 743
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 649
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 556
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 462
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 369
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 276
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 182
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 89
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Cadmium, unwrought, waste or scrap, powders",
+                            "y": "489"
+                        },
+                        {
+                            "x": "Carpets of materials nes, knotted",
+                            "y": "1241259"
+                        },
+                        {
+                            "x": "Articles of lead nes",
+                            "y": "1040134"
+                        },
+                        {
+                            "x": "Milk and cream powder unsweetened < 1.5% fat",
+                            "y": "14273577"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 137,
+                            "y": 743
+                        },
+                        {
+                            "x": 493,
+                            "y": 686
+                        },
+                        {
+                            "x": 849,
+                            "y": 695
+                        },
+                        {
+                            "x": 1205,
+                            "y": 77
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

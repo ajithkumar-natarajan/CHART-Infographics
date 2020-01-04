@@ -1,0 +1,1192 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 516,
+                        "x0": 411,
+                        "y0": 15
+                    },
+                    "text": "CPIA equity of public resource use rating (1=low to 6=high)_2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 619,
+                        "y0": 934
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 14,
+                        "x0": 14,
+                        "y0": 399
+                    },
+                    "text": "2012"
+                },
+                {
+                    "bb": {
+                        "height": 99,
+                        "width": 54,
+                        "x0": 80,
+                        "y0": 806
+                    },
+                    "text": "Upper middle\nincome"
+                },
+                {
+                    "bb": {
+                        "height": 117,
+                        "width": 73,
+                        "x0": 328,
+                        "y0": 806
+                    },
+                    "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                },
+                {
+                    "bb": {
+                        "height": 111,
+                        "width": 43,
+                        "x0": 626,
+                        "y0": 806
+                    },
+                    "text": "European Union"
+                },
+                {
+                    "bb": {
+                        "height": 89,
+                        "width": 51,
+                        "x0": 885,
+                        "y0": 806
+                    },
+                    "text": "Europe &\nCentral Asia"
+                },
+                {
+                    "bb": {
+                        "height": 69,
+                        "width": 31,
+                        "x0": 1173,
+                        "y0": 806
+                    },
+                    "text": "IBRD only"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 727
+                    },
+                    "text": "3.3"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 614
+                    },
+                    "text": "3.4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 500
+                    },
+                    "text": "3.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 386
+                    },
+                    "text": "3.6"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 273
+                    },
+                    "text": "3.7"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 159
+                    },
+                    "text": "3.8"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 45
+                    },
+                    "text": "3.9"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 516,
+                            "x0": 411,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "CPIA equity of public resource use rating (1=low to 6=high)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 619,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 399
+                        },
+                        "id": 2,
+                        "text": "2012"
+                    },
+                    {
+                        "bb": {
+                            "height": 99,
+                            "width": 54,
+                            "x0": 80,
+                            "y0": 806
+                        },
+                        "id": 3,
+                        "text": "Upper middle\nincome"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 73,
+                            "x0": 328,
+                            "y0": 806
+                        },
+                        "id": 4,
+                        "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 43,
+                            "x0": 626,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "European Union"
+                    },
+                    {
+                        "bb": {
+                            "height": 89,
+                            "width": 51,
+                            "x0": 885,
+                            "y0": 806
+                        },
+                        "id": 6,
+                        "text": "Europe &\nCentral Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 31,
+                            "x0": 1173,
+                            "y0": 806
+                        },
+                        "id": 7,
+                        "text": "IBRD only"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 727
+                        },
+                        "id": 8,
+                        "text": "3.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 614
+                        },
+                        "id": 9,
+                        "text": "3.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 500
+                        },
+                        "id": 10,
+                        "text": "3.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 386
+                        },
+                        "id": 11,
+                        "text": "3.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 273
+                        },
+                        "id": 12,
+                        "text": "3.7"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 159
+                        },
+                        "id": 13,
+                        "text": "3.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 45
+                        },
+                        "id": 14,
+                        "text": "3.9"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 516,
+                            "x0": 411,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "CPIA equity of public resource use rating (1=low to 6=high)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 619,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 399
+                        },
+                        "id": 2,
+                        "text": "2012"
+                    },
+                    {
+                        "bb": {
+                            "height": 99,
+                            "width": 54,
+                            "x0": 80,
+                            "y0": 806
+                        },
+                        "id": 3,
+                        "text": "Upper middle\nincome"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 73,
+                            "x0": 328,
+                            "y0": 806
+                        },
+                        "id": 4,
+                        "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 43,
+                            "x0": 626,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "European Union"
+                    },
+                    {
+                        "bb": {
+                            "height": 89,
+                            "width": 51,
+                            "x0": 885,
+                            "y0": 806
+                        },
+                        "id": 6,
+                        "text": "Europe &\nCentral Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 31,
+                            "x0": 1173,
+                            "y0": 806
+                        },
+                        "id": 7,
+                        "text": "IBRD only"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 727
+                        },
+                        "id": 8,
+                        "text": "3.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 614
+                        },
+                        "id": 9,
+                        "text": "3.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 500
+                        },
+                        "id": 10,
+                        "text": "3.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 386
+                        },
+                        "id": 11,
+                        "text": "3.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 273
+                        },
+                        "id": 12,
+                        "text": "3.7"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 159
+                        },
+                        "id": 13,
+                        "text": "3.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 45
+                        },
+                        "id": 14,
+                        "text": "3.9"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 748,
+                "width": 1185,
+                "x0": 77,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 133,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 400,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 668,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 936,
+                            "y": 790
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 790
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 732
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 618
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 504
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 391
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 277
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 164
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 50
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 516,
+                            "x0": 411,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "CPIA equity of public resource use rating (1=low to 6=high)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 619,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 399
+                        },
+                        "id": 2,
+                        "text": "2012"
+                    },
+                    {
+                        "bb": {
+                            "height": 99,
+                            "width": 54,
+                            "x0": 80,
+                            "y0": 806
+                        },
+                        "id": 3,
+                        "text": "Upper middle\nincome"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 73,
+                            "x0": 328,
+                            "y0": 806
+                        },
+                        "id": 4,
+                        "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 43,
+                            "x0": 626,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "European Union"
+                    },
+                    {
+                        "bb": {
+                            "height": 89,
+                            "width": 51,
+                            "x0": 885,
+                            "y0": 806
+                        },
+                        "id": 6,
+                        "text": "Europe &\nCentral Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 31,
+                            "x0": 1173,
+                            "y0": 806
+                        },
+                        "id": 7,
+                        "text": "IBRD only"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 727
+                        },
+                        "id": 8,
+                        "text": "3.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 614
+                        },
+                        "id": 9,
+                        "text": "3.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 500
+                        },
+                        "id": 10,
+                        "text": "3.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 386
+                        },
+                        "id": 11,
+                        "text": "3.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 273
+                        },
+                        "id": 12,
+                        "text": "3.7"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 159
+                        },
+                        "id": 13,
+                        "text": "3.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 45
+                        },
+                        "id": 14,
+                        "text": "3.9"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 516,
+                            "x0": 411,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "CPIA equity of public resource use rating (1=low to 6=high)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 619,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 399
+                        },
+                        "id": 2,
+                        "text": "2012"
+                    },
+                    {
+                        "bb": {
+                            "height": 99,
+                            "width": 54,
+                            "x0": 80,
+                            "y0": 806
+                        },
+                        "id": 3,
+                        "text": "Upper middle\nincome"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 73,
+                            "x0": 328,
+                            "y0": 806
+                        },
+                        "id": 4,
+                        "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 43,
+                            "x0": 626,
+                            "y0": 806
+                        },
+                        "id": 5,
+                        "text": "European Union"
+                    },
+                    {
+                        "bb": {
+                            "height": 89,
+                            "width": 51,
+                            "x0": 885,
+                            "y0": 806
+                        },
+                        "id": 6,
+                        "text": "Europe &\nCentral Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 31,
+                            "x0": 1173,
+                            "y0": 806
+                        },
+                        "id": 7,
+                        "text": "IBRD only"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 727
+                        },
+                        "id": 8,
+                        "text": "3.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 614
+                        },
+                        "id": 9,
+                        "text": "3.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 500
+                        },
+                        "id": 10,
+                        "text": "3.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 386
+                        },
+                        "id": 11,
+                        "text": "3.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 273
+                        },
+                        "id": 12,
+                        "text": "3.7"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 159
+                        },
+                        "id": 13,
+                        "text": "3.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 45
+                        },
+                        "id": 14,
+                        "text": "3.9"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 748,
+                    "width": 1185,
+                    "x0": 77,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 133,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 400,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 668,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 936,
+                                "y": 790
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 790
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 732
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 618
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 504
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 391
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 277
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 164
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 50
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Upper middle income",
+                            "y": "3.40909090909"
+                        },
+                        {
+                            "x": "Sub-Saharan Africa (IDA & IBRD countries)",
+                            "y": "3.28205128205"
+                        },
+                        {
+                            "x": "European Union",
+                            "y": "3.4183695258781133"
+                        },
+                        {
+                            "x": "Europe & Central Asia",
+                            "y": "3.875"
+                        },
+                        {
+                            "x": "IBRD only",
+                            "y": "3.875"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 134,
+                            "y": 609
+                        },
+                        {
+                            "x": 401,
+                            "y": 753
+                        },
+                        {
+                            "x": 669,
+                            "y": 598
+                        },
+                        {
+                            "x": 937,
+                            "y": 79
+                        },
+                        {
+                            "x": 1204,
+                            "y": 79
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

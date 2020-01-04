@@ -1,0 +1,667 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 848,
+                        "x0": 407,
+                        "y0": 19
+                    },
+                    "text": "Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 961,
+                        "y0": 924
+                    },
+                    "text": "17"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 1165,
+                        "y0": 924
+                    },
+                    "text": "18"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 757,
+                        "y0": 924
+                    },
+                    "text": "16"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 349,
+                        "y0": 924
+                    },
+                    "text": "14"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 553,
+                        "y0": 924
+                    },
+                    "text": "15"
+                },
+                {
+                    "bb": {
+                        "height": 75,
+                        "width": 120,
+                        "x0": 19,
+                        "y0": 460
+                    },
+                    "text": "Middle East &\nNorth Africa"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 848,
+                            "x0": 407,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 961,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "17"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 1165,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "18"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 757,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "16"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 349,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 553,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 120,
+                            "x0": 19,
+                            "y0": 460
+                        },
+                        "id": 6,
+                        "text": "Middle East &\nNorth Africa"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 848,
+                            "x0": 407,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 961,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "17"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 1165,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "18"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 757,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "16"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 349,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 553,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 120,
+                            "x0": 19,
+                            "y0": 460
+                        },
+                        "id": 6,
+                        "text": "Middle East &\nNorth Africa"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 861,
+                "width": 1103,
+                "x0": 156,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 156,
+                            "y": 477
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 970,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 1174,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 767,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 359,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 563,
+                            "y": 904
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 848,
+                            "x0": 407,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 961,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "17"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 1165,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "18"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 757,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "16"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 349,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 553,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 120,
+                            "x0": 19,
+                            "y0": 460
+                        },
+                        "id": 6,
+                        "text": "Middle East &\nNorth Africa"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 848,
+                            "x0": 407,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 961,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "17"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 1165,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "18"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 757,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "16"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 349,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 553,
+                            "y0": 924
+                        },
+                        "id": 5,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 120,
+                            "x0": 19,
+                            "y0": 460
+                        },
+                        "id": 6,
+                        "text": "Middle East &\nNorth Africa"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 861,
+                    "width": 1103,
+                    "x0": 156,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 156,
+                                "y": 477
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 970,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 1174,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 767,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 359,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 563,
+                                "y": 904
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 15.311996990085525,
+                        "max": 17.4948442502,
+                        "median": 16.01026997445934,
+                        "min": 13.911614008,
+                        "third_quartile": 16.763806053550002
+                    },
+                    "name": "Middle East & North Africa"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 128,
+                                "width": 0,
+                                "x0": 627,
+                                "y0": 414
+                            },
+                            "x": 627,
+                            "y": 478
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 1072,
+                                "y0": 446
+                            },
+                            "x": 1072,
+                            "y": 478
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 128,
+                                "width": 0,
+                                "x0": 770,
+                                "y0": 414
+                            },
+                            "x": 770,
+                            "y": 478
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 342,
+                                "y0": 446
+                            },
+                            "x": 342,
+                            "y": 478
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 128,
+                                "width": 0,
+                                "x0": 923,
+                                "y0": 414
+                            },
+                            "x": 923,
+                            "y": 478
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

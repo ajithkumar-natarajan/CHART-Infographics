@@ -1,0 +1,1375 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 449,
+                        "x0": 809,
+                        "y0": 15
+                    },
+                    "text": "Currency composition of PPG debt, Pound sterling (%)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 619,
+                        "y0": 934
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 14,
+                        "x0": 14,
+                        "y0": 410
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 75,
+                        "width": 27,
+                        "x0": 107,
+                        "y0": 841
+                    },
+                    "text": "Costa Rica"
+                },
+                {
+                    "bb": {
+                        "height": 68,
+                        "width": 26,
+                        "x0": 465,
+                        "y0": 841
+                    },
+                    "text": "Honduras"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 43,
+                        "x0": 804,
+                        "y0": 841
+                    },
+                    "text": "Papua New\nGuinea"
+                },
+                {
+                    "bb": {
+                        "height": 43,
+                        "width": 21,
+                        "x0": 1183,
+                        "y0": 841
+                    },
+                    "text": "Aruba"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 783
+                    },
+                    "text": "0.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 688
+                    },
+                    "text": "0.2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 594
+                    },
+                    "text": "0.4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 500
+                    },
+                    "text": "0.6"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 406
+                    },
+                    "text": "0.8"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 311
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 217
+                    },
+                    "text": "1.2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 39,
+                        "y0": 123
+                    },
+                    "text": "1.4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1109,
+                        "y0": 58
+                    },
+                    "text": "2014"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1211,
+                        "y0": 58
+                    },
+                    "text": "2000"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 449,
+                            "x0": 809,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Currency composition of PPG debt, Pound sterling (%)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 619,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 410
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 27,
+                            "x0": 107,
+                            "y0": 841
+                        },
+                        "id": 3,
+                        "text": "Costa Rica"
+                    },
+                    {
+                        "bb": {
+                            "height": 68,
+                            "width": 26,
+                            "x0": 465,
+                            "y0": 841
+                        },
+                        "id": 4,
+                        "text": "Honduras"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 43,
+                            "x0": 804,
+                            "y0": 841
+                        },
+                        "id": 5,
+                        "text": "Papua New\nGuinea"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 21,
+                            "x0": 1183,
+                            "y0": 841
+                        },
+                        "id": 6,
+                        "text": "Aruba"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 783
+                        },
+                        "id": 7,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 688
+                        },
+                        "id": 8,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 594
+                        },
+                        "id": 9,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 500
+                        },
+                        "id": 10,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 406
+                        },
+                        "id": 11,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 311
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 217
+                        },
+                        "id": 13,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 123
+                        },
+                        "id": 14,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 15,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1211,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "2000"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 449,
+                            "x0": 809,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Currency composition of PPG debt, Pound sterling (%)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 619,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 410
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 27,
+                            "x0": 107,
+                            "y0": 841
+                        },
+                        "id": 3,
+                        "text": "Costa Rica"
+                    },
+                    {
+                        "bb": {
+                            "height": 68,
+                            "width": 26,
+                            "x0": 465,
+                            "y0": 841
+                        },
+                        "id": 4,
+                        "text": "Honduras"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 43,
+                            "x0": 804,
+                            "y0": 841
+                        },
+                        "id": 5,
+                        "text": "Papua New\nGuinea"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 21,
+                            "x0": 1183,
+                            "y0": 841
+                        },
+                        "id": 6,
+                        "text": "Aruba"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 783
+                        },
+                        "id": 7,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 688
+                        },
+                        "id": 8,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 594
+                        },
+                        "id": 9,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 500
+                        },
+                        "id": 10,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 406
+                        },
+                        "id": 11,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 311
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 217
+                        },
+                        "id": 13,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 123
+                        },
+                        "id": 14,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 15,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1211,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "2000"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 782,
+                "width": 1185,
+                "x0": 77,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 133,
+                            "y": 824
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 490,
+                            "y": 824
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 847,
+                            "y": 824
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 824
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 787
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 693
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 599
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 504
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 410
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 316
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 222
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 77,
+                            "y": 127
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 449,
+                            "x0": 809,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Currency composition of PPG debt, Pound sterling (%)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 619,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 410
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 27,
+                            "x0": 107,
+                            "y0": 841
+                        },
+                        "id": 3,
+                        "text": "Costa Rica"
+                    },
+                    {
+                        "bb": {
+                            "height": 68,
+                            "width": 26,
+                            "x0": 465,
+                            "y0": 841
+                        },
+                        "id": 4,
+                        "text": "Honduras"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 43,
+                            "x0": 804,
+                            "y0": 841
+                        },
+                        "id": 5,
+                        "text": "Papua New\nGuinea"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 21,
+                            "x0": 1183,
+                            "y0": 841
+                        },
+                        "id": 6,
+                        "text": "Aruba"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 783
+                        },
+                        "id": 7,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 688
+                        },
+                        "id": 8,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 594
+                        },
+                        "id": 9,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 500
+                        },
+                        "id": 10,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 406
+                        },
+                        "id": 11,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 311
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 217
+                        },
+                        "id": 13,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 123
+                        },
+                        "id": 14,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 15,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1211,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "2000"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 28,
+                        "x0": 1070,
+                        "y0": 55
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 28,
+                        "x0": 1172,
+                        "y0": 55
+                    },
+                    "id": 16
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 449,
+                            "x0": 809,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Currency composition of PPG debt, Pound sterling (%)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 619,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 410
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 27,
+                            "x0": 107,
+                            "y0": 841
+                        },
+                        "id": 3,
+                        "text": "Costa Rica"
+                    },
+                    {
+                        "bb": {
+                            "height": 68,
+                            "width": 26,
+                            "x0": 465,
+                            "y0": 841
+                        },
+                        "id": 4,
+                        "text": "Honduras"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 43,
+                            "x0": 804,
+                            "y0": 841
+                        },
+                        "id": 5,
+                        "text": "Papua New\nGuinea"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 21,
+                            "x0": 1183,
+                            "y0": 841
+                        },
+                        "id": 6,
+                        "text": "Aruba"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 783
+                        },
+                        "id": 7,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 688
+                        },
+                        "id": 8,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 594
+                        },
+                        "id": 9,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 500
+                        },
+                        "id": 10,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 406
+                        },
+                        "id": 11,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 311
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 217
+                        },
+                        "id": 13,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 39,
+                            "y0": 123
+                        },
+                        "id": 14,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 15,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1211,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "2000"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 782,
+                    "width": 1185,
+                    "x0": 77,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 133,
+                                "y": 824
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 490,
+                                "y": 824
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 847,
+                                "y": 824
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 824
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 787
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 693
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 599
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 504
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 410
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 316
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 222
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 77,
+                                "y": 127
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 28,
+                            "x0": 1070,
+                            "y0": 55
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 28,
+                            "x0": 1172,
+                            "y0": 55
+                        },
+                        "id": 16
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Costa Rica",
+                            "y": 0.9188277494064083
+                        },
+                        {
+                            "x": "Honduras",
+                            "y": 0.5101102438883767
+                        },
+                        {
+                            "x": "Papua New Guinea",
+                            "y": 0.7741593785944756
+                        },
+                        {
+                            "x": "Aruba",
+                            "y": "1.1969935926639395"
+                        }
+                    ],
+                    "name": "2014"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Costa Rica",
+                            "y": "0.0046"
+                        },
+                        {
+                            "x": "Honduras",
+                            "y": "0.4211"
+                        },
+                        {
+                            "x": "Papua New Guinea",
+                            "y": "0.7854"
+                        },
+                        {
+                            "x": "Aruba",
+                            "y": "1.5007316835716284"
+                        }
+                    ],
+                    "name": "2000"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 134,
+                            "y": 355
+                        },
+                        {
+                            "x": 491,
+                            "y": 548
+                        },
+                        {
+                            "x": 848,
+                            "y": 423
+                        },
+                        {
+                            "x": 1204,
+                            "y": 224
+                        }
+                    ],
+                    [
+                        {
+                            "x": 134,
+                            "y": 786
+                        },
+                        {
+                            "x": 491,
+                            "y": 590
+                        },
+                        {
+                            "x": 848,
+                            "y": 418
+                        },
+                        {
+                            "x": 1204,
+                            "y": 81
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

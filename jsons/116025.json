@@ -1,0 +1,2838 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 725,
+                        "x0": 533,
+                        "y0": 14
+                    },
+                    "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 656,
+                        "y0": 928
+                    },
+                    "text": "1992"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 438
+                    },
+                    "text": "1999"
+                },
+                {
+                    "bb": {
+                        "height": 13,
+                        "width": 16,
+                        "x0": 170,
+                        "y0": 887
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 20,
+                        "x0": 368,
+                        "y0": 887
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 22,
+                        "width": 20,
+                        "x0": 570,
+                        "y0": 887
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 20,
+                        "x0": 772,
+                        "y0": 887
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 20,
+                        "x0": 973,
+                        "y0": 887
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 30,
+                        "width": 23,
+                        "x0": 1172,
+                        "y0": 887
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 60,
+                        "y0": 793
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 652
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 51,
+                        "y0": 510
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 368
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 226
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 43,
+                        "y0": 84
+                    },
+                    "text": "100"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 725,
+                            "x0": 533,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 656,
+                            "y0": 928
+                        },
+                        "id": 1,
+                        "text": "1992"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 438
+                        },
+                        "id": 2,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 16,
+                            "x0": 170,
+                            "y0": 887
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 368,
+                            "y0": 887
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 20,
+                            "x0": 570,
+                            "y0": 887
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 772,
+                            "y0": 887
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 973,
+                            "y0": 887
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 23,
+                            "x0": 1172,
+                            "y0": 887
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 60,
+                            "y0": 793
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 652
+                        },
+                        "id": 10,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 510
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 368
+                        },
+                        "id": 12,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 226
+                        },
+                        "id": 13,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 14,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 725,
+                            "x0": 533,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 656,
+                            "y0": 928
+                        },
+                        "id": 1,
+                        "text": "1992"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 438
+                        },
+                        "id": 2,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 16,
+                            "x0": 170,
+                            "y0": 887
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 368,
+                            "y0": 887
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 20,
+                            "x0": 570,
+                            "y0": 887
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 772,
+                            "y0": 887
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 973,
+                            "y0": 887
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 23,
+                            "x0": 1172,
+                            "y0": 887
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 60,
+                            "y0": 793
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 652
+                        },
+                        "id": 10,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 510
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 368
+                        },
+                        "id": 12,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 226
+                        },
+                        "id": 13,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 14,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 831,
+                "width": 1176,
+                "x0": 85,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 185,
+                            "y": 871
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 387,
+                            "y": 871
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 588,
+                            "y": 871
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 790,
+                            "y": 871
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 992,
+                            "y": 871
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1194,
+                            "y": 871
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 656
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 514
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 372
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 231
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 89
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 725,
+                            "x0": 533,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 656,
+                            "y0": 928
+                        },
+                        "id": 1,
+                        "text": "1992"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 438
+                        },
+                        "id": 2,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 16,
+                            "x0": 170,
+                            "y0": 887
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 368,
+                            "y0": 887
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 20,
+                            "x0": 570,
+                            "y0": 887
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 772,
+                            "y0": 887
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 973,
+                            "y0": 887
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 23,
+                            "x0": 1172,
+                            "y0": 887
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 60,
+                            "y0": 793
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 652
+                        },
+                        "id": 10,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 510
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 368
+                        },
+                        "id": 12,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 226
+                        },
+                        "id": 13,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 14,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 725,
+                            "x0": 533,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 656,
+                            "y0": 928
+                        },
+                        "id": 1,
+                        "text": "1992"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 438
+                        },
+                        "id": 2,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 16,
+                            "x0": 170,
+                            "y0": 887
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 368,
+                            "y0": 887
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 20,
+                            "x0": 570,
+                            "y0": 887
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 772,
+                            "y0": 887
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 20,
+                            "x0": 973,
+                            "y0": 887
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 23,
+                            "x0": 1172,
+                            "y0": 887
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 60,
+                            "y0": 793
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 652
+                        },
+                        "id": 10,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 510
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 368
+                        },
+                        "id": 12,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 226
+                        },
+                        "id": 13,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 84
+                        },
+                        "id": 14,
+                        "text": "100"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 831,
+                    "width": 1176,
+                    "x0": 85,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 185,
+                                "y": 871
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 387,
+                                "y": 871
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 588,
+                                "y": 871
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 790,
+                                "y": 871
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 992,
+                                "y": 871
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1194,
+                                "y": 871
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 656
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 514
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 372
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 231
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 89
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1.80099999905",
+                            "y": 1.32099997997
+                        },
+                        {
+                            "x": "83.1200027466",
+                            "y": 80.1900024414
+                        },
+                        {
+                            "x": "3.48600006104",
+                            "y": 2.40599989891
+                        },
+                        {
+                            "x": "18.9769992828",
+                            "y": 23.7530002594
+                        },
+                        {
+                            "x": "38.321132951245865",
+                            "y": 11.830363484036575
+                        },
+                        {
+                            "x": "12.3789997101",
+                            "y": 12.8050003052
+                        },
+                        {
+                            "x": "35.0159988403",
+                            "y": 52.1539993286
+                        },
+                        {
+                            "x": "27.3129997253",
+                            "y": 24.7689990997
+                        },
+                        {
+                            "x": "90.2910003662",
+                            "y": 79.8659973145
+                        },
+                        {
+                            "x": "7.29600000381",
+                            "y": 5.76300001144
+                        },
+                        {
+                            "x": "24.3159999847",
+                            "y": 25.5310001373
+                        },
+                        {
+                            "x": "63.5730018616",
+                            "y": 61.3880004883
+                        },
+                        {
+                            "x": "5.59000015259",
+                            "y": 2.86299991608
+                        },
+                        {
+                            "x": "88.8830032349",
+                            "y": 87.6859970093
+                        },
+                        {
+                            "x": "0.437000006437",
+                            "y": 0.208000004292
+                        },
+                        {
+                            "x": "5.75699996948",
+                            "y": 4.05000019073
+                        },
+                        {
+                            "x": "78.56199646",
+                            "y": 75.1539993286
+                        },
+                        {
+                            "x": "16.9950008392",
+                            "y": 15.2760000229
+                        },
+                        {
+                            "x": "19.2310009003",
+                            "y": 33.1759986877
+                        },
+                        {
+                            "x": "12.5109996796",
+                            "y": 13.9020004272
+                        },
+                        {
+                            "x": "56.6769981384",
+                            "y": 43.8979988098
+                        },
+                        {
+                            "x": "3.46799993515",
+                            "y": 1.91499996185
+                        },
+                        {
+                            "x": "48.3680000305",
+                            "y": 44.6220016479
+                        },
+                        {
+                            "x": "0.967999994755",
+                            "y": 1.21399998665
+                        },
+                        {
+                            "x": "12.8719997406",
+                            "y": 14.267999649
+                        },
+                        {
+                            "x": "47.4550018311",
+                            "y": 48.6549987793
+                        },
+                        {
+                            "x": "52.96900177",
+                            "y": 59.0649986267
+                        },
+                        {
+                            "x": "1.24300003052",
+                            "y": 0.842000007629
+                        },
+                        {
+                            "x": "8.11299991608",
+                            "y": 5.0529999733
+                        },
+                        {
+                            "x": "3.03600001335",
+                            "y": 17.0499992371
+                        },
+                        {
+                            "x": "5.99300003052",
+                            "y": 4.61600017548
+                        },
+                        {
+                            "x": "86.8140029907",
+                            "y": 89.5189971924
+                        },
+                        {
+                            "x": "77.3170013428",
+                            "y": 76.3730010986
+                        },
+                        {
+                            "x": "7.61100006104",
+                            "y": 6.69799995422
+                        },
+                        {
+                            "x": "40.5730018616",
+                            "y": 37.033000946
+                        },
+                        {
+                            "x": "12.1350002289",
+                            "y": 12.015999794
+                        },
+                        {
+                            "x": "90.5",
+                            "y": 87.9649963379
+                        },
+                        {
+                            "x": "6.09800004959",
+                            "y": 8.04300022125
+                        },
+                        {
+                            "x": "6.61600017548",
+                            "y": 8.64400005341
+                        },
+                        {
+                            "x": "3.64499998093",
+                            "y": 2.35199999809
+                        },
+                        {
+                            "x": "93.2659988403",
+                            "y": 90.8560028076
+                        },
+                        {
+                            "x": "90.1740036011",
+                            "y": 91.266998291
+                        },
+                        {
+                            "x": "5.9390001297",
+                            "y": 3.90100002289
+                        },
+                        {
+                            "x": "27.408000946",
+                            "y": 31.7859992981
+                        },
+                        {
+                            "x": "7.5529999733",
+                            "y": 3.65300011635
+                        },
+                        {
+                            "x": "9.98799991608",
+                            "y": 9.35099983215
+                        },
+                        {
+                            "x": "16.97548715092634",
+                            "y": 12.9114881933438
+                        },
+                        {
+                            "x": "48.5260009766",
+                            "y": 32.2270011902
+                        },
+                        {
+                            "x": "4.13500022888",
+                            "y": 3.26999998093
+                        },
+                        {
+                            "x": "44.1959991455",
+                            "y": 47.1839981079
+                        },
+                        {
+                            "x": "93.5609970093",
+                            "y": 93.9769973755
+                        },
+                        {
+                            "x": "15.0959997177",
+                            "y": 15.9139995575
+                        },
+                        {
+                            "x": "2.40499997139",
+                            "y": 2.26999998093
+                        },
+                        {
+                            "x": "13.5069999695",
+                            "y": 8.93000030518
+                        },
+                        {
+                            "x": "28.3500003815",
+                            "y": 32.3720016479
+                        },
+                        {
+                            "x": "67.7590026855",
+                            "y": 72.5299987793
+                        },
+                        {
+                            "x": "16.841999054",
+                            "y": 15.1669998169
+                        },
+                        {
+                            "x": "73.391998291",
+                            "y": 70.733001709
+                        },
+                        {
+                            "x": "4.71199989319",
+                            "y": 3.51999998093
+                        },
+                        {
+                            "x": "51.7319984436",
+                            "y": 39.9710006714
+                        },
+                        {
+                            "x": "53.2080001831",
+                            "y": 47.7620010376
+                        },
+                        {
+                            "x": "24.611753128993122",
+                            "y": 96.8190002441
+                        },
+                        {
+                            "x": "62.4379997253",
+                            "y": 57.5270004272
+                        },
+                        {
+                            "x": "16.9890003204",
+                            "y": 19.2350006104
+                        },
+                        {
+                            "x": "44.35784857677868",
+                            "y": 39.66613083131492
+                        },
+                        {
+                            "x": "15.3579998016",
+                            "y": 16.7539997101
+                        },
+                        {
+                            "x": "1.90999996662",
+                            "y": 1.6779999733
+                        },
+                        {
+                            "x": "6.29300022125",
+                            "y": 12.3640003204
+                        },
+                        {
+                            "x": "33.32750419094408",
+                            "y": 30.476148686439856
+                        },
+                        {
+                            "x": "13.0530004501",
+                            "y": 14.4280004501
+                        },
+                        {
+                            "x": "88.0100021362",
+                            "y": 79.1529998779
+                        },
+                        {
+                            "x": "42.9560012817",
+                            "y": 43.3880004883
+                        },
+                        {
+                            "x": "0.0120000001043",
+                            "y": 0.00899999961257
+                        },
+                        {
+                            "x": "91.0749969482",
+                            "y": 91.1470031738
+                        },
+                        {
+                            "x": "75.64159378932726",
+                            "y": 96.8190002441
+                        },
+                        {
+                            "x": "11.1040000916",
+                            "y": 8.60200023651
+                        },
+                        {
+                            "x": "1.2460000515",
+                            "y": 1.3710000515
+                        },
+                        {
+                            "x": "19.2460002899",
+                            "y": 22.0200004578
+                        },
+                        {
+                            "x": "8.10700035095",
+                            "y": 4.89400005341
+                        },
+                        {
+                            "x": "65.6549987793",
+                            "y": 67.3779983521
+                        },
+                        {
+                            "x": "3.17499995232",
+                            "y": 2.46600008011
+                        },
+                        {
+                            "x": "71.766998291",
+                            "y": 67.2770004272
+                        },
+                        {
+                            "x": "62.1160011292",
+                            "y": 46.9729995728
+                        },
+                        {
+                            "x": "81.0080032349",
+                            "y": 80.9209976196
+                        },
+                        {
+                            "x": "24.0410003662",
+                            "y": 20.1119995117
+                        },
+                        {
+                            "x": "5.34700012207",
+                            "y": 4.74599981308
+                        },
+                        {
+                            "x": "34.47493396174183",
+                            "y": 10.632626011639964
+                        },
+                        {
+                            "x": "4.33699989319",
+                            "y": 3.83100008965
+                        },
+                        {
+                            "x": "80.0500030518",
+                            "y": 79.1849975586
+                        },
+                        {
+                            "x": "5.206695530267087",
+                            "y": 41.16965985564992
+                        },
+                        {
+                            "x": "51.5740013123",
+                            "y": 35.0130004883
+                        },
+                        {
+                            "x": "36.1040000916",
+                            "y": 45.6349983215
+                        },
+                        {
+                            "x": "0.212999999523",
+                            "y": 0.188999995589
+                        },
+                        {
+                            "x": "8.09700012207",
+                            "y": 6.95900011063
+                        },
+                        {
+                            "x": "25.9379997253",
+                            "y": 27.9179992676
+                        },
+                        {
+                            "x": "24.093000412",
+                            "y": 17.5370006561
+                        },
+                        {
+                            "x": "26.3990001678",
+                            "y": 19.7919998169
+                        },
+                        {
+                            "x": "86.6890029907",
+                            "y": 84.8639984131
+                        },
+                        {
+                            "x": "2.9960000515",
+                            "y": 1.91100001335
+                        },
+                        {
+                            "x": "2.53200006485",
+                            "y": 2.13800001144
+                        },
+                        {
+                            "x": "4.93699979782",
+                            "y": 6.14099979401
+                        },
+                        {
+                            "x": "34.3300018311",
+                            "y": 20.9099998474
+                        },
+                        {
+                            "x": "14.6870002747",
+                            "y": 4.61000013351
+                        },
+                        {
+                            "x": "10.239358290263446",
+                            "y": 46.684258382560394
+                        },
+                        {
+                            "x": "16.7409992218",
+                            "y": 12.9779996872
+                        },
+                        {
+                            "x": "3.75099992752",
+                            "y": 3.4849998951
+                        },
+                        {
+                            "x": "38.9179992676",
+                            "y": 50.6489982605
+                        },
+                        {
+                            "x": "10.1009998322",
+                            "y": 9.12300014496
+                        },
+                        {
+                            "x": "38.30247572808846",
+                            "y": 67.55650737239543
+                        },
+                        {
+                            "x": "5.13500022888",
+                            "y": 5.58599996567
+                        },
+                        {
+                            "x": "39.91019873705511",
+                            "y": 45.336823336039785
+                        },
+                        {
+                            "x": "52.1660003662",
+                            "y": 65.1669998169
+                        },
+                        {
+                            "x": "46.50746575206959",
+                            "y": 2.118319396162587
+                        },
+                        {
+                            "x": "83.9430007935",
+                            "y": 87.1780014038
+                        },
+                        {
+                            "x": "1.90199995041",
+                            "y": 1.09399998188
+                        },
+                        {
+                            "x": "6.36000013351",
+                            "y": 7.92199993134
+                        },
+                        {
+                            "x": "0.0780000016093",
+                            "y": 0.108999997377
+                        },
+                        {
+                            "x": "18.2749996185",
+                            "y": 15.5819997787
+                        },
+                        {
+                            "x": "27.9878864220639",
+                            "y": 50.345805638479575
+                        },
+                        {
+                            "x": "17.513999939",
+                            "y": 16.4120006561
+                        },
+                        {
+                            "x": "23.8859996796",
+                            "y": 17.1840000153
+                        },
+                        {
+                            "x": "31.9867837371329",
+                            "y": 32.15928737749437
+                        },
+                        {
+                            "x": "6.26499986649",
+                            "y": 4.38199996948
+                        },
+                        {
+                            "x": "44.8790016174",
+                            "y": 40.6879997253
+                        },
+                        {
+                            "x": "5.14599990845",
+                            "y": 3.07800006866
+                        },
+                        {
+                            "x": "46.19890579206121",
+                            "y": 87.60146895823966
+                        },
+                        {
+                            "x": "63.8989982605",
+                            "y": 65.0719985962
+                        },
+                        {
+                            "x": "37.84400177",
+                            "y": 34.6269989014
+                        },
+                        {
+                            "x": "1.33299994469",
+                            "y": 1.42999994755
+                        },
+                        {
+                            "x": "87.7440032959",
+                            "y": 87.93699646
+                        },
+                        {
+                            "x": "52.6599998474",
+                            "y": 48.3520011902
+                        },
+                        {
+                            "x": "52.9210014343",
+                            "y": 51.5349998474
+                        },
+                        {
+                            "x": "79.8339996338",
+                            "y": 79.5960006714
+                        },
+                        {
+                            "x": "74.1740036011",
+                            "y": 74.6480026245
+                        },
+                        {
+                            "x": "42.3740005493",
+                            "y": 35.7519989014
+                        },
+                        {
+                            "x": "16.25059428704084",
+                            "y": 0.00899999961257
+                        },
+                        {
+                            "x": "43.952999115",
+                            "y": 47.5870018005
+                        },
+                        {
+                            "x": "0.0930000022054",
+                            "y": 0.314999997616
+                        },
+                        {
+                            "x": "7.59999990463",
+                            "y": 6.32299995422
+                        },
+                        {
+                            "x": "4.86499977112",
+                            "y": 2.98000001907
+                        },
+                        {
+                            "x": "4.00600004196",
+                            "y": 3.66000008583
+                        },
+                        {
+                            "x": "0.340999990702",
+                            "y": 0.973999977112
+                        },
+                        {
+                            "x": "7.25099992752",
+                            "y": 4.68800020218
+                        },
+                        {
+                            "x": "40.36461551840426",
+                            "y": 41.72600785127972
+                        },
+                        {
+                            "x": "46.6930007935",
+                            "y": 47.8349990845
+                        },
+                        {
+                            "x": "91.7600021362",
+                            "y": 91.7919998169
+                        },
+                        {
+                            "x": "13.272278315976784",
+                            "y": 0.00899999961257
+                        },
+                        {
+                            "x": "90.891998291",
+                            "y": 91.0569992065
+                        },
+                        {
+                            "x": "90.0419998169",
+                            "y": 85.3539962769
+                        },
+                        {
+                            "x": "49.063999176",
+                            "y": 46.8779983521
+                        },
+                        {
+                            "x": "2.48699998856",
+                            "y": 1.45299994946
+                        },
+                        {
+                            "x": "52.1459999084",
+                            "y": 53.4140014648
+                        },
+                        {
+                            "x": "22.247428999075304",
+                            "y": 23.69661005177477
+                        },
+                        {
+                            "x": "92.6910018921",
+                            "y": 92.2949981689
+                        },
+                        {
+                            "x": "75.04798227687698",
+                            "y": 42.19538929192065
+                        },
+                        {
+                            "x": "28.275225692295663",
+                            "y": 41.40978662484741
+                        },
+                        {
+                            "x": "0.0579999983311",
+                            "y": 0.0659999996424
+                        },
+                        {
+                            "x": "89.0640029907",
+                            "y": 83.3740005493
+                        },
+                        {
+                            "x": "0.317999988794",
+                            "y": 0.22499999404
+                        },
+                        {
+                            "x": "63.2659988403",
+                            "y": 78.5149993896
+                        },
+                        {
+                            "x": "2.66799998283",
+                            "y": 1.45299994946
+                        },
+                        {
+                            "x": "0.0529999993742",
+                            "y": 0.0460000000894
+                        },
+                        {
+                            "x": "50.563999176",
+                            "y": 52.8180007935
+                        },
+                        {
+                            "x": "37.813999176",
+                            "y": 51.4749984741
+                        },
+                        {
+                            "x": "8.25100040436",
+                            "y": 6.42700004578
+                        },
+                        {
+                            "x": "8.55200004578",
+                            "y": 4.51499986649
+                        },
+                        {
+                            "x": "69.1949996948",
+                            "y": 69.5650024414
+                        },
+                        {
+                            "x": "90.1429977417",
+                            "y": 86.922996521
+                        },
+                        {
+                            "x": "16.045999527",
+                            "y": 8.79699993134
+                        },
+                        {
+                            "x": "23.8560009003",
+                            "y": 12.4379997253
+                        },
+                        {
+                            "x": "0.252000004053",
+                            "y": 0.216000005603
+                        },
+                        {
+                            "x": "39.8330001831",
+                            "y": 37.0699996948
+                        },
+                        {
+                            "x": "1.42599999905",
+                            "y": 0.933000028133
+                        },
+                        {
+                            "x": "44.9319992065",
+                            "y": 57.4290008545
+                        },
+                        {
+                            "x": "91.0149993896",
+                            "y": 88.5530014038
+                        },
+                        {
+                            "x": "3.19600009918",
+                            "y": 1.75899994373
+                        },
+                        {
+                            "x": "74.0299987793",
+                            "y": 65.4469985962
+                        },
+                        {
+                            "x": "35.0499992371",
+                            "y": 33.5909996033
+                        },
+                        {
+                            "x": "19.670155610922528",
+                            "y": 69.74402253631962
+                        },
+                        {
+                            "x": "55.0089988708",
+                            "y": 48.4749984741
+                        },
+                        {
+                            "x": "18.8850002289",
+                            "y": 14.8140001297
+                        },
+                        {
+                            "x": "63.561000824",
+                            "y": 65.6289978027
+                        },
+                        {
+                            "x": "73.7570037842",
+                            "y": 72.3539962769
+                        },
+                        {
+                            "x": "50.3209991455",
+                            "y": 55.6679992676
+                        },
+                        {
+                            "x": "42.8549995422",
+                            "y": 54.1409988403
+                        },
+                        {
+                            "x": "5.427505469817099",
+                            "y": 49.160181143151846
+                        },
+                        {
+                            "x": "74.0",
+                            "y": 74.5930023193
+                        },
+                        {
+                            "x": "38.861000061",
+                            "y": 37.0239982605
+                        },
+                        {
+                            "x": "41.4319992065",
+                            "y": 43.5900001526
+                        },
+                        {
+                            "x": "38.8180007935",
+                            "y": 45.9410018921
+                        },
+                        {
+                            "x": "1.13600003719",
+                            "y": 0.758000016212
+                        },
+                        {
+                            "x": "6.42100000381",
+                            "y": 6.09100008011
+                        },
+                        {
+                            "x": "96.6259994507",
+                            "y": 96.8190002441
+                        },
+                        {
+                            "x": "61.77228600513791",
+                            "y": 35.54123569011075
+                        },
+                        {
+                            "x": "66.5589981079",
+                            "y": 69.9309997559
+                        },
+                        {
+                            "x": "55.7459983826",
+                            "y": 55.2579994202
+                        },
+                        {
+                            "x": "82.2880020142",
+                            "y": 78.4110031128
+                        },
+                        {
+                            "x": "76.5210037231",
+                            "y": 79.4909973145
+                        },
+                        {
+                            "x": "82.940296135846",
+                            "y": 29.175278686380164
+                        },
+                        {
+                            "x": "52.6189994812",
+                            "y": 31.9230003357
+                        },
+                        {
+                            "x": "9.28199958801",
+                            "y": 7.55700016022
+                        },
+                        {
+                            "x": "40.26197441985626",
+                            "y": 82.77905873137479
+                        },
+                        {
+                            "x": "67.3880004883",
+                            "y": 69.7379989624
+                        },
+                        {
+                            "x": "4.48999977112",
+                            "y": 4.5609998703
+                        },
+                        {
+                            "x": "93.1510009766",
+                            "y": 90.5350036621
+                        },
+                        {
+                            "x": "31.8680000305",
+                            "y": 27.0109996796
+                        },
+                        {
+                            "x": "20.1380004883",
+                            "y": 13.5749998093
+                        },
+                        {
+                            "x": "9.92199993134",
+                            "y": 10.9580001831
+                        },
+                        {
+                            "x": "5.75199985504",
+                            "y": 1.45599997044
+                        },
+                        {
+                            "x": "25.17229532102888",
+                            "y": 52.14487919545145
+                        },
+                        {
+                            "x": "13.2069997787",
+                            "y": 6.49700021744
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": [
+                    {
+                        "x": 204,
+                        "y": 789
+                    },
+                    {
+                        "x": 1024,
+                        "y": 230
+                    },
+                    {
+                        "x": 221,
+                        "y": 782
+                    },
+                    {
+                        "x": 377,
+                        "y": 630
+                    },
+                    {
+                        "x": 572,
+                        "y": 715
+                    },
+                    {
+                        "x": 311,
+                        "y": 708
+                    },
+                    {
+                        "x": 539,
+                        "y": 429
+                    },
+                    {
+                        "x": 461,
+                        "y": 623
+                    },
+                    {
+                        "x": 1097,
+                        "y": 233
+                    },
+                    {
+                        "x": 259,
+                        "y": 758
+                    },
+                    {
+                        "x": 431,
+                        "y": 618
+                    },
+                    {
+                        "x": 827,
+                        "y": 364
+                    },
+                    {
+                        "x": 242,
+                        "y": 779
+                    },
+                    {
+                        "x": 1082,
+                        "y": 177
+                    },
+                    {
+                        "x": 190,
+                        "y": 797
+                    },
+                    {
+                        "x": 244,
+                        "y": 770
+                    },
+                    {
+                        "x": 978,
+                        "y": 266
+                    },
+                    {
+                        "x": 357,
+                        "y": 691
+                    },
+                    {
+                        "x": 380,
+                        "y": 564
+                    },
+                    {
+                        "x": 312,
+                        "y": 700
+                    },
+                    {
+                        "x": 758,
+                        "y": 488
+                    },
+                    {
+                        "x": 221,
+                        "y": 785
+                    },
+                    {
+                        "x": 674,
+                        "y": 482
+                    },
+                    {
+                        "x": 196,
+                        "y": 790
+                    },
+                    {
+                        "x": 316,
+                        "y": 698
+                    },
+                    {
+                        "x": 665,
+                        "y": 454
+                    },
+                    {
+                        "x": 720,
+                        "y": 380
+                    },
+                    {
+                        "x": 198,
+                        "y": 793
+                    },
+                    {
+                        "x": 268,
+                        "y": 763
+                    },
+                    {
+                        "x": 217,
+                        "y": 678
+                    },
+                    {
+                        "x": 246,
+                        "y": 766
+                    },
+                    {
+                        "x": 1062,
+                        "y": 164
+                    },
+                    {
+                        "x": 966,
+                        "y": 257
+                    },
+                    {
+                        "x": 263,
+                        "y": 751
+                    },
+                    {
+                        "x": 595,
+                        "y": 536
+                    },
+                    {
+                        "x": 308,
+                        "y": 714
+                    },
+                    {
+                        "x": 1099,
+                        "y": 175
+                    },
+                    {
+                        "x": 247,
+                        "y": 742
+                    },
+                    {
+                        "x": 253,
+                        "y": 738
+                    },
+                    {
+                        "x": 223,
+                        "y": 782
+                    },
+                    {
+                        "x": 1127,
+                        "y": 155
+                    },
+                    {
+                        "x": 1095,
+                        "y": 152
+                    },
+                    {
+                        "x": 246,
+                        "y": 771
+                    },
+                    {
+                        "x": 462,
+                        "y": 573
+                    },
+                    {
+                        "x": 262,
+                        "y": 773
+                    },
+                    {
+                        "x": 287,
+                        "y": 733
+                    },
+                    {
+                        "x": 357,
+                        "y": 707
+                    },
+                    {
+                        "x": 675,
+                        "y": 570
+                    },
+                    {
+                        "x": 228,
+                        "y": 776
+                    },
+                    {
+                        "x": 632,
+                        "y": 464
+                    },
+                    {
+                        "x": 1130,
+                        "y": 132
+                    },
+                    {
+                        "x": 338,
+                        "y": 686
+                    },
+                    {
+                        "x": 210,
+                        "y": 783
+                    },
+                    {
+                        "x": 322,
+                        "y": 736
+                    },
+                    {
+                        "x": 472,
+                        "y": 569
+                    },
+                    {
+                        "x": 869,
+                        "y": 285
+                    },
+                    {
+                        "x": 356,
+                        "y": 691
+                    },
+                    {
+                        "x": 926,
+                        "y": 297
+                    },
+                    {
+                        "x": 233,
+                        "y": 774
+                    },
+                    {
+                        "x": 708,
+                        "y": 515
+                    },
+                    {
+                        "x": 723,
+                        "y": 460
+                    },
+                    {
+                        "x": 434,
+                        "y": 112
+                    },
+                    {
+                        "x": 816,
+                        "y": 391
+                    },
+                    {
+                        "x": 357,
+                        "y": 662
+                    },
+                    {
+                        "x": 633,
+                        "y": 518
+                    },
+                    {
+                        "x": 341,
+                        "y": 680
+                    },
+                    {
+                        "x": 205,
+                        "y": 787
+                    },
+                    {
+                        "x": 249,
+                        "y": 711
+                    },
+                    {
+                        "x": 522,
+                        "y": 583
+                    },
+                    {
+                        "x": 318,
+                        "y": 697
+                    },
+                    {
+                        "x": 1074,
+                        "y": 238
+                    },
+                    {
+                        "x": 619,
+                        "y": 491
+                    },
+                    {
+                        "x": 186,
+                        "y": 799
+                    },
+                    {
+                        "x": 1105,
+                        "y": 153
+                    },
+                    {
+                        "x": 949,
+                        "y": 112
+                    },
+                    {
+                        "x": 298,
+                        "y": 738
+                    },
+                    {
+                        "x": 198,
+                        "y": 789
+                    },
+                    {
+                        "x": 380,
+                        "y": 643
+                    },
+                    {
+                        "x": 268,
+                        "y": 764
+                    },
+                    {
+                        "x": 848,
+                        "y": 321
+                    },
+                    {
+                        "x": 218,
+                        "y": 781
+                    },
+                    {
+                        "x": 910,
+                        "y": 322
+                    },
+                    {
+                        "x": 812,
+                        "y": 466
+                    },
+                    {
+                        "x": 1003,
+                        "y": 225
+                    },
+                    {
+                        "x": 428,
+                        "y": 656
+                    },
+                    {
+                        "x": 240,
+                        "y": 765
+                    },
+                    {
+                        "x": 534,
+                        "y": 723
+                    },
+                    {
+                        "x": 230,
+                        "y": 772
+                    },
+                    {
+                        "x": 993,
+                        "y": 237
+                    },
+                    {
+                        "x": 238,
+                        "y": 507
+                    },
+                    {
+                        "x": 706,
+                        "y": 551
+                    },
+                    {
+                        "x": 550,
+                        "y": 475
+                    },
+                    {
+                        "x": 188,
+                        "y": 797
+                    },
+                    {
+                        "x": 268,
+                        "y": 749
+                    },
+                    {
+                        "x": 448,
+                        "y": 601
+                    },
+                    {
+                        "x": 429,
+                        "y": 674
+                    },
+                    {
+                        "x": 452,
+                        "y": 658
+                    },
+                    {
+                        "x": 1060,
+                        "y": 197
+                    },
+                    {
+                        "x": 216,
+                        "y": 785
+                    },
+                    {
+                        "x": 211,
+                        "y": 784
+                    },
+                    {
+                        "x": 236,
+                        "y": 755
+                    },
+                    {
+                        "x": 532,
+                        "y": 651
+                    },
+                    {
+                        "x": 334,
+                        "y": 766
+                    },
+                    {
+                        "x": 289,
+                        "y": 468
+                    },
+                    {
+                        "x": 355,
+                        "y": 707
+                    },
+                    {
+                        "x": 224,
+                        "y": 774
+                    },
+                    {
+                        "x": 578,
+                        "y": 440
+                    },
+                    {
+                        "x": 288,
+                        "y": 734
+                    },
+                    {
+                        "x": 572,
+                        "y": 320
+                    },
+                    {
+                        "x": 238,
+                        "y": 759
+                    },
+                    {
+                        "x": 588,
+                        "y": 477
+                    },
+                    {
+                        "x": 712,
+                        "y": 337
+                    },
+                    {
+                        "x": 655,
+                        "y": 784
+                    },
+                    {
+                        "x": 1033,
+                        "y": 181
+                    },
+                    {
+                        "x": 205,
+                        "y": 791
+                    },
+                    {
+                        "x": 250,
+                        "y": 743
+                    },
+                    {
+                        "x": 187,
+                        "y": 798
+                    },
+                    {
+                        "x": 370,
+                        "y": 688
+                    },
+                    {
+                        "x": 468,
+                        "y": 442
+                    },
+                    {
+                        "x": 363,
+                        "y": 682
+                    },
+                    {
+                        "x": 427,
+                        "y": 677
+                    },
+                    {
+                        "x": 509,
+                        "y": 571
+                    },
+                    {
+                        "x": 249,
+                        "y": 768
+                    },
+                    {
+                        "x": 639,
+                        "y": 510
+                    },
+                    {
+                        "x": 238,
+                        "y": 777
+                    },
+                    {
+                        "x": 652,
+                        "y": 178
+                    },
+                    {
+                        "x": 830,
+                        "y": 337
+                    },
+                    {
+                        "x": 568,
+                        "y": 553
+                    },
+                    {
+                        "x": 199,
+                        "y": 789
+                    },
+                    {
+                        "x": 1071,
+                        "y": 175
+                    },
+                    {
+                        "x": 717,
+                        "y": 456
+                    },
+                    {
+                        "x": 720,
+                        "y": 433
+                    },
+                    {
+                        "x": 991,
+                        "y": 234
+                    },
+                    {
+                        "x": 934,
+                        "y": 270
+                    },
+                    {
+                        "x": 613,
+                        "y": 545
+                    },
+                    {
+                        "x": 350,
+                        "y": 799
+                    },
+                    {
+                        "x": 629,
+                        "y": 461
+                    },
+                    {
+                        "x": 187,
+                        "y": 797
+                    },
+                    {
+                        "x": 263,
+                        "y": 754
+                    },
+                    {
+                        "x": 235,
+                        "y": 778
+                    },
+                    {
+                        "x": 226,
+                        "y": 773
+                    },
+                    {
+                        "x": 189,
+                        "y": 792
+                    },
+                    {
+                        "x": 259,
+                        "y": 766
+                    },
+                    {
+                        "x": 593,
+                        "y": 503
+                    },
+                    {
+                        "x": 657,
+                        "y": 460
+                    },
+                    {
+                        "x": 1111,
+                        "y": 148
+                    },
+                    {
+                        "x": 320,
+                        "y": 799
+                    },
+                    {
+                        "x": 1103,
+                        "y": 153
+                    },
+                    {
+                        "x": 1094,
+                        "y": 194
+                    },
+                    {
+                        "x": 681,
+                        "y": 466
+                    },
+                    {
+                        "x": 211,
+                        "y": 789
+                    },
+                    {
+                        "x": 712,
+                        "y": 420
+                    },
+                    {
+                        "x": 410,
+                        "y": 631
+                    },
+                    {
+                        "x": 1121,
+                        "y": 144
+                    },
+                    {
+                        "x": 943,
+                        "y": 500
+                    },
+                    {
+                        "x": 471,
+                        "y": 505
+                    },
+                    {
+                        "x": 186,
+                        "y": 798
+                    },
+                    {
+                        "x": 1084,
+                        "y": 208
+                    },
+                    {
+                        "x": 189,
+                        "y": 797
+                    },
+                    {
+                        "x": 824,
+                        "y": 242
+                    },
+                    {
+                        "x": 213,
+                        "y": 789
+                    },
+                    {
+                        "x": 186,
+                        "y": 799
+                    },
+                    {
+                        "x": 696,
+                        "y": 424
+                    },
+                    {
+                        "x": 567,
+                        "y": 434
+                    },
+                    {
+                        "x": 269,
+                        "y": 753
+                    },
+                    {
+                        "x": 272,
+                        "y": 767
+                    },
+                    {
+                        "x": 884,
+                        "y": 306
+                    },
+                    {
+                        "x": 1095,
+                        "y": 182
+                    },
+                    {
+                        "x": 348,
+                        "y": 736
+                    },
+                    {
+                        "x": 427,
+                        "y": 711
+                    },
+                    {
+                        "x": 188,
+                        "y": 797
+                    },
+                    {
+                        "x": 588,
+                        "y": 536
+                    },
+                    {
+                        "x": 200,
+                        "y": 792
+                    },
+                    {
+                        "x": 639,
+                        "y": 392
+                    },
+                    {
+                        "x": 1104,
+                        "y": 171
+                    },
+                    {
+                        "x": 218,
+                        "y": 786
+                    },
+                    {
+                        "x": 933,
+                        "y": 335
+                    },
+                    {
+                        "x": 539,
+                        "y": 561
+                    },
+                    {
+                        "x": 384,
+                        "y": 304
+                    },
+                    {
+                        "x": 741,
+                        "y": 455
+                    },
+                    {
+                        "x": 376,
+                        "y": 694
+                    },
+                    {
+                        "x": 827,
+                        "y": 333
+                    },
+                    {
+                        "x": 930,
+                        "y": 286
+                    },
+                    {
+                        "x": 693,
+                        "y": 404
+                    },
+                    {
+                        "x": 618,
+                        "y": 415
+                    },
+                    {
+                        "x": 241,
+                        "y": 450
+                    },
+                    {
+                        "x": 932,
+                        "y": 270
+                    },
+                    {
+                        "x": 578,
+                        "y": 536
+                    },
+                    {
+                        "x": 604,
+                        "y": 490
+                    },
+                    {
+                        "x": 577,
+                        "y": 473
+                    },
+                    {
+                        "x": 197,
+                        "y": 793
+                    },
+                    {
+                        "x": 251,
+                        "y": 756
+                    },
+                    {
+                        "x": 1161,
+                        "y": 112
+                    },
+                    {
+                        "x": 809,
+                        "y": 547
+                    },
+                    {
+                        "x": 857,
+                        "y": 303
+                    },
+                    {
+                        "x": 748,
+                        "y": 407
+                    },
+                    {
+                        "x": 1016,
+                        "y": 243
+                    },
+                    {
+                        "x": 958,
+                        "y": 235
+                    },
+                    {
+                        "x": 1022,
+                        "y": 592
+                    },
+                    {
+                        "x": 717,
+                        "y": 572
+                    },
+                    {
+                        "x": 280,
+                        "y": 745
+                    },
+                    {
+                        "x": 592,
+                        "y": 212
+                    },
+                    {
+                        "x": 866,
+                        "y": 304
+                    },
+                    {
+                        "x": 231,
+                        "y": 766
+                    },
+                    {
+                        "x": 1125,
+                        "y": 157
+                    },
+                    {
+                        "x": 507,
+                        "y": 607
+                    },
+                    {
+                        "x": 389,
+                        "y": 703
+                    },
+                    {
+                        "x": 286,
+                        "y": 721
+                    },
+                    {
+                        "x": 244,
+                        "y": 789
+                    },
+                    {
+                        "x": 440,
+                        "y": 429
+                    },
+                    {
+                        "x": 319,
+                        "y": 753
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,886 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 204,
+                        "x0": 217,
+                        "y0": 19
+                    },
+                    "text": "Egypt 1996 Export"
+                },
+                {
+                    "bb": {
+                        "height": 90,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 392
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 691,
+                        "y0": 924
+                    },
+                    "text": "trade usd"
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 19,
+                        "x0": 198,
+                        "y0": 842
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 71,
+                        "width": 22,
+                        "x0": 385,
+                        "y0": 842
+                    },
+                    "text": "1000000"
+                },
+                {
+                    "bb": {
+                        "height": 71,
+                        "width": 22,
+                        "x0": 576,
+                        "y0": 842
+                    },
+                    "text": "2000000"
+                },
+                {
+                    "bb": {
+                        "height": 71,
+                        "width": 22,
+                        "x0": 766,
+                        "y0": 842
+                    },
+                    "text": "3000000"
+                },
+                {
+                    "bb": {
+                        "height": 71,
+                        "width": 22,
+                        "x0": 956,
+                        "y0": 842
+                    },
+                    "text": "4000000"
+                },
+                {
+                    "bb": {
+                        "height": 71,
+                        "width": 22,
+                        "x0": 1147,
+                        "y0": 842
+                    },
+                    "text": "5000000"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 150,
+                        "x0": 47,
+                        "y0": 653
+                    },
+                    "text": "Printed matter,\nnes"
+                },
+                {
+                    "bb": {
+                        "height": 101,
+                        "width": 130,
+                        "x0": 67,
+                        "y0": 154
+                    },
+                    "text": "Sugar\nconfectionery\nnot chewing\ngum, no cocoa\ncontent"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 204,
+                            "x0": 217,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Egypt 1996 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 392
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 198,
+                            "y0": 842
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 385,
+                            "y0": 842
+                        },
+                        "id": 4,
+                        "text": "1000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 576,
+                            "y0": 842
+                        },
+                        "id": 5,
+                        "text": "2000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 766,
+                            "y0": 842
+                        },
+                        "id": 6,
+                        "text": "3000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 956,
+                            "y0": 842
+                        },
+                        "id": 7,
+                        "text": "4000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 1147,
+                            "y0": 842
+                        },
+                        "id": 8,
+                        "text": "5000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 653
+                        },
+                        "id": 9,
+                        "text": "Printed matter,\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 130,
+                            "x0": 67,
+                            "y0": 154
+                        },
+                        "id": 10,
+                        "text": "Sugar\nconfectionery\nnot chewing\ngum, no cocoa\ncontent"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 204,
+                            "x0": 217,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Egypt 1996 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 392
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 198,
+                            "y0": 842
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 385,
+                            "y0": 842
+                        },
+                        "id": 4,
+                        "text": "1000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 576,
+                            "y0": 842
+                        },
+                        "id": 5,
+                        "text": "2000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 766,
+                            "y0": 842
+                        },
+                        "id": 6,
+                        "text": "3000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 956,
+                            "y0": 842
+                        },
+                        "id": 7,
+                        "text": "4000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 1147,
+                            "y0": 842
+                        },
+                        "id": 8,
+                        "text": "5000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 653
+                        },
+                        "id": 9,
+                        "text": "Printed matter,\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 130,
+                            "x0": 67,
+                            "y0": 154
+                        },
+                        "id": 10,
+                        "text": "Sugar\nconfectionery\nnot chewing\ngum, no cocoa\ncontent"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 779,
+                "width": 1045,
+                "x0": 213,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 670
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 202
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 216,
+                            "y": 822
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 406,
+                            "y": 822
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 596,
+                            "y": 822
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 787,
+                            "y": 822
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 977,
+                            "y": 822
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1168,
+                            "y": 822
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 204,
+                            "x0": 217,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Egypt 1996 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 392
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 198,
+                            "y0": 842
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 385,
+                            "y0": 842
+                        },
+                        "id": 4,
+                        "text": "1000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 576,
+                            "y0": 842
+                        },
+                        "id": 5,
+                        "text": "2000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 766,
+                            "y0": 842
+                        },
+                        "id": 6,
+                        "text": "3000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 956,
+                            "y0": 842
+                        },
+                        "id": 7,
+                        "text": "4000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 1147,
+                            "y0": 842
+                        },
+                        "id": 8,
+                        "text": "5000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 653
+                        },
+                        "id": 9,
+                        "text": "Printed matter,\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 130,
+                            "x0": 67,
+                            "y0": 154
+                        },
+                        "id": 10,
+                        "text": "Sugar\nconfectionery\nnot chewing\ngum, no cocoa\ncontent"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 204,
+                            "x0": 217,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Egypt 1996 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 392
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 691,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 19,
+                            "x0": 198,
+                            "y0": 842
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 385,
+                            "y0": 842
+                        },
+                        "id": 4,
+                        "text": "1000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 576,
+                            "y0": 842
+                        },
+                        "id": 5,
+                        "text": "2000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 766,
+                            "y0": 842
+                        },
+                        "id": 6,
+                        "text": "3000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 956,
+                            "y0": 842
+                        },
+                        "id": 7,
+                        "text": "4000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 22,
+                            "x0": 1147,
+                            "y0": 842
+                        },
+                        "id": 8,
+                        "text": "5000000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 653
+                        },
+                        "id": 9,
+                        "text": "Printed matter,\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 130,
+                            "x0": 67,
+                            "y0": 154
+                        },
+                        "id": 10,
+                        "text": "Sugar\nconfectionery\nnot chewing\ngum, no cocoa\ncontent"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 779,
+                    "width": 1045,
+                    "x0": 213,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 670
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 202
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 216,
+                                "y": 822
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 406,
+                                "y": 822
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 596,
+                                "y": 822
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 787,
+                                "y": 822
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 977,
+                                "y": 822
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1168,
+                                "y": 822
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Printed matter, nes",
+                            "y": "12613"
+                        },
+                        {
+                            "x": "Sugar confectionery not chewing gum, no cocoa content",
+                            "y": "4818804"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 234,
+                        "width": 2,
+                        "x0": 217,
+                        "y0": 554
+                    },
+                    {
+                        "height": 234,
+                        "width": 917,
+                        "x0": 217,
+                        "y0": 86
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

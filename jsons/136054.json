@@ -1,0 +1,809 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 263,
+                        "x0": 995,
+                        "y0": 14
+                    },
+                    "text": "acs2015_county_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 132,
+                        "width": 67,
+                        "x0": 584,
+                        "y0": 811
+                    },
+                    "text": "47011TennesseeB\nradley"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 517
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 719
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 112
+                    },
+                    "text": "6"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 415
+                    },
+                    "text": "3"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 618
+                    },
+                    "text": "1"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 314
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 15,
+                        "y0": 213
+                    },
+                    "text": "5"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 995,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 67,
+                            "x0": 584,
+                            "y0": 811
+                        },
+                        "id": 1,
+                        "text": "47011TennesseeB\nradley"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 517
+                        },
+                        "id": 2,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 719
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 112
+                        },
+                        "id": 4,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 415
+                        },
+                        "id": 5,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 618
+                        },
+                        "id": 6,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 314
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 213
+                        },
+                        "id": 8,
+                        "text": "5"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 995,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 67,
+                            "x0": 584,
+                            "y0": 811
+                        },
+                        "id": 1,
+                        "text": "47011TennesseeB\nradley"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 517
+                        },
+                        "id": 2,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 719
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 112
+                        },
+                        "id": 4,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 415
+                        },
+                        "id": 5,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 618
+                        },
+                        "id": 6,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 314
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 213
+                        },
+                        "id": 8,
+                        "text": "5"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 755,
+                "width": 1222,
+                "x0": 40,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 650,
+                            "y": 795
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 521
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 724
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 116
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 420
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 622
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 322
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 40,
+                            "y": 217
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 995,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 67,
+                            "x0": 584,
+                            "y0": 811
+                        },
+                        "id": 1,
+                        "text": "47011TennesseeB\nradley"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 517
+                        },
+                        "id": 2,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 719
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 112
+                        },
+                        "id": 4,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 415
+                        },
+                        "id": 5,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 618
+                        },
+                        "id": 6,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 314
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 213
+                        },
+                        "id": 8,
+                        "text": "5"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 995,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 67,
+                            "x0": 584,
+                            "y0": 811
+                        },
+                        "id": 1,
+                        "text": "47011TennesseeB\nradley"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 517
+                        },
+                        "id": 2,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 719
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 112
+                        },
+                        "id": 4,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 415
+                        },
+                        "id": 5,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 618
+                        },
+                        "id": 6,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 314
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 15,
+                            "y0": 213
+                        },
+                        "id": 8,
+                        "text": "5"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 755,
+                    "width": 1222,
+                    "x0": 40,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 650,
+                                "y": 795
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 521
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 724
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 116
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 420
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 622
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 322
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 40,
+                                "y": 217
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.43636180368647853,
+                        "max": 5.4,
+                        "median": 2.8,
+                        "min": 0.1,
+                        "third_quartile": 5.200000000000001
+                    },
+                    "name": "47011TennesseeBradley"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 182,
+                                "x0": 560,
+                                "y0": 680
+                            },
+                            "x": 651,
+                            "y": 680
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 91,
+                                "x0": 605,
+                                "y0": 178
+                            },
+                            "x": 651,
+                            "y": 178
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 182,
+                                "x0": 560,
+                                "y0": 441
+                            },
+                            "x": 651,
+                            "y": 441
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 91,
+                                "x0": 605,
+                                "y0": 714
+                            },
+                            "x": 651,
+                            "y": 714
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 182,
+                                "x0": 560,
+                                "y0": 680
+                            },
+                            "x": 651,
+                            "y": 198
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

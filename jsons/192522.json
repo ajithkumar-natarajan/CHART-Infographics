@@ -1,0 +1,2036 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 867,
+                        "x0": 388,
+                        "y0": 19
+                    },
+                    "text": "Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest)"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 114,
+                        "x0": 609,
+                        "y0": 924
+                    },
+                    "text": "Country Code"
+                },
+                {
+                    "bb": {
+                        "height": 56,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 423
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 28,
+                        "x0": 103,
+                        "y0": 871
+                    },
+                    "text": "MRT"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 25,
+                        "x0": 203,
+                        "y0": 871
+                    },
+                    "text": "ISR"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 28,
+                        "x0": 297,
+                        "y0": 871
+                    },
+                    "text": "SDN"
+                },
+                {
+                    "bb": {
+                        "height": 38,
+                        "width": 27,
+                        "x0": 395,
+                        "y0": 871
+                    },
+                    "text": "COL"
+                },
+                {
+                    "bb": {
+                        "height": 36,
+                        "width": 27,
+                        "x0": 493,
+                        "y0": 871
+                    },
+                    "text": "NPL"
+                },
+                {
+                    "bb": {
+                        "height": 42,
+                        "width": 29,
+                        "x0": 589,
+                        "y0": 871
+                    },
+                    "text": "SWZ"
+                },
+                {
+                    "bb": {
+                        "height": 36,
+                        "width": 27,
+                        "x0": 688,
+                        "y0": 871
+                    },
+                    "text": "BLR"
+                },
+                {
+                    "bb": {
+                        "height": 37,
+                        "width": 27,
+                        "x0": 785,
+                        "y0": 871
+                    },
+                    "text": "TZA"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 28,
+                        "x0": 881,
+                        "y0": 871
+                    },
+                    "text": "TON"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 28,
+                        "x0": 979,
+                        "y0": 871
+                    },
+                    "text": "PLW"
+                },
+                {
+                    "bb": {
+                        "height": 41,
+                        "width": 29,
+                        "x0": 1076,
+                        "y0": 871
+                    },
+                    "text": "BGD"
+                },
+                {
+                    "bb": {
+                        "height": 36,
+                        "width": 27,
+                        "x0": 1175,
+                        "y0": 871
+                    },
+                    "text": "PRT"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 47,
+                        "y0": 816
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 11,
+                        "x0": 47,
+                        "y0": 661
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 47,
+                        "y0": 505
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 47,
+                        "y0": 350
+                    },
+                    "text": "6"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 47,
+                        "y0": 195
+                    },
+                    "text": "8"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 42,
+                        "x0": 953,
+                        "y0": 66
+                    },
+                    "text": "2016"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 42,
+                        "x0": 1075,
+                        "y0": 66
+                    },
+                    "text": "2014"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 42,
+                        "x0": 1198,
+                        "y0": 66
+                    },
+                    "text": "2013"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 867,
+                            "x0": 388,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 609,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 103,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "MRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 25,
+                            "x0": 203,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "ISR"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 297,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "SDN"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 395,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "COL"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 493,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "NPL"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 29,
+                            "x0": 589,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "SWZ"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 688,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "BLR"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 27,
+                            "x0": 785,
+                            "y0": 871
+                        },
+                        "id": 10,
+                        "text": "TZA"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 881,
+                            "y0": 871
+                        },
+                        "id": 11,
+                        "text": "TON"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 979,
+                            "y0": 871
+                        },
+                        "id": 12,
+                        "text": "PLW"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 29,
+                            "x0": 1076,
+                            "y0": 871
+                        },
+                        "id": 13,
+                        "text": "BGD"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 1175,
+                            "y0": 871
+                        },
+                        "id": 14,
+                        "text": "PRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 816
+                        },
+                        "id": 15,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 11,
+                            "x0": 47,
+                            "y0": 661
+                        },
+                        "id": 16,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 505
+                        },
+                        "id": 17,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 350
+                        },
+                        "id": 18,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 195
+                        },
+                        "id": 19,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 953,
+                            "y0": 66
+                        },
+                        "id": 20,
+                        "text": "2016"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1075,
+                            "y0": 66
+                        },
+                        "id": 21,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1198,
+                            "y0": 66
+                        },
+                        "id": 22,
+                        "text": "2013"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 21,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 22,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 867,
+                            "x0": 388,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 609,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 103,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "MRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 25,
+                            "x0": 203,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "ISR"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 297,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "SDN"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 395,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "COL"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 493,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "NPL"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 29,
+                            "x0": 589,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "SWZ"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 688,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "BLR"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 27,
+                            "x0": 785,
+                            "y0": 871
+                        },
+                        "id": 10,
+                        "text": "TZA"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 881,
+                            "y0": 871
+                        },
+                        "id": 11,
+                        "text": "TON"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 979,
+                            "y0": 871
+                        },
+                        "id": 12,
+                        "text": "PLW"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 29,
+                            "x0": 1076,
+                            "y0": 871
+                        },
+                        "id": 13,
+                        "text": "BGD"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 1175,
+                            "y0": 871
+                        },
+                        "id": 14,
+                        "text": "PRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 816
+                        },
+                        "id": 15,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 11,
+                            "x0": 47,
+                            "y0": 661
+                        },
+                        "id": 16,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 505
+                        },
+                        "id": 17,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 350
+                        },
+                        "id": 18,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 195
+                        },
+                        "id": 19,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 953,
+                            "y0": 66
+                        },
+                        "id": 20,
+                        "text": "2016"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1075,
+                            "y0": 66
+                        },
+                        "id": 21,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1198,
+                            "y0": 66
+                        },
+                        "id": 22,
+                        "text": "2013"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 808,
+                "width": 1185,
+                "x0": 74,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 130,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 227,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 324,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 422,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 519,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 616,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 714,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 811,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 908,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 1006,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 1103,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 1200,
+                            "y": 855
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 74,
+                            "y": 822
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 74,
+                            "y": 667
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 74,
+                            "y": 515
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 74,
+                            "y": 356
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 74,
+                            "y": 201
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 867,
+                            "x0": 388,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 609,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 103,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "MRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 25,
+                            "x0": 203,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "ISR"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 297,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "SDN"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 395,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "COL"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 493,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "NPL"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 29,
+                            "x0": 589,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "SWZ"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 688,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "BLR"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 27,
+                            "x0": 785,
+                            "y0": 871
+                        },
+                        "id": 10,
+                        "text": "TZA"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 881,
+                            "y0": 871
+                        },
+                        "id": 11,
+                        "text": "TON"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 979,
+                            "y0": 871
+                        },
+                        "id": 12,
+                        "text": "PLW"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 29,
+                            "x0": 1076,
+                            "y0": 871
+                        },
+                        "id": 13,
+                        "text": "BGD"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 1175,
+                            "y0": 871
+                        },
+                        "id": 14,
+                        "text": "PRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 816
+                        },
+                        "id": 15,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 11,
+                            "x0": 47,
+                            "y0": 661
+                        },
+                        "id": 16,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 505
+                        },
+                        "id": 17,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 350
+                        },
+                        "id": 18,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 195
+                        },
+                        "id": 19,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 953,
+                            "y0": 66
+                        },
+                        "id": 20,
+                        "text": "2016"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1075,
+                            "y0": 66
+                        },
+                        "id": 21,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1198,
+                            "y0": 66
+                        },
+                        "id": 22,
+                        "text": "2013"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 4,
+                        "width": 33,
+                        "x0": 906,
+                        "y0": 72
+                    },
+                    "id": 20
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 33,
+                        "x0": 1029,
+                        "y0": 66
+                    },
+                    "id": 21
+                },
+                {
+                    "bb": {
+                        "height": 15,
+                        "width": 33,
+                        "x0": 1151,
+                        "y0": 67
+                    },
+                    "id": 22
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 867,
+                            "x0": 388,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 609,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 103,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "MRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 25,
+                            "x0": 203,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "ISR"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 297,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "SDN"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 27,
+                            "x0": 395,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "COL"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 493,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "NPL"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 29,
+                            "x0": 589,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "SWZ"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 688,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "BLR"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 27,
+                            "x0": 785,
+                            "y0": 871
+                        },
+                        "id": 10,
+                        "text": "TZA"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 881,
+                            "y0": 871
+                        },
+                        "id": 11,
+                        "text": "TON"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 28,
+                            "x0": 979,
+                            "y0": 871
+                        },
+                        "id": 12,
+                        "text": "PLW"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 29,
+                            "x0": 1076,
+                            "y0": 871
+                        },
+                        "id": 13,
+                        "text": "BGD"
+                    },
+                    {
+                        "bb": {
+                            "height": 36,
+                            "width": 27,
+                            "x0": 1175,
+                            "y0": 871
+                        },
+                        "id": 14,
+                        "text": "PRT"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 816
+                        },
+                        "id": 15,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 11,
+                            "x0": 47,
+                            "y0": 661
+                        },
+                        "id": 16,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 505
+                        },
+                        "id": 17,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 350
+                        },
+                        "id": 18,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 47,
+                            "y0": 195
+                        },
+                        "id": 19,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 953,
+                            "y0": 66
+                        },
+                        "id": 20,
+                        "text": "2016"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1075,
+                            "y0": 66
+                        },
+                        "id": 21,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 42,
+                            "x0": 1198,
+                            "y0": 66
+                        },
+                        "id": 22,
+                        "text": "2013"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 22,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 808,
+                    "width": 1185,
+                    "x0": 74,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 130,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 227,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 324,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 422,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 519,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 616,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 714,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 811,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 908,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 1006,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 1103,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 1200,
+                                "y": 855
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 74,
+                                "y": 822
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 74,
+                                "y": 667
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 74,
+                                "y": 515
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 74,
+                                "y": 356
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 74,
+                                "y": 201
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 4,
+                            "width": 33,
+                            "x0": 906,
+                            "y0": 72
+                        },
+                        "id": 20
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 33,
+                            "x0": 1029,
+                            "y0": 66
+                        },
+                        "id": 21
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 33,
+                            "x0": 1151,
+                            "y0": 67
+                        },
+                        "id": 22
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "MRT",
+                            "y": "0.1"
+                        },
+                        {
+                            "x": "ISR",
+                            "y": "3.3661874851628175"
+                        },
+                        {
+                            "x": "SDN",
+                            "y": "6.3574658201808445"
+                        },
+                        {
+                            "x": "COL",
+                            "y": "5.455492826813449"
+                        },
+                        {
+                            "x": "NPL",
+                            "y": "0.1"
+                        },
+                        {
+                            "x": "SWZ",
+                            "y": "3.2018151653739433"
+                        },
+                        {
+                            "x": "BLR",
+                            "y": "6.174260757435812"
+                        },
+                        {
+                            "x": "TZA",
+                            "y": "1.6"
+                        },
+                        {
+                            "x": "TON",
+                            "y": "0.1"
+                        },
+                        {
+                            "x": "PLW",
+                            "y": "0.1"
+                        },
+                        {
+                            "x": "BGD",
+                            "y": "6.223977348440016"
+                        },
+                        {
+                            "x": "PRT",
+                            "y": "1.8237221549952891"
+                        }
+                    ],
+                    "name": "2016"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "MRT",
+                            "y": "7.552615176737268"
+                        },
+                        {
+                            "x": "ISR",
+                            "y": "3.7389217042313483"
+                        },
+                        {
+                            "x": "SDN",
+                            "y": "9.484464101187584"
+                        },
+                        {
+                            "x": "COL",
+                            "y": "2.843653196536824"
+                        },
+                        {
+                            "x": "NPL",
+                            "y": "7.847383907208984"
+                        },
+                        {
+                            "x": "SWZ",
+                            "y": "0.5994850619780969"
+                        },
+                        {
+                            "x": "BLR",
+                            "y": "4.972563725194256"
+                        },
+                        {
+                            "x": "TZA",
+                            "y": "1.481397084046507"
+                        },
+                        {
+                            "x": "TON",
+                            "y": "0.4"
+                        },
+                        {
+                            "x": "PLW",
+                            "y": "4.886187131027765"
+                        },
+                        {
+                            "x": "BGD",
+                            "y": "5.008986921261975"
+                        },
+                        {
+                            "x": "PRT",
+                            "y": "5.676922247521034"
+                        }
+                    ],
+                    "name": "2014"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "MRT",
+                            "y": "5.576107370747671"
+                        },
+                        {
+                            "x": "ISR",
+                            "y": "7.221296210144994"
+                        },
+                        {
+                            "x": "SDN",
+                            "y": "6.340299382388124"
+                        },
+                        {
+                            "x": "COL",
+                            "y": "5.3554125461597275"
+                        },
+                        {
+                            "x": "NPL",
+                            "y": "8.098607507884271"
+                        },
+                        {
+                            "x": "SWZ",
+                            "y": "1.3602228593685477"
+                        },
+                        {
+                            "x": "BLR",
+                            "y": "0.7678152970102867"
+                        },
+                        {
+                            "x": "TZA",
+                            "y": "5.427796458178869"
+                        },
+                        {
+                            "x": "TON",
+                            "y": "0.2"
+                        },
+                        {
+                            "x": "PLW",
+                            "y": "5.023309838153943"
+                        },
+                        {
+                            "x": "BGD",
+                            "y": "5.73963611868708"
+                        },
+                        {
+                            "x": "PRT",
+                            "y": "2.9410097793907797"
+                        }
+                    ],
+                    "name": "2013"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 131,
+                            "y": 815
+                        },
+                        {
+                            "x": 228,
+                            "y": 562
+                        },
+                        {
+                            "x": 325,
+                            "y": 330
+                        },
+                        {
+                            "x": 423,
+                            "y": 400
+                        },
+                        {
+                            "x": 520,
+                            "y": 815
+                        },
+                        {
+                            "x": 617,
+                            "y": 574
+                        },
+                        {
+                            "x": 715,
+                            "y": 344
+                        },
+                        {
+                            "x": 812,
+                            "y": 699
+                        },
+                        {
+                            "x": 909,
+                            "y": 815
+                        },
+                        {
+                            "x": 1007,
+                            "y": 815
+                        },
+                        {
+                            "x": 1104,
+                            "y": 340
+                        },
+                        {
+                            "x": 1201,
+                            "y": 681
+                        }
+                    ],
+                    [
+                        {
+                            "x": 131,
+                            "y": 237
+                        },
+                        {
+                            "x": 228,
+                            "y": 533
+                        },
+                        {
+                            "x": 325,
+                            "y": 87
+                        },
+                        {
+                            "x": 423,
+                            "y": 602
+                        },
+                        {
+                            "x": 520,
+                            "y": 214
+                        },
+                        {
+                            "x": 617,
+                            "y": 776
+                        },
+                        {
+                            "x": 715,
+                            "y": 437
+                        },
+                        {
+                            "x": 812,
+                            "y": 708
+                        },
+                        {
+                            "x": 909,
+                            "y": 792
+                        },
+                        {
+                            "x": 1007,
+                            "y": 444
+                        },
+                        {
+                            "x": 1104,
+                            "y": 434
+                        },
+                        {
+                            "x": 1201,
+                            "y": 382
+                        }
+                    ],
+                    [
+                        {
+                            "x": 131,
+                            "y": 390
+                        },
+                        {
+                            "x": 228,
+                            "y": 263
+                        },
+                        {
+                            "x": 325,
+                            "y": 331
+                        },
+                        {
+                            "x": 423,
+                            "y": 407
+                        },
+                        {
+                            "x": 520,
+                            "y": 195
+                        },
+                        {
+                            "x": 617,
+                            "y": 717
+                        },
+                        {
+                            "x": 715,
+                            "y": 763
+                        },
+                        {
+                            "x": 812,
+                            "y": 402
+                        },
+                        {
+                            "x": 909,
+                            "y": 807
+                        },
+                        {
+                            "x": 1007,
+                            "y": 433
+                        },
+                        {
+                            "x": 1104,
+                            "y": 377
+                        },
+                        {
+                            "x": 1201,
+                            "y": 595
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

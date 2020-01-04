@@ -1,0 +1,1066 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 495,
+                        "x0": 760,
+                        "y0": 17
+                    },
+                    "text": "Adjusted savings: energy depletion (% of GNI)_2"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 27,
+                        "x0": 173,
+                        "y0": 896
+                    },
+                    "text": "1994"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 27,
+                        "x0": 474,
+                        "y0": 896
+                    },
+                    "text": "1997"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 27,
+                        "x0": 776,
+                        "y0": 896
+                    },
+                    "text": "2015"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 27,
+                        "x0": 1078,
+                        "y0": 896
+                    },
+                    "text": "1996"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 639
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 10,
+                        "x0": 18,
+                        "y0": 327
+                    },
+                    "text": "6"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 483
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 170
+                    },
+                    "text": "8"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 796
+                    },
+                    "text": "0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 495,
+                            "x0": 760,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Adjusted savings: energy depletion (% of GNI)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 173,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "1994"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 474,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1997"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 776,
+                            "y0": 896
+                        },
+                        "id": 3,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 1078,
+                            "y0": 896
+                        },
+                        "id": 4,
+                        "text": "1996"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 639
+                        },
+                        "id": 5,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 327
+                        },
+                        "id": 6,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 483
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 170
+                        },
+                        "id": 8,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 796
+                        },
+                        "id": 9,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 495,
+                            "x0": 760,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Adjusted savings: energy depletion (% of GNI)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 173,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "1994"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 474,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1997"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 776,
+                            "y0": 896
+                        },
+                        "id": 3,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 1078,
+                            "y0": 896
+                        },
+                        "id": 4,
+                        "text": "1996"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 639
+                        },
+                        "id": 5,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 327
+                        },
+                        "id": 6,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 483
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 170
+                        },
+                        "id": 8,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 796
+                        },
+                        "id": 9,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 835,
+                "width": 1214,
+                "x0": 45,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 198,
+                            "y": 880
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 500,
+                            "y": 880
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 802,
+                            "y": 880
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1103,
+                            "y": 880
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 645
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 335
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 489
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 176
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 801
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 495,
+                            "x0": 760,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Adjusted savings: energy depletion (% of GNI)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 173,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "1994"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 474,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1997"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 776,
+                            "y0": 896
+                        },
+                        "id": 3,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 1078,
+                            "y0": 896
+                        },
+                        "id": 4,
+                        "text": "1996"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 639
+                        },
+                        "id": 5,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 327
+                        },
+                        "id": 6,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 483
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 170
+                        },
+                        "id": 8,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 796
+                        },
+                        "id": 9,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 495,
+                            "x0": 760,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Adjusted savings: energy depletion (% of GNI)_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 173,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "1994"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 474,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1997"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 776,
+                            "y0": 896
+                        },
+                        "id": 3,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 1078,
+                            "y0": 896
+                        },
+                        "id": 4,
+                        "text": "1996"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 639
+                        },
+                        "id": 5,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 327
+                        },
+                        "id": 6,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 483
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 170
+                        },
+                        "id": 8,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 796
+                        },
+                        "id": 9,
+                        "text": "0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 835,
+                    "width": 1214,
+                    "x0": 45,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 198,
+                                "y": 880
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 500,
+                                "y": 880
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 802,
+                                "y": 880
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1103,
+                                "y": 880
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 645
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 335
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 489
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 176
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 801
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.586361140303,
+                        "max": 6.92643845256,
+                        "median": 1.5405619993,
+                        "min": 0.0412472208918,
+                        "third_quartile": 3.38750509789
+                    },
+                    "name": "1994"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.603177358158,
+                        "max": 7.13913320743,
+                        "median": 1.42777629549,
+                        "min": 0.0439627632325,
+                        "third_quartile": 3.90770762663
+                    },
+                    "name": "1997"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.420073841897,
+                        "max": 2.97687845844,
+                        "median": 0.926743286846,
+                        "min": 0.0460713568005,
+                        "third_quartile": 1.54306997998
+                    },
+                    "name": "2015"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.74795433507,
+                        "max": 7.73056852085,
+                        "median": 1.70261561937,
+                        "min": 0.0470812431169,
+                        "third_quartile": 4.261213709
+                    },
+                    "name": "1996"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 131,
+                                "y0": 756
+                            },
+                            "x": 199,
+                            "y": 756
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 68,
+                                "x0": 165,
+                                "y0": 261
+                            },
+                            "x": 199,
+                            "y": 261
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 131,
+                                "y0": 682
+                            },
+                            "x": 199,
+                            "y": 682
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 68,
+                                "x0": 165,
+                                "y0": 799
+                            },
+                            "x": 199,
+                            "y": 799
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 131,
+                                "y0": 756
+                            },
+                            "x": 199,
+                            "y": 537
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 433,
+                                "y0": 755
+                            },
+                            "x": 501,
+                            "y": 755
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 68,
+                                "x0": 467,
+                                "y0": 244
+                            },
+                            "x": 501,
+                            "y": 244
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 433,
+                                "y0": 691
+                            },
+                            "x": 501,
+                            "y": 691
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 68,
+                                "x0": 467,
+                                "y0": 799
+                            },
+                            "x": 501,
+                            "y": 799
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 433,
+                                "y0": 755
+                            },
+                            "x": 501,
+                            "y": 497
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 735,
+                                "y0": 769
+                            },
+                            "x": 803,
+                            "y": 770
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 68,
+                                "x0": 769,
+                                "y0": 570
+                            },
+                            "x": 803,
+                            "y": 570
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 735,
+                                "y0": 730
+                            },
+                            "x": 803,
+                            "y": 730
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 68,
+                                "x0": 769,
+                                "y0": 799
+                            },
+                            "x": 803,
+                            "y": 799
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 735,
+                                "y0": 769
+                            },
+                            "x": 803,
+                            "y": 682
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 1036,
+                                "y0": 744
+                            },
+                            "x": 1104,
+                            "y": 744
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 68,
+                                "x0": 1070,
+                                "y0": 198
+                            },
+                            "x": 1104,
+                            "y": 198
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 1036,
+                                "y0": 669
+                            },
+                            "x": 1104,
+                            "y": 669
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 68,
+                                "x0": 1070,
+                                "y0": 799
+                            },
+                            "x": 1104,
+                            "y": 799
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 136,
+                                "x0": 1036,
+                                "y0": 744
+                            },
+                            "x": 1104,
+                            "y": 469
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

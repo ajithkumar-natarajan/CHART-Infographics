@@ -1,0 +1,880 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 466,
+                        "x0": 74,
+                        "y0": 19
+                    },
+                    "text": "Mortality rate, infant (per 1,000 live births) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 138,
+                        "width": 55,
+                        "x0": 610,
+                        "y0": 802
+                    },
+                    "text": "Caribbean small\nstates"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 18,
+                        "y0": 126
+                    },
+                    "text": "30.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 18,
+                        "y0": 493
+                    },
+                    "text": "20.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 18,
+                        "y0": 309
+                    },
+                    "text": "25.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 18,
+                        "y0": 585
+                    },
+                    "text": "17.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 18,
+                        "y0": 676
+                    },
+                    "text": "15.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 18,
+                        "y0": 768
+                    },
+                    "text": "12.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 18,
+                        "y0": 217
+                    },
+                    "text": "27.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 18,
+                        "y0": 401
+                    },
+                    "text": "22.5"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 466,
+                            "x0": 74,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Mortality rate, infant (per 1,000 live births) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 138,
+                            "width": 55,
+                            "x0": 610,
+                            "y0": 802
+                        },
+                        "id": 1,
+                        "text": "Caribbean small\nstates"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 126
+                        },
+                        "id": 2,
+                        "text": "30.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 493
+                        },
+                        "id": 3,
+                        "text": "20.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 309
+                        },
+                        "id": 4,
+                        "text": "25.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 585
+                        },
+                        "id": 5,
+                        "text": "17.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 676
+                        },
+                        "id": 6,
+                        "text": "15.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 768
+                        },
+                        "id": 7,
+                        "text": "12.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 217
+                        },
+                        "id": 8,
+                        "text": "27.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 401
+                        },
+                        "id": 9,
+                        "text": "22.5"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 466,
+                            "x0": 74,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Mortality rate, infant (per 1,000 live births) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 138,
+                            "width": 55,
+                            "x0": 610,
+                            "y0": 802
+                        },
+                        "id": 1,
+                        "text": "Caribbean small\nstates"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 126
+                        },
+                        "id": 2,
+                        "text": "30.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 493
+                        },
+                        "id": 3,
+                        "text": "20.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 309
+                        },
+                        "id": 4,
+                        "text": "25.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 585
+                        },
+                        "id": 5,
+                        "text": "17.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 676
+                        },
+                        "id": 6,
+                        "text": "15.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 768
+                        },
+                        "id": 7,
+                        "text": "12.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 217
+                        },
+                        "id": 8,
+                        "text": "27.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 401
+                        },
+                        "id": 9,
+                        "text": "22.5"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 738,
+                "width": 1188,
+                "x0": 71,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 664,
+                            "y": 785
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 132
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 499
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 315
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 591
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 682
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 774
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 223
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 71,
+                            "y": 407
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 466,
+                            "x0": 74,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Mortality rate, infant (per 1,000 live births) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 138,
+                            "width": 55,
+                            "x0": 610,
+                            "y0": 802
+                        },
+                        "id": 1,
+                        "text": "Caribbean small\nstates"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 126
+                        },
+                        "id": 2,
+                        "text": "30.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 493
+                        },
+                        "id": 3,
+                        "text": "20.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 309
+                        },
+                        "id": 4,
+                        "text": "25.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 585
+                        },
+                        "id": 5,
+                        "text": "17.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 676
+                        },
+                        "id": 6,
+                        "text": "15.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 768
+                        },
+                        "id": 7,
+                        "text": "12.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 217
+                        },
+                        "id": 8,
+                        "text": "27.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 401
+                        },
+                        "id": 9,
+                        "text": "22.5"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 466,
+                            "x0": 74,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Mortality rate, infant (per 1,000 live births) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 138,
+                            "width": 55,
+                            "x0": 610,
+                            "y0": 802
+                        },
+                        "id": 1,
+                        "text": "Caribbean small\nstates"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 126
+                        },
+                        "id": 2,
+                        "text": "30.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 493
+                        },
+                        "id": 3,
+                        "text": "20.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 309
+                        },
+                        "id": 4,
+                        "text": "25.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 585
+                        },
+                        "id": 5,
+                        "text": "17.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 676
+                        },
+                        "id": 6,
+                        "text": "15.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 768
+                        },
+                        "id": 7,
+                        "text": "12.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 217
+                        },
+                        "id": 8,
+                        "text": "27.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 18,
+                            "y0": 401
+                        },
+                        "id": 9,
+                        "text": "22.5"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 738,
+                    "width": 1188,
+                    "x0": 71,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 664,
+                                "y": 785
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 132
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 499
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 315
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 591
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 682
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 774
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 223
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 71,
+                                "y": 407
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 19.102120786237762,
+                        "max": 28.9537557663,
+                        "median": 21.29811731801492,
+                        "min": 15.5885929678,
+                        "third_quartile": 23.52078147070009
+                    },
+                    "name": "Caribbean small states"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 177,
+                                "x0": 576,
+                                "y0": 533
+                            },
+                            "x": 665,
+                            "y": 533
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 89,
+                                "x0": 620,
+                                "y0": 171
+                            },
+                            "x": 665,
+                            "y": 171
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 177,
+                                "x0": 576,
+                                "y0": 452
+                            },
+                            "x": 665,
+                            "y": 452
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 89,
+                                "x0": 620,
+                                "y0": 662
+                            },
+                            "x": 665,
+                            "y": 662
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 177,
+                                "x0": 576,
+                                "y0": 533
+                            },
+                            "x": 665,
+                            "y": 371
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,1442 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 460,
+                        "x0": 795,
+                        "y0": 19
+                    },
+                    "text": "Persistence to grade 5, female (% of cohort) t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 658,
+                        "y0": 924
+                    },
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 56,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 414
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 27,
+                        "x0": 124,
+                        "y0": 853
+                    },
+                    "text": "1975.0"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 27,
+                        "x0": 387,
+                        "y0": 853
+                    },
+                    "text": "1969.0"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 27,
+                        "x0": 649,
+                        "y0": 853
+                    },
+                    "text": "1994.0"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 27,
+                        "x0": 912,
+                        "y0": 853
+                    },
+                    "text": "1999.0"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 27,
+                        "x0": 1175,
+                        "y0": 853
+                    },
+                    "text": "1960.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 58,
+                        "y0": 718
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 58,
+                        "y0": 585
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 58,
+                        "y0": 452
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 58,
+                        "y0": 319
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 58,
+                        "y0": 186
+                    },
+                    "text": "90"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 32,
+                        "x0": 47,
+                        "y0": 53
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 36,
+                        "x0": 1089,
+                        "y0": 66
+                    },
+                    "text": "TGO"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 36,
+                        "x0": 1089,
+                        "y0": 92
+                    },
+                    "text": "MHL"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 35,
+                        "x0": 1205,
+                        "y0": 66
+                    },
+                    "text": "MYS"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 460,
+                            "x0": 795,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Persistence to grade 5, female (% of cohort) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 658,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 414
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 124,
+                            "y0": 853
+                        },
+                        "id": 3,
+                        "text": "1975.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 387,
+                            "y0": 853
+                        },
+                        "id": 4,
+                        "text": "1969.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 649,
+                            "y0": 853
+                        },
+                        "id": 5,
+                        "text": "1994.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 912,
+                            "y0": 853
+                        },
+                        "id": 6,
+                        "text": "1999.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 1175,
+                            "y0": 853
+                        },
+                        "id": 7,
+                        "text": "1960.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 718
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 585
+                        },
+                        "id": 9,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 452
+                        },
+                        "id": 10,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 319
+                        },
+                        "id": 11,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 186
+                        },
+                        "id": 12,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 47,
+                            "y0": 53
+                        },
+                        "id": 13,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 36,
+                            "x0": 1089,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "TGO"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 36,
+                            "x0": 1089,
+                            "y0": 92
+                        },
+                        "id": 15,
+                        "text": "MHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 35,
+                            "x0": 1205,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "MYS"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 460,
+                            "x0": 795,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Persistence to grade 5, female (% of cohort) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 658,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 414
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 124,
+                            "y0": 853
+                        },
+                        "id": 3,
+                        "text": "1975.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 387,
+                            "y0": 853
+                        },
+                        "id": 4,
+                        "text": "1969.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 649,
+                            "y0": 853
+                        },
+                        "id": 5,
+                        "text": "1994.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 912,
+                            "y0": 853
+                        },
+                        "id": 6,
+                        "text": "1999.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 1175,
+                            "y0": 853
+                        },
+                        "id": 7,
+                        "text": "1960.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 718
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 585
+                        },
+                        "id": 9,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 452
+                        },
+                        "id": 10,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 319
+                        },
+                        "id": 11,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 186
+                        },
+                        "id": 12,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 47,
+                            "y0": 53
+                        },
+                        "id": 13,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 36,
+                            "x0": 1089,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "TGO"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 36,
+                            "x0": 1089,
+                            "y0": 92
+                        },
+                        "id": 15,
+                        "text": "MHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 35,
+                            "x0": 1205,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "MYS"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 790,
+                "width": 1164,
+                "x0": 95,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 150,
+                            "y": 837
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 413,
+                            "y": 837
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 676,
+                            "y": 837
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 938,
+                            "y": 837
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1201,
+                            "y": 837
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 95,
+                            "y": 724
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 95,
+                            "y": 591
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 95,
+                            "y": 458
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 95,
+                            "y": 325
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 95,
+                            "y": 192
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 95,
+                            "y": 59
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 460,
+                            "x0": 795,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Persistence to grade 5, female (% of cohort) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 658,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 414
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 124,
+                            "y0": 853
+                        },
+                        "id": 3,
+                        "text": "1975.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 387,
+                            "y0": 853
+                        },
+                        "id": 4,
+                        "text": "1969.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 649,
+                            "y0": 853
+                        },
+                        "id": 5,
+                        "text": "1994.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 912,
+                            "y0": 853
+                        },
+                        "id": 6,
+                        "text": "1999.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 1175,
+                            "y0": 853
+                        },
+                        "id": 7,
+                        "text": "1960.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 718
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 585
+                        },
+                        "id": 9,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 452
+                        },
+                        "id": 10,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 319
+                        },
+                        "id": 11,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 186
+                        },
+                        "id": 12,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 47,
+                            "y0": 53
+                        },
+                        "id": 13,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 36,
+                            "x0": 1089,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "TGO"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 36,
+                            "x0": 1089,
+                            "y0": 92
+                        },
+                        "id": 15,
+                        "text": "MHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 35,
+                            "x0": 1205,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "MYS"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 16,
+                        "width": 33,
+                        "x0": 1042,
+                        "y0": 66
+                    },
+                    "id": 14
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 33,
+                        "x0": 1042,
+                        "y0": 91
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 33,
+                        "x0": 1158,
+                        "y0": 66
+                    },
+                    "id": 16
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 460,
+                            "x0": 795,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Persistence to grade 5, female (% of cohort) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 658,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 56,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 414
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 124,
+                            "y0": 853
+                        },
+                        "id": 3,
+                        "text": "1975.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 387,
+                            "y0": 853
+                        },
+                        "id": 4,
+                        "text": "1969.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 649,
+                            "y0": 853
+                        },
+                        "id": 5,
+                        "text": "1994.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 912,
+                            "y0": 853
+                        },
+                        "id": 6,
+                        "text": "1999.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 27,
+                            "x0": 1175,
+                            "y0": 853
+                        },
+                        "id": 7,
+                        "text": "1960.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 718
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 585
+                        },
+                        "id": 9,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 452
+                        },
+                        "id": 10,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 319
+                        },
+                        "id": 11,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 58,
+                            "y0": 186
+                        },
+                        "id": 12,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 47,
+                            "y0": 53
+                        },
+                        "id": 13,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 36,
+                            "x0": 1089,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "TGO"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 36,
+                            "x0": 1089,
+                            "y0": 92
+                        },
+                        "id": 15,
+                        "text": "MHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 35,
+                            "x0": 1205,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "MYS"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 790,
+                    "width": 1164,
+                    "x0": 95,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 150,
+                                "y": 837
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 413,
+                                "y": 837
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 676,
+                                "y": 837
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 938,
+                                "y": 837
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1201,
+                                "y": 837
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 95,
+                                "y": 724
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 95,
+                                "y": 591
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 95,
+                                "y": 458
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 95,
+                                "y": 325
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 95,
+                                "y": 192
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 95,
+                                "y": 59
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 16,
+                            "width": 33,
+                            "x0": 1042,
+                            "y0": 66
+                        },
+                        "id": 14
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 33,
+                            "x0": 1042,
+                            "y0": 91
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 33,
+                            "x0": 1158,
+                            "y0": 66
+                        },
+                        "id": 16
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1975.0",
+                            "y": "94.08679835275478"
+                        },
+                        {
+                            "x": "1969.0",
+                            "y": "96.94204916890746"
+                        },
+                        {
+                            "x": "1994.0",
+                            "y": "96.68279428825245"
+                        },
+                        {
+                            "x": "1999.0",
+                            "y": "98.04937726863213"
+                        },
+                        {
+                            "x": "1960.0",
+                            "y": "90.26635813234068"
+                        }
+                    ],
+                    "name": "MYS"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "1975.0",
+                            "y": "79.52445783827578"
+                        },
+                        {
+                            "x": "1969.0",
+                            "y": "76.85677037136522"
+                        },
+                        {
+                            "x": "1994.0",
+                            "y": "80.78562488831108"
+                        },
+                        {
+                            "x": "1999.0",
+                            "y": "81.48272110683715"
+                        },
+                        {
+                            "x": "1960.0",
+                            "y": "81.8383865356"
+                        }
+                    ],
+                    "name": "MHL"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "1975.0",
+                            "y": "44.555631191562085"
+                        },
+                        {
+                            "x": "1969.0",
+                            "y": "67.01524977670682"
+                        },
+                        {
+                            "x": "1994.0",
+                            "y": "79.7063903809"
+                        },
+                        {
+                            "x": "1999.0",
+                            "y": "49.5107688904"
+                        },
+                        {
+                            "x": "1960.0",
+                            "y": "76.05713105513988"
+                        }
+                    ],
+                    "name": "TGO"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 151,
+                            "y": 139
+                        },
+                        {
+                            "x": 414,
+                            "y": 101
+                        },
+                        {
+                            "x": 677,
+                            "y": 104
+                        },
+                        {
+                            "x": 939,
+                            "y": 86
+                        },
+                        {
+                            "x": 1202,
+                            "y": 190
+                        }
+                    ],
+                    [
+                        {
+                            "x": 151,
+                            "y": 333
+                        },
+                        {
+                            "x": 414,
+                            "y": 368
+                        },
+                        {
+                            "x": 677,
+                            "y": 316
+                        },
+                        {
+                            "x": 939,
+                            "y": 307
+                        },
+                        {
+                            "x": 1202,
+                            "y": 302
+                        }
+                    ],
+                    [
+                        {
+                            "x": 151,
+                            "y": 798
+                        },
+                        {
+                            "x": 414,
+                            "y": 499
+                        },
+                        {
+                            "x": 677,
+                            "y": 330
+                        },
+                        {
+                            "x": 939,
+                            "y": 732
+                        },
+                        {
+                            "x": 1202,
+                            "y": 379
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

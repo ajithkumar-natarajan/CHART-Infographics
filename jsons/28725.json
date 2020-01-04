@@ -1,0 +1,1507 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 396,
+                        "x0": 473,
+                        "y0": 19
+                    },
+                    "text": "Men who own land alone (% of men)"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 120,
+                        "x0": 611,
+                        "y0": 924
+                    },
+                    "text": "Country Code"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 427
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 19,
+                        "x0": 196,
+                        "y0": 882
+                    },
+                    "text": "CAF"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 19,
+                        "x0": 500,
+                        "y0": 882
+                    },
+                    "text": "BGD"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 19,
+                        "x0": 803,
+                        "y0": 882
+                    },
+                    "text": "TON"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 19,
+                        "x0": 1107,
+                        "y0": 882
+                    },
+                    "text": "KHM"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 57,
+                        "y0": 856
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 749
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 642
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 535
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 428
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 322
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 215
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 108
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 960,
+                        "y0": 66
+                    },
+                    "text": "2016"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1080,
+                        "y0": 66
+                    },
+                    "text": "2014"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1200,
+                        "y0": 66
+                    },
+                    "text": "2013"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 396,
+                            "x0": 473,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Men who own land alone (% of men)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 611,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 427
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 196,
+                            "y0": 882
+                        },
+                        "id": 3,
+                        "text": "CAF"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 500,
+                            "y0": 882
+                        },
+                        "id": 4,
+                        "text": "BGD"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 803,
+                            "y0": 882
+                        },
+                        "id": 5,
+                        "text": "TON"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 1107,
+                            "y0": 882
+                        },
+                        "id": 6,
+                        "text": "KHM"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 856
+                        },
+                        "id": 7,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 749
+                        },
+                        "id": 8,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 642
+                        },
+                        "id": 9,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 535
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 428
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 322
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 215
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 108
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "2016"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2013"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 396,
+                            "x0": 473,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Men who own land alone (% of men)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 611,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 427
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 196,
+                            "y0": 882
+                        },
+                        "id": 3,
+                        "text": "CAF"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 500,
+                            "y0": 882
+                        },
+                        "id": 4,
+                        "text": "BGD"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 803,
+                            "y0": 882
+                        },
+                        "id": 5,
+                        "text": "TON"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 1107,
+                            "y0": 882
+                        },
+                        "id": 6,
+                        "text": "KHM"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 856
+                        },
+                        "id": 7,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 749
+                        },
+                        "id": 8,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 642
+                        },
+                        "id": 9,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 535
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 428
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 322
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 215
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 108
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "2016"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2013"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 819,
+                "width": 1175,
+                "x0": 83,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 215,
+                            "y": 866
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 518,
+                            "y": 866
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 822,
+                            "y": 866
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1125,
+                            "y": 866
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 862
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 755
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 648
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 541
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 434
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 328
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 221
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 114
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 396,
+                            "x0": 473,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Men who own land alone (% of men)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 611,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 427
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 196,
+                            "y0": 882
+                        },
+                        "id": 3,
+                        "text": "CAF"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 500,
+                            "y0": 882
+                        },
+                        "id": 4,
+                        "text": "BGD"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 803,
+                            "y0": 882
+                        },
+                        "id": 5,
+                        "text": "TON"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 1107,
+                            "y0": 882
+                        },
+                        "id": 6,
+                        "text": "KHM"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 856
+                        },
+                        "id": 7,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 749
+                        },
+                        "id": 8,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 642
+                        },
+                        "id": 9,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 535
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 428
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 322
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 215
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 108
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "2016"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2013"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 913,
+                        "y0": 68
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1033,
+                        "y0": 68
+                    },
+                    "id": 16
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1153,
+                        "y0": 68
+                    },
+                    "id": 17
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 396,
+                            "x0": 473,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Men who own land alone (% of men)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 611,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 427
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 196,
+                            "y0": 882
+                        },
+                        "id": 3,
+                        "text": "CAF"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 500,
+                            "y0": 882
+                        },
+                        "id": 4,
+                        "text": "BGD"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 803,
+                            "y0": 882
+                        },
+                        "id": 5,
+                        "text": "TON"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 19,
+                            "x0": 1107,
+                            "y0": 882
+                        },
+                        "id": 6,
+                        "text": "KHM"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 856
+                        },
+                        "id": 7,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 749
+                        },
+                        "id": 8,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 642
+                        },
+                        "id": 9,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 535
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 428
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 322
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 215
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 108
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "2016"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2013"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 819,
+                    "width": 1175,
+                    "x0": 83,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 215,
+                                "y": 866
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 518,
+                                "y": 866
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 822,
+                                "y": 866
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1125,
+                                "y": 866
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 862
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 755
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 648
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 541
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 434
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 328
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 221
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 114
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 913,
+                            "y0": 68
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1033,
+                            "y0": 68
+                        },
+                        "id": 16
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1153,
+                            "y0": 68
+                        },
+                        "id": 17
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "CAF",
+                            "y": "13.356103497386712"
+                        },
+                        {
+                            "x": "BGD",
+                            "y": "9.490918697562623"
+                        },
+                        {
+                            "x": "TON",
+                            "y": "23.614838218410235"
+                        },
+                        {
+                            "x": "KHM",
+                            "y": "15.505792370520995"
+                        }
+                    ],
+                    "name": "2016"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "CAF",
+                            "y": "25.014357033959854"
+                        },
+                        {
+                            "x": "BGD",
+                            "y": "29.0"
+                        },
+                        {
+                            "x": "TON",
+                            "y": "24.238227231368896"
+                        },
+                        {
+                            "x": "KHM",
+                            "y": "25.508029834613893"
+                        }
+                    ],
+                    "name": "2013"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "CAF",
+                            "y": "30.2"
+                        },
+                        {
+                            "x": "BGD",
+                            "y": "13.34348475847856"
+                        },
+                        {
+                            "x": "TON",
+                            "y": "24.543095281900566"
+                        },
+                        {
+                            "x": "KHM",
+                            "y": "8.5"
+                        }
+                    ],
+                    "name": "2014"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 143,
+                        "width": 152,
+                        "x0": 140,
+                        "y0": 720
+                    },
+                    {
+                        "height": 323,
+                        "width": 152,
+                        "x0": 140,
+                        "y0": 397
+                    },
+                    {
+                        "height": 267,
+                        "width": 152,
+                        "x0": 140,
+                        "y0": 130
+                    },
+                    {
+                        "height": 101,
+                        "width": 152,
+                        "x0": 443,
+                        "y0": 761
+                    },
+                    {
+                        "height": 143,
+                        "width": 152,
+                        "x0": 443,
+                        "y0": 619
+                    },
+                    {
+                        "height": 310,
+                        "width": 152,
+                        "x0": 443,
+                        "y0": 309
+                    },
+                    {
+                        "height": 252,
+                        "width": 152,
+                        "x0": 747,
+                        "y0": 610
+                    },
+                    {
+                        "height": 262,
+                        "width": 152,
+                        "x0": 747,
+                        "y0": 348
+                    },
+                    {
+                        "height": 259,
+                        "width": 152,
+                        "x0": 747,
+                        "y0": 89
+                    },
+                    {
+                        "height": 166,
+                        "width": 152,
+                        "x0": 1050,
+                        "y0": 697
+                    },
+                    {
+                        "height": 91,
+                        "width": 152,
+                        "x0": 1050,
+                        "y0": 606
+                    },
+                    {
+                        "height": 273,
+                        "width": 152,
+                        "x0": 1050,
+                        "y0": 334
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

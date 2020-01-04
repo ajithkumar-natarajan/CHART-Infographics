@@ -1,0 +1,1137 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 527,
+                        "x0": 396,
+                        "y0": 15
+                    },
+                    "text": "State Level Consumer Price Index (Rural/Urban) upto Dec 2012"
+                },
+                {
+                    "bb": {
+                        "height": 71,
+                        "width": 29,
+                        "x0": 481,
+                        "y0": 874
+                    },
+                    "text": "Longitude"
+                },
+                {
+                    "bb": {
+                        "height": 59,
+                        "width": 27,
+                        "x0": 184,
+                        "y0": 874
+                    },
+                    "text": "Latitude"
+                },
+                {
+                    "bb": {
+                        "height": 55,
+                        "width": 26,
+                        "x0": 784,
+                        "y0": 874
+                    },
+                    "text": "January"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 20,
+                        "x0": 1088,
+                        "y0": 874
+                    },
+                    "text": "May"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 615
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 24,
+                        "y0": 487
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 24,
+                        "y0": 359
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 231
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 102
+                    },
+                    "text": "120"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 744
+                    },
+                    "text": "20"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 527,
+                            "x0": 396,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "State Level Consumer Price Index (Rural/Urban) upto Dec 2012"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 29,
+                            "x0": 481,
+                            "y0": 874
+                        },
+                        "id": 1,
+                        "text": "Longitude"
+                    },
+                    {
+                        "bb": {
+                            "height": 59,
+                            "width": 27,
+                            "x0": 184,
+                            "y0": 874
+                        },
+                        "id": 2,
+                        "text": "Latitude"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 26,
+                            "x0": 784,
+                            "y0": 874
+                        },
+                        "id": 3,
+                        "text": "January"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1088,
+                            "y0": 874
+                        },
+                        "id": 4,
+                        "text": "May"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 615
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 487
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 359
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 231
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 102
+                        },
+                        "id": 9,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 744
+                        },
+                        "id": 10,
+                        "text": "20"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 527,
+                            "x0": 396,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "State Level Consumer Price Index (Rural/Urban) upto Dec 2012"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 29,
+                            "x0": 481,
+                            "y0": 874
+                        },
+                        "id": 1,
+                        "text": "Longitude"
+                    },
+                    {
+                        "bb": {
+                            "height": 59,
+                            "width": 27,
+                            "x0": 184,
+                            "y0": 874
+                        },
+                        "id": 2,
+                        "text": "Latitude"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 26,
+                            "x0": 784,
+                            "y0": 874
+                        },
+                        "id": 3,
+                        "text": "January"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1088,
+                            "y0": 874
+                        },
+                        "id": 4,
+                        "text": "May"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 615
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 487
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 359
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 231
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 102
+                        },
+                        "id": 9,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 744
+                        },
+                        "id": 10,
+                        "text": "20"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 816,
+                "width": 1204,
+                "x0": 58,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 509,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 210,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 808,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1107,
+                            "y": 858
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 620
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 492
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 363
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 235
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 107
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 748
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 527,
+                            "x0": 396,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "State Level Consumer Price Index (Rural/Urban) upto Dec 2012"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 29,
+                            "x0": 481,
+                            "y0": 874
+                        },
+                        "id": 1,
+                        "text": "Longitude"
+                    },
+                    {
+                        "bb": {
+                            "height": 59,
+                            "width": 27,
+                            "x0": 184,
+                            "y0": 874
+                        },
+                        "id": 2,
+                        "text": "Latitude"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 26,
+                            "x0": 784,
+                            "y0": 874
+                        },
+                        "id": 3,
+                        "text": "January"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1088,
+                            "y0": 874
+                        },
+                        "id": 4,
+                        "text": "May"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 615
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 487
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 359
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 231
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 102
+                        },
+                        "id": 9,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 744
+                        },
+                        "id": 10,
+                        "text": "20"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 527,
+                            "x0": 396,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "State Level Consumer Price Index (Rural/Urban) upto Dec 2012"
+                    },
+                    {
+                        "bb": {
+                            "height": 71,
+                            "width": 29,
+                            "x0": 481,
+                            "y0": 874
+                        },
+                        "id": 1,
+                        "text": "Longitude"
+                    },
+                    {
+                        "bb": {
+                            "height": 59,
+                            "width": 27,
+                            "x0": 184,
+                            "y0": 874
+                        },
+                        "id": 2,
+                        "text": "Latitude"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 26,
+                            "x0": 784,
+                            "y0": 874
+                        },
+                        "id": 3,
+                        "text": "January"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 20,
+                            "x0": 1088,
+                            "y0": 874
+                        },
+                        "id": 4,
+                        "text": "May"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 615
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 487
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 359
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 231
+                        },
+                        "id": 8,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 102
+                        },
+                        "id": 9,
+                        "text": "120"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 744
+                        },
+                        "id": 10,
+                        "text": "20"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 816,
+                    "width": 1204,
+                    "x0": 58,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 509,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 210,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 808,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1107,
+                                "y": 858
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 620
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 492
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 363
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 235
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 107
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 748
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 19.5913,
+                        "max": 32.7081,
+                        "median": 23.45,
+                        "min": 10.0,
+                        "third_quartile": 27.4
+                    },
+                    "name": "Latitude"
+                },
+                {
+                    "data": {
+                        "first_quartile": 76.02799999999999,
+                        "max": 95.3333,
+                        "median": 78.042,
+                        "min": 70.9822,
+                        "third_quartile": 88.4876
+                    },
+                    "name": "Longitude"
+                },
+                {
+                    "data": {
+                        "first_quartile": 106.42,
+                        "max": 118.8,
+                        "median": 109.29,
+                        "min": 101.72,
+                        "third_quartile": 114.0
+                    },
+                    "name": "January"
+                },
+                {
+                    "data": {
+                        "first_quartile": 107.4,
+                        "max": 123.2,
+                        "median": 111.6,
+                        "min": 102.0,
+                        "third_quartile": 117.85
+                    },
+                    "name": "May"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 443,
+                                "y0": 390
+                            },
+                            "x": 510,
+                            "y": 390
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 476,
+                                "y0": 266
+                            },
+                            "x": 510,
+                            "y": 266
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 443,
+                                "y0": 377
+                            },
+                            "x": 510,
+                            "y": 377
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 476,
+                                "y0": 422
+                            },
+                            "x": 510,
+                            "y": 422
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 443,
+                                "y0": 390
+                            },
+                            "x": 510,
+                            "y": 310
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 144,
+                                "y0": 752
+                            },
+                            "x": 211,
+                            "y": 752
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 177,
+                                "y0": 668
+                            },
+                            "x": 211,
+                            "y": 668
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 144,
+                                "y0": 727
+                            },
+                            "x": 211,
+                            "y": 727
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 177,
+                                "y0": 813
+                            },
+                            "x": 211,
+                            "y": 813
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 144,
+                                "y0": 752
+                            },
+                            "x": 211,
+                            "y": 702
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 742,
+                                "y0": 195
+                            },
+                            "x": 809,
+                            "y": 195
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 776,
+                                "y0": 116
+                            },
+                            "x": 809,
+                            "y": 116
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 742,
+                                "y0": 177
+                            },
+                            "x": 809,
+                            "y": 177
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 776,
+                                "y0": 225
+                            },
+                            "x": 809,
+                            "y": 225
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 742,
+                                "y0": 195
+                            },
+                            "x": 809,
+                            "y": 146
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1041,
+                                "y0": 189
+                            },
+                            "x": 1108,
+                            "y": 189
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 1075,
+                                "y0": 87
+                            },
+                            "x": 1108,
+                            "y": 87
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1041,
+                                "y0": 162
+                            },
+                            "x": 1108,
+                            "y": 162
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 1075,
+                                "y0": 223
+                            },
+                            "x": 1108,
+                            "y": 223
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1041,
+                                "y0": 189
+                            },
+                            "x": 1108,
+                            "y": 122
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

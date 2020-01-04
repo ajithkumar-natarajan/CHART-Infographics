@@ -1,0 +1,1556 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 816,
+                        "x0": 167,
+                        "y0": 19
+                    },
+                    "text": "Employment to population ratio, 15+, male (%) (modeled ILO estimate)"
+                },
+                {
+                    "bb": {
+                        "height": 120,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 395
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 681,
+                        "y0": 924
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 15,
+                        "width": 20,
+                        "x0": 146,
+                        "y0": 879
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 25,
+                        "width": 24,
+                        "x0": 315,
+                        "y0": 879
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 27,
+                        "x0": 484,
+                        "y0": 879
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 27,
+                        "x0": 657,
+                        "y0": 879
+                    },
+                    "text": "150"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 27,
+                        "x0": 829,
+                        "y0": 879
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 27,
+                        "x0": 1002,
+                        "y0": 879
+                    },
+                    "text": "250"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 27,
+                        "x0": 1174,
+                        "y0": 879
+                    },
+                    "text": "300"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 100,
+                        "x0": 47,
+                        "y0": 763
+                    },
+                    "text": "Luxembourg"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 70,
+                        "x0": 77,
+                        "y0": 553
+                    },
+                    "text": "Vanuatu"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 70,
+                        "x0": 77,
+                        "y0": 343
+                    },
+                    "text": "Namibia"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 100,
+                        "x0": 47,
+                        "y0": 133
+                    },
+                    "text": "Montenegro"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 840,
+                        "y0": 66
+                    },
+                    "text": "2014"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 960,
+                        "y0": 66
+                    },
+                    "text": "1998"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1080,
+                        "y0": 66
+                    },
+                    "text": "1999"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1200,
+                        "y0": 66
+                    },
+                    "text": "2011"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 816,
+                            "x0": 167,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Employment to population ratio, 15+, male (%) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 395
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 681,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 20,
+                            "x0": 146,
+                            "y0": 879
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 24,
+                            "x0": 315,
+                            "y0": 879
+                        },
+                        "id": 4,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 484,
+                            "y0": 879
+                        },
+                        "id": 5,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 657,
+                            "y0": 879
+                        },
+                        "id": 6,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 829,
+                            "y0": 879
+                        },
+                        "id": 7,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 1002,
+                            "y0": 879
+                        },
+                        "id": 8,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 1174,
+                            "y0": 879
+                        },
+                        "id": 9,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 47,
+                            "y0": 763
+                        },
+                        "id": 10,
+                        "text": "Luxembourg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 70,
+                            "x0": 77,
+                            "y0": 553
+                        },
+                        "id": 11,
+                        "text": "Vanuatu"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 70,
+                            "x0": 77,
+                            "y0": 343
+                        },
+                        "id": 12,
+                        "text": "Namibia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 47,
+                            "y0": 133
+                        },
+                        "id": 13,
+                        "text": "Montenegro"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 840,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "1998"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2011"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 816,
+                            "x0": 167,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Employment to population ratio, 15+, male (%) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 395
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 681,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 20,
+                            "x0": 146,
+                            "y0": 879
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 24,
+                            "x0": 315,
+                            "y0": 879
+                        },
+                        "id": 4,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 484,
+                            "y0": 879
+                        },
+                        "id": 5,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 657,
+                            "y0": 879
+                        },
+                        "id": 6,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 829,
+                            "y0": 879
+                        },
+                        "id": 7,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 1002,
+                            "y0": 879
+                        },
+                        "id": 8,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 1174,
+                            "y0": 879
+                        },
+                        "id": 9,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 47,
+                            "y0": 763
+                        },
+                        "id": 10,
+                        "text": "Luxembourg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 70,
+                            "x0": 77,
+                            "y0": 553
+                        },
+                        "id": 11,
+                        "text": "Vanuatu"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 70,
+                            "x0": 77,
+                            "y0": 343
+                        },
+                        "id": 12,
+                        "text": "Namibia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 47,
+                            "y0": 133
+                        },
+                        "id": 13,
+                        "text": "Montenegro"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 840,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "1998"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2011"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 815,
+                "width": 1095,
+                "x0": 163,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 163,
+                            "y": 769
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 163,
+                            "y": 559
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 163,
+                            "y": 349
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 163,
+                            "y": 139
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 166,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 338,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 510,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 683,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 855,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1028,
+                            "y": 858
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1200,
+                            "y": 858
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 816,
+                            "x0": 167,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Employment to population ratio, 15+, male (%) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 395
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 681,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 20,
+                            "x0": 146,
+                            "y0": 879
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 24,
+                            "x0": 315,
+                            "y0": 879
+                        },
+                        "id": 4,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 484,
+                            "y0": 879
+                        },
+                        "id": 5,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 657,
+                            "y0": 879
+                        },
+                        "id": 6,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 829,
+                            "y0": 879
+                        },
+                        "id": 7,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 1002,
+                            "y0": 879
+                        },
+                        "id": 8,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 1174,
+                            "y0": 879
+                        },
+                        "id": 9,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 47,
+                            "y0": 763
+                        },
+                        "id": 10,
+                        "text": "Luxembourg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 70,
+                            "x0": 77,
+                            "y0": 553
+                        },
+                        "id": 11,
+                        "text": "Vanuatu"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 70,
+                            "x0": 77,
+                            "y0": 343
+                        },
+                        "id": 12,
+                        "text": "Namibia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 47,
+                            "y0": 133
+                        },
+                        "id": 13,
+                        "text": "Montenegro"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 840,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "1998"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2011"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 793,
+                        "y0": 68
+                    },
+                    "id": 14
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 913,
+                        "y0": 68
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1033,
+                        "y0": 68
+                    },
+                    "id": 16
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1153,
+                        "y0": 68
+                    },
+                    "id": 17
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 816,
+                            "x0": 167,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Employment to population ratio, 15+, male (%) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 395
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 681,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 20,
+                            "x0": 146,
+                            "y0": 879
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 24,
+                            "x0": 315,
+                            "y0": 879
+                        },
+                        "id": 4,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 484,
+                            "y0": 879
+                        },
+                        "id": 5,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 657,
+                            "y0": 879
+                        },
+                        "id": 6,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 829,
+                            "y0": 879
+                        },
+                        "id": 7,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 1002,
+                            "y0": 879
+                        },
+                        "id": 8,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 27,
+                            "x0": 1174,
+                            "y0": 879
+                        },
+                        "id": 9,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 47,
+                            "y0": 763
+                        },
+                        "id": 10,
+                        "text": "Luxembourg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 70,
+                            "x0": 77,
+                            "y0": 553
+                        },
+                        "id": 11,
+                        "text": "Vanuatu"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 70,
+                            "x0": 77,
+                            "y0": 343
+                        },
+                        "id": 12,
+                        "text": "Namibia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 100,
+                            "x0": 47,
+                            "y0": 133
+                        },
+                        "id": 13,
+                        "text": "Montenegro"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 840,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "1998"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2011"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 815,
+                    "width": 1095,
+                    "x0": 163,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 163,
+                                "y": 769
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 163,
+                                "y": 559
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 163,
+                                "y": 349
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 163,
+                                "y": 139
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 166,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 338,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 510,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 683,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 855,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1028,
+                                "y": 858
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1200,
+                                "y": 858
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 793,
+                            "y0": 68
+                        },
+                        "id": 14
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 913,
+                            "y0": 68
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1033,
+                            "y0": 68
+                        },
+                        "id": 16
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1153,
+                            "y0": 68
+                        },
+                        "id": 17
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Luxembourg",
+                            "y": "61.9850006104"
+                        },
+                        {
+                            "x": "Vanuatu",
+                            "y": "75.7779998779"
+                        },
+                        {
+                            "x": "Namibia",
+                            "y": "51.9519996643"
+                        },
+                        {
+                            "x": "Montenegro",
+                            "y": "45.0209999084"
+                        }
+                    ],
+                    "name": "2011"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Luxembourg",
+                            "y": "64.1579971313"
+                        },
+                        {
+                            "x": "Vanuatu",
+                            "y": "74.4919967651"
+                        },
+                        {
+                            "x": "Namibia",
+                            "y": "52.1699981689"
+                        },
+                        {
+                            "x": "Montenegro",
+                            "y": "42.0239982605"
+                        }
+                    ],
+                    "name": "1998"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Luxembourg",
+                            "y": "63.8959999084"
+                        },
+                        {
+                            "x": "Vanuatu",
+                            "y": "74.5410003662"
+                        },
+                        {
+                            "x": "Namibia",
+                            "y": "52.7350006104"
+                        },
+                        {
+                            "x": "Montenegro",
+                            "y": "40.6100006104"
+                        }
+                    ],
+                    "name": "1999"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Luxembourg",
+                            "y": "62.1529998779"
+                        },
+                        {
+                            "x": "Vanuatu",
+                            "y": "75.7149963379"
+                        },
+                        {
+                            "x": "Namibia",
+                            "y": "53.8300018311"
+                        },
+                        {
+                            "x": "Montenegro",
+                            "y": "45.9469985962"
+                        }
+                    ],
+                    "name": "2014"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 105,
+                        "width": 214,
+                        "x0": 167,
+                        "y0": 717
+                    },
+                    {
+                        "height": 105,
+                        "width": 221,
+                        "x0": 381,
+                        "y0": 717
+                    },
+                    {
+                        "height": 105,
+                        "width": 220,
+                        "x0": 602,
+                        "y0": 717
+                    },
+                    {
+                        "height": 105,
+                        "width": 214,
+                        "x0": 823,
+                        "y0": 717
+                    },
+                    {
+                        "height": 105,
+                        "width": 261,
+                        "x0": 167,
+                        "y0": 507
+                    },
+                    {
+                        "height": 105,
+                        "width": 257,
+                        "x0": 428,
+                        "y0": 507
+                    },
+                    {
+                        "height": 105,
+                        "width": 257,
+                        "x0": 685,
+                        "y0": 507
+                    },
+                    {
+                        "height": 105,
+                        "width": 261,
+                        "x0": 942,
+                        "y0": 507
+                    },
+                    {
+                        "height": 105,
+                        "width": 186,
+                        "x0": 167,
+                        "y0": 297
+                    },
+                    {
+                        "height": 105,
+                        "width": 180,
+                        "x0": 352,
+                        "y0": 297
+                    },
+                    {
+                        "height": 105,
+                        "width": 182,
+                        "x0": 532,
+                        "y0": 297
+                    },
+                    {
+                        "height": 105,
+                        "width": 179,
+                        "x0": 714,
+                        "y0": 297
+                    },
+                    {
+                        "height": 105,
+                        "width": 158,
+                        "x0": 167,
+                        "y0": 87
+                    },
+                    {
+                        "height": 105,
+                        "width": 145,
+                        "x0": 325,
+                        "y0": 87
+                    },
+                    {
+                        "height": 105,
+                        "width": 140,
+                        "x0": 470,
+                        "y0": 87
+                    },
+                    {
+                        "height": 105,
+                        "width": 155,
+                        "x0": 610,
+                        "y0": 87
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

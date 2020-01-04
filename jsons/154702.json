@@ -1,0 +1,1137 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 359,
+                        "x0": 896,
+                        "y0": 17
+                    },
+                    "text": "Gross capital formation (% of GDP)"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 27,
+                        "x0": 1078,
+                        "y0": 896
+                    },
+                    "text": "2004"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 27,
+                        "x0": 181,
+                        "y0": 896
+                    },
+                    "text": "1999"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 27,
+                        "x0": 779,
+                        "y0": 896
+                    },
+                    "text": "1981"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 27,
+                        "x0": 480,
+                        "y0": 896
+                    },
+                    "text": "1986"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 290
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 417
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 162
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 544
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 671
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 29,
+                        "y0": 799
+                    },
+                    "text": "0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 359,
+                            "x0": 896,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Gross capital formation (% of GDP)"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 1078,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "2004"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 181,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 779,
+                            "y0": 896
+                        },
+                        "id": 3,
+                        "text": "1981"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 480,
+                            "y0": 896
+                        },
+                        "id": 4,
+                        "text": "1986"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 290
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 417
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 162
+                        },
+                        "id": 7,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 544
+                        },
+                        "id": 8,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 671
+                        },
+                        "id": 9,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 29,
+                            "y0": 799
+                        },
+                        "id": 10,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 359,
+                            "x0": 896,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Gross capital formation (% of GDP)"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 1078,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "2004"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 181,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 779,
+                            "y0": 896
+                        },
+                        "id": 3,
+                        "text": "1981"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 480,
+                            "y0": 896
+                        },
+                        "id": 4,
+                        "text": "1986"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 290
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 417
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 162
+                        },
+                        "id": 7,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 544
+                        },
+                        "id": 8,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 671
+                        },
+                        "id": 9,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 29,
+                            "y0": 799
+                        },
+                        "id": 10,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 835,
+                "width": 1203,
+                "x0": 55,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1104,
+                            "y": 880
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 207,
+                            "y": 880
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 805,
+                            "y": 880
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 506,
+                            "y": 880
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 295
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 422
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 168
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 550
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 677
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 804
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 359,
+                            "x0": 896,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Gross capital formation (% of GDP)"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 1078,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "2004"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 181,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 779,
+                            "y0": 896
+                        },
+                        "id": 3,
+                        "text": "1981"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 480,
+                            "y0": 896
+                        },
+                        "id": 4,
+                        "text": "1986"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 290
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 417
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 162
+                        },
+                        "id": 7,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 544
+                        },
+                        "id": 8,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 671
+                        },
+                        "id": 9,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 29,
+                            "y0": 799
+                        },
+                        "id": 10,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 359,
+                            "x0": 896,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Gross capital formation (% of GDP)"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 1078,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "2004"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 181,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1999"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 779,
+                            "y0": 896
+                        },
+                        "id": 3,
+                        "text": "1981"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 27,
+                            "x0": 480,
+                            "y0": 896
+                        },
+                        "id": 4,
+                        "text": "1986"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 290
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 417
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 162
+                        },
+                        "id": 7,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 544
+                        },
+                        "id": 8,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 671
+                        },
+                        "id": 9,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 29,
+                            "y0": 799
+                        },
+                        "id": 10,
+                        "text": "0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 835,
+                    "width": 1203,
+                    "x0": 55,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1104,
+                                "y": 880
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 207,
+                                "y": 880
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 805,
+                                "y": 880
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 506,
+                                "y": 880
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 295
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 422
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 168
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 550
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 677
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 804
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 17.00941351225,
+                        "max": 39.6689270044,
+                        "median": 21.3416841208,
+                        "min": 3.06901067066,
+                        "third_quartile": 26.8402830487
+                    },
+                    "name": "1999"
+                },
+                {
+                    "data": {
+                        "first_quartile": 16.340260286571837,
+                        "max": 41.6597032648,
+                        "median": 21.5836258707,
+                        "min": 3.12450280866204,
+                        "third_quartile": 26.53130125245943
+                    },
+                    "name": "1986"
+                },
+                {
+                    "data": {
+                        "first_quartile": 20.388738800178828,
+                        "max": 48.1631899575,
+                        "median": 25.3338998817,
+                        "min": 4.57274254399,
+                        "third_quartile": 32.30643497223174
+                    },
+                    "name": "1981"
+                },
+                {
+                    "data": {
+                        "first_quartile": 18.82321580885,
+                        "max": 37.1997954789,
+                        "median": 21.7984644402,
+                        "min": 8.80061775253,
+                        "third_quartile": 26.41327231145
+                    },
+                    "name": "2004"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1038,
+                                "y0": 566
+                            },
+                            "x": 1105,
+                            "y": 566
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 1072,
+                                "y0": 332
+                            },
+                            "x": 1105,
+                            "y": 332
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1038,
+                                "y0": 528
+                            },
+                            "x": 1105,
+                            "y": 528
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 1072,
+                                "y0": 693
+                            },
+                            "x": 1105,
+                            "y": 693
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1038,
+                                "y0": 566
+                            },
+                            "x": 1105,
+                            "y": 469
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 141,
+                                "y0": 589
+                            },
+                            "x": 208,
+                            "y": 589
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 175,
+                                "y0": 300
+                            },
+                            "x": 208,
+                            "y": 300
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 141,
+                                "y0": 534
+                            },
+                            "x": 208,
+                            "y": 534
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 175,
+                                "y0": 766
+                            },
+                            "x": 208,
+                            "y": 766
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 141,
+                                "y0": 589
+                            },
+                            "x": 208,
+                            "y": 464
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 739,
+                                "y0": 546
+                            },
+                            "x": 806,
+                            "y": 546
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 773,
+                                "y0": 192
+                            },
+                            "x": 806,
+                            "y": 192
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 739,
+                                "y0": 483
+                            },
+                            "x": 806,
+                            "y": 483
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 773,
+                                "y0": 747
+                            },
+                            "x": 806,
+                            "y": 747
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 739,
+                                "y0": 546
+                            },
+                            "x": 806,
+                            "y": 394
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 440,
+                                "y0": 597
+                            },
+                            "x": 507,
+                            "y": 598
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 474,
+                                "y0": 275
+                            },
+                            "x": 507,
+                            "y": 275
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 440,
+                                "y0": 531
+                            },
+                            "x": 507,
+                            "y": 531
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 474,
+                                "y0": 765
+                            },
+                            "x": 507,
+                            "y": 765
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 440,
+                                "y0": 597
+                            },
+                            "x": 507,
+                            "y": 468
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

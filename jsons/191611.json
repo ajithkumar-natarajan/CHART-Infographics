@@ -1,0 +1,1608 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 293,
+                        "x0": 85,
+                        "y0": 15
+                    },
+                    "text": "School enrollment, primary (% net)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 621,
+                        "y0": 933
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 14,
+                        "x0": 14,
+                        "y0": 397
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 69,
+                        "width": 22,
+                        "x0": 116,
+                        "y0": 815
+                    },
+                    "text": "Argentina"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 20,
+                        "x0": 332,
+                        "y0": 815
+                    },
+                    "text": "Malawi"
+                },
+                {
+                    "bb": {
+                        "height": 107,
+                        "width": 42,
+                        "x0": 522,
+                        "y0": 815
+                    },
+                    "text": "Central African\nRepublic"
+                },
+                {
+                    "bb": {
+                        "height": 55,
+                        "width": 20,
+                        "x0": 758,
+                        "y0": 815
+                    },
+                    "text": "Bahrain"
+                },
+                {
+                    "bb": {
+                        "height": 96,
+                        "width": 41,
+                        "x0": 950,
+                        "y0": 815
+                    },
+                    "text": "Virgin Islands\n(U.S.)"
+                },
+                {
+                    "bb": {
+                        "height": 94,
+                        "width": 25,
+                        "x0": 1180,
+                        "y0": 815
+                    },
+                    "text": "Liechtenstein"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 48,
+                        "y0": 704
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 48,
+                        "y0": 599
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 47,
+                        "y0": 494
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 48,
+                        "y0": 389
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 47,
+                        "y0": 284
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 47,
+                        "y0": 179
+                    },
+                    "text": "90"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 39,
+                        "y0": 74
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1006,
+                        "y0": 58
+                    },
+                    "text": "1992"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1108,
+                        "y0": 58
+                    },
+                    "text": "1980"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1210,
+                        "y0": 58
+                    },
+                    "text": "2012"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 293,
+                            "x0": 85,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 621,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 397
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 22,
+                            "x0": 116,
+                            "y0": 815
+                        },
+                        "id": 3,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 20,
+                            "x0": 332,
+                            "y0": 815
+                        },
+                        "id": 4,
+                        "text": "Malawi"
+                    },
+                    {
+                        "bb": {
+                            "height": 107,
+                            "width": 42,
+                            "x0": 522,
+                            "y0": 815
+                        },
+                        "id": 5,
+                        "text": "Central African\nRepublic"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 20,
+                            "x0": 758,
+                            "y0": 815
+                        },
+                        "id": 6,
+                        "text": "Bahrain"
+                    },
+                    {
+                        "bb": {
+                            "height": 96,
+                            "width": 41,
+                            "x0": 950,
+                            "y0": 815
+                        },
+                        "id": 7,
+                        "text": "Virgin Islands\n(U.S.)"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 25,
+                            "x0": 1180,
+                            "y0": 815
+                        },
+                        "id": 8,
+                        "text": "Liechtenstein"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 704
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 599
+                        },
+                        "id": 10,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 494
+                        },
+                        "id": 11,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 389
+                        },
+                        "id": 12,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 284
+                        },
+                        "id": 13,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 179
+                        },
+                        "id": 14,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 74
+                        },
+                        "id": 15,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1006,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "1992"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1108,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "1980"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "2012"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 18,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 293,
+                            "x0": 85,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 621,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 397
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 22,
+                            "x0": 116,
+                            "y0": 815
+                        },
+                        "id": 3,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 20,
+                            "x0": 332,
+                            "y0": 815
+                        },
+                        "id": 4,
+                        "text": "Malawi"
+                    },
+                    {
+                        "bb": {
+                            "height": 107,
+                            "width": 42,
+                            "x0": 522,
+                            "y0": 815
+                        },
+                        "id": 5,
+                        "text": "Central African\nRepublic"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 20,
+                            "x0": 758,
+                            "y0": 815
+                        },
+                        "id": 6,
+                        "text": "Bahrain"
+                    },
+                    {
+                        "bb": {
+                            "height": 96,
+                            "width": 41,
+                            "x0": 950,
+                            "y0": 815
+                        },
+                        "id": 7,
+                        "text": "Virgin Islands\n(U.S.)"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 25,
+                            "x0": 1180,
+                            "y0": 815
+                        },
+                        "id": 8,
+                        "text": "Liechtenstein"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 704
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 599
+                        },
+                        "id": 10,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 494
+                        },
+                        "id": 11,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 389
+                        },
+                        "id": 12,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 284
+                        },
+                        "id": 13,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 179
+                        },
+                        "id": 14,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 74
+                        },
+                        "id": 15,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1006,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "1992"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1108,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "1980"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "2012"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 757,
+                "width": 1180,
+                "x0": 81,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 137,
+                            "y": 799
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 350,
+                            "y": 799
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 564,
+                            "y": 799
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 777,
+                            "y": 799
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 990,
+                            "y": 799
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 799
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 709
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 604
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 499
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 393
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 288
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 183
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 78
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 293,
+                            "x0": 85,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 621,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 397
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 22,
+                            "x0": 116,
+                            "y0": 815
+                        },
+                        "id": 3,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 20,
+                            "x0": 332,
+                            "y0": 815
+                        },
+                        "id": 4,
+                        "text": "Malawi"
+                    },
+                    {
+                        "bb": {
+                            "height": 107,
+                            "width": 42,
+                            "x0": 522,
+                            "y0": 815
+                        },
+                        "id": 5,
+                        "text": "Central African\nRepublic"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 20,
+                            "x0": 758,
+                            "y0": 815
+                        },
+                        "id": 6,
+                        "text": "Bahrain"
+                    },
+                    {
+                        "bb": {
+                            "height": 96,
+                            "width": 41,
+                            "x0": 950,
+                            "y0": 815
+                        },
+                        "id": 7,
+                        "text": "Virgin Islands\n(U.S.)"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 25,
+                            "x0": 1180,
+                            "y0": 815
+                        },
+                        "id": 8,
+                        "text": "Liechtenstein"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 704
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 599
+                        },
+                        "id": 10,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 494
+                        },
+                        "id": 11,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 389
+                        },
+                        "id": 12,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 284
+                        },
+                        "id": 13,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 179
+                        },
+                        "id": 14,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 74
+                        },
+                        "id": 15,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1006,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "1992"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1108,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "1980"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "2012"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 28,
+                        "x0": 967,
+                        "y0": 55
+                    },
+                    "id": 16
+                },
+                {
+                    "bb": {
+                        "height": 3,
+                        "width": 28,
+                        "x0": 1069,
+                        "y0": 63
+                    },
+                    "id": 17
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 28,
+                        "x0": 1171,
+                        "y0": 56
+                    },
+                    "id": 18
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 293,
+                            "x0": 85,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 621,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 14,
+                            "y0": 397
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 22,
+                            "x0": 116,
+                            "y0": 815
+                        },
+                        "id": 3,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 20,
+                            "x0": 332,
+                            "y0": 815
+                        },
+                        "id": 4,
+                        "text": "Malawi"
+                    },
+                    {
+                        "bb": {
+                            "height": 107,
+                            "width": 42,
+                            "x0": 522,
+                            "y0": 815
+                        },
+                        "id": 5,
+                        "text": "Central African\nRepublic"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 20,
+                            "x0": 758,
+                            "y0": 815
+                        },
+                        "id": 6,
+                        "text": "Bahrain"
+                    },
+                    {
+                        "bb": {
+                            "height": 96,
+                            "width": 41,
+                            "x0": 950,
+                            "y0": 815
+                        },
+                        "id": 7,
+                        "text": "Virgin Islands\n(U.S.)"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 25,
+                            "x0": 1180,
+                            "y0": 815
+                        },
+                        "id": 8,
+                        "text": "Liechtenstein"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 704
+                        },
+                        "id": 9,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 599
+                        },
+                        "id": 10,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 494
+                        },
+                        "id": 11,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 48,
+                            "y0": 389
+                        },
+                        "id": 12,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 284
+                        },
+                        "id": 13,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 47,
+                            "y0": 179
+                        },
+                        "id": 14,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 39,
+                            "y0": 74
+                        },
+                        "id": 15,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1006,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "1992"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1108,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "1980"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "2012"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 757,
+                    "width": 1180,
+                    "x0": 81,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 137,
+                                "y": 799
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 350,
+                                "y": 799
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 564,
+                                "y": 799
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 777,
+                                "y": 799
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 990,
+                                "y": 799
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 799
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 709
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 604
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 499
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 393
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 288
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 183
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 78
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 28,
+                            "x0": 967,
+                            "y0": 55
+                        },
+                        "id": 16
+                    },
+                    {
+                        "bb": {
+                            "height": 3,
+                            "width": 28,
+                            "x0": 1069,
+                            "y0": 63
+                        },
+                        "id": 17
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 28,
+                            "x0": 1171,
+                            "y0": 56
+                        },
+                        "id": 18
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Argentina",
+                            "y": "98.9706192017"
+                        },
+                        {
+                            "x": "Malawi",
+                            "y": "80.69964041050395"
+                        },
+                        {
+                            "x": "Central African Republic",
+                            "y": "68.0799179077"
+                        },
+                        {
+                            "x": "Bahrain",
+                            "y": "91.1839828491"
+                        },
+                        {
+                            "x": "Virgin Islands (U.S.)",
+                            "y": "91.46865718024632"
+                        },
+                        {
+                            "x": "Liechtenstein",
+                            "y": "91.0854721069"
+                        }
+                    ],
+                    "name": "2012"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Argentina",
+                            "y": "69.70414976985417"
+                        },
+                        {
+                            "x": "Malawi",
+                            "y": "99.9541091919"
+                        },
+                        {
+                            "x": "Central African Republic",
+                            "y": "67.96029374143694"
+                        },
+                        {
+                            "x": "Bahrain",
+                            "y": "82.3983001709"
+                        },
+                        {
+                            "x": "Virgin Islands (U.S.)",
+                            "y": "45.18501569932437"
+                        },
+                        {
+                            "x": "Liechtenstein",
+                            "y": "81.1859736166381"
+                        }
+                    ],
+                    "name": "1980"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Argentina",
+                            "y": "78.16409247766458"
+                        },
+                        {
+                            "x": "Malawi",
+                            "y": "69.24809659846373"
+                        },
+                        {
+                            "x": "Central African Republic",
+                            "y": "49.52040123588781"
+                        },
+                        {
+                            "x": "Bahrain",
+                            "y": "97.0084762573"
+                        },
+                        {
+                            "x": "Virgin Islands (U.S.)",
+                            "y": "91.23572572544536"
+                        },
+                        {
+                            "x": "Liechtenstein",
+                            "y": "35.08621751571183"
+                        }
+                    ],
+                    "name": "1992"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 138,
+                            "y": 90
+                        },
+                        {
+                            "x": 351,
+                            "y": 282
+                        },
+                        {
+                            "x": 565,
+                            "y": 415
+                        },
+                        {
+                            "x": 778,
+                            "y": 172
+                        },
+                        {
+                            "x": 991,
+                            "y": 169
+                        },
+                        {
+                            "x": 1205,
+                            "y": 173
+                        }
+                    ],
+                    [
+                        {
+                            "x": 138,
+                            "y": 398
+                        },
+                        {
+                            "x": 351,
+                            "y": 80
+                        },
+                        {
+                            "x": 565,
+                            "y": 416
+                        },
+                        {
+                            "x": 778,
+                            "y": 264
+                        },
+                        {
+                            "x": 991,
+                            "y": 655
+                        },
+                        {
+                            "x": 1205,
+                            "y": 277
+                        }
+                    ],
+                    [
+                        {
+                            "x": 138,
+                            "y": 309
+                        },
+                        {
+                            "x": 351,
+                            "y": 402
+                        },
+                        {
+                            "x": 565,
+                            "y": 610
+                        },
+                        {
+                            "x": 778,
+                            "y": 111
+                        },
+                        {
+                            "x": 991,
+                            "y": 171
+                        },
+                        {
+                            "x": 1205,
+                            "y": 761
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

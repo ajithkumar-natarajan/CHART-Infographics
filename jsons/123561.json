@@ -1,0 +1,990 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 804,
+                        "x0": 452,
+                        "y0": 19
+                    },
+                    "text": "Household final consumption expenditure, PPP (constant 2011 international $) t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 975,
+                        "y0": 898
+                    },
+                    "text": "2.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 741,
+                        "y0": 898
+                    },
+                    "text": "1.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 508,
+                        "y0": 898
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 274,
+                        "y0": 898
+                    },
+                    "text": "0.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 1208,
+                        "y0": 898
+                    },
+                    "text": "2.5"
+                },
+                {
+                    "bb": {
+                        "height": 69,
+                        "width": 111,
+                        "x0": 40,
+                        "y0": 171
+                    },
+                    "text": "Trinidad and\nTobago"
+                },
+                {
+                    "bb": {
+                        "height": 38,
+                        "width": 72,
+                        "x0": 79,
+                        "y0": 733
+                    },
+                    "text": "Lao PDR"
+                },
+                {
+                    "bb": {
+                        "height": 75,
+                        "width": 131,
+                        "x0": 20,
+                        "y0": 447
+                    },
+                    "text": "West Bank and\nGaza"
+                },
+                {
+                    "bb": {
+                        "height": 13,
+                        "width": 34,
+                        "x0": 1220,
+                        "y0": 925
+                    },
+                    "text": ""
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 804,
+                            "x0": 452,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Household final consumption expenditure, PPP (constant 2011 international $) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 975,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "2.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 741,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 508,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 274,
+                            "y0": 898
+                        },
+                        "id": 4,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1208,
+                            "y0": 898
+                        },
+                        "id": 5,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 111,
+                            "x0": 40,
+                            "y0": 171
+                        },
+                        "id": 6,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 72,
+                            "x0": 79,
+                            "y0": 733
+                        },
+                        "id": 7,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 131,
+                            "x0": 20,
+                            "y0": 447
+                        },
+                        "id": 8,
+                        "text": "West Bank and\nGaza"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 34,
+                            "x0": 1220,
+                            "y0": 925
+                        },
+                        "id": 9,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "ignore"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 804,
+                            "x0": 452,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Household final consumption expenditure, PPP (constant 2011 international $) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 975,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "2.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 741,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 508,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 274,
+                            "y0": 898
+                        },
+                        "id": 4,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1208,
+                            "y0": 898
+                        },
+                        "id": 5,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 111,
+                            "x0": 40,
+                            "y0": 171
+                        },
+                        "id": 6,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 72,
+                            "x0": 79,
+                            "y0": 733
+                        },
+                        "id": 7,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 131,
+                            "x0": 20,
+                            "y0": 447
+                        },
+                        "id": 8,
+                        "text": "West Bank and\nGaza"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 34,
+                            "x0": 1220,
+                            "y0": 925
+                        },
+                        "id": 9,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 835,
+                "width": 1092,
+                "x0": 167,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 167,
+                            "y": 188
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 167,
+                            "y": 739
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 167,
+                            "y": 463
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 987,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 753,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 520,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 286,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 1220,
+                            "y": 878
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 804,
+                            "x0": 452,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Household final consumption expenditure, PPP (constant 2011 international $) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 975,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "2.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 741,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 508,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 274,
+                            "y0": 898
+                        },
+                        "id": 4,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1208,
+                            "y0": 898
+                        },
+                        "id": 5,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 111,
+                            "x0": 40,
+                            "y0": 171
+                        },
+                        "id": 6,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 72,
+                            "x0": 79,
+                            "y0": 733
+                        },
+                        "id": 7,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 131,
+                            "x0": 20,
+                            "y0": 447
+                        },
+                        "id": 8,
+                        "text": "West Bank and\nGaza"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 34,
+                            "x0": 1220,
+                            "y0": 925
+                        },
+                        "id": 9,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 804,
+                            "x0": 452,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Household final consumption expenditure, PPP (constant 2011 international $) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 975,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "2.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 741,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 508,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 274,
+                            "y0": 898
+                        },
+                        "id": 4,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 1208,
+                            "y0": 898
+                        },
+                        "id": 5,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 111,
+                            "x0": 40,
+                            "y0": 171
+                        },
+                        "id": 6,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 72,
+                            "x0": 79,
+                            "y0": 733
+                        },
+                        "id": 7,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 131,
+                            "x0": 20,
+                            "y0": 447
+                        },
+                        "id": 8,
+                        "text": "West Bank and\nGaza"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 34,
+                            "x0": 1220,
+                            "y0": 925
+                        },
+                        "id": 9,
+                        "text": ""
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "ignore"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 835,
+                    "width": 1092,
+                    "x0": 167,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 167,
+                                "y": 188
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 167,
+                                "y": 739
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 167,
+                                "y": 463
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 987,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 753,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 520,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 286,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 1220,
+                                "y": 878
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 10768297755.411255,
+                        "max": 21851336962.7,
+                        "median": 13585207450.408543,
+                        "min": 6361119185.13,
+                        "third_quartile": 16621358893.854607
+                    },
+                    "name": "Lao PDR"
+                },
+                {
+                    "data": {
+                        "first_quartile": 8496576794.663948,
+                        "max": 16615912857.5,
+                        "median": 10598861284.175909,
+                        "min": 7014514793.2,
+                        "third_quartile": 13149133423.045696
+                    },
+                    "name": "West Bank and Gaza"
+                },
+                {
+                    "data": {
+                        "first_quartile": 10807172082.645435,
+                        "max": 20322354563.1,
+                        "median": 14344147136.435513,
+                        "min": 7187036016.59,
+                        "third_quartile": 16276922623.8
+                    },
+                    "name": "Trinidad and Tobago"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 557,
+                                "y0": 699
+                            },
+                            "x": 557,
+                            "y": 740
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 41,
+                                "width": 0,
+                                "x0": 1074,
+                                "y0": 720
+                            },
+                            "x": 1074,
+                            "y": 741
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 688,
+                                "y0": 699
+                            },
+                            "x": 688,
+                            "y": 740
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 41,
+                                "width": 0,
+                                "x0": 351,
+                                "y0": 720
+                            },
+                            "x": 351,
+                            "y": 741
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 830,
+                                "y0": 699
+                            },
+                            "x": 830,
+                            "y": 740
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 559,
+                                "y0": 147
+                            },
+                            "x": 559,
+                            "y": 188
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 41,
+                                "width": 0,
+                                "x0": 1003,
+                                "y0": 168
+                            },
+                            "x": 1003,
+                            "y": 189
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 724,
+                                "y0": 147
+                            },
+                            "x": 724,
+                            "y": 188
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 41,
+                                "width": 0,
+                                "x0": 390,
+                                "y0": 168
+                            },
+                            "x": 390,
+                            "y": 189
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 814,
+                                "y0": 147
+                            },
+                            "x": 814,
+                            "y": 188
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 451,
+                                "y0": 423
+                            },
+                            "x": 451,
+                            "y": 464
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 41,
+                                "width": 0,
+                                "x0": 830,
+                                "y0": 444
+                            },
+                            "x": 830,
+                            "y": 465
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 549,
+                                "y0": 423
+                            },
+                            "x": 549,
+                            "y": 464
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 41,
+                                "width": 0,
+                                "x0": 382,
+                                "y0": 444
+                            },
+                            "x": 382,
+                            "y": 465
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 83,
+                                "width": 0,
+                                "x0": 668,
+                                "y0": 423
+                            },
+                            "x": 668,
+                            "y": 464
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,1075 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 557,
+                        "x0": 698,
+                        "y0": 17
+                    },
+                    "text": "Commitments, private creditors (COM, current US$) 2"
+                },
+                {
+                    "bb": {
+                        "height": 43,
+                        "width": 20,
+                        "x0": 632,
+                        "y0": 898
+                    },
+                    "text": "1985"
+                },
+                {
+                    "bb": {
+                        "height": 43,
+                        "width": 20,
+                        "x0": 229,
+                        "y0": 898
+                    },
+                    "text": "1979"
+                },
+                {
+                    "bb": {
+                        "height": 43,
+                        "width": 20,
+                        "x0": 1034,
+                        "y0": 898
+                    },
+                    "text": "1990"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 10,
+                        "x0": 18,
+                        "y0": 243
+                    },
+                    "text": "5"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 686
+                    },
+                    "text": "1"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 465
+                    },
+                    "text": "3"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 354
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 576
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 18,
+                        "y0": 797
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 10,
+                        "x0": 18,
+                        "y0": 133
+                    },
+                    "text": "6"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 557,
+                            "x0": 698,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Commitments, private creditors (COM, current US$) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 632,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "1985"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 229,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "1979"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 1034,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1990"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 243
+                        },
+                        "id": 4,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 5,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 465
+                        },
+                        "id": 6,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 354
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 576
+                        },
+                        "id": 8,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 797
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 133
+                        },
+                        "id": 10,
+                        "text": "6"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 557,
+                            "x0": 698,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Commitments, private creditors (COM, current US$) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 632,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "1985"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 229,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "1979"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 1034,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1990"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 243
+                        },
+                        "id": 4,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 5,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 465
+                        },
+                        "id": 6,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 354
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 576
+                        },
+                        "id": 8,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 797
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 133
+                        },
+                        "id": 10,
+                        "text": "6"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 837,
+                "width": 1214,
+                "x0": 45,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 651,
+                            "y": 882
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 249,
+                            "y": 882
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 1053,
+                            "y": 882
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 251
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 692
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 470
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 360
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 581
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 802
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 45,
+                            "y": 141
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 557,
+                            "x0": 698,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Commitments, private creditors (COM, current US$) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 632,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "1985"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 229,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "1979"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 1034,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1990"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 243
+                        },
+                        "id": 4,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 5,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 465
+                        },
+                        "id": 6,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 354
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 576
+                        },
+                        "id": 8,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 797
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 133
+                        },
+                        "id": 10,
+                        "text": "6"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 557,
+                            "x0": 698,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Commitments, private creditors (COM, current US$) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 632,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "1985"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 229,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "1979"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 20,
+                            "x0": 1034,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1990"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 243
+                        },
+                        "id": 4,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 5,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 465
+                        },
+                        "id": 6,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 354
+                        },
+                        "id": 7,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 576
+                        },
+                        "id": 8,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 18,
+                            "y0": 797
+                        },
+                        "id": 9,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 10,
+                            "x0": 18,
+                            "y0": 133
+                        },
+                        "id": 10,
+                        "text": "6"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 837,
+                    "width": 1214,
+                    "x0": 45,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 651,
+                                "y": 882
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 249,
+                                "y": 882
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 1053,
+                                "y": 882
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 251
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 692
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 470
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 360
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 581
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 802
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 45,
+                                "y": 141
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 5760701540.510752,
+                        "max": 54601422756.1,
+                        "median": 19845882971.091854,
+                        "min": 399780000.0,
+                        "third_quartile": 35338980178.737595
+                    },
+                    "name": "1979"
+                },
+                {
+                    "data": {
+                        "first_quartile": 7251215911.865539,
+                        "max": 36735715078.2,
+                        "median": 14449435490.47942,
+                        "min": 401287078.2,
+                        "third_quartile": 22854628875.999374
+                    },
+                    "name": "1985"
+                },
+                {
+                    "data": {
+                        "first_quartile": 3627754000.0,
+                        "max": 40479294000.0,
+                        "median": 11018558000.0,
+                        "min": 458352000.0,
+                        "third_quartile": 23825179846.448544
+                    },
+                    "name": "1990"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 591,
+                                "y0": 723
+                            },
+                            "x": 652,
+                            "y": 723
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 622,
+                                "y0": 397
+                            },
+                            "x": 652,
+                            "y": 397
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 591,
+                                "y0": 643
+                            },
+                            "x": 652,
+                            "y": 643
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 622,
+                                "y0": 799
+                            },
+                            "x": 652,
+                            "y": 799
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 591,
+                                "y0": 723
+                            },
+                            "x": 652,
+                            "y": 550
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 189,
+                                "y0": 740
+                            },
+                            "x": 250,
+                            "y": 739
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 219,
+                                "y0": 199
+                            },
+                            "x": 250,
+                            "y": 199
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 189,
+                                "y0": 584
+                            },
+                            "x": 250,
+                            "y": 584
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 219,
+                                "y0": 799
+                            },
+                            "x": 250,
+                            "y": 799
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 189,
+                                "y0": 740
+                            },
+                            "x": 250,
+                            "y": 412
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 994,
+                                "y0": 763
+                            },
+                            "x": 1054,
+                            "y": 764
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 1024,
+                                "y0": 355
+                            },
+                            "x": 1054,
+                            "y": 355
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 994,
+                                "y0": 681
+                            },
+                            "x": 1054,
+                            "y": 681
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 1024,
+                                "y0": 798
+                            },
+                            "x": 1054,
+                            "y": 798
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 121,
+                                "x0": 994,
+                                "y0": 763
+                            },
+                            "x": 1054,
+                            "y": 540
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

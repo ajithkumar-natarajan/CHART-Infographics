@@ -1,0 +1,738 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 263,
+                        "x0": 581,
+                        "y0": 14
+                    },
+                    "text": "acs2015_county_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 435,
+                        "y0": 929
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 261,
+                        "y0": 929
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 1144,
+                        "y0": 929
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 970,
+                        "y0": 929
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 613,
+                        "y0": 929
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 792,
+                        "y0": 929
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 131,
+                        "x0": 16,
+                        "y0": 463
+                    },
+                    "text": "30103MontanaTre\nasure"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 581,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 435,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 261,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 1144,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 970,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 613,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 792,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 131,
+                            "x0": 16,
+                            "y0": 463
+                        },
+                        "id": 7,
+                        "text": "30103MontanaTre\nasure"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 581,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 435,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 261,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 1144,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 970,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 613,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 792,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 131,
+                            "x0": 16,
+                            "y0": 463
+                        },
+                        "id": 7,
+                        "text": "30103MontanaTre\nasure"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 873,
+                "width": 1098,
+                "x0": 164,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 164,
+                            "y": 470
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 443,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 265,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 1156,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 978,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 621,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 800,
+                            "y": 909
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 581,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 435,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 261,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 1144,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 970,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 613,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 792,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 131,
+                            "x0": 16,
+                            "y0": 463
+                        },
+                        "id": 7,
+                        "text": "30103MontanaTre\nasure"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 581,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 435,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 261,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 1144,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 970,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 613,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 792,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 131,
+                            "x0": 16,
+                            "y0": 463
+                        },
+                        "id": 7,
+                        "text": "30103MontanaTre\nasure"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 873,
+                    "width": 1098,
+                    "x0": 164,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 164,
+                                "y": 470
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 443,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 265,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 1156,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 978,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 621,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 800,
+                                "y": 909
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 2.621764223536555,
+                        "max": 89.2,
+                        "median": 6.59352844707311,
+                        "min": 0.7574108309354302,
+                        "third_quartile": 40.01129287074408
+                    },
+                    "name": "30103MontanaTreasure"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 130,
+                                "width": 0,
+                                "x0": 289,
+                                "y0": 412
+                            },
+                            "x": 289,
+                            "y": 477
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 1061,
+                                "y0": 444
+                            },
+                            "x": 1061,
+                            "y": 476
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 130,
+                                "width": 0,
+                                "x0": 325,
+                                "y0": 412
+                            },
+                            "x": 325,
+                            "y": 477
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 272,
+                                "y0": 444
+                            },
+                            "x": 272,
+                            "y": 476
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 130,
+                                "width": 0,
+                                "x0": 622,
+                                "y0": 412
+                            },
+                            "x": 622,
+                            "y": 477
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

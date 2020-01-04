@@ -1,0 +1,1208 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 190,
+                        "x0": 84,
+                        "y0": 14
+                    },
+                    "text": "Lithuania 1995 Import"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 632,
+                        "y0": 926
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 70,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 373
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 123,
+                        "width": 88,
+                        "x0": 50,
+                        "y0": 792
+                    },
+                    "text": "Carpets of wool\nor hair, woven\npile, not made\nup, nes"
+                },
+                {
+                    "bb": {
+                        "height": 101,
+                        "width": 53,
+                        "x0": 263,
+                        "y0": 792
+                    },
+                    "text": "Cocoa butter,\nfat, oil"
+                },
+                {
+                    "bb": {
+                        "height": 111,
+                        "width": 100,
+                        "x0": 393,
+                        "y0": 792
+                    },
+                    "text": "Ceramic\ntroughs, etc\n(agriculture),\nceramic pots\netc"
+                },
+                {
+                    "bb": {
+                        "height": 120,
+                        "width": 87,
+                        "x0": 584,
+                        "y0": 792
+                    },
+                    "text": "Zinc fabricated\nbuilding\ncomponents\n(gutters,etc)"
+                },
+                {
+                    "bb": {
+                        "height": 123,
+                        "width": 88,
+                        "x0": 761,
+                        "y0": 792
+                    },
+                    "text": "Yarn of wool or\nfine hair, >85%\nsuch fibres,\nretail"
+                },
+                {
+                    "bb": {
+                        "height": 115,
+                        "width": 56,
+                        "x0": 970,
+                        "y0": 792
+                    },
+                    "text": "Woven fabric of\nsilk, nes"
+                },
+                {
+                    "bb": {
+                        "height": 120,
+                        "width": 102,
+                        "x0": 1103,
+                        "y0": 792
+                    },
+                    "text": "Vanadium,\narticles\nthereof, waste\nor\nscrap/powders"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 734
+                    },
+                    "text": "0.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 574
+                    },
+                    "text": "0.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 415
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 256
+                    },
+                    "text": "1.5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 96
+                    },
+                    "text": "2.0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 190,
+                            "x0": 84,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Lithuania 1995 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 373
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 88,
+                            "x0": 50,
+                            "y0": 792
+                        },
+                        "id": 3,
+                        "text": "Carpets of wool\nor hair, woven\npile, not made\nup, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 53,
+                            "x0": 263,
+                            "y0": 792
+                        },
+                        "id": 4,
+                        "text": "Cocoa butter,\nfat, oil"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 100,
+                            "x0": 393,
+                            "y0": 792
+                        },
+                        "id": 5,
+                        "text": "Ceramic\ntroughs, etc\n(agriculture),\nceramic pots\netc"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 87,
+                            "x0": 584,
+                            "y0": 792
+                        },
+                        "id": 6,
+                        "text": "Zinc fabricated\nbuilding\ncomponents\n(gutters,etc)"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 88,
+                            "x0": 761,
+                            "y0": 792
+                        },
+                        "id": 7,
+                        "text": "Yarn of wool or\nfine hair, >85%\nsuch fibres,\nretail"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 56,
+                            "x0": 970,
+                            "y0": 792
+                        },
+                        "id": 8,
+                        "text": "Woven fabric of\nsilk, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 102,
+                            "x0": 1103,
+                            "y0": 792
+                        },
+                        "id": 9,
+                        "text": "Vanadium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 734
+                        },
+                        "id": 10,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 574
+                        },
+                        "id": 11,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 415
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 256
+                        },
+                        "id": 13,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 96
+                        },
+                        "id": 14,
+                        "text": "2.0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 190,
+                            "x0": 84,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Lithuania 1995 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 373
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 88,
+                            "x0": 50,
+                            "y0": 792
+                        },
+                        "id": 3,
+                        "text": "Carpets of wool\nor hair, woven\npile, not made\nup, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 53,
+                            "x0": 263,
+                            "y0": 792
+                        },
+                        "id": 4,
+                        "text": "Cocoa butter,\nfat, oil"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 100,
+                            "x0": 393,
+                            "y0": 792
+                        },
+                        "id": 5,
+                        "text": "Ceramic\ntroughs, etc\n(agriculture),\nceramic pots\netc"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 87,
+                            "x0": 584,
+                            "y0": 792
+                        },
+                        "id": 6,
+                        "text": "Zinc fabricated\nbuilding\ncomponents\n(gutters,etc)"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 88,
+                            "x0": 761,
+                            "y0": 792
+                        },
+                        "id": 7,
+                        "text": "Yarn of wool or\nfine hair, >85%\nsuch fibres,\nretail"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 56,
+                            "x0": 970,
+                            "y0": 792
+                        },
+                        "id": 8,
+                        "text": "Woven fabric of\nsilk, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 102,
+                            "x0": 1103,
+                            "y0": 792
+                        },
+                        "id": 9,
+                        "text": "Vanadium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 734
+                        },
+                        "id": 10,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 574
+                        },
+                        "id": 11,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 415
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 256
+                        },
+                        "id": 13,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 96
+                        },
+                        "id": 14,
+                        "text": "2.0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 736,
+                "width": 1181,
+                "x0": 81,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 136,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 314,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 492,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 670,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 791,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 997,
+                            "y": 776
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 776
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 738
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 579
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 419
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 260
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 101
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 190,
+                            "x0": 84,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Lithuania 1995 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 373
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 88,
+                            "x0": 50,
+                            "y0": 792
+                        },
+                        "id": 3,
+                        "text": "Carpets of wool\nor hair, woven\npile, not made\nup, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 53,
+                            "x0": 263,
+                            "y0": 792
+                        },
+                        "id": 4,
+                        "text": "Cocoa butter,\nfat, oil"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 100,
+                            "x0": 393,
+                            "y0": 792
+                        },
+                        "id": 5,
+                        "text": "Ceramic\ntroughs, etc\n(agriculture),\nceramic pots\netc"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 87,
+                            "x0": 584,
+                            "y0": 792
+                        },
+                        "id": 6,
+                        "text": "Zinc fabricated\nbuilding\ncomponents\n(gutters,etc)"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 88,
+                            "x0": 761,
+                            "y0": 792
+                        },
+                        "id": 7,
+                        "text": "Yarn of wool or\nfine hair, >85%\nsuch fibres,\nretail"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 56,
+                            "x0": 970,
+                            "y0": 792
+                        },
+                        "id": 8,
+                        "text": "Woven fabric of\nsilk, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 102,
+                            "x0": 1103,
+                            "y0": 792
+                        },
+                        "id": 9,
+                        "text": "Vanadium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 734
+                        },
+                        "id": 10,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 574
+                        },
+                        "id": 11,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 415
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 256
+                        },
+                        "id": 13,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 96
+                        },
+                        "id": 14,
+                        "text": "2.0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 190,
+                            "x0": 84,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Lithuania 1995 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 373
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 88,
+                            "x0": 50,
+                            "y0": 792
+                        },
+                        "id": 3,
+                        "text": "Carpets of wool\nor hair, woven\npile, not made\nup, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 53,
+                            "x0": 263,
+                            "y0": 792
+                        },
+                        "id": 4,
+                        "text": "Cocoa butter,\nfat, oil"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 100,
+                            "x0": 393,
+                            "y0": 792
+                        },
+                        "id": 5,
+                        "text": "Ceramic\ntroughs, etc\n(agriculture),\nceramic pots\netc"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 87,
+                            "x0": 584,
+                            "y0": 792
+                        },
+                        "id": 6,
+                        "text": "Zinc fabricated\nbuilding\ncomponents\n(gutters,etc)"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 88,
+                            "x0": 761,
+                            "y0": 792
+                        },
+                        "id": 7,
+                        "text": "Yarn of wool or\nfine hair, >85%\nsuch fibres,\nretail"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 56,
+                            "x0": 970,
+                            "y0": 792
+                        },
+                        "id": 8,
+                        "text": "Woven fabric of\nsilk, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 102,
+                            "x0": 1103,
+                            "y0": 792
+                        },
+                        "id": 9,
+                        "text": "Vanadium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 734
+                        },
+                        "id": 10,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 574
+                        },
+                        "id": 11,
+                        "text": "0.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 415
+                        },
+                        "id": 12,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 256
+                        },
+                        "id": 13,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 96
+                        },
+                        "id": 14,
+                        "text": "2.0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 736,
+                    "width": 1181,
+                    "x0": 81,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 136,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 314,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 492,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 670,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 791,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 997,
+                                "y": 776
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 776
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 738
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 579
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 419
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 260
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 101
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Carpets of wool or hair, woven pile, not made up, nes",
+                            "y": 207820613.02943897
+                        },
+                        {
+                            "x": "Cocoa butter, fat, oil",
+                            "y": "89579.0"
+                        },
+                        {
+                            "x": "Ceramic troughs, etc (agriculture), ceramic pots etc",
+                            "y": "30581.0"
+                        },
+                        {
+                            "x": "Zinc fabricated building components (gutters,etc)",
+                            "y": "28291.0"
+                        },
+                        {
+                            "x": "Yarn of wool or fine hair, >85% such fibres, retail",
+                            "y": "12605.0"
+                        },
+                        {
+                            "x": "Woven fabric of silk, nes",
+                            "y": "22750.0"
+                        },
+                        {
+                            "x": "Vanadium, articles thereof, waste or scrap/powders",
+                            "y": "28781.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 137,
+                            "y": 77
+                        },
+                        {
+                            "x": 315,
+                            "y": 739
+                        },
+                        {
+                            "x": 493,
+                            "y": 739
+                        },
+                        {
+                            "x": 671,
+                            "y": 739
+                        },
+                        {
+                            "x": 849,
+                            "y": 739
+                        },
+                        {
+                            "x": 1027,
+                            "y": 739
+                        },
+                        {
+                            "x": 1205,
+                            "y": 739
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

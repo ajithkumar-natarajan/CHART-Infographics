@@ -1,0 +1,1729 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 276,
+                        "x0": 549,
+                        "y0": 14
+                    },
+                    "text": "United Kingdom 2009 Re-Import"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 648,
+                        "y0": 927
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 70,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 377
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 113,
+                        "width": 39,
+                        "x0": 128,
+                        "y0": 800
+                    },
+                    "text": "Nickel waste or\nscrap"
+                },
+                {
+                    "bb": {
+                        "height": 94,
+                        "width": 70,
+                        "x0": 213,
+                        "y0": 800
+                    },
+                    "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                },
+                {
+                    "bb": {
+                        "height": 117,
+                        "width": 23,
+                        "x0": 375,
+                        "y0": 800
+                    },
+                    "text": "Safety headgear"
+                },
+                {
+                    "bb": {
+                        "height": 116,
+                        "width": 71,
+                        "x0": 442,
+                        "y0": 800
+                    },
+                    "text": "Woven fabric of\nflax, <85%\nflax, unbleache\nd/bleached"
+                },
+                {
+                    "bb": {
+                        "height": 70,
+                        "width": 36,
+                        "x0": 593,
+                        "y0": 800
+                    },
+                    "text": "Inflatable\nrafts"
+                },
+                {
+                    "bb": {
+                        "height": 108,
+                        "width": 71,
+                        "x0": 674,
+                        "y0": 800
+                    },
+                    "text": "Infant foods of\ncereals, flour,\nstarch or milk,\nretai"
+                },
+                {
+                    "bb": {
+                        "height": 75,
+                        "width": 36,
+                        "x0": 824,
+                        "y0": 800
+                    },
+                    "text": "Articles of\nlead nes"
+                },
+                {
+                    "bb": {
+                        "height": 112,
+                        "width": 55,
+                        "x0": 920,
+                        "y0": 800
+                    },
+                    "text": "Sailboats, with\nor without\nauxiliary motor"
+                },
+                {
+                    "bb": {
+                        "height": 104,
+                        "width": 86,
+                        "x0": 1004,
+                        "y0": 800
+                    },
+                    "text": "Shotguns,\nshotgun-rifles\nfor sport,\nhunting or\ntarget"
+                },
+                {
+                    "bb": {
+                        "height": 113,
+                        "width": 71,
+                        "x0": 1135,
+                        "y0": 800
+                    },
+                    "text": "Titanium,\nunwrought,\nwaste or scrap,\npowders"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 87,
+                        "y0": 741
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 53,
+                        "x0": 43,
+                        "y0": 655
+                    },
+                    "text": "100000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 52,
+                        "x0": 44,
+                        "y0": 570
+                    },
+                    "text": "200000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 52,
+                        "x0": 44,
+                        "y0": 484
+                    },
+                    "text": "300000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 53,
+                        "x0": 43,
+                        "y0": 398
+                    },
+                    "text": "400000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 52,
+                        "x0": 44,
+                        "y0": 313
+                    },
+                    "text": "500000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 52,
+                        "x0": 44,
+                        "y0": 227
+                    },
+                    "text": "600000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 53,
+                        "x0": 43,
+                        "y0": 141
+                    },
+                    "text": "700000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 52,
+                        "x0": 44,
+                        "y0": 56
+                    },
+                    "text": "800000"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 276,
+                            "x0": 549,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "United Kingdom 2009 Re-Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 648,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 113,
+                            "width": 39,
+                            "x0": 128,
+                            "y0": 800
+                        },
+                        "id": 3,
+                        "text": "Nickel waste or\nscrap"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 70,
+                            "x0": 213,
+                            "y0": 800
+                        },
+                        "id": 4,
+                        "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 23,
+                            "x0": 375,
+                            "y0": 800
+                        },
+                        "id": 5,
+                        "text": "Safety headgear"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 71,
+                            "x0": 442,
+                            "y0": 800
+                        },
+                        "id": 6,
+                        "text": "Woven fabric of\nflax, <85%\nflax, unbleache\nd/bleached"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 36,
+                            "x0": 593,
+                            "y0": 800
+                        },
+                        "id": 7,
+                        "text": "Inflatable\nrafts"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 71,
+                            "x0": 674,
+                            "y0": 800
+                        },
+                        "id": 8,
+                        "text": "Infant foods of\ncereals, flour,\nstarch or milk,\nretai"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 36,
+                            "x0": 824,
+                            "y0": 800
+                        },
+                        "id": 9,
+                        "text": "Articles of\nlead nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 55,
+                            "x0": 920,
+                            "y0": 800
+                        },
+                        "id": 10,
+                        "text": "Sailboats, with\nor without\nauxiliary motor"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 86,
+                            "x0": 1004,
+                            "y0": 800
+                        },
+                        "id": 11,
+                        "text": "Shotguns,\nshotgun-rifles\nfor sport,\nhunting or\ntarget"
+                    },
+                    {
+                        "bb": {
+                            "height": 113,
+                            "width": 71,
+                            "x0": 1135,
+                            "y0": 800
+                        },
+                        "id": 12,
+                        "text": "Titanium,\nunwrought,\nwaste or scrap,\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 87,
+                            "y0": 741
+                        },
+                        "id": 13,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 655
+                        },
+                        "id": 14,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 570
+                        },
+                        "id": 15,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 484
+                        },
+                        "id": 16,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 398
+                        },
+                        "id": 17,
+                        "text": "400000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 313
+                        },
+                        "id": 18,
+                        "text": "500000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 227
+                        },
+                        "id": 19,
+                        "text": "600000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 141
+                        },
+                        "id": 20,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 56
+                        },
+                        "id": 21,
+                        "text": "800000"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 276,
+                            "x0": 549,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "United Kingdom 2009 Re-Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 648,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 113,
+                            "width": 39,
+                            "x0": 128,
+                            "y0": 800
+                        },
+                        "id": 3,
+                        "text": "Nickel waste or\nscrap"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 70,
+                            "x0": 213,
+                            "y0": 800
+                        },
+                        "id": 4,
+                        "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 23,
+                            "x0": 375,
+                            "y0": 800
+                        },
+                        "id": 5,
+                        "text": "Safety headgear"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 71,
+                            "x0": 442,
+                            "y0": 800
+                        },
+                        "id": 6,
+                        "text": "Woven fabric of\nflax, <85%\nflax, unbleache\nd/bleached"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 36,
+                            "x0": 593,
+                            "y0": 800
+                        },
+                        "id": 7,
+                        "text": "Inflatable\nrafts"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 71,
+                            "x0": 674,
+                            "y0": 800
+                        },
+                        "id": 8,
+                        "text": "Infant foods of\ncereals, flour,\nstarch or milk,\nretai"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 36,
+                            "x0": 824,
+                            "y0": 800
+                        },
+                        "id": 9,
+                        "text": "Articles of\nlead nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 55,
+                            "x0": 920,
+                            "y0": 800
+                        },
+                        "id": 10,
+                        "text": "Sailboats, with\nor without\nauxiliary motor"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 86,
+                            "x0": 1004,
+                            "y0": 800
+                        },
+                        "id": 11,
+                        "text": "Shotguns,\nshotgun-rifles\nfor sport,\nhunting or\ntarget"
+                    },
+                    {
+                        "bb": {
+                            "height": 113,
+                            "width": 71,
+                            "x0": 1135,
+                            "y0": 800
+                        },
+                        "id": 12,
+                        "text": "Titanium,\nunwrought,\nwaste or scrap,\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 87,
+                            "y0": 741
+                        },
+                        "id": 13,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 655
+                        },
+                        "id": 14,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 570
+                        },
+                        "id": 15,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 484
+                        },
+                        "id": 16,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 398
+                        },
+                        "id": 17,
+                        "text": "400000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 313
+                        },
+                        "id": 18,
+                        "text": "500000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 227
+                        },
+                        "id": 19,
+                        "text": "600000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 141
+                        },
+                        "id": 20,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 56
+                        },
+                        "id": 21,
+                        "text": "800000"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 743,
+                "width": 1149,
+                "x0": 112,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 166,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 282,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 386,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 451,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 628,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 682,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 830,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 974,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 1090,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 1205,
+                            "y": 783
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 746
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 660
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 574
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 489
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 403
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 317
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 232
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 146
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "tick_pt": {
+                            "x": 112,
+                            "y": 60
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 276,
+                            "x0": 549,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "United Kingdom 2009 Re-Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 648,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 113,
+                            "width": 39,
+                            "x0": 128,
+                            "y0": 800
+                        },
+                        "id": 3,
+                        "text": "Nickel waste or\nscrap"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 70,
+                            "x0": 213,
+                            "y0": 800
+                        },
+                        "id": 4,
+                        "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 23,
+                            "x0": 375,
+                            "y0": 800
+                        },
+                        "id": 5,
+                        "text": "Safety headgear"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 71,
+                            "x0": 442,
+                            "y0": 800
+                        },
+                        "id": 6,
+                        "text": "Woven fabric of\nflax, <85%\nflax, unbleache\nd/bleached"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 36,
+                            "x0": 593,
+                            "y0": 800
+                        },
+                        "id": 7,
+                        "text": "Inflatable\nrafts"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 71,
+                            "x0": 674,
+                            "y0": 800
+                        },
+                        "id": 8,
+                        "text": "Infant foods of\ncereals, flour,\nstarch or milk,\nretai"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 36,
+                            "x0": 824,
+                            "y0": 800
+                        },
+                        "id": 9,
+                        "text": "Articles of\nlead nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 55,
+                            "x0": 920,
+                            "y0": 800
+                        },
+                        "id": 10,
+                        "text": "Sailboats, with\nor without\nauxiliary motor"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 86,
+                            "x0": 1004,
+                            "y0": 800
+                        },
+                        "id": 11,
+                        "text": "Shotguns,\nshotgun-rifles\nfor sport,\nhunting or\ntarget"
+                    },
+                    {
+                        "bb": {
+                            "height": 113,
+                            "width": 71,
+                            "x0": 1135,
+                            "y0": 800
+                        },
+                        "id": 12,
+                        "text": "Titanium,\nunwrought,\nwaste or scrap,\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 87,
+                            "y0": 741
+                        },
+                        "id": 13,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 655
+                        },
+                        "id": 14,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 570
+                        },
+                        "id": 15,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 484
+                        },
+                        "id": 16,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 398
+                        },
+                        "id": 17,
+                        "text": "400000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 313
+                        },
+                        "id": 18,
+                        "text": "500000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 227
+                        },
+                        "id": 19,
+                        "text": "600000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 141
+                        },
+                        "id": 20,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 56
+                        },
+                        "id": 21,
+                        "text": "800000"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 276,
+                            "x0": 549,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "United Kingdom 2009 Re-Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 648,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 113,
+                            "width": 39,
+                            "x0": 128,
+                            "y0": 800
+                        },
+                        "id": 3,
+                        "text": "Nickel waste or\nscrap"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 70,
+                            "x0": 213,
+                            "y0": 800
+                        },
+                        "id": 4,
+                        "text": "Cargo\ncontainers\ndesigned for\ncarriage"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 23,
+                            "x0": 375,
+                            "y0": 800
+                        },
+                        "id": 5,
+                        "text": "Safety headgear"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 71,
+                            "x0": 442,
+                            "y0": 800
+                        },
+                        "id": 6,
+                        "text": "Woven fabric of\nflax, <85%\nflax, unbleache\nd/bleached"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 36,
+                            "x0": 593,
+                            "y0": 800
+                        },
+                        "id": 7,
+                        "text": "Inflatable\nrafts"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 71,
+                            "x0": 674,
+                            "y0": 800
+                        },
+                        "id": 8,
+                        "text": "Infant foods of\ncereals, flour,\nstarch or milk,\nretai"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 36,
+                            "x0": 824,
+                            "y0": 800
+                        },
+                        "id": 9,
+                        "text": "Articles of\nlead nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 112,
+                            "width": 55,
+                            "x0": 920,
+                            "y0": 800
+                        },
+                        "id": 10,
+                        "text": "Sailboats, with\nor without\nauxiliary motor"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 86,
+                            "x0": 1004,
+                            "y0": 800
+                        },
+                        "id": 11,
+                        "text": "Shotguns,\nshotgun-rifles\nfor sport,\nhunting or\ntarget"
+                    },
+                    {
+                        "bb": {
+                            "height": 113,
+                            "width": 71,
+                            "x0": 1135,
+                            "y0": 800
+                        },
+                        "id": 12,
+                        "text": "Titanium,\nunwrought,\nwaste or scrap,\npowders"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 87,
+                            "y0": 741
+                        },
+                        "id": 13,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 655
+                        },
+                        "id": 14,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 570
+                        },
+                        "id": 15,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 484
+                        },
+                        "id": 16,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 398
+                        },
+                        "id": 17,
+                        "text": "400000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 313
+                        },
+                        "id": 18,
+                        "text": "500000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 227
+                        },
+                        "id": 19,
+                        "text": "600000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 53,
+                            "x0": 43,
+                            "y0": 141
+                        },
+                        "id": 20,
+                        "text": "700000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 52,
+                            "x0": 44,
+                            "y0": 56
+                        },
+                        "id": 21,
+                        "text": "800000"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 743,
+                    "width": 1149,
+                    "x0": 112,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 166,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 282,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 386,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 451,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 628,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 682,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 830,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 974,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 1090,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 1205,
+                                "y": 783
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 746
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 660
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 574
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 489
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 403
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 317
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 232
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 146
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "tick_pt": {
+                                "x": 112,
+                                "y": 60
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Nickel waste or scrap",
+                            "y": "17112.0"
+                        },
+                        {
+                            "x": "Cargo containers designed for carriage",
+                            "y": "781520.0"
+                        },
+                        {
+                            "x": "Safety headgear",
+                            "y": "127.0"
+                        },
+                        {
+                            "x": "Woven fabric of flax, <85% flax, unbleached/bleached",
+                            "y": "9.0"
+                        },
+                        {
+                            "x": "Inflatable rafts",
+                            "y": "2463.0"
+                        },
+                        {
+                            "x": "Infant foods of cereals, flour, starch or milk, retai",
+                            "y": "1140.0"
+                        },
+                        {
+                            "x": "Articles of lead nes",
+                            "y": "8.0"
+                        },
+                        {
+                            "x": "Sailboats, with or without auxiliary motor",
+                            "y": "169340.0"
+                        },
+                        {
+                            "x": "Shotguns, shotgun-rifles for sport, hunting or target",
+                            "y": "242.0"
+                        },
+                        {
+                            "x": "Titanium, unwrought, waste or scrap, powders",
+                            "y": "1379.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 167,
+                            "y": 732
+                        },
+                        {
+                            "x": 283,
+                            "y": 77
+                        },
+                        {
+                            "x": 398,
+                            "y": 746
+                        },
+                        {
+                            "x": 514,
+                            "y": 747
+                        },
+                        {
+                            "x": 629,
+                            "y": 744
+                        },
+                        {
+                            "x": 744,
+                            "y": 746
+                        },
+                        {
+                            "x": 860,
+                            "y": 747
+                        },
+                        {
+                            "x": 975,
+                            "y": 602
+                        },
+                        {
+                            "x": 1091,
+                            "y": 746
+                        },
+                        {
+                            "x": 1206,
+                            "y": 745
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

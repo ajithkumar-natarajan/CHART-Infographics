@@ -1,0 +1,880 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 263,
+                        "x0": 524,
+                        "y0": 14
+                    },
+                    "text": "acs2015_county_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 108,
+                        "width": 43,
+                        "x0": 612,
+                        "y0": 836
+                    },
+                    "text": "46109South\nDakotaRoberts"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 550
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 168
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 24,
+                        "y0": 741
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 15,
+                        "y0": 645
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 15,
+                        "y0": 73
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 15,
+                        "y0": 359
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 454
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 263
+                    },
+                    "text": "50"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 524,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 43,
+                            "x0": 612,
+                            "y0": 836
+                        },
+                        "id": 1,
+                        "text": "46109South\nDakotaRoberts"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 550
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 168
+                        },
+                        "id": 3,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 741
+                        },
+                        "id": 4,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 645
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 73
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 359
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 454
+                        },
+                        "id": 8,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 263
+                        },
+                        "id": 9,
+                        "text": "50"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 524,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 43,
+                            "x0": 612,
+                            "y0": 836
+                        },
+                        "id": 1,
+                        "text": "46109South\nDakotaRoberts"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 550
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 168
+                        },
+                        "id": 3,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 741
+                        },
+                        "id": 4,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 645
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 73
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 359
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 454
+                        },
+                        "id": 8,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 263
+                        },
+                        "id": 9,
+                        "text": "50"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 780,
+                "width": 1213,
+                "x0": 49,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 654,
+                            "y": 820
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 554
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 172
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 745
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 650
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 77
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 363
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 459
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 268
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 524,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 43,
+                            "x0": 612,
+                            "y0": 836
+                        },
+                        "id": 1,
+                        "text": "46109South\nDakotaRoberts"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 550
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 168
+                        },
+                        "id": 3,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 741
+                        },
+                        "id": 4,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 645
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 73
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 359
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 454
+                        },
+                        "id": 8,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 263
+                        },
+                        "id": 9,
+                        "text": "50"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 524,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 43,
+                            "x0": 612,
+                            "y0": 836
+                        },
+                        "id": 1,
+                        "text": "46109South\nDakotaRoberts"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 550
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 168
+                        },
+                        "id": 3,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 741
+                        },
+                        "id": 4,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 645
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 73
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 359
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 454
+                        },
+                        "id": 8,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 263
+                        },
+                        "id": 9,
+                        "text": "50"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 780,
+                    "width": 1213,
+                    "x0": 49,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 654,
+                                "y": 820
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 554
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 172
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 745
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 650
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 77
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 363
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 459
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 268
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.875,
+                        "max": 58.9,
+                        "median": 6.809030055314718,
+                        "min": 0.1,
+                        "third_quartile": 28.77951502765736
+                    },
+                    "name": "46109South DakotaRoberts"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 181,
+                                "x0": 565,
+                                "y0": 738
+                            },
+                            "x": 655,
+                            "y": 738
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 610,
+                                "y0": 184
+                            },
+                            "x": 655,
+                            "y": 184
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 181,
+                                "x0": 565,
+                                "y0": 681
+                            },
+                            "x": 655,
+                            "y": 681
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 610,
+                                "y0": 745
+                            },
+                            "x": 655,
+                            "y": 745
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 181,
+                                "x0": 565,
+                                "y0": 738
+                            },
+                            "x": 655,
+                            "y": 472
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

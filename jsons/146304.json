@@ -1,0 +1,738 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 284,
+                        "x0": 962,
+                        "y0": 14
+                    },
+                    "text": "French Polynesia 2005 Re-Import"
+                },
+                {
+                    "bb": {
+                        "height": 8,
+                        "width": 18,
+                        "x0": 1238,
+                        "y0": 929
+                    },
+                    "text": "2500"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 204,
+                        "y0": 929
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 403,
+                        "y0": 929
+                    },
+                    "text": "500"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1022,
+                        "y0": 929
+                    },
+                    "text": "2000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 814,
+                        "y0": 929
+                    },
+                    "text": "1500"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 606,
+                        "y0": 929
+                    },
+                    "text": "1000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 71,
+                        "x0": 15,
+                        "y0": 471
+                    },
+                    "text": "weight kg"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 284,
+                            "x0": 962,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "French Polynesia 2005 Re-Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 8,
+                            "width": 18,
+                            "x0": 1238,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "2500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 204,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 403,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1022,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 814,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 606,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 71,
+                            "x0": 15,
+                            "y0": 471
+                        },
+                        "id": 7,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 284,
+                            "x0": 962,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "French Polynesia 2005 Re-Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 8,
+                            "width": 18,
+                            "x0": 1238,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "2500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 204,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 403,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1022,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 814,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 606,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 71,
+                            "x0": 15,
+                            "y0": 471
+                        },
+                        "id": 7,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 873,
+                "width": 1148,
+                "x0": 102,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 102,
+                            "y": 481
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1256,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 208,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 415,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1038,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 831,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 623,
+                            "y": 909
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 284,
+                            "x0": 962,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "French Polynesia 2005 Re-Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 8,
+                            "width": 18,
+                            "x0": 1238,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "2500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 204,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 403,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1022,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 814,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 606,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 71,
+                            "x0": 15,
+                            "y0": 471
+                        },
+                        "id": 7,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 284,
+                            "x0": 962,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "French Polynesia 2005 Re-Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 8,
+                            "width": 18,
+                            "x0": 1238,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "2500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 204,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 403,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1022,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 814,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 606,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 71,
+                            "x0": 15,
+                            "y0": 471
+                        },
+                        "id": 7,
+                        "text": "weight kg"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 873,
+                    "width": 1148,
+                    "x0": 102,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 102,
+                                "y": 481
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1256,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 208,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 415,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1038,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 831,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 623,
+                                "y": 909
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 10.5,
+                        "max": 2000.0,
+                        "median": 678.1511323338568,
+                        "min": 10.0,
+                        "third_quartile": 1572.4681769234194
+                    },
+                    "name": "weight kg"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 130,
+                                "width": 0,
+                                "x0": 213,
+                                "y0": 412
+                            },
+                            "x": 213,
+                            "y": 477
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 1039,
+                                "y0": 444
+                            },
+                            "x": 1039,
+                            "y": 476
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 130,
+                                "width": 0,
+                                "x0": 490,
+                                "y0": 412
+                            },
+                            "x": 490,
+                            "y": 477
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 65,
+                                "width": 0,
+                                "x0": 213,
+                                "y0": 444
+                            },
+                            "x": 213,
+                            "y": 476
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 130,
+                                "width": 0,
+                                "x0": 862,
+                                "y0": 412
+                            },
+                            "x": 862,
+                            "y": 477
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

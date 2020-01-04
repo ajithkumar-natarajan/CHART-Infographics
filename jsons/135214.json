@@ -1,0 +1,1403 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 263,
+                        "x0": 995,
+                        "y0": 14
+                    },
+                    "text": "acs2015_county_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 425,
+                        "y0": 929
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 262,
+                        "y0": 929
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 1087,
+                        "y0": 929
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 925,
+                        "y0": 929
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 591,
+                        "y0": 929
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 758,
+                        "y0": 929
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 97,
+                        "x0": 55,
+                        "y0": 679
+                    },
+                    "text": "37043North\nCarolinaClay"
+                },
+                {
+                    "bb": {
+                        "height": 62,
+                        "width": 133,
+                        "x0": 19,
+                        "y0": 247
+                    },
+                    "text": "21061KentuckyEd\nmonson"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 127,
+                        "x0": 24,
+                        "y0": 824
+                    },
+                    "text": "45015South Caro\nlinaBerkeley"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 127,
+                        "x0": 25,
+                        "y0": 535
+                    },
+                    "text": "22021LouisianaC\naldwell"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 135,
+                        "x0": 17,
+                        "y0": 391
+                    },
+                    "text": "20013KansasBrow\nn"
+                },
+                {
+                    "bb": {
+                        "height": 62,
+                        "width": 133,
+                        "x0": 19,
+                        "y0": 102
+                    },
+                    "text": "30099MontanaTet\non"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 995,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 425,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 262,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 1087,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 925,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 591,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 758,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 97,
+                            "x0": 55,
+                            "y0": 679
+                        },
+                        "id": 7,
+                        "text": "37043North\nCarolinaClay"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 133,
+                            "x0": 19,
+                            "y0": 247
+                        },
+                        "id": 8,
+                        "text": "21061KentuckyEd\nmonson"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 127,
+                            "x0": 24,
+                            "y0": 824
+                        },
+                        "id": 9,
+                        "text": "45015South Caro\nlinaBerkeley"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 127,
+                            "x0": 25,
+                            "y0": 535
+                        },
+                        "id": 10,
+                        "text": "22021LouisianaC\naldwell"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 135,
+                            "x0": 17,
+                            "y0": 391
+                        },
+                        "id": 11,
+                        "text": "20013KansasBrow\nn"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 133,
+                            "x0": 19,
+                            "y0": 102
+                        },
+                        "id": 12,
+                        "text": "30099MontanaTet\non"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 995,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 425,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 262,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 1087,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 925,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 591,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 758,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 97,
+                            "x0": 55,
+                            "y0": 679
+                        },
+                        "id": 7,
+                        "text": "37043North\nCarolinaClay"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 133,
+                            "x0": 19,
+                            "y0": 247
+                        },
+                        "id": 8,
+                        "text": "21061KentuckyEd\nmonson"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 127,
+                            "x0": 24,
+                            "y0": 824
+                        },
+                        "id": 9,
+                        "text": "45015South Caro\nlinaBerkeley"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 127,
+                            "x0": 25,
+                            "y0": 535
+                        },
+                        "id": 10,
+                        "text": "22021LouisianaC\naldwell"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 135,
+                            "x0": 17,
+                            "y0": 391
+                        },
+                        "id": 11,
+                        "text": "20013KansasBrow\nn"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 133,
+                            "x0": 19,
+                            "y0": 102
+                        },
+                        "id": 12,
+                        "text": "30099MontanaTet\non"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 873,
+                "width": 1094,
+                "x0": 168,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 168,
+                            "y": 692
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 168,
+                            "y": 259
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 168,
+                            "y": 836
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 168,
+                            "y": 548
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 168,
+                            "y": 403
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 168,
+                            "y": 115
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 433,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 266,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 1099,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 933,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 599,
+                            "y": 909
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 766,
+                            "y": 909
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 995,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 425,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 262,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 1087,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 925,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 591,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 758,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 97,
+                            "x0": 55,
+                            "y0": 679
+                        },
+                        "id": 7,
+                        "text": "37043North\nCarolinaClay"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 133,
+                            "x0": 19,
+                            "y0": 247
+                        },
+                        "id": 8,
+                        "text": "21061KentuckyEd\nmonson"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 127,
+                            "x0": 24,
+                            "y0": 824
+                        },
+                        "id": 9,
+                        "text": "45015South Caro\nlinaBerkeley"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 127,
+                            "x0": 25,
+                            "y0": 535
+                        },
+                        "id": 10,
+                        "text": "22021LouisianaC\naldwell"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 135,
+                            "x0": 17,
+                            "y0": 391
+                        },
+                        "id": 11,
+                        "text": "20013KansasBrow\nn"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 133,
+                            "x0": 19,
+                            "y0": 102
+                        },
+                        "id": 12,
+                        "text": "30099MontanaTet\non"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 995,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 425,
+                            "y0": 929
+                        },
+                        "id": 1,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 262,
+                            "y0": 929
+                        },
+                        "id": 2,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 1087,
+                            "y0": 929
+                        },
+                        "id": 3,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 925,
+                            "y0": 929
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 591,
+                            "y0": 929
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 758,
+                            "y0": 929
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 97,
+                            "x0": 55,
+                            "y0": 679
+                        },
+                        "id": 7,
+                        "text": "37043North\nCarolinaClay"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 133,
+                            "x0": 19,
+                            "y0": 247
+                        },
+                        "id": 8,
+                        "text": "21061KentuckyEd\nmonson"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 127,
+                            "x0": 24,
+                            "y0": 824
+                        },
+                        "id": 9,
+                        "text": "45015South Caro\nlinaBerkeley"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 127,
+                            "x0": 25,
+                            "y0": 535
+                        },
+                        "id": 10,
+                        "text": "22021LouisianaC\naldwell"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 135,
+                            "x0": 17,
+                            "y0": 391
+                        },
+                        "id": 11,
+                        "text": "20013KansasBrow\nn"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 133,
+                            "x0": 19,
+                            "y0": 102
+                        },
+                        "id": 12,
+                        "text": "30099MontanaTet\non"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 873,
+                    "width": 1094,
+                    "x0": 168,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 168,
+                                "y": 692
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 168,
+                                "y": 259
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 168,
+                                "y": 836
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 168,
+                                "y": 548
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 168,
+                                "y": 403
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 168,
+                                "y": 115
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 433,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 266,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 1099,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 933,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 599,
+                                "y": 909
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 766,
+                                "y": 909
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.975,
+                        "max": 24.3,
+                        "median": 4.25,
+                        "min": 0.1,
+                        "third_quartile": 19.75
+                    },
+                    "name": "45015South CarolinaBerkeley"
+                },
+                {
+                    "data": {
+                        "first_quartile": 1.125,
+                        "max": 96.0,
+                        "median": 8.804761045753242,
+                        "min": 0.1,
+                        "third_quartile": 47.376917740786325
+                    },
+                    "name": "37043North CarolinaClay"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.4174672280062791,
+                        "max": 17.4,
+                        "median": 1.7349344560125584,
+                        "min": 0.1,
+                        "third_quartile": 13.725
+                    },
+                    "name": "22021LouisianaCaldwell"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.85,
+                        "max": 7.4,
+                        "median": 2.6500000000000004,
+                        "min": 0.1,
+                        "third_quartile": 6.4750000000000005
+                    },
+                    "name": "20013KansasBrown"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.525,
+                        "max": 38.34820359390888,
+                        "median": 1.55,
+                        "min": 0.1,
+                        "third_quartile": 29.161152695431657
+                    },
+                    "name": "21061KentuckyEdmonson"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.6,
+                        "max": 16.765180771889412,
+                        "median": 1.65,
+                        "min": 0.1,
+                        "third_quartile": 13.023885578917058
+                    },
+                    "name": "30099MontanaTeton"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 270,
+                                "y0": 513
+                            },
+                            "x": 270,
+                            "y": 549
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 412,
+                                "y0": 531
+                            },
+                            "x": 412,
+                            "y": 549
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 281,
+                                "y0": 513
+                            },
+                            "x": 281,
+                            "y": 549
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 268,
+                                "y0": 531
+                            },
+                            "x": 268,
+                            "y": 549
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 381,
+                                "y0": 513
+                            },
+                            "x": 381,
+                            "y": 549
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 274,
+                                "y0": 368
+                            },
+                            "x": 274,
+                            "y": 404
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 328,
+                                "y0": 386
+                            },
+                            "x": 328,
+                            "y": 404
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 289,
+                                "y0": 368
+                            },
+                            "x": 289,
+                            "y": 404
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 268,
+                                "y0": 386
+                            },
+                            "x": 268,
+                            "y": 404
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 321,
+                                "y0": 368
+                            },
+                            "x": 321,
+                            "y": 404
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 271,
+                                "y0": 224
+                            },
+                            "x": 271,
+                            "y": 260
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 586,
+                                "y0": 242
+                            },
+                            "x": 586,
+                            "y": 260
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 280,
+                                "y0": 224
+                            },
+                            "x": 280,
+                            "y": 260
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 268,
+                                "y0": 242
+                            },
+                            "x": 268,
+                            "y": 260
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 510,
+                                "y0": 224
+                            },
+                            "x": 510,
+                            "y": 260
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 272,
+                                "y0": 80
+                            },
+                            "x": 272,
+                            "y": 116
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 407,
+                                "y0": 98
+                            },
+                            "x": 407,
+                            "y": 116
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 281,
+                                "y0": 80
+                            },
+                            "x": 281,
+                            "y": 116
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 268,
+                                "y0": 98
+                            },
+                            "x": 268,
+                            "y": 116
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 375,
+                                "y0": 80
+                            },
+                            "x": 375,
+                            "y": 116
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 276,
+                                "y0": 657
+                            },
+                            "x": 276,
+                            "y": 693
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 1067,
+                                "y0": 675
+                            },
+                            "x": 1067,
+                            "y": 693
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 340,
+                                "y0": 657
+                            },
+                            "x": 340,
+                            "y": 693
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 268,
+                                "y0": 675
+                            },
+                            "x": 268,
+                            "y": 693
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 662,
+                                "y0": 657
+                            },
+                            "x": 662,
+                            "y": 693
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 275,
+                                "y0": 801
+                            },
+                            "x": 275,
+                            "y": 837
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 469,
+                                "y0": 819
+                            },
+                            "x": 469,
+                            "y": 837
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 302,
+                                "y0": 801
+                            },
+                            "x": 302,
+                            "y": 837
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 36,
+                                "width": 0,
+                                "x0": 268,
+                                "y0": 819
+                            },
+                            "x": 268,
+                            "y": 837
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 72,
+                                "width": 0,
+                                "x0": 431,
+                                "y0": 801
+                            },
+                            "x": 431,
+                            "y": 837
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

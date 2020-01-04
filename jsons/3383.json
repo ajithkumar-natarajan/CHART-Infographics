@@ -1,0 +1,1318 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Grouped vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 192,
+                        "x0": 71,
+                        "y0": 14
+                    },
+                    "text": "Indonesia 2012 Export"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 625,
+                        "y0": 927
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 47,
+                        "width": 14,
+                        "x0": 17,
+                        "y0": 387
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 118,
+                        "width": 82,
+                        "x0": 92,
+                        "y0": 798
+                    },
+                    "text": "Terry towelling\netc of cotton\nnes, width >\n30cm"
+                },
+                {
+                    "bb": {
+                        "height": 111,
+                        "width": 50,
+                        "x0": 369,
+                        "y0": 798
+                    },
+                    "text": "Silver ores and\nconcentrates"
+                },
+                {
+                    "bb": {
+                        "height": 106,
+                        "width": 64,
+                        "x0": 600,
+                        "y0": 798
+                    },
+                    "text": "Articles of\nagglomerated\ncork"
+                },
+                {
+                    "bb": {
+                        "height": 102,
+                        "width": 79,
+                        "x0": 831,
+                        "y0": 798
+                    },
+                    "text": "Ethyl alcohol\nand other\nspirits,\ndenatured"
+                },
+                {
+                    "bb": {
+                        "height": 67,
+                        "width": 26,
+                        "x0": 1129,
+                        "y0": 798
+                    },
+                    "text": "Zinc dust"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 773
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 644
+                    },
+                    "text": "1"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 516
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 388
+                    },
+                    "text": "3"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 259
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 131
+                    },
+                    "text": "5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 67,
+                        "x0": 1041,
+                        "y0": 56
+                    },
+                    "text": "trade usd"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 70,
+                        "x0": 1176,
+                        "y0": 56
+                    },
+                    "text": "weight kg"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 192,
+                            "x0": 71,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Indonesia 2012 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 47,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 387
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 82,
+                            "x0": 92,
+                            "y0": 798
+                        },
+                        "id": 3,
+                        "text": "Terry towelling\netc of cotton\nnes, width >\n30cm"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 50,
+                            "x0": 369,
+                            "y0": 798
+                        },
+                        "id": 4,
+                        "text": "Silver ores and\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 64,
+                            "x0": 600,
+                            "y0": 798
+                        },
+                        "id": 5,
+                        "text": "Articles of\nagglomerated\ncork"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 79,
+                            "x0": 831,
+                            "y0": 798
+                        },
+                        "id": 6,
+                        "text": "Ethyl alcohol\nand other\nspirits,\ndenatured"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 26,
+                            "x0": 1129,
+                            "y0": 798
+                        },
+                        "id": 7,
+                        "text": "Zinc dust"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 773
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 644
+                        },
+                        "id": 9,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 516
+                        },
+                        "id": 10,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 388
+                        },
+                        "id": 11,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 259
+                        },
+                        "id": 12,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 131
+                        },
+                        "id": 13,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 67,
+                            "x0": 1041,
+                            "y0": 56
+                        },
+                        "id": 14,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 70,
+                            "x0": 1176,
+                            "y0": 56
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 192,
+                            "x0": 71,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Indonesia 2012 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 47,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 387
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 82,
+                            "x0": 92,
+                            "y0": 798
+                        },
+                        "id": 3,
+                        "text": "Terry towelling\netc of cotton\nnes, width >\n30cm"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 50,
+                            "x0": 369,
+                            "y0": 798
+                        },
+                        "id": 4,
+                        "text": "Silver ores and\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 64,
+                            "x0": 600,
+                            "y0": 798
+                        },
+                        "id": 5,
+                        "text": "Articles of\nagglomerated\ncork"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 79,
+                            "x0": 831,
+                            "y0": 798
+                        },
+                        "id": 6,
+                        "text": "Ethyl alcohol\nand other\nspirits,\ndenatured"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 26,
+                            "x0": 1129,
+                            "y0": 798
+                        },
+                        "id": 7,
+                        "text": "Zinc dust"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 773
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 644
+                        },
+                        "id": 9,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 516
+                        },
+                        "id": 10,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 388
+                        },
+                        "id": 11,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 259
+                        },
+                        "id": 12,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 131
+                        },
+                        "id": 13,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 67,
+                            "x0": 1041,
+                            "y0": 56
+                        },
+                        "id": 14,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 70,
+                            "x0": 1176,
+                            "y0": 56
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 741,
+                "width": 1194,
+                "x0": 67,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 173,
+                            "y": 781
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 418,
+                            "y": 781
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 618,
+                            "y": 781
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 909,
+                            "y": 781
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1154,
+                            "y": 781
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 777
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 649
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 520
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 392
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 267
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 135
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 192,
+                            "x0": 71,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Indonesia 2012 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 47,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 387
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 82,
+                            "x0": 92,
+                            "y0": 798
+                        },
+                        "id": 3,
+                        "text": "Terry towelling\netc of cotton\nnes, width >\n30cm"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 50,
+                            "x0": 369,
+                            "y0": 798
+                        },
+                        "id": 4,
+                        "text": "Silver ores and\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 64,
+                            "x0": 600,
+                            "y0": 798
+                        },
+                        "id": 5,
+                        "text": "Articles of\nagglomerated\ncork"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 79,
+                            "x0": 831,
+                            "y0": 798
+                        },
+                        "id": 6,
+                        "text": "Ethyl alcohol\nand other\nspirits,\ndenatured"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 26,
+                            "x0": 1129,
+                            "y0": 798
+                        },
+                        "id": 7,
+                        "text": "Zinc dust"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 773
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 644
+                        },
+                        "id": 9,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 516
+                        },
+                        "id": 10,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 388
+                        },
+                        "id": 11,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 259
+                        },
+                        "id": 12,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 131
+                        },
+                        "id": 13,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 67,
+                            "x0": 1041,
+                            "y0": 56
+                        },
+                        "id": 14,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 70,
+                            "x0": 1176,
+                            "y0": 56
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 10,
+                        "width": 28,
+                        "x0": 1003,
+                        "y0": 57
+                    },
+                    "id": 14
+                },
+                {
+                    "bb": {
+                        "height": 10,
+                        "width": 28,
+                        "x0": 1137,
+                        "y0": 57
+                    },
+                    "id": 15
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 192,
+                            "x0": 71,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Indonesia 2012 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 47,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 387
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 118,
+                            "width": 82,
+                            "x0": 92,
+                            "y0": 798
+                        },
+                        "id": 3,
+                        "text": "Terry towelling\netc of cotton\nnes, width >\n30cm"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 50,
+                            "x0": 369,
+                            "y0": 798
+                        },
+                        "id": 4,
+                        "text": "Silver ores and\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 64,
+                            "x0": 600,
+                            "y0": 798
+                        },
+                        "id": 5,
+                        "text": "Articles of\nagglomerated\ncork"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 79,
+                            "x0": 831,
+                            "y0": 798
+                        },
+                        "id": 6,
+                        "text": "Ethyl alcohol\nand other\nspirits,\ndenatured"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 26,
+                            "x0": 1129,
+                            "y0": 798
+                        },
+                        "id": 7,
+                        "text": "Zinc dust"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 773
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 644
+                        },
+                        "id": 9,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 516
+                        },
+                        "id": 10,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 388
+                        },
+                        "id": 11,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 259
+                        },
+                        "id": 12,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 131
+                        },
+                        "id": 13,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 67,
+                            "x0": 1041,
+                            "y0": 56
+                        },
+                        "id": 14,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 70,
+                            "x0": 1176,
+                            "y0": 56
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 741,
+                    "width": 1194,
+                    "x0": 67,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 173,
+                                "y": 781
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 418,
+                                "y": 781
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 618,
+                                "y": 781
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 909,
+                                "y": 781
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1154,
+                                "y": 781
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 777
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 649
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 520
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 392
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 267
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 135
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 10,
+                            "width": 28,
+                            "x0": 1003,
+                            "y0": 57
+                        },
+                        "id": 14
+                    },
+                    {
+                        "bb": {
+                            "height": 10,
+                            "width": 28,
+                            "x0": 1137,
+                            "y0": 57
+                        },
+                        "id": 15
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Terry towelling etc of cotton nes, width > 30cm",
+                            "y": "2800.0"
+                        },
+                        {
+                            "x": "Silver ores and concentrates",
+                            "y": "54493020.0"
+                        },
+                        {
+                            "x": "Articles of agglomerated cork",
+                            "y": "28200.0"
+                        },
+                        {
+                            "x": "Ethyl alcohol and other spirits, denatured",
+                            "y": "1225520.0"
+                        },
+                        {
+                            "x": "Zinc dust",
+                            "y": "685982.0"
+                        }
+                    ],
+                    "name": "weight kg"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Terry towelling etc of cotton nes, width > 30cm",
+                            "y": "32036"
+                        },
+                        {
+                            "x": "Silver ores and concentrates",
+                            "y": "871888"
+                        },
+                        {
+                            "x": "Articles of agglomerated cork",
+                            "y": "135860"
+                        },
+                        {
+                            "x": "Ethyl alcohol and other spirits, denatured",
+                            "y": "1452424"
+                        },
+                        {
+                            "x": "Zinc dust",
+                            "y": "260111"
+                        }
+                    ],
+                    "name": "trade usd"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 11,
+                        "width": 49,
+                        "x0": 370,
+                        "y0": 767
+                    },
+                    {
+                        "height": 699,
+                        "width": 49,
+                        "x0": 419,
+                        "y0": 79
+                    },
+                    {
+                        "height": 2,
+                        "width": 49,
+                        "x0": 615,
+                        "y0": 776
+                    },
+                    {
+                        "height": 19,
+                        "width": 49,
+                        "x0": 861,
+                        "y0": 759
+                    },
+                    {
+                        "height": 16,
+                        "width": 49,
+                        "x0": 910,
+                        "y0": 762
+                    },
+                    {
+                        "height": 3,
+                        "width": 49,
+                        "x0": 1106,
+                        "y0": 775
+                    },
+                    {
+                        "height": 9,
+                        "width": 49,
+                        "x0": 1155,
+                        "y0": 769
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

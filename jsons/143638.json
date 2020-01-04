@@ -1,0 +1,667 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 312,
+                        "x0": 52,
+                        "y0": 14
+                    },
+                    "text": "acs2015_census_tract_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 132,
+                        "width": 64,
+                        "x0": 591,
+                        "y0": 810
+                    },
+                    "text": "36113075000New\nYorkWarren"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 417
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 24,
+                        "y0": 717
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 15,
+                        "y0": 567
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 15,
+                        "y0": 116
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 16,
+                        "y0": 266
+                    },
+                    "text": "30"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 312,
+                            "x0": 52,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_census_tract_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 64,
+                            "x0": 591,
+                            "y0": 810
+                        },
+                        "id": 1,
+                        "text": "36113075000New\nYorkWarren"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 417
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 717
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 567
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 116
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 266
+                        },
+                        "id": 6,
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 312,
+                            "x0": 52,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_census_tract_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 64,
+                            "x0": 591,
+                            "y0": 810
+                        },
+                        "id": 1,
+                        "text": "36113075000New\nYorkWarren"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 417
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 717
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 567
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 116
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 266
+                        },
+                        "id": 6,
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 753,
+                "width": 1213,
+                "x0": 49,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 654,
+                            "y": 793
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 421
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 721
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 571
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 121
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 49,
+                            "y": 271
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 312,
+                            "x0": 52,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_census_tract_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 64,
+                            "x0": 591,
+                            "y0": 810
+                        },
+                        "id": 1,
+                        "text": "36113075000New\nYorkWarren"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 417
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 717
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 567
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 116
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 266
+                        },
+                        "id": 6,
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 312,
+                            "x0": 52,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_census_tract_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 132,
+                            "width": 64,
+                            "x0": 591,
+                            "y0": 810
+                        },
+                        "id": 1,
+                        "text": "36113075000New\nYorkWarren"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 417
+                        },
+                        "id": 2,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 24,
+                            "y0": 717
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 567
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 15,
+                            "y0": 116
+                        },
+                        "id": 5,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 16,
+                            "y0": 266
+                        },
+                        "id": 6,
+                        "text": "30"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 753,
+                    "width": 1213,
+                    "x0": 49,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 654,
+                                "y": 793
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 421
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 721
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 571
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 121
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 49,
+                                "y": 271
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.125,
+                        "max": 36.1760841041973,
+                        "median": 10.63480475776849,
+                        "min": 0.04722771837436113,
+                        "third_quartile": 32.39946545703222
+                    },
+                    "name": "36113075000New YorkWarren"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 181,
+                                "x0": 565,
+                                "y0": 720
+                            },
+                            "x": 655,
+                            "y": 721
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 610,
+                                "y0": 179
+                            },
+                            "x": 655,
+                            "y": 179
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 181,
+                                "x0": 565,
+                                "y0": 563
+                            },
+                            "x": 655,
+                            "y": 563
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 610,
+                                "y0": 722
+                            },
+                            "x": 655,
+                            "y": 722
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 181,
+                                "x0": 565,
+                                "y0": 720
+                            },
+                            "x": 655,
+                            "y": 236
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

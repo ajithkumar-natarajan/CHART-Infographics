@@ -1,0 +1,1350 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 184,
+                        "x0": 572,
+                        "y0": 14
+                    },
+                    "text": "Thailand 1988 Import"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 625,
+                        "y0": 927
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 67,
+                        "width": 14,
+                        "x0": 17,
+                        "y0": 372
+                    },
+                    "text": "trade usd"
+                },
+                {
+                    "bb": {
+                        "height": 119,
+                        "width": 74,
+                        "x0": 51,
+                        "y0": 787
+                    },
+                    "text": "Fertilizers\nwith nitrogen\nand phosphorus\nnes, <=10kg"
+                },
+                {
+                    "bb": {
+                        "height": 111,
+                        "width": 89,
+                        "x0": 216,
+                        "y0": 787
+                    },
+                    "text": "Germanium,\narticles\nthereof, waste\nor\nscrap/powders"
+                },
+                {
+                    "bb": {
+                        "height": 115,
+                        "width": 73,
+                        "x0": 411,
+                        "y0": 787
+                    },
+                    "text": "Sunflower seed\noil-cake and\nother solid\nresidues"
+                },
+                {
+                    "bb": {
+                        "height": 129,
+                        "width": 75,
+                        "x0": 590,
+                        "y0": 787
+                    },
+                    "text": "Chem wood pulp,\nsulphite,\nconiferous\nbleached"
+                },
+                {
+                    "bb": {
+                        "height": 117,
+                        "width": 73,
+                        "x0": 771,
+                        "y0": 787
+                    },
+                    "text": "Paintings/drawi\nngs/pastels\nexecuted by\nhand"
+                },
+                {
+                    "bb": {
+                        "height": 115,
+                        "width": 73,
+                        "x0": 951,
+                        "y0": 787
+                    },
+                    "text": "Fixed wing\naircraft,\nunladen weight\n> 15,000 kg"
+                },
+                {
+                    "bb": {
+                        "height": 98,
+                        "width": 87,
+                        "x0": 1117,
+                        "y0": 787
+                    },
+                    "text": "Cigars,\ncheroots,\ncigarettes,\nwith tobacco\nsubstitute"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 730
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 614
+                    },
+                    "text": "1"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 499
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 384
+                    },
+                    "text": "3"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 268
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 153
+                    },
+                    "text": "5"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 38
+                    },
+                    "text": "6"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 184,
+                            "x0": 572,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Thailand 1988 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 372
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 119,
+                            "width": 74,
+                            "x0": 51,
+                            "y0": 787
+                        },
+                        "id": 3,
+                        "text": "Fertilizers\nwith nitrogen\nand phosphorus\nnes, <=10kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 89,
+                            "x0": 216,
+                            "y0": 787
+                        },
+                        "id": 4,
+                        "text": "Germanium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 73,
+                            "x0": 411,
+                            "y0": 787
+                        },
+                        "id": 5,
+                        "text": "Sunflower seed\noil-cake and\nother solid\nresidues"
+                    },
+                    {
+                        "bb": {
+                            "height": 129,
+                            "width": 75,
+                            "x0": 590,
+                            "y0": 787
+                        },
+                        "id": 6,
+                        "text": "Chem wood pulp,\nsulphite,\nconiferous\nbleached"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 73,
+                            "x0": 771,
+                            "y0": 787
+                        },
+                        "id": 7,
+                        "text": "Paintings/drawi\nngs/pastels\nexecuted by\nhand"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 73,
+                            "x0": 951,
+                            "y0": 787
+                        },
+                        "id": 8,
+                        "text": "Fixed wing\naircraft,\nunladen weight\n> 15,000 kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 98,
+                            "width": 87,
+                            "x0": 1117,
+                            "y0": 787
+                        },
+                        "id": 9,
+                        "text": "Cigars,\ncheroots,\ncigarettes,\nwith tobacco\nsubstitute"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 730
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 614
+                        },
+                        "id": 11,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 499
+                        },
+                        "id": 12,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 384
+                        },
+                        "id": 13,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 268
+                        },
+                        "id": 14,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 153
+                        },
+                        "id": 15,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 38
+                        },
+                        "id": 16,
+                        "text": "6"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 184,
+                            "x0": 572,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Thailand 1988 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 372
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 119,
+                            "width": 74,
+                            "x0": 51,
+                            "y0": 787
+                        },
+                        "id": 3,
+                        "text": "Fertilizers\nwith nitrogen\nand phosphorus\nnes, <=10kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 89,
+                            "x0": 216,
+                            "y0": 787
+                        },
+                        "id": 4,
+                        "text": "Germanium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 73,
+                            "x0": 411,
+                            "y0": 787
+                        },
+                        "id": 5,
+                        "text": "Sunflower seed\noil-cake and\nother solid\nresidues"
+                    },
+                    {
+                        "bb": {
+                            "height": 129,
+                            "width": 75,
+                            "x0": 590,
+                            "y0": 787
+                        },
+                        "id": 6,
+                        "text": "Chem wood pulp,\nsulphite,\nconiferous\nbleached"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 73,
+                            "x0": 771,
+                            "y0": 787
+                        },
+                        "id": 7,
+                        "text": "Paintings/drawi\nngs/pastels\nexecuted by\nhand"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 73,
+                            "x0": 951,
+                            "y0": 787
+                        },
+                        "id": 8,
+                        "text": "Fixed wing\naircraft,\nunladen weight\n> 15,000 kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 98,
+                            "width": 87,
+                            "x0": 1117,
+                            "y0": 787
+                        },
+                        "id": 9,
+                        "text": "Cigars,\ncheroots,\ncigarettes,\nwith tobacco\nsubstitute"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 730
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 614
+                        },
+                        "id": 11,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 499
+                        },
+                        "id": 12,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 384
+                        },
+                        "id": 13,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 268
+                        },
+                        "id": 14,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 153
+                        },
+                        "id": 15,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 38
+                        },
+                        "id": 16,
+                        "text": "6"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 731,
+                "width": 1194,
+                "x0": 67,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 124,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 303,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 483,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 663,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 843,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1023,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 771
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 734
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 619
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 503
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 388
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 276
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 158
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 42
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 184,
+                            "x0": 572,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Thailand 1988 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 372
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 119,
+                            "width": 74,
+                            "x0": 51,
+                            "y0": 787
+                        },
+                        "id": 3,
+                        "text": "Fertilizers\nwith nitrogen\nand phosphorus\nnes, <=10kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 89,
+                            "x0": 216,
+                            "y0": 787
+                        },
+                        "id": 4,
+                        "text": "Germanium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 73,
+                            "x0": 411,
+                            "y0": 787
+                        },
+                        "id": 5,
+                        "text": "Sunflower seed\noil-cake and\nother solid\nresidues"
+                    },
+                    {
+                        "bb": {
+                            "height": 129,
+                            "width": 75,
+                            "x0": 590,
+                            "y0": 787
+                        },
+                        "id": 6,
+                        "text": "Chem wood pulp,\nsulphite,\nconiferous\nbleached"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 73,
+                            "x0": 771,
+                            "y0": 787
+                        },
+                        "id": 7,
+                        "text": "Paintings/drawi\nngs/pastels\nexecuted by\nhand"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 73,
+                            "x0": 951,
+                            "y0": 787
+                        },
+                        "id": 8,
+                        "text": "Fixed wing\naircraft,\nunladen weight\n> 15,000 kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 98,
+                            "width": 87,
+                            "x0": 1117,
+                            "y0": 787
+                        },
+                        "id": 9,
+                        "text": "Cigars,\ncheroots,\ncigarettes,\nwith tobacco\nsubstitute"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 730
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 614
+                        },
+                        "id": 11,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 499
+                        },
+                        "id": 12,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 384
+                        },
+                        "id": 13,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 268
+                        },
+                        "id": 14,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 153
+                        },
+                        "id": 15,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 38
+                        },
+                        "id": 16,
+                        "text": "6"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 184,
+                            "x0": 572,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Thailand 1988 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 67,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 372
+                        },
+                        "id": 2,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 119,
+                            "width": 74,
+                            "x0": 51,
+                            "y0": 787
+                        },
+                        "id": 3,
+                        "text": "Fertilizers\nwith nitrogen\nand phosphorus\nnes, <=10kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 89,
+                            "x0": 216,
+                            "y0": 787
+                        },
+                        "id": 4,
+                        "text": "Germanium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 73,
+                            "x0": 411,
+                            "y0": 787
+                        },
+                        "id": 5,
+                        "text": "Sunflower seed\noil-cake and\nother solid\nresidues"
+                    },
+                    {
+                        "bb": {
+                            "height": 129,
+                            "width": 75,
+                            "x0": 590,
+                            "y0": 787
+                        },
+                        "id": 6,
+                        "text": "Chem wood pulp,\nsulphite,\nconiferous\nbleached"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 73,
+                            "x0": 771,
+                            "y0": 787
+                        },
+                        "id": 7,
+                        "text": "Paintings/drawi\nngs/pastels\nexecuted by\nhand"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 73,
+                            "x0": 951,
+                            "y0": 787
+                        },
+                        "id": 8,
+                        "text": "Fixed wing\naircraft,\nunladen weight\n> 15,000 kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 98,
+                            "width": 87,
+                            "x0": 1117,
+                            "y0": 787
+                        },
+                        "id": 9,
+                        "text": "Cigars,\ncheroots,\ncigarettes,\nwith tobacco\nsubstitute"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 730
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 614
+                        },
+                        "id": 11,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 499
+                        },
+                        "id": 12,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 384
+                        },
+                        "id": 13,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 268
+                        },
+                        "id": 14,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 153
+                        },
+                        "id": 15,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 38
+                        },
+                        "id": 16,
+                        "text": "6"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 731,
+                    "width": 1194,
+                    "x0": 67,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 124,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 303,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 483,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 663,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 843,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1023,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 771
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 734
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 619
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 503
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 388
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 276
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 158
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 42
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Fertilizers with nitrogen and phosphorus nes, <=10kg",
+                            "y": "49383030"
+                        },
+                        {
+                            "x": "Germanium, articles thereof, waste or scrap/powders",
+                            "y": "37"
+                        },
+                        {
+                            "x": "Sunflower seed oil-cake and other solid residues",
+                            "y": "11573448"
+                        },
+                        {
+                            "x": "Chem wood pulp, sulphite, coniferous bleached",
+                            "y": "694182"
+                        },
+                        {
+                            "x": "Paintings/drawings/pastels executed by hand",
+                            "y": "2852"
+                        },
+                        {
+                            "x": "Fixed wing aircraft, unladen weight > 15,000 kg",
+                            "y": "571160462"
+                        },
+                        {
+                            "x": "Cigars, cheroots, cigarettes, with tobacco substitute",
+                            "y": "3569"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 125,
+                            "y": 678
+                        },
+                        {
+                            "x": 304,
+                            "y": 735
+                        },
+                        {
+                            "x": 484,
+                            "y": 722
+                        },
+                        {
+                            "x": 664,
+                            "y": 734
+                        },
+                        {
+                            "x": 844,
+                            "y": 735
+                        },
+                        {
+                            "x": 1024,
+                            "y": 77
+                        },
+                        {
+                            "x": 1204,
+                            "y": 735
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

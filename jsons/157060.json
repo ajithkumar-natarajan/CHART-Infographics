@@ -1,0 +1,800 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 677,
+                        "x0": 59,
+                        "y0": 17
+                    },
+                    "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 28,
+                        "x0": 330,
+                        "y0": 896
+                    },
+                    "text": "1967"
+                },
+                {
+                    "bb": {
+                        "height": 45,
+                        "width": 28,
+                        "x0": 928,
+                        "y0": 896
+                    },
+                    "text": "1970"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 468
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 133
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 636
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 300
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 11,
+                        "x0": 29,
+                        "y0": 803
+                    },
+                    "text": "0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 677,
+                            "x0": 59,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 28,
+                            "x0": 330,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "1967"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 28,
+                            "x0": 928,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1970"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 468
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 133
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 636
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 300
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 29,
+                            "y0": 803
+                        },
+                        "id": 7,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 677,
+                            "x0": 59,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 28,
+                            "x0": 330,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "1967"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 28,
+                            "x0": 928,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1970"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 468
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 133
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 636
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 300
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 29,
+                            "y0": 803
+                        },
+                        "id": 7,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 835,
+                "width": 1203,
+                "x0": 55,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 357,
+                            "y": 880
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 955,
+                            "y": 880
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 473
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 138
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 641
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 306
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 809
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 677,
+                            "x0": 59,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 28,
+                            "x0": 330,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "1967"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 28,
+                            "x0": 928,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1970"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 468
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 133
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 636
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 300
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 29,
+                            "y0": 803
+                        },
+                        "id": 7,
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 677,
+                            "x0": 59,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Food, beverages and tobacco (% of value added in manufacturing)"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 28,
+                            "x0": 330,
+                            "y0": 896
+                        },
+                        "id": 1,
+                        "text": "1967"
+                    },
+                    {
+                        "bb": {
+                            "height": 45,
+                            "width": 28,
+                            "x0": 928,
+                            "y0": 896
+                        },
+                        "id": 2,
+                        "text": "1970"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 468
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 133
+                        },
+                        "id": 4,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 636
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 300
+                        },
+                        "id": 6,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 11,
+                            "x0": 29,
+                            "y0": 803
+                        },
+                        "id": 7,
+                        "text": "0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 835,
+                    "width": 1203,
+                    "x0": 55,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 357,
+                                "y": 880
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 955,
+                                "y": 880
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 473
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 138
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 641
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 306
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 809
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 19.14870002811064,
+                        "max": 73.554526749,
+                        "median": 30.242046708130644,
+                        "min": 4.28555317469,
+                        "third_quartile": 43.09495497168976
+                    },
+                    "name": "1967"
+                },
+                {
+                    "data": {
+                        "first_quartile": 18.171647682893934,
+                        "max": 74.693784969,
+                        "median": 29.243452629090918,
+                        "min": 4.50577302168,
+                        "third_quartile": 41.056087290551346
+                    },
+                    "name": "1970"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 313,
+                                "y0": 649
+                            },
+                            "x": 358,
+                            "y": 649
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 336,
+                                "y0": 193
+                            },
+                            "x": 358,
+                            "y": 193
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 313,
+                                "y0": 556
+                            },
+                            "x": 358,
+                            "y": 556
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 336,
+                                "y0": 774
+                            },
+                            "x": 358,
+                            "y": 774
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 313,
+                                "y0": 649
+                            },
+                            "x": 358,
+                            "y": 448
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 911,
+                                "y0": 657
+                            },
+                            "x": 956,
+                            "y": 658
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 934,
+                                "y0": 184
+                            },
+                            "x": 956,
+                            "y": 184
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 911,
+                                "y0": 565
+                            },
+                            "x": 956,
+                            "y": 565
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 45,
+                                "x0": 934,
+                                "y0": 772
+                            },
+                            "x": 956,
+                            "y": 772
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 911,
+                                "y0": 657
+                            },
+                            "x": 956,
+                            "y": 466
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,1895 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 130,
+                        "x0": 609,
+                        "y0": 19
+                    },
+                    "text": "core_dataset"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 137,
+                        "x0": 606,
+                        "y0": 922
+                    },
+                    "text": "Employee Name"
+                },
+                {
+                    "bb": {
+                        "height": 154,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 325
+                    },
+                    "text": "Employee Number"
+                },
+                {
+                    "bb": {
+                        "height": 138,
+                        "width": 75,
+                        "x0": 71,
+                        "y0": 773
+                    },
+                    "text": "Stanford,Barbar\na  M"
+                },
+                {
+                    "bb": {
+                        "height": 114,
+                        "width": 50,
+                        "x0": 184,
+                        "y0": 773
+                    },
+                    "text": "Johnston, Yen"
+                },
+                {
+                    "bb": {
+                        "height": 85,
+                        "width": 41,
+                        "x0": 281,
+                        "y0": 773
+                    },
+                    "text": "Roby, Lori"
+                },
+                {
+                    "bb": {
+                        "height": 129,
+                        "width": 54,
+                        "x0": 356,
+                        "y0": 773
+                    },
+                    "text": "Peterson, Kayla"
+                },
+                {
+                    "bb": {
+                        "height": 79,
+                        "width": 57,
+                        "x0": 441,
+                        "y0": 773
+                    },
+                    "text": "Sullivan,\nTimothy"
+                },
+                {
+                    "bb": {
+                        "height": 117,
+                        "width": 51,
+                        "x0": 535,
+                        "y0": 773
+                    },
+                    "text": "Cockel, James"
+                },
+                {
+                    "bb": {
+                        "height": 136,
+                        "width": 56,
+                        "x0": 618,
+                        "y0": 773
+                    },
+                    "text": "Biden, Lowan  M"
+                },
+                {
+                    "bb": {
+                        "height": 115,
+                        "width": 50,
+                        "x0": 712,
+                        "y0": 773
+                    },
+                    "text": "Zima, Colleen"
+                },
+                {
+                    "bb": {
+                        "height": 78,
+                        "width": 57,
+                        "x0": 793,
+                        "y0": 773
+                    },
+                    "text": "Riordan,\nMichael"
+                },
+                {
+                    "bb": {
+                        "height": 123,
+                        "width": 53,
+                        "x0": 886,
+                        "y0": 773
+                    },
+                    "text": "Shepard, Anita"
+                },
+                {
+                    "bb": {
+                        "height": 105,
+                        "width": 47,
+                        "x0": 979,
+                        "y0": 773
+                    },
+                    "text": "Burke, Joelle"
+                },
+                {
+                    "bb": {
+                        "height": 115,
+                        "width": 50,
+                        "x0": 1064,
+                        "y0": 773
+                    },
+                    "text": "Jeremy Prater"
+                },
+                {
+                    "bb": {
+                        "height": 94,
+                        "width": 44,
+                        "x0": 1158,
+                        "y0": 773
+                    },
+                    "text": "Gilles, Alex"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 720
+                    },
+                    "text": "0.9"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 628
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 536
+                    },
+                    "text": "1.1"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 444
+                    },
+                    "text": "1.2"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 352
+                    },
+                    "text": "1.3"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 260
+                    },
+                    "text": "1.4"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 168
+                    },
+                    "text": "1.5"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 76
+                    },
+                    "text": "1.6"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 130,
+                            "x0": 609,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "core_dataset"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 137,
+                            "x0": 606,
+                            "y0": 922
+                        },
+                        "id": 1,
+                        "text": "Employee Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 154,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 325
+                        },
+                        "id": 2,
+                        "text": "Employee Number"
+                    },
+                    {
+                        "bb": {
+                            "height": 138,
+                            "width": 75,
+                            "x0": 71,
+                            "y0": 773
+                        },
+                        "id": 3,
+                        "text": "Stanford,Barbar\na  M"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 50,
+                            "x0": 184,
+                            "y0": 773
+                        },
+                        "id": 4,
+                        "text": "Johnston, Yen"
+                    },
+                    {
+                        "bb": {
+                            "height": 85,
+                            "width": 41,
+                            "x0": 281,
+                            "y0": 773
+                        },
+                        "id": 5,
+                        "text": "Roby, Lori"
+                    },
+                    {
+                        "bb": {
+                            "height": 129,
+                            "width": 54,
+                            "x0": 356,
+                            "y0": 773
+                        },
+                        "id": 6,
+                        "text": "Peterson, Kayla"
+                    },
+                    {
+                        "bb": {
+                            "height": 79,
+                            "width": 57,
+                            "x0": 441,
+                            "y0": 773
+                        },
+                        "id": 7,
+                        "text": "Sullivan,\nTimothy"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 51,
+                            "x0": 535,
+                            "y0": 773
+                        },
+                        "id": 8,
+                        "text": "Cockel, James"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 56,
+                            "x0": 618,
+                            "y0": 773
+                        },
+                        "id": 9,
+                        "text": "Biden, Lowan  M"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 50,
+                            "x0": 712,
+                            "y0": 773
+                        },
+                        "id": 10,
+                        "text": "Zima, Colleen"
+                    },
+                    {
+                        "bb": {
+                            "height": 78,
+                            "width": 57,
+                            "x0": 793,
+                            "y0": 773
+                        },
+                        "id": 11,
+                        "text": "Riordan,\nMichael"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 53,
+                            "x0": 886,
+                            "y0": 773
+                        },
+                        "id": 12,
+                        "text": "Shepard, Anita"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 47,
+                            "x0": 979,
+                            "y0": 773
+                        },
+                        "id": 13,
+                        "text": "Burke, Joelle"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 50,
+                            "x0": 1064,
+                            "y0": 773
+                        },
+                        "id": 14,
+                        "text": "Jeremy Prater"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 44,
+                            "x0": 1158,
+                            "y0": 773
+                        },
+                        "id": 15,
+                        "text": "Gilles, Alex"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 720
+                        },
+                        "id": 16,
+                        "text": "0.9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 628
+                        },
+                        "id": 17,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 536
+                        },
+                        "id": 18,
+                        "text": "1.1"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 444
+                        },
+                        "id": 19,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 352
+                        },
+                        "id": 20,
+                        "text": "1.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 260
+                        },
+                        "id": 21,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 168
+                        },
+                        "id": 22,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 76
+                        },
+                        "id": 23,
+                        "text": "1.6"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 22,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 23,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 130,
+                            "x0": 609,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "core_dataset"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 137,
+                            "x0": 606,
+                            "y0": 922
+                        },
+                        "id": 1,
+                        "text": "Employee Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 154,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 325
+                        },
+                        "id": 2,
+                        "text": "Employee Number"
+                    },
+                    {
+                        "bb": {
+                            "height": 138,
+                            "width": 75,
+                            "x0": 71,
+                            "y0": 773
+                        },
+                        "id": 3,
+                        "text": "Stanford,Barbar\na  M"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 50,
+                            "x0": 184,
+                            "y0": 773
+                        },
+                        "id": 4,
+                        "text": "Johnston, Yen"
+                    },
+                    {
+                        "bb": {
+                            "height": 85,
+                            "width": 41,
+                            "x0": 281,
+                            "y0": 773
+                        },
+                        "id": 5,
+                        "text": "Roby, Lori"
+                    },
+                    {
+                        "bb": {
+                            "height": 129,
+                            "width": 54,
+                            "x0": 356,
+                            "y0": 773
+                        },
+                        "id": 6,
+                        "text": "Peterson, Kayla"
+                    },
+                    {
+                        "bb": {
+                            "height": 79,
+                            "width": 57,
+                            "x0": 441,
+                            "y0": 773
+                        },
+                        "id": 7,
+                        "text": "Sullivan,\nTimothy"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 51,
+                            "x0": 535,
+                            "y0": 773
+                        },
+                        "id": 8,
+                        "text": "Cockel, James"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 56,
+                            "x0": 618,
+                            "y0": 773
+                        },
+                        "id": 9,
+                        "text": "Biden, Lowan  M"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 50,
+                            "x0": 712,
+                            "y0": 773
+                        },
+                        "id": 10,
+                        "text": "Zima, Colleen"
+                    },
+                    {
+                        "bb": {
+                            "height": 78,
+                            "width": 57,
+                            "x0": 793,
+                            "y0": 773
+                        },
+                        "id": 11,
+                        "text": "Riordan,\nMichael"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 53,
+                            "x0": 886,
+                            "y0": 773
+                        },
+                        "id": 12,
+                        "text": "Shepard, Anita"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 47,
+                            "x0": 979,
+                            "y0": 773
+                        },
+                        "id": 13,
+                        "text": "Burke, Joelle"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 50,
+                            "x0": 1064,
+                            "y0": 773
+                        },
+                        "id": 14,
+                        "text": "Jeremy Prater"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 44,
+                            "x0": 1158,
+                            "y0": 773
+                        },
+                        "id": 15,
+                        "text": "Gilles, Alex"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 720
+                        },
+                        "id": 16,
+                        "text": "0.9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 628
+                        },
+                        "id": 17,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 536
+                        },
+                        "id": 18,
+                        "text": "1.1"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 444
+                        },
+                        "id": 19,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 352
+                        },
+                        "id": 20,
+                        "text": "1.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 260
+                        },
+                        "id": 21,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 168
+                        },
+                        "id": 22,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 76
+                        },
+                        "id": 23,
+                        "text": "1.6"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 710,
+                "width": 1169,
+                "x0": 90,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 145,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 233,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 321,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 409,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 497,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 585,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 673,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 761,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 849,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 937,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 1025,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 1113,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 1201,
+                            "y": 757
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 726
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 634
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 542
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 450
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 358
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 266
+                        }
+                    },
+                    {
+                        "id": 22,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 174
+                        }
+                    },
+                    {
+                        "id": 23,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 82
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 130,
+                            "x0": 609,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "core_dataset"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 137,
+                            "x0": 606,
+                            "y0": 922
+                        },
+                        "id": 1,
+                        "text": "Employee Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 154,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 325
+                        },
+                        "id": 2,
+                        "text": "Employee Number"
+                    },
+                    {
+                        "bb": {
+                            "height": 138,
+                            "width": 75,
+                            "x0": 71,
+                            "y0": 773
+                        },
+                        "id": 3,
+                        "text": "Stanford,Barbar\na  M"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 50,
+                            "x0": 184,
+                            "y0": 773
+                        },
+                        "id": 4,
+                        "text": "Johnston, Yen"
+                    },
+                    {
+                        "bb": {
+                            "height": 85,
+                            "width": 41,
+                            "x0": 281,
+                            "y0": 773
+                        },
+                        "id": 5,
+                        "text": "Roby, Lori"
+                    },
+                    {
+                        "bb": {
+                            "height": 129,
+                            "width": 54,
+                            "x0": 356,
+                            "y0": 773
+                        },
+                        "id": 6,
+                        "text": "Peterson, Kayla"
+                    },
+                    {
+                        "bb": {
+                            "height": 79,
+                            "width": 57,
+                            "x0": 441,
+                            "y0": 773
+                        },
+                        "id": 7,
+                        "text": "Sullivan,\nTimothy"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 51,
+                            "x0": 535,
+                            "y0": 773
+                        },
+                        "id": 8,
+                        "text": "Cockel, James"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 56,
+                            "x0": 618,
+                            "y0": 773
+                        },
+                        "id": 9,
+                        "text": "Biden, Lowan  M"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 50,
+                            "x0": 712,
+                            "y0": 773
+                        },
+                        "id": 10,
+                        "text": "Zima, Colleen"
+                    },
+                    {
+                        "bb": {
+                            "height": 78,
+                            "width": 57,
+                            "x0": 793,
+                            "y0": 773
+                        },
+                        "id": 11,
+                        "text": "Riordan,\nMichael"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 53,
+                            "x0": 886,
+                            "y0": 773
+                        },
+                        "id": 12,
+                        "text": "Shepard, Anita"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 47,
+                            "x0": 979,
+                            "y0": 773
+                        },
+                        "id": 13,
+                        "text": "Burke, Joelle"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 50,
+                            "x0": 1064,
+                            "y0": 773
+                        },
+                        "id": 14,
+                        "text": "Jeremy Prater"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 44,
+                            "x0": 1158,
+                            "y0": 773
+                        },
+                        "id": 15,
+                        "text": "Gilles, Alex"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 720
+                        },
+                        "id": 16,
+                        "text": "0.9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 628
+                        },
+                        "id": 17,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 536
+                        },
+                        "id": 18,
+                        "text": "1.1"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 444
+                        },
+                        "id": 19,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 352
+                        },
+                        "id": 20,
+                        "text": "1.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 260
+                        },
+                        "id": 21,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 168
+                        },
+                        "id": 22,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 76
+                        },
+                        "id": 23,
+                        "text": "1.6"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 130,
+                            "x0": 609,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "core_dataset"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 137,
+                            "x0": 606,
+                            "y0": 922
+                        },
+                        "id": 1,
+                        "text": "Employee Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 154,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 325
+                        },
+                        "id": 2,
+                        "text": "Employee Number"
+                    },
+                    {
+                        "bb": {
+                            "height": 138,
+                            "width": 75,
+                            "x0": 71,
+                            "y0": 773
+                        },
+                        "id": 3,
+                        "text": "Stanford,Barbar\na  M"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 50,
+                            "x0": 184,
+                            "y0": 773
+                        },
+                        "id": 4,
+                        "text": "Johnston, Yen"
+                    },
+                    {
+                        "bb": {
+                            "height": 85,
+                            "width": 41,
+                            "x0": 281,
+                            "y0": 773
+                        },
+                        "id": 5,
+                        "text": "Roby, Lori"
+                    },
+                    {
+                        "bb": {
+                            "height": 129,
+                            "width": 54,
+                            "x0": 356,
+                            "y0": 773
+                        },
+                        "id": 6,
+                        "text": "Peterson, Kayla"
+                    },
+                    {
+                        "bb": {
+                            "height": 79,
+                            "width": 57,
+                            "x0": 441,
+                            "y0": 773
+                        },
+                        "id": 7,
+                        "text": "Sullivan,\nTimothy"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 51,
+                            "x0": 535,
+                            "y0": 773
+                        },
+                        "id": 8,
+                        "text": "Cockel, James"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 56,
+                            "x0": 618,
+                            "y0": 773
+                        },
+                        "id": 9,
+                        "text": "Biden, Lowan  M"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 50,
+                            "x0": 712,
+                            "y0": 773
+                        },
+                        "id": 10,
+                        "text": "Zima, Colleen"
+                    },
+                    {
+                        "bb": {
+                            "height": 78,
+                            "width": 57,
+                            "x0": 793,
+                            "y0": 773
+                        },
+                        "id": 11,
+                        "text": "Riordan,\nMichael"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 53,
+                            "x0": 886,
+                            "y0": 773
+                        },
+                        "id": 12,
+                        "text": "Shepard, Anita"
+                    },
+                    {
+                        "bb": {
+                            "height": 105,
+                            "width": 47,
+                            "x0": 979,
+                            "y0": 773
+                        },
+                        "id": 13,
+                        "text": "Burke, Joelle"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 50,
+                            "x0": 1064,
+                            "y0": 773
+                        },
+                        "id": 14,
+                        "text": "Jeremy Prater"
+                    },
+                    {
+                        "bb": {
+                            "height": 94,
+                            "width": 44,
+                            "x0": 1158,
+                            "y0": 773
+                        },
+                        "id": 15,
+                        "text": "Gilles, Alex"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 720
+                        },
+                        "id": 16,
+                        "text": "0.9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 628
+                        },
+                        "id": 17,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 536
+                        },
+                        "id": 18,
+                        "text": "1.1"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 444
+                        },
+                        "id": 19,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 352
+                        },
+                        "id": 20,
+                        "text": "1.3"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 260
+                        },
+                        "id": 21,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 168
+                        },
+                        "id": 22,
+                        "text": "1.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 76
+                        },
+                        "id": 23,
+                        "text": "1.6"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 22,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 23,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 710,
+                    "width": 1169,
+                    "x0": 90,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 145,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 233,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 321,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 409,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 497,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 585,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 673,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 761,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 849,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 937,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 1025,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 1113,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 1201,
+                                "y": 757
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 726
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 634
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 542
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 450
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 358
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 266
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 174
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 82
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Stanford,Barbara  M",
+                            "y": "1111030244.0"
+                        },
+                        {
+                            "x": "Johnston, Yen",
+                            "y": "1306057810.0"
+                        },
+                        {
+                            "x": "Roby, Lori ",
+                            "y": "1407068885.0"
+                        },
+                        {
+                            "x": "Peterson, Kayla ",
+                            "y": "1307059944.0"
+                        },
+                        {
+                            "x": "Sullivan, Timothy",
+                            "y": "1201031310.0"
+                        },
+                        {
+                            "x": "Cockel, James",
+                            "y": "1599991009.0"
+                        },
+                        {
+                            "x": "Biden, Lowan  M",
+                            "y": "1412071844.0"
+                        },
+                        {
+                            "x": "Zima, Colleen",
+                            "y": "1211051232.0"
+                        },
+                        {
+                            "x": "Riordan, Michael",
+                            "y": "1502072711.0"
+                        },
+                        {
+                            "x": "Shepard, Anita ",
+                            "y": "906014183.0"
+                        },
+                        {
+                            "x": "Burke, Joelle",
+                            "y": "1011022820.0"
+                        },
+                        {
+                            "x": "Jeremy Prater",
+                            "y": "1001084890.0"
+                        },
+                        {
+                            "x": "Gilles, Alex",
+                            "y": "1008020960.0"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 146,
+                            "y": 533
+                        },
+                        {
+                            "x": 234,
+                            "y": 353
+                        },
+                        {
+                            "x": 322,
+                            "y": 260
+                        },
+                        {
+                            "x": 410,
+                            "y": 352
+                        },
+                        {
+                            "x": 498,
+                            "y": 450
+                        },
+                        {
+                            "x": 586,
+                            "y": 83
+                        },
+                        {
+                            "x": 674,
+                            "y": 256
+                        },
+                        {
+                            "x": 762,
+                            "y": 441
+                        },
+                        {
+                            "x": 850,
+                            "y": 173
+                        },
+                        {
+                            "x": 938,
+                            "y": 722
+                        },
+                        {
+                            "x": 1026,
+                            "y": 625
+                        },
+                        {
+                            "x": 1114,
+                            "y": 634
+                        },
+                        {
+                            "x": 1202,
+                            "y": 628
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

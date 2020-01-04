@@ -1,0 +1,1004 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 263,
+                        "x0": 61,
+                        "y0": 14
+                    },
+                    "text": "acs2015_county_data_modified"
+                },
+                {
+                    "bb": {
+                        "height": 136,
+                        "width": 63,
+                        "x0": 995,
+                        "y0": 807
+                    },
+                    "text": "1127AlabamaWalk\ner"
+                },
+                {
+                    "bb": {
+                        "height": 96,
+                        "width": 53,
+                        "x0": 208,
+                        "y0": 807
+                    },
+                    "text": "72035Puerto\nRicoCayey"
+                },
+                {
+                    "bb": {
+                        "height": 124,
+                        "width": 60,
+                        "x0": 600,
+                        "y0": 807
+                    },
+                    "text": "12101FloridaPas\nco"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 594
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 33,
+                        "y0": 714
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 16,
+                        "y0": 110
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 231
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 24,
+                        "y0": 473
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 25,
+                        "y0": 352
+                    },
+                    "text": "60"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 61,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 63,
+                            "x0": 995,
+                            "y0": 807
+                        },
+                        "id": 1,
+                        "text": "1127AlabamaWalk\ner"
+                    },
+                    {
+                        "bb": {
+                            "height": 96,
+                            "width": 53,
+                            "x0": 208,
+                            "y0": 807
+                        },
+                        "id": 2,
+                        "text": "72035Puerto\nRicoCayey"
+                    },
+                    {
+                        "bb": {
+                            "height": 124,
+                            "width": 60,
+                            "x0": 600,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "12101FloridaPas\nco"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 594
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 714
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 110
+                        },
+                        "id": 6,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 231
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 473
+                        },
+                        "id": 8,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 352
+                        },
+                        "id": 9,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 61,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 63,
+                            "x0": 995,
+                            "y0": 807
+                        },
+                        "id": 1,
+                        "text": "1127AlabamaWalk\ner"
+                    },
+                    {
+                        "bb": {
+                            "height": 96,
+                            "width": 53,
+                            "x0": 208,
+                            "y0": 807
+                        },
+                        "id": 2,
+                        "text": "72035Puerto\nRicoCayey"
+                    },
+                    {
+                        "bb": {
+                            "height": 124,
+                            "width": 60,
+                            "x0": 600,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "12101FloridaPas\nco"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 594
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 714
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 110
+                        },
+                        "id": 6,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 231
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 473
+                        },
+                        "id": 8,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 352
+                        },
+                        "id": 9,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 751,
+                "width": 1204,
+                "x0": 58,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1058,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 260,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 659,
+                            "y": 791
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 598
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 719
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 115
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 236
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 477
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 58,
+                            "y": 357
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 61,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 63,
+                            "x0": 995,
+                            "y0": 807
+                        },
+                        "id": 1,
+                        "text": "1127AlabamaWalk\ner"
+                    },
+                    {
+                        "bb": {
+                            "height": 96,
+                            "width": 53,
+                            "x0": 208,
+                            "y0": 807
+                        },
+                        "id": 2,
+                        "text": "72035Puerto\nRicoCayey"
+                    },
+                    {
+                        "bb": {
+                            "height": 124,
+                            "width": 60,
+                            "x0": 600,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "12101FloridaPas\nco"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 594
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 714
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 110
+                        },
+                        "id": 6,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 231
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 473
+                        },
+                        "id": 8,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 352
+                        },
+                        "id": 9,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 263,
+                            "x0": 61,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "acs2015_county_data_modified"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 63,
+                            "x0": 995,
+                            "y0": 807
+                        },
+                        "id": 1,
+                        "text": "1127AlabamaWalk\ner"
+                    },
+                    {
+                        "bb": {
+                            "height": 96,
+                            "width": 53,
+                            "x0": 208,
+                            "y0": 807
+                        },
+                        "id": 2,
+                        "text": "72035Puerto\nRicoCayey"
+                    },
+                    {
+                        "bb": {
+                            "height": 124,
+                            "width": 60,
+                            "x0": 600,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "12101FloridaPas\nco"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 594
+                        },
+                        "id": 4,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 33,
+                            "y0": 714
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 16,
+                            "y0": 110
+                        },
+                        "id": 6,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 231
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 24,
+                            "y0": 473
+                        },
+                        "id": 8,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 25,
+                            "y0": 352
+                        },
+                        "id": 9,
+                        "text": "60"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 751,
+                    "width": 1204,
+                    "x0": 58,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1058,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 260,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 659,
+                                "y": 791
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 598
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 719
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 115
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 236
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 477
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 58,
+                                "y": 357
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 0.5343489619114976,
+                        "max": 33.094390113921605,
+                        "median": 12.991229556287575,
+                        "min": 0.1,
+                        "third_quartile": 31.157058401673495
+                    },
+                    "name": "72035Puerto RicoCayey"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.7999999999999999,
+                        "max": 13.1,
+                        "median": 3.5,
+                        "min": 0.1,
+                        "third_quartile": 11.0
+                    },
+                    "name": "12101FloridaPasco"
+                },
+                {
+                    "data": {
+                        "first_quartile": 0.875,
+                        "max": 89.6,
+                        "median": 4.0,
+                        "min": 0.1,
+                        "third_quartile": 63.82866197551596
+                    },
+                    "name": "1127AlabamaWalker"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 600,
+                                "y0": 715
+                            },
+                            "x": 660,
+                            "y": 715
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 630,
+                                "y0": 641
+                            },
+                            "x": 660,
+                            "y": 641
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 600,
+                                "y0": 699
+                            },
+                            "x": 660,
+                            "y": 699
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 630,
+                                "y0": 719
+                            },
+                            "x": 660,
+                            "y": 719
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 600,
+                                "y0": 715
+                            },
+                            "x": 660,
+                            "y": 653
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 201,
+                                "y0": 717
+                            },
+                            "x": 261,
+                            "y": 717
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 231,
+                                "y0": 520
+                            },
+                            "x": 261,
+                            "y": 520
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 201,
+                                "y0": 641
+                            },
+                            "x": 261,
+                            "y": 641
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 231,
+                                "y0": 719
+                            },
+                            "x": 261,
+                            "y": 719
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 201,
+                                "y0": 717
+                            },
+                            "x": 261,
+                            "y": 532
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 999,
+                                "y0": 715
+                            },
+                            "x": 1059,
+                            "y": 714
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 1029,
+                                "y0": 179
+                            },
+                            "x": 1059,
+                            "y": 179
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 999,
+                                "y0": 696
+                            },
+                            "x": 1059,
+                            "y": 696
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 60,
+                                "x0": 1029,
+                                "y0": 719
+                            },
+                            "x": 1059,
+                            "y": 719
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 120,
+                                "x0": 999,
+                                "y0": 715
+                            },
+                            "x": 1059,
+                            "y": 334
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

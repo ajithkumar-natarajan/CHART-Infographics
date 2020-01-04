@@ -1,0 +1,1516 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 576,
+                        "x0": 679,
+                        "y0": 19
+                    },
+                    "text": "CPIA financial sector rating (1=low to 6=high) 2"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 120,
+                        "x0": 611,
+                        "y0": 924
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 365
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 153,
+                        "width": 86,
+                        "x0": 159,
+                        "y0": 760
+                    },
+                    "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                },
+                {
+                    "bb": {
+                        "height": 153,
+                        "width": 86,
+                        "x0": 584,
+                        "y0": 760
+                    },
+                    "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                },
+                {
+                    "bb": {
+                        "height": 51,
+                        "width": 20,
+                        "x0": 1076,
+                        "y0": 760
+                    },
+                    "text": "World"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 57,
+                        "y0": 733
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 57,
+                        "y0": 635
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 57,
+                        "y0": 537
+                    },
+                    "text": "4"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 57,
+                        "y0": 439
+                    },
+                    "text": "6"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 57,
+                        "y0": 341
+                    },
+                    "text": "8"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 242
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 144
+                    },
+                    "text": "12"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 46
+                    },
+                    "text": "14"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 960,
+                        "y0": 66
+                    },
+                    "text": "2010"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 960,
+                        "y0": 92
+                    },
+                    "text": "2008"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1080,
+                        "y0": 66
+                    },
+                    "text": "2005"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1200,
+                        "y0": 66
+                    },
+                    "text": "2007"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 576,
+                            "x0": 679,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "CPIA financial sector rating (1=low to 6=high) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 611,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 365
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 153,
+                            "width": 86,
+                            "x0": 159,
+                            "y0": 760
+                        },
+                        "id": 3,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 153,
+                            "width": 86,
+                            "x0": 584,
+                            "y0": 760
+                        },
+                        "id": 4,
+                        "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 20,
+                            "x0": 1076,
+                            "y0": 760
+                        },
+                        "id": 5,
+                        "text": "World"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 733
+                        },
+                        "id": 6,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 635
+                        },
+                        "id": 7,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 537
+                        },
+                        "id": 8,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 439
+                        },
+                        "id": 9,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 341
+                        },
+                        "id": 10,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 242
+                        },
+                        "id": 11,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 144
+                        },
+                        "id": 12,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 46
+                        },
+                        "id": 13,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 92
+                        },
+                        "id": 15,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "2005"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2007"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 576,
+                            "x0": 679,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "CPIA financial sector rating (1=low to 6=high) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 611,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 365
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 153,
+                            "width": 86,
+                            "x0": 159,
+                            "y0": 760
+                        },
+                        "id": 3,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 153,
+                            "width": 86,
+                            "x0": 584,
+                            "y0": 760
+                        },
+                        "id": 4,
+                        "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 20,
+                            "x0": 1076,
+                            "y0": 760
+                        },
+                        "id": 5,
+                        "text": "World"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 733
+                        },
+                        "id": 6,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 635
+                        },
+                        "id": 7,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 537
+                        },
+                        "id": 8,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 439
+                        },
+                        "id": 9,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 341
+                        },
+                        "id": 10,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 242
+                        },
+                        "id": 11,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 144
+                        },
+                        "id": 12,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 46
+                        },
+                        "id": 13,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 92
+                        },
+                        "id": 15,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "2005"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2007"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 697,
+                "width": 1175,
+                "x0": 83,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 245,
+                            "y": 744
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 670,
+                            "y": 744
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 1095,
+                            "y": 744
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 739
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 641
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 547
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 445
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 347
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 248
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 150
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 52
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 576,
+                            "x0": 679,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "CPIA financial sector rating (1=low to 6=high) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 611,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 365
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 153,
+                            "width": 86,
+                            "x0": 159,
+                            "y0": 760
+                        },
+                        "id": 3,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 153,
+                            "width": 86,
+                            "x0": 584,
+                            "y0": 760
+                        },
+                        "id": 4,
+                        "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 20,
+                            "x0": 1076,
+                            "y0": 760
+                        },
+                        "id": 5,
+                        "text": "World"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 733
+                        },
+                        "id": 6,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 635
+                        },
+                        "id": 7,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 537
+                        },
+                        "id": 8,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 439
+                        },
+                        "id": 9,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 341
+                        },
+                        "id": 10,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 242
+                        },
+                        "id": 11,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 144
+                        },
+                        "id": 12,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 46
+                        },
+                        "id": 13,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 92
+                        },
+                        "id": 15,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "2005"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2007"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 913,
+                        "y0": 68
+                    },
+                    "id": 14
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 913,
+                        "y0": 94
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1033,
+                        "y0": 68
+                    },
+                    "id": 16
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1153,
+                        "y0": 68
+                    },
+                    "id": 17
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 576,
+                            "x0": 679,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "CPIA financial sector rating (1=low to 6=high) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 611,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 365
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 153,
+                            "width": 86,
+                            "x0": 159,
+                            "y0": 760
+                        },
+                        "id": 3,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 153,
+                            "width": 86,
+                            "x0": 584,
+                            "y0": 760
+                        },
+                        "id": 4,
+                        "text": "Europe &\nCentral Asia\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 51,
+                            "width": 20,
+                            "x0": 1076,
+                            "y0": 760
+                        },
+                        "id": 5,
+                        "text": "World"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 733
+                        },
+                        "id": 6,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 635
+                        },
+                        "id": 7,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 537
+                        },
+                        "id": 8,
+                        "text": "4"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 439
+                        },
+                        "id": 9,
+                        "text": "6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 341
+                        },
+                        "id": 10,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 242
+                        },
+                        "id": 11,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 144
+                        },
+                        "id": 12,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 46
+                        },
+                        "id": 13,
+                        "text": "14"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "2010"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 92
+                        },
+                        "id": 15,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "2005"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "2007"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 697,
+                    "width": 1175,
+                    "x0": 83,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 245,
+                                "y": 744
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 670,
+                                "y": 744
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 1095,
+                                "y": 744
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 739
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 641
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 547
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 445
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 347
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 248
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 150
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 52
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 913,
+                            "y0": 68
+                        },
+                        "id": 14
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 913,
+                            "y0": 94
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1033,
+                            "y0": 68
+                        },
+                        "id": 16
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1153,
+                            "y0": 68
+                        },
+                        "id": 17
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "East Asia & Pacific (excluding high income)",
+                            "y": "2.90909090909"
+                        },
+                        {
+                            "x": "Europe & Central Asia (excluding high income)",
+                            "y": "3.3125"
+                        },
+                        {
+                            "x": "World",
+                            "y": "3.15333333333"
+                        }
+                    ],
+                    "name": "2007"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "East Asia & Pacific (excluding high income)",
+                            "y": "2.90909090909"
+                        },
+                        {
+                            "x": "Europe & Central Asia (excluding high income)",
+                            "y": "3.35"
+                        },
+                        {
+                            "x": "World",
+                            "y": "3.13157894737"
+                        }
+                    ],
+                    "name": "2005"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "East Asia & Pacific (excluding high income)",
+                            "y": "2.90909090909"
+                        },
+                        {
+                            "x": "Europe & Central Asia (excluding high income)",
+                            "y": "3.27777777778"
+                        },
+                        {
+                            "x": "World",
+                            "y": "3.06493506494"
+                        }
+                    ],
+                    "name": "2010"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "East Asia & Pacific (excluding high income)",
+                            "y": "2.86363636364"
+                        },
+                        {
+                            "x": "Europe & Central Asia (excluding high income)",
+                            "y": "3.4375"
+                        },
+                        {
+                            "x": "World",
+                            "y": "3.10666666667"
+                        }
+                    ],
+                    "name": "2008"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 143,
+                        "width": 212,
+                        "x0": 140,
+                        "y0": 597
+                    },
+                    {
+                        "height": 141,
+                        "width": 212,
+                        "x0": 140,
+                        "y0": 457
+                    },
+                    {
+                        "height": 143,
+                        "width": 212,
+                        "x0": 140,
+                        "y0": 314
+                    },
+                    {
+                        "height": 143,
+                        "width": 212,
+                        "x0": 140,
+                        "y0": 171
+                    },
+                    {
+                        "height": 161,
+                        "width": 212,
+                        "x0": 565,
+                        "y0": 579
+                    },
+                    {
+                        "height": 169,
+                        "width": 212,
+                        "x0": 565,
+                        "y0": 411
+                    },
+                    {
+                        "height": 164,
+                        "width": 212,
+                        "x0": 565,
+                        "y0": 246
+                    },
+                    {
+                        "height": 163,
+                        "width": 212,
+                        "x0": 565,
+                        "y0": 84
+                    },
+                    {
+                        "height": 150,
+                        "width": 212,
+                        "x0": 989,
+                        "y0": 590
+                    },
+                    {
+                        "height": 153,
+                        "width": 212,
+                        "x0": 989,
+                        "y0": 437
+                    },
+                    {
+                        "height": 154,
+                        "width": 212,
+                        "x0": 989,
+                        "y0": 284
+                    },
+                    {
+                        "height": 155,
+                        "width": 212,
+                        "x0": 989,
+                        "y0": 129
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

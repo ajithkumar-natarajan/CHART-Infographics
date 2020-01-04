@@ -1,0 +1,1265 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 423,
+                        "x0": 475,
+                        "y0": 19
+                    },
+                    "text": "PPG, official creditors (TDS, current US$) t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 333,
+                        "y0": 898
+                    },
+                    "text": "0.25"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 645,
+                        "y0": 898
+                    },
+                    "text": "0.75"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 801,
+                        "y0": 898
+                    },
+                    "text": "1.00"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 957,
+                        "y0": 898
+                    },
+                    "text": "1.25"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 177,
+                        "y0": 898
+                    },
+                    "text": "0.00"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 489,
+                        "y0": 898
+                    },
+                    "text": "0.50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 1113,
+                        "y0": 898
+                    },
+                    "text": "1.50"
+                },
+                {
+                    "bb": {
+                        "height": 41,
+                        "width": 71,
+                        "x0": 27,
+                        "y0": 561
+                    },
+                    "text": "Lao PDR"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 45,
+                        "x0": 54,
+                        "y0": 147
+                    },
+                    "text": "Togo"
+                },
+                {
+                    "bb": {
+                        "height": 30,
+                        "width": 42,
+                        "x0": 56,
+                        "y0": 768
+                    },
+                    "text": "Haiti"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 80,
+                        "x0": 19,
+                        "y0": 354
+                    },
+                    "text": "Myanmar"
+                },
+                {
+                    "bb": {
+                        "height": 13,
+                        "width": 27,
+                        "x0": 1227,
+                        "y0": 925
+                    },
+                    "text": ""
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 423,
+                            "x0": 475,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "PPG, official creditors (TDS, current US$) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 333,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 645,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 801,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 957,
+                            "y0": 898
+                        },
+                        "id": 4,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 177,
+                            "y0": 898
+                        },
+                        "id": 5,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 489,
+                            "y0": 898
+                        },
+                        "id": 6,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 1113,
+                            "y0": 898
+                        },
+                        "id": 7,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 71,
+                            "x0": 27,
+                            "y0": 561
+                        },
+                        "id": 8,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 45,
+                            "x0": 54,
+                            "y0": 147
+                        },
+                        "id": 9,
+                        "text": "Togo"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 42,
+                            "x0": 56,
+                            "y0": 768
+                        },
+                        "id": 10,
+                        "text": "Haiti"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 80,
+                            "x0": 19,
+                            "y0": 354
+                        },
+                        "id": 11,
+                        "text": "Myanmar"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 27,
+                            "x0": 1227,
+                            "y0": 925
+                        },
+                        "id": 12,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "ignore"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 423,
+                            "x0": 475,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "PPG, official creditors (TDS, current US$) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 333,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 645,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 801,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 957,
+                            "y0": 898
+                        },
+                        "id": 4,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 177,
+                            "y0": 898
+                        },
+                        "id": 5,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 489,
+                            "y0": 898
+                        },
+                        "id": 6,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 1113,
+                            "y0": 898
+                        },
+                        "id": 7,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 71,
+                            "x0": 27,
+                            "y0": 561
+                        },
+                        "id": 8,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 45,
+                            "x0": 54,
+                            "y0": 147
+                        },
+                        "id": 9,
+                        "text": "Togo"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 42,
+                            "x0": 56,
+                            "y0": 768
+                        },
+                        "id": 10,
+                        "text": "Haiti"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 80,
+                            "x0": 19,
+                            "y0": 354
+                        },
+                        "id": 11,
+                        "text": "Myanmar"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 27,
+                            "x0": 1227,
+                            "y0": 925
+                        },
+                        "id": 12,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 835,
+                "width": 1144,
+                "x0": 114,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 114,
+                            "y": 567
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 114,
+                            "y": 153
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 114,
+                            "y": 774
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 114,
+                            "y": 360
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 350,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 662,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 819,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 975,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 194,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 506,
+                            "y": 878
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1131,
+                            "y": 878
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 423,
+                            "x0": 475,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "PPG, official creditors (TDS, current US$) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 333,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 645,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 801,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 957,
+                            "y0": 898
+                        },
+                        "id": 4,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 177,
+                            "y0": 898
+                        },
+                        "id": 5,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 489,
+                            "y0": 898
+                        },
+                        "id": 6,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 1113,
+                            "y0": 898
+                        },
+                        "id": 7,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 71,
+                            "x0": 27,
+                            "y0": 561
+                        },
+                        "id": 8,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 45,
+                            "x0": 54,
+                            "y0": 147
+                        },
+                        "id": 9,
+                        "text": "Togo"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 42,
+                            "x0": 56,
+                            "y0": 768
+                        },
+                        "id": 10,
+                        "text": "Haiti"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 80,
+                            "x0": 19,
+                            "y0": 354
+                        },
+                        "id": 11,
+                        "text": "Myanmar"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 27,
+                            "x0": 1227,
+                            "y0": 925
+                        },
+                        "id": 12,
+                        "text": ""
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 423,
+                            "x0": 475,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "PPG, official creditors (TDS, current US$) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 333,
+                            "y0": 898
+                        },
+                        "id": 1,
+                        "text": "0.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 645,
+                            "y0": 898
+                        },
+                        "id": 2,
+                        "text": "0.75"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 801,
+                            "y0": 898
+                        },
+                        "id": 3,
+                        "text": "1.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 957,
+                            "y0": 898
+                        },
+                        "id": 4,
+                        "text": "1.25"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 177,
+                            "y0": 898
+                        },
+                        "id": 5,
+                        "text": "0.00"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 489,
+                            "y0": 898
+                        },
+                        "id": 6,
+                        "text": "0.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 1113,
+                            "y0": 898
+                        },
+                        "id": 7,
+                        "text": "1.50"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 71,
+                            "x0": 27,
+                            "y0": 561
+                        },
+                        "id": 8,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 45,
+                            "x0": 54,
+                            "y0": 147
+                        },
+                        "id": 9,
+                        "text": "Togo"
+                    },
+                    {
+                        "bb": {
+                            "height": 30,
+                            "width": 42,
+                            "x0": 56,
+                            "y0": 768
+                        },
+                        "id": 10,
+                        "text": "Haiti"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 80,
+                            "x0": 19,
+                            "y0": 354
+                        },
+                        "id": 11,
+                        "text": "Myanmar"
+                    },
+                    {
+                        "bb": {
+                            "height": 13,
+                            "width": 27,
+                            "x0": 1227,
+                            "y0": 925
+                        },
+                        "id": 12,
+                        "text": ""
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "ignore"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 835,
+                    "width": 1144,
+                    "x0": 114,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 114,
+                                "y": 567
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 114,
+                                "y": 153
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 114,
+                                "y": 774
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 114,
+                                "y": 360
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 350,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 662,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 819,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 975,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 194,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 506,
+                                "y": 878
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1131,
+                                "y": 878
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 9991000.0,
+                        "max": 66177000.0,
+                        "median": 17468000.0,
+                        "min": 1414000.0,
+                        "third_quartile": 34145250.0
+                    },
+                    "name": "Haiti"
+                },
+                {
+                    "data": {
+                        "first_quartile": 5388750.0,
+                        "max": 106943464.63233,
+                        "median": 22820000.0,
+                        "min": 1437000.0,
+                        "third_quartile": 56653750.0
+                    },
+                    "name": "Lao PDR"
+                },
+                {
+                    "data": {
+                        "first_quartile": 6889250.0,
+                        "max": 144966000.0,
+                        "median": 37299750.52752837,
+                        "min": 1579000.0,
+                        "third_quartile": 71494250.0
+                    },
+                    "name": "Myanmar"
+                },
+                {
+                    "data": {
+                        "first_quartile": 7072500.0,
+                        "max": 97692000.0,
+                        "median": 24020000.0,
+                        "min": 1582000.0,
+                        "third_quartile": 47711790.24683808
+                    },
+                    "name": "Togo"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 229,
+                                "y0": 521
+                            },
+                            "x": 229,
+                            "y": 568
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 47,
+                                "width": 0,
+                                "x0": 863,
+                                "y0": 545
+                            },
+                            "x": 863,
+                            "y": 568
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 338,
+                                "y0": 521
+                            },
+                            "x": 338,
+                            "y": 568
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 47,
+                                "width": 0,
+                                "x0": 204,
+                                "y0": 545
+                            },
+                            "x": 204,
+                            "y": 568
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 549,
+                                "y0": 521
+                            },
+                            "x": 549,
+                            "y": 568
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 239,
+                                "y0": 108
+                            },
+                            "x": 239,
+                            "y": 155
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 47,
+                                "width": 0,
+                                "x0": 805,
+                                "y0": 131
+                            },
+                            "x": 805,
+                            "y": 154
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 345,
+                                "y0": 108
+                            },
+                            "x": 345,
+                            "y": 155
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 47,
+                                "width": 0,
+                                "x0": 205,
+                                "y0": 131
+                            },
+                            "x": 205,
+                            "y": 154
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 493,
+                                "y0": 108
+                            },
+                            "x": 493,
+                            "y": 155
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 258,
+                                "y0": 728
+                            },
+                            "x": 258,
+                            "y": 775
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 47,
+                                "width": 0,
+                                "x0": 608,
+                                "y0": 752
+                            },
+                            "x": 608,
+                            "y": 775
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 304,
+                                "y0": 728
+                            },
+                            "x": 304,
+                            "y": 775
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 47,
+                                "width": 0,
+                                "x0": 204,
+                                "y0": 752
+                            },
+                            "x": 204,
+                            "y": 775
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 408,
+                                "y0": 728
+                            },
+                            "x": 408,
+                            "y": 775
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 238,
+                                "y0": 314
+                            },
+                            "x": 238,
+                            "y": 361
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 47,
+                                "width": 0,
+                                "x0": 1100,
+                                "y0": 338
+                            },
+                            "x": 1100,
+                            "y": 361
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 428,
+                                "y0": 314
+                            },
+                            "x": 428,
+                            "y": 361
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 47,
+                                "width": 0,
+                                "x0": 205,
+                                "y0": 338
+                            },
+                            "x": 205,
+                            "y": 361
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 93,
+                                "width": 0,
+                                "x0": 642,
+                                "y0": 314
+                            },
+                            "x": 642,
+                            "y": 361
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

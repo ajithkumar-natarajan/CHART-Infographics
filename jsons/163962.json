@@ -1,0 +1,971 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 532,
+                        "x0": 405,
+                        "y0": 19
+                    },
+                    "text": "Age dependency ratio (% of working-age population)"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 114,
+                        "x0": 615,
+                        "y0": 924
+                    },
+                    "text": "Country Code"
+                },
+                {
+                    "bb": {
+                        "height": 42,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 429
+                    },
+                    "text": "2008"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 25,
+                        "x0": 116,
+                        "y0": 869
+                    },
+                    "text": "KIR"
+                },
+                {
+                    "bb": {
+                        "height": 44,
+                        "width": 28,
+                        "x0": 466,
+                        "y0": 869
+                    },
+                    "text": "MDG"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 27,
+                        "x0": 821,
+                        "y0": 869
+                    },
+                    "text": "CUB"
+                },
+                {
+                    "bb": {
+                        "height": 42,
+                        "width": 28,
+                        "x0": 1174,
+                        "y0": 869
+                    },
+                    "text": "MDV"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 691
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 533
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 375
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 217
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 59
+                    },
+                    "text": "90"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 532,
+                            "x0": 405,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 615,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 429
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 25,
+                            "x0": 116,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "KIR"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 28,
+                            "x0": 466,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "MDG"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 27,
+                            "x0": 821,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "CUB"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 28,
+                            "x0": 1174,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "MDV"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 691
+                        },
+                        "id": 7,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 533
+                        },
+                        "id": 8,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 375
+                        },
+                        "id": 9,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 217
+                        },
+                        "id": 10,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 59
+                        },
+                        "id": 11,
+                        "text": "90"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 532,
+                            "x0": 405,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 615,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 429
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 25,
+                            "x0": 116,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "KIR"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 28,
+                            "x0": 466,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "MDG"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 27,
+                            "x0": 821,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "CUB"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 28,
+                            "x0": 1174,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "MDV"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 691
+                        },
+                        "id": 7,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 533
+                        },
+                        "id": 8,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 375
+                        },
+                        "id": 9,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 217
+                        },
+                        "id": 10,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 59
+                        },
+                        "id": 11,
+                        "text": "90"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 806,
+                "width": 1174,
+                "x0": 84,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 140,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 494,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 847,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1201,
+                            "y": 853
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 697
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 539
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 381
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 223
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 65
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 532,
+                            "x0": 405,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 615,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 429
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 25,
+                            "x0": 116,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "KIR"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 28,
+                            "x0": 466,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "MDG"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 27,
+                            "x0": 821,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "CUB"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 28,
+                            "x0": 1174,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "MDV"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 691
+                        },
+                        "id": 7,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 533
+                        },
+                        "id": 8,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 375
+                        },
+                        "id": 9,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 217
+                        },
+                        "id": 10,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 59
+                        },
+                        "id": 11,
+                        "text": "90"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 532,
+                            "x0": 405,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 615,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 429
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 25,
+                            "x0": 116,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "KIR"
+                    },
+                    {
+                        "bb": {
+                            "height": 44,
+                            "width": 28,
+                            "x0": 466,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "MDG"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 27,
+                            "x0": 821,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "CUB"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 28,
+                            "x0": 1174,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "MDV"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 691
+                        },
+                        "id": 7,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 533
+                        },
+                        "id": 8,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 375
+                        },
+                        "id": 9,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 217
+                        },
+                        "id": 10,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 59
+                        },
+                        "id": 11,
+                        "text": "90"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 806,
+                    "width": 1174,
+                    "x0": 84,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 140,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 494,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 847,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1201,
+                                "y": 853
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 697
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 539
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 381
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 223
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 84,
+                                "y": 65
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "KIR",
+                            "y": "66.2220120901"
+                        },
+                        {
+                            "x": "MDG",
+                            "y": "88.6490662486"
+                        },
+                        {
+                            "x": "CUB",
+                            "y": "42.7186899174"
+                        },
+                        {
+                            "x": "MDV",
+                            "y": "46.8489862622"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 141,
+                            "y": 442
+                        },
+                        {
+                            "x": 495,
+                            "y": 87
+                        },
+                        {
+                            "x": 848,
+                            "y": 813
+                        },
+                        {
+                            "x": 1202,
+                            "y": 748
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

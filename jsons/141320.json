@@ -1,0 +1,1137 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 41,
+                        "width": 829,
+                        "x0": 59,
+                        "y0": 20
+                    },
+                    "text": "All education staff compensation, tertiary (% of total expenditure in tertiary public institutions) t"
+                },
+                {
+                    "bb": {
+                        "height": 98,
+                        "width": 45,
+                        "x0": 163,
+                        "y0": 843
+                    },
+                    "text": "Korea, Rep."
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 34,
+                        "x0": 474,
+                        "y0": 843
+                    },
+                    "text": "Turkey"
+                },
+                {
+                    "bb": {
+                        "height": 80,
+                        "width": 40,
+                        "x0": 1066,
+                        "y0": 843
+                    },
+                    "text": "Paraguay"
+                },
+                {
+                    "bb": {
+                        "height": 49,
+                        "width": 30,
+                        "x0": 776,
+                        "y0": 843
+                    },
+                    "text": "Japan"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 129
+                    },
+                    "text": "90"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 403
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 814
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 266
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 677
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 540
+                    },
+                    "text": "60"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 829,
+                            "x0": 59,
+                            "y0": 20
+                        },
+                        "id": 0,
+                        "text": "All education staff compensation, tertiary (% of total expenditure in tertiary public institutions) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 98,
+                            "width": 45,
+                            "x0": 163,
+                            "y0": 843
+                        },
+                        "id": 1,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 34,
+                            "x0": 474,
+                            "y0": 843
+                        },
+                        "id": 2,
+                        "text": "Turkey"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 40,
+                            "x0": 1066,
+                            "y0": 843
+                        },
+                        "id": 3,
+                        "text": "Paraguay"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 30,
+                            "x0": 776,
+                            "y0": 843
+                        },
+                        "id": 4,
+                        "text": "Japan"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 129
+                        },
+                        "id": 5,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 403
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 814
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 266
+                        },
+                        "id": 8,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 677
+                        },
+                        "id": 9,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 540
+                        },
+                        "id": 10,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 829,
+                            "x0": 59,
+                            "y0": 20
+                        },
+                        "id": 0,
+                        "text": "All education staff compensation, tertiary (% of total expenditure in tertiary public institutions) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 98,
+                            "width": 45,
+                            "x0": 163,
+                            "y0": 843
+                        },
+                        "id": 1,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 34,
+                            "x0": 474,
+                            "y0": 843
+                        },
+                        "id": 2,
+                        "text": "Turkey"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 40,
+                            "x0": 1066,
+                            "y0": 843
+                        },
+                        "id": 3,
+                        "text": "Paraguay"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 30,
+                            "x0": 776,
+                            "y0": 843
+                        },
+                        "id": 4,
+                        "text": "Japan"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 129
+                        },
+                        "id": 5,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 403
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 814
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 266
+                        },
+                        "id": 8,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 677
+                        },
+                        "id": 9,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 540
+                        },
+                        "id": 10,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 757,
+                "width": 1203,
+                "x0": 55,
+                "y0": 70
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 207,
+                            "y": 827
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 506,
+                            "y": 827
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 1104,
+                            "y": 827
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 805,
+                            "y": 827
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 135
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 409
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 820
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 272
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 683
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 546
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 829,
+                            "x0": 59,
+                            "y0": 20
+                        },
+                        "id": 0,
+                        "text": "All education staff compensation, tertiary (% of total expenditure in tertiary public institutions) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 98,
+                            "width": 45,
+                            "x0": 163,
+                            "y0": 843
+                        },
+                        "id": 1,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 34,
+                            "x0": 474,
+                            "y0": 843
+                        },
+                        "id": 2,
+                        "text": "Turkey"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 40,
+                            "x0": 1066,
+                            "y0": 843
+                        },
+                        "id": 3,
+                        "text": "Paraguay"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 30,
+                            "x0": 776,
+                            "y0": 843
+                        },
+                        "id": 4,
+                        "text": "Japan"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 129
+                        },
+                        "id": 5,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 403
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 814
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 266
+                        },
+                        "id": 8,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 677
+                        },
+                        "id": 9,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 540
+                        },
+                        "id": 10,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 829,
+                            "x0": 59,
+                            "y0": 20
+                        },
+                        "id": 0,
+                        "text": "All education staff compensation, tertiary (% of total expenditure in tertiary public institutions) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 98,
+                            "width": 45,
+                            "x0": 163,
+                            "y0": 843
+                        },
+                        "id": 1,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 34,
+                            "x0": 474,
+                            "y0": 843
+                        },
+                        "id": 2,
+                        "text": "Turkey"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 40,
+                            "x0": 1066,
+                            "y0": 843
+                        },
+                        "id": 3,
+                        "text": "Paraguay"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 30,
+                            "x0": 776,
+                            "y0": 843
+                        },
+                        "id": 4,
+                        "text": "Japan"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 129
+                        },
+                        "id": 5,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 403
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 814
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 266
+                        },
+                        "id": 8,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 677
+                        },
+                        "id": 9,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 540
+                        },
+                        "id": 10,
+                        "text": "60"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 757,
+                    "width": 1203,
+                    "x0": 55,
+                    "y0": 70
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 207,
+                                "y": 827
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 506,
+                                "y": 827
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 1104,
+                                "y": 827
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 805,
+                                "y": 827
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 135
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 409
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 820
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 272
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 683
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 546
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 44.4142842294068,
+                        "max": 48.60275514740849,
+                        "median": 45.47804053548609,
+                        "min": 41.9672584534,
+                        "third_quartile": 46.71541275697103
+                    },
+                    "name": "Korea, Rep."
+                },
+                {
+                    "data": {
+                        "first_quartile": 54.48835960416672,
+                        "max": 67.9300918579,
+                        "median": 58.014598478056584,
+                        "min": 47.002060024569076,
+                        "third_quartile": 60.927219985654546
+                    },
+                    "name": "Turkey"
+                },
+                {
+                    "data": {
+                        "first_quartile": 47.73139257340219,
+                        "max": 56.6718788147,
+                        "median": 49.57492431074092,
+                        "min": 42.8033409119,
+                        "third_quartile": 52.513190084075674
+                    },
+                    "name": "Japan"
+                },
+                {
+                    "data": {
+                        "first_quartile": 63.38025486139056,
+                        "max": 92.3737030029,
+                        "median": 80.9550114325113,
+                        "min": 43.1436500549,
+                        "third_quartile": 90.90241762959499
+                    },
+                    "name": "Paraguay"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 141,
+                                "y0": 760
+                            },
+                            "x": 208,
+                            "y": 761
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 175,
+                                "y0": 703
+                            },
+                            "x": 208,
+                            "y": 703
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 141,
+                                "y0": 746
+                            },
+                            "x": 208,
+                            "y": 746
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 175,
+                                "y0": 794
+                            },
+                            "x": 208,
+                            "y": 794
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 141,
+                                "y0": 760
+                            },
+                            "x": 208,
+                            "y": 729
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 440,
+                                "y0": 623
+                            },
+                            "x": 507,
+                            "y": 622
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 474,
+                                "y0": 438
+                            },
+                            "x": 507,
+                            "y": 438
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 440,
+                                "y0": 574
+                            },
+                            "x": 507,
+                            "y": 574
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 474,
+                                "y0": 725
+                            },
+                            "x": 507,
+                            "y": 725
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 440,
+                                "y0": 623
+                            },
+                            "x": 507,
+                            "y": 534
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1038,
+                                "y0": 501
+                            },
+                            "x": 1105,
+                            "y": 501
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 1072,
+                                "y0": 104
+                            },
+                            "x": 1105,
+                            "y": 104
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1038,
+                                "y0": 260
+                            },
+                            "x": 1105,
+                            "y": 260
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 1072,
+                                "y0": 778
+                            },
+                            "x": 1105,
+                            "y": 778
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 1038,
+                                "y0": 501
+                            },
+                            "x": 1105,
+                            "y": 124
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 739,
+                                "y0": 715
+                            },
+                            "x": 806,
+                            "y": 715
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 773,
+                                "y0": 593
+                            },
+                            "x": 806,
+                            "y": 593
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 739,
+                                "y0": 690
+                            },
+                            "x": 806,
+                            "y": 690
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 67,
+                                "x0": 773,
+                                "y0": 783
+                            },
+                            "x": 806,
+                            "y": 783
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 135,
+                                "x0": 739,
+                                "y0": 715
+                            },
+                            "x": 806,
+                            "y": 650
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

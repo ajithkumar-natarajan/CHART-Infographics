@@ -1,0 +1,1510 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 719,
+                        "x0": 76,
+                        "y0": 15
+                    },
+                    "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 616,
+                        "y0": 932
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 396
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 88,
+                        "width": 34,
+                        "x0": 95,
+                        "y0": 811
+                    },
+                    "text": "Sierra Leone"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 28,
+                        "x0": 255,
+                        "y0": 811
+                    },
+                    "text": "Lebanon"
+                },
+                {
+                    "bb": {
+                        "height": 33,
+                        "width": 21,
+                        "x0": 416,
+                        "y0": 811
+                    },
+                    "text": "Italy"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 28,
+                        "x0": 562,
+                        "y0": 811
+                    },
+                    "text": "Thailand"
+                },
+                {
+                    "bb": {
+                        "height": 110,
+                        "width": 39,
+                        "x0": 704,
+                        "y0": 811
+                    },
+                    "text": "Channel Islands"
+                },
+                {
+                    "bb": {
+                        "height": 34,
+                        "width": 21,
+                        "x0": 876,
+                        "y0": 811
+                    },
+                    "text": "Peru"
+                },
+                {
+                    "bb": {
+                        "height": 38,
+                        "width": 22,
+                        "x0": 1029,
+                        "y0": 811
+                    },
+                    "text": "Chad"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 30,
+                        "x0": 1174,
+                        "y0": 811
+                    },
+                    "text": "Nicaragua"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 47,
+                        "y0": 753
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 605
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 457
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 309
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 161
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1210,
+                        "y0": 58
+                    },
+                    "text": "1993"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1210,
+                        "y0": 79
+                    },
+                    "text": "2012"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 719,
+                            "x0": 76,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 396
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 34,
+                            "x0": 95,
+                            "y0": 811
+                        },
+                        "id": 3,
+                        "text": "Sierra Leone"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 28,
+                            "x0": 255,
+                            "y0": 811
+                        },
+                        "id": 4,
+                        "text": "Lebanon"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 21,
+                            "x0": 416,
+                            "y0": 811
+                        },
+                        "id": 5,
+                        "text": "Italy"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 28,
+                            "x0": 562,
+                            "y0": 811
+                        },
+                        "id": 6,
+                        "text": "Thailand"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 39,
+                            "x0": 704,
+                            "y0": 811
+                        },
+                        "id": 7,
+                        "text": "Channel Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 21,
+                            "x0": 876,
+                            "y0": 811
+                        },
+                        "id": 8,
+                        "text": "Peru"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 22,
+                            "x0": 1029,
+                            "y0": 811
+                        },
+                        "id": 9,
+                        "text": "Chad"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 1174,
+                            "y0": 811
+                        },
+                        "id": 10,
+                        "text": "Nicaragua"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 47,
+                            "y0": 753
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 605
+                        },
+                        "id": 12,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 457
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 309
+                        },
+                        "id": 14,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 161
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "1993"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 79
+                        },
+                        "id": 17,
+                        "text": "2012"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 719,
+                            "x0": 76,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 396
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 34,
+                            "x0": 95,
+                            "y0": 811
+                        },
+                        "id": 3,
+                        "text": "Sierra Leone"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 28,
+                            "x0": 255,
+                            "y0": 811
+                        },
+                        "id": 4,
+                        "text": "Lebanon"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 21,
+                            "x0": 416,
+                            "y0": 811
+                        },
+                        "id": 5,
+                        "text": "Italy"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 28,
+                            "x0": 562,
+                            "y0": 811
+                        },
+                        "id": 6,
+                        "text": "Thailand"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 39,
+                            "x0": 704,
+                            "y0": 811
+                        },
+                        "id": 7,
+                        "text": "Channel Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 21,
+                            "x0": 876,
+                            "y0": 811
+                        },
+                        "id": 8,
+                        "text": "Peru"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 22,
+                            "x0": 1029,
+                            "y0": 811
+                        },
+                        "id": 9,
+                        "text": "Chad"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 1174,
+                            "y0": 811
+                        },
+                        "id": 10,
+                        "text": "Nicaragua"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 47,
+                            "y0": 753
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 605
+                        },
+                        "id": 12,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 457
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 309
+                        },
+                        "id": 14,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 161
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "1993"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 79
+                        },
+                        "id": 17,
+                        "text": "2012"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 753,
+                "width": 1189,
+                "x0": 72,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 128,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 282,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 435,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 589,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 743,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 896,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1050,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 795
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 609
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 461
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 313
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 165
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 719,
+                            "x0": 76,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 396
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 34,
+                            "x0": 95,
+                            "y0": 811
+                        },
+                        "id": 3,
+                        "text": "Sierra Leone"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 28,
+                            "x0": 255,
+                            "y0": 811
+                        },
+                        "id": 4,
+                        "text": "Lebanon"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 21,
+                            "x0": 416,
+                            "y0": 811
+                        },
+                        "id": 5,
+                        "text": "Italy"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 28,
+                            "x0": 562,
+                            "y0": 811
+                        },
+                        "id": 6,
+                        "text": "Thailand"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 39,
+                            "x0": 704,
+                            "y0": 811
+                        },
+                        "id": 7,
+                        "text": "Channel Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 21,
+                            "x0": 876,
+                            "y0": 811
+                        },
+                        "id": 8,
+                        "text": "Peru"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 22,
+                            "x0": 1029,
+                            "y0": 811
+                        },
+                        "id": 9,
+                        "text": "Chad"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 1174,
+                            "y0": 811
+                        },
+                        "id": 10,
+                        "text": "Nicaragua"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 47,
+                            "y0": 753
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 605
+                        },
+                        "id": 12,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 457
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 309
+                        },
+                        "id": 14,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 161
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "1993"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 79
+                        },
+                        "id": 17,
+                        "text": "2012"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 28,
+                        "x0": 1171,
+                        "y0": 56
+                    },
+                    "id": 16
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 28,
+                        "x0": 1171,
+                        "y0": 77
+                    },
+                    "id": 17
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 719,
+                            "x0": 76,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 396
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 34,
+                            "x0": 95,
+                            "y0": 811
+                        },
+                        "id": 3,
+                        "text": "Sierra Leone"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 28,
+                            "x0": 255,
+                            "y0": 811
+                        },
+                        "id": 4,
+                        "text": "Lebanon"
+                    },
+                    {
+                        "bb": {
+                            "height": 33,
+                            "width": 21,
+                            "x0": 416,
+                            "y0": 811
+                        },
+                        "id": 5,
+                        "text": "Italy"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 28,
+                            "x0": 562,
+                            "y0": 811
+                        },
+                        "id": 6,
+                        "text": "Thailand"
+                    },
+                    {
+                        "bb": {
+                            "height": 110,
+                            "width": 39,
+                            "x0": 704,
+                            "y0": 811
+                        },
+                        "id": 7,
+                        "text": "Channel Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 34,
+                            "width": 21,
+                            "x0": 876,
+                            "y0": 811
+                        },
+                        "id": 8,
+                        "text": "Peru"
+                    },
+                    {
+                        "bb": {
+                            "height": 38,
+                            "width": 22,
+                            "x0": 1029,
+                            "y0": 811
+                        },
+                        "id": 9,
+                        "text": "Chad"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 1174,
+                            "y0": 811
+                        },
+                        "id": 10,
+                        "text": "Nicaragua"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 47,
+                            "y0": 753
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 605
+                        },
+                        "id": 12,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 457
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 309
+                        },
+                        "id": 14,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 161
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 16,
+                        "text": "1993"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 79
+                        },
+                        "id": 17,
+                        "text": "2012"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 753,
+                    "width": 1189,
+                    "x0": 72,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 128,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 282,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 435,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 589,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 743,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 896,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1050,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 795
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 609
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 461
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 313
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 165
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 28,
+                            "x0": 1171,
+                            "y0": 56
+                        },
+                        "id": 16
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 28,
+                            "x0": 1171,
+                            "y0": 77
+                        },
+                        "id": 17
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Sierra Leone",
+                            "y": "65.2570037842"
+                        },
+                        {
+                            "x": "Lebanon",
+                            "y": "0.0489999987185"
+                        },
+                        {
+                            "x": "Italy",
+                            "y": "7.19600009918"
+                        },
+                        {
+                            "x": "Thailand",
+                            "y": "57.5400009155"
+                        },
+                        {
+                            "x": "Channel Islands",
+                            "y": "17.9869995117"
+                        },
+                        {
+                            "x": "Peru",
+                            "y": "35.6319999695"
+                        },
+                        {
+                            "x": "Chad",
+                            "y": "91.6449966431"
+                        },
+                        {
+                            "x": "Nicaragua",
+                            "y": "10.2749996185"
+                        }
+                    ],
+                    "name": "1993"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Sierra Leone",
+                            "y": "59.9790000916"
+                        },
+                        {
+                            "x": "Lebanon",
+                            "y": "0.0370000004768"
+                        },
+                        {
+                            "x": "Italy",
+                            "y": "2.57399988174"
+                        },
+                        {
+                            "x": "Thailand",
+                            "y": "40.3720016479"
+                        },
+                        {
+                            "x": "Channel Islands",
+                            "y": "13.4799995422"
+                        },
+                        {
+                            "x": "Peru",
+                            "y": "26.1310005188"
+                        },
+                        {
+                            "x": "Chad",
+                            "y": "91.7470016479"
+                        },
+                        {
+                            "x": "Nicaragua",
+                            "y": "9.34399986267"
+                        }
+                    ],
+                    "name": "2012"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 129,
+                            "y": 276
+                        },
+                        {
+                            "x": 283,
+                            "y": 758
+                        },
+                        {
+                            "x": 436,
+                            "y": 705
+                        },
+                        {
+                            "x": 590,
+                            "y": 333
+                        },
+                        {
+                            "x": 744,
+                            "y": 625
+                        },
+                        {
+                            "x": 897,
+                            "y": 495
+                        },
+                        {
+                            "x": 1051,
+                            "y": 80
+                        },
+                        {
+                            "x": 1204,
+                            "y": 682
+                        }
+                    ],
+                    [
+                        {
+                            "x": 129,
+                            "y": 315
+                        },
+                        {
+                            "x": 283,
+                            "y": 758
+                        },
+                        {
+                            "x": 436,
+                            "y": 739
+                        },
+                        {
+                            "x": 590,
+                            "y": 460
+                        },
+                        {
+                            "x": 744,
+                            "y": 659
+                        },
+                        {
+                            "x": 897,
+                            "y": 565
+                        },
+                        {
+                            "x": 1051,
+                            "y": 80
+                        },
+                        {
+                            "x": 1204,
+                            "y": 689
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

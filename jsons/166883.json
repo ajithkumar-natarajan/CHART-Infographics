@@ -1,0 +1,1208 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 311,
+                        "x0": 947,
+                        "y0": 14
+                    },
+                    "text": "Serbia and Montenegro 1999 Import"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 625,
+                        "y0": 927
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 70,
+                        "width": 14,
+                        "x0": 17,
+                        "y0": 377
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 116,
+                        "width": 71,
+                        "x0": 53,
+                        "y0": 799
+                    },
+                    "text": "Glucose\nincluding syrup\nof 20%-50% dry\nweight fructos"
+                },
+                {
+                    "bb": {
+                        "height": 108,
+                        "width": 70,
+                        "x0": 234,
+                        "y0": 799
+                    },
+                    "text": "Refined sugar,\nin solid form,\nnes, pure\nsucrose"
+                },
+                {
+                    "bb": {
+                        "height": 114,
+                        "width": 71,
+                        "x0": 413,
+                        "y0": 799
+                    },
+                    "text": "Waste, scrap of\npaper, board of\nbleached\nchemical pul"
+                },
+                {
+                    "bb": {
+                        "height": 116,
+                        "width": 39,
+                        "x0": 625,
+                        "y0": 799
+                    },
+                    "text": "Combed wool in\nfragments"
+                },
+                {
+                    "bb": {
+                        "height": 117,
+                        "width": 55,
+                        "x0": 789,
+                        "y0": 799
+                    },
+                    "text": "Glucose,\nglucose syrup <\n20% fructose"
+                },
+                {
+                    "bb": {
+                        "height": 103,
+                        "width": 38,
+                        "x0": 986,
+                        "y0": 799
+                    },
+                    "text": "Bovine skin\nleather, whole"
+                },
+                {
+                    "bb": {
+                        "height": 93,
+                        "width": 53,
+                        "x0": 1151,
+                        "y0": 799
+                    },
+                    "text": "Pasta except\nuncooked or\nstuffed"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 741
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 591
+                    },
+                    "text": "1"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 442
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 292
+                    },
+                    "text": "3"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 42,
+                        "y0": 143
+                    },
+                    "text": "4"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 311,
+                            "x0": 947,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Serbia and Montenegro 1999 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 71,
+                            "x0": 53,
+                            "y0": 799
+                        },
+                        "id": 3,
+                        "text": "Glucose\nincluding syrup\nof 20%-50% dry\nweight fructos"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 70,
+                            "x0": 234,
+                            "y0": 799
+                        },
+                        "id": 4,
+                        "text": "Refined sugar,\nin solid form,\nnes, pure\nsucrose"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 71,
+                            "x0": 413,
+                            "y0": 799
+                        },
+                        "id": 5,
+                        "text": "Waste, scrap of\npaper, board of\nbleached\nchemical pul"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 39,
+                            "x0": 625,
+                            "y0": 799
+                        },
+                        "id": 6,
+                        "text": "Combed wool in\nfragments"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 55,
+                            "x0": 789,
+                            "y0": 799
+                        },
+                        "id": 7,
+                        "text": "Glucose,\nglucose syrup <\n20% fructose"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 38,
+                            "x0": 986,
+                            "y0": 799
+                        },
+                        "id": 8,
+                        "text": "Bovine skin\nleather, whole"
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 53,
+                            "x0": 1151,
+                            "y0": 799
+                        },
+                        "id": 9,
+                        "text": "Pasta except\nuncooked or\nstuffed"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 741
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 591
+                        },
+                        "id": 11,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 442
+                        },
+                        "id": 12,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 292
+                        },
+                        "id": 13,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 143
+                        },
+                        "id": 14,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 311,
+                            "x0": 947,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Serbia and Montenegro 1999 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 71,
+                            "x0": 53,
+                            "y0": 799
+                        },
+                        "id": 3,
+                        "text": "Glucose\nincluding syrup\nof 20%-50% dry\nweight fructos"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 70,
+                            "x0": 234,
+                            "y0": 799
+                        },
+                        "id": 4,
+                        "text": "Refined sugar,\nin solid form,\nnes, pure\nsucrose"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 71,
+                            "x0": 413,
+                            "y0": 799
+                        },
+                        "id": 5,
+                        "text": "Waste, scrap of\npaper, board of\nbleached\nchemical pul"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 39,
+                            "x0": 625,
+                            "y0": 799
+                        },
+                        "id": 6,
+                        "text": "Combed wool in\nfragments"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 55,
+                            "x0": 789,
+                            "y0": 799
+                        },
+                        "id": 7,
+                        "text": "Glucose,\nglucose syrup <\n20% fructose"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 38,
+                            "x0": 986,
+                            "y0": 799
+                        },
+                        "id": 8,
+                        "text": "Bovine skin\nleather, whole"
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 53,
+                            "x0": 1151,
+                            "y0": 799
+                        },
+                        "id": 9,
+                        "text": "Pasta except\nuncooked or\nstuffed"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 741
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 591
+                        },
+                        "id": 11,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 442
+                        },
+                        "id": 12,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 292
+                        },
+                        "id": 13,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 143
+                        },
+                        "id": 14,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 743,
+                "width": 1194,
+                "x0": 67,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 124,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 303,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 424,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 663,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 843,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1023,
+                            "y": 783
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 783
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 745
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 596
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 446
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 297
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 67,
+                            "y": 151
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 311,
+                            "x0": 947,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Serbia and Montenegro 1999 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 71,
+                            "x0": 53,
+                            "y0": 799
+                        },
+                        "id": 3,
+                        "text": "Glucose\nincluding syrup\nof 20%-50% dry\nweight fructos"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 70,
+                            "x0": 234,
+                            "y0": 799
+                        },
+                        "id": 4,
+                        "text": "Refined sugar,\nin solid form,\nnes, pure\nsucrose"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 71,
+                            "x0": 413,
+                            "y0": 799
+                        },
+                        "id": 5,
+                        "text": "Waste, scrap of\npaper, board of\nbleached\nchemical pul"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 39,
+                            "x0": 625,
+                            "y0": 799
+                        },
+                        "id": 6,
+                        "text": "Combed wool in\nfragments"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 55,
+                            "x0": 789,
+                            "y0": 799
+                        },
+                        "id": 7,
+                        "text": "Glucose,\nglucose syrup <\n20% fructose"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 38,
+                            "x0": 986,
+                            "y0": 799
+                        },
+                        "id": 8,
+                        "text": "Bovine skin\nleather, whole"
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 53,
+                            "x0": 1151,
+                            "y0": 799
+                        },
+                        "id": 9,
+                        "text": "Pasta except\nuncooked or\nstuffed"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 741
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 591
+                        },
+                        "id": 11,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 442
+                        },
+                        "id": 12,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 292
+                        },
+                        "id": 13,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 143
+                        },
+                        "id": 14,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 311,
+                            "x0": 947,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Serbia and Montenegro 1999 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 625,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 377
+                        },
+                        "id": 2,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 71,
+                            "x0": 53,
+                            "y0": 799
+                        },
+                        "id": 3,
+                        "text": "Glucose\nincluding syrup\nof 20%-50% dry\nweight fructos"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 70,
+                            "x0": 234,
+                            "y0": 799
+                        },
+                        "id": 4,
+                        "text": "Refined sugar,\nin solid form,\nnes, pure\nsucrose"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 71,
+                            "x0": 413,
+                            "y0": 799
+                        },
+                        "id": 5,
+                        "text": "Waste, scrap of\npaper, board of\nbleached\nchemical pul"
+                    },
+                    {
+                        "bb": {
+                            "height": 116,
+                            "width": 39,
+                            "x0": 625,
+                            "y0": 799
+                        },
+                        "id": 6,
+                        "text": "Combed wool in\nfragments"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 55,
+                            "x0": 789,
+                            "y0": 799
+                        },
+                        "id": 7,
+                        "text": "Glucose,\nglucose syrup <\n20% fructose"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 38,
+                            "x0": 986,
+                            "y0": 799
+                        },
+                        "id": 8,
+                        "text": "Bovine skin\nleather, whole"
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 53,
+                            "x0": 1151,
+                            "y0": 799
+                        },
+                        "id": 9,
+                        "text": "Pasta except\nuncooked or\nstuffed"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 741
+                        },
+                        "id": 10,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 591
+                        },
+                        "id": 11,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 442
+                        },
+                        "id": 12,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 292
+                        },
+                        "id": 13,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 42,
+                            "y0": 143
+                        },
+                        "id": 14,
+                        "text": "4"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 743,
+                    "width": 1194,
+                    "x0": 67,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 124,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 303,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 424,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 663,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 843,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1023,
+                                "y": 783
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 783
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 745
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 596
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 446
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 297
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 67,
+                                "y": 151
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Glucose including syrup of 20%-50% dry weight fructos",
+                            "y": "102000.0"
+                        },
+                        {
+                            "x": "Refined sugar, in solid form, nes, pure sucrose",
+                            "y": "44758000.0"
+                        },
+                        {
+                            "x": "Waste, scrap of paper, board of bleached chemical pul",
+                            "y": "17000.0"
+                        },
+                        {
+                            "x": "Combed wool in fragments",
+                            "y": "29000.0"
+                        },
+                        {
+                            "x": "Glucose, glucose syrup < 20% fructose",
+                            "y": "290250.0"
+                        },
+                        {
+                            "x": "Bovine skin leather, whole",
+                            "y": "454000.0"
+                        },
+                        {
+                            "x": "Pasta except uncooked or stuffed",
+                            "y": 17001350.0983913
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 125,
+                            "y": 745
+                        },
+                        {
+                            "x": 304,
+                            "y": 77
+                        },
+                        {
+                            "x": 484,
+                            "y": 746
+                        },
+                        {
+                            "x": 664,
+                            "y": 746
+                        },
+                        {
+                            "x": 844,
+                            "y": 742
+                        },
+                        {
+                            "x": 1024,
+                            "y": 740
+                        },
+                        {
+                            "x": 1204,
+                            "y": 492
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

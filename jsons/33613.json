@@ -1,0 +1,1381 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 240,
+                        "x0": 217,
+                        "y0": 19
+                    },
+                    "text": "Barbados 1997 Import"
+                },
+                {
+                    "bb": {
+                        "height": 90,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 401
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 706,
+                        "y0": 924
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 20,
+                        "x0": 197,
+                        "y0": 860
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 29,
+                        "x0": 318,
+                        "y0": 860
+                    },
+                    "text": "10000"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 29,
+                        "x0": 449,
+                        "y0": 860
+                    },
+                    "text": "20000"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 29,
+                        "x0": 580,
+                        "y0": 860
+                    },
+                    "text": "30000"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 29,
+                        "x0": 711,
+                        "y0": 860
+                    },
+                    "text": "40000"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 29,
+                        "x0": 841,
+                        "y0": 860
+                    },
+                    "text": "50000"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 29,
+                        "x0": 972,
+                        "y0": 860
+                    },
+                    "text": "60000"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 29,
+                        "x0": 1103,
+                        "y0": 860
+                    },
+                    "text": "70000"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 140,
+                        "x0": 57,
+                        "y0": 736
+                    },
+                    "text": "Cashew nuts,\nfresh or dried"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 120,
+                        "x0": 77,
+                        "y0": 520
+                    },
+                    "text": "Potassium\nsulphate, in\npacks >10 kg"
+                },
+                {
+                    "bb": {
+                        "height": 101,
+                        "width": 140,
+                        "x0": 57,
+                        "y0": 294
+                    },
+                    "text": "Play, fair-\nground\nequipment,\ntravellng\ncircus, theatr"
+                },
+                {
+                    "bb": {
+                        "height": 80,
+                        "width": 150,
+                        "x0": 47,
+                        "y0": 100
+                    },
+                    "text": "Cigarette or\npipe tobacco\nand tobacco\nsubstitute mixe"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 1150,
+                        "y0": 66
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 1150,
+                        "y0": 92
+                    },
+                    "text": "trade usd"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 217,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Barbados 1997 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 401
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 706,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 20,
+                            "x0": 197,
+                            "y0": 860
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 318,
+                            "y0": 860
+                        },
+                        "id": 4,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 449,
+                            "y0": 860
+                        },
+                        "id": 5,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 580,
+                            "y0": 860
+                        },
+                        "id": 6,
+                        "text": "30000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 711,
+                            "y0": 860
+                        },
+                        "id": 7,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 841,
+                            "y0": 860
+                        },
+                        "id": 8,
+                        "text": "50000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 972,
+                            "y0": 860
+                        },
+                        "id": 9,
+                        "text": "60000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 1103,
+                            "y0": 860
+                        },
+                        "id": 10,
+                        "text": "70000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 736
+                        },
+                        "id": 11,
+                        "text": "Cashew nuts,\nfresh or dried"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 520
+                        },
+                        "id": 12,
+                        "text": "Potassium\nsulphate, in\npacks >10 kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 294
+                        },
+                        "id": 13,
+                        "text": "Play, fair-\nground\nequipment,\ntravellng\ncircus, theatr"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 100
+                        },
+                        "id": 14,
+                        "text": "Cigarette or\npipe tobacco\nand tobacco\nsubstitute mixe"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 92
+                        },
+                        "id": 16,
+                        "text": "trade usd"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 217,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Barbados 1997 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 401
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 706,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 20,
+                            "x0": 197,
+                            "y0": 860
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 318,
+                            "y0": 860
+                        },
+                        "id": 4,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 449,
+                            "y0": 860
+                        },
+                        "id": 5,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 580,
+                            "y0": 860
+                        },
+                        "id": 6,
+                        "text": "30000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 711,
+                            "y0": 860
+                        },
+                        "id": 7,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 841,
+                            "y0": 860
+                        },
+                        "id": 8,
+                        "text": "50000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 972,
+                            "y0": 860
+                        },
+                        "id": 9,
+                        "text": "60000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 1103,
+                            "y0": 860
+                        },
+                        "id": 10,
+                        "text": "70000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 736
+                        },
+                        "id": 11,
+                        "text": "Cashew nuts,\nfresh or dried"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 520
+                        },
+                        "id": 12,
+                        "text": "Potassium\nsulphate, in\npacks >10 kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 294
+                        },
+                        "id": 13,
+                        "text": "Play, fair-\nground\nequipment,\ntravellng\ncircus, theatr"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 100
+                        },
+                        "id": 14,
+                        "text": "Cigarette or\npipe tobacco\nand tobacco\nsubstitute mixe"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 92
+                        },
+                        "id": 16,
+                        "text": "trade usd"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 797,
+                "width": 1045,
+                "x0": 213,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 752
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 547
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 342
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 137
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 216,
+                            "y": 840
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 346,
+                            "y": 840
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 477,
+                            "y": 840
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 608,
+                            "y": 840
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 739,
+                            "y": 840
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 869,
+                            "y": 840
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1000,
+                            "y": 840
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1131,
+                            "y": 840
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 217,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Barbados 1997 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 401
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 706,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 20,
+                            "x0": 197,
+                            "y0": 860
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 318,
+                            "y0": 860
+                        },
+                        "id": 4,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 449,
+                            "y0": 860
+                        },
+                        "id": 5,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 580,
+                            "y0": 860
+                        },
+                        "id": 6,
+                        "text": "30000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 711,
+                            "y0": 860
+                        },
+                        "id": 7,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 841,
+                            "y0": 860
+                        },
+                        "id": 8,
+                        "text": "50000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 972,
+                            "y0": 860
+                        },
+                        "id": 9,
+                        "text": "60000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 1103,
+                            "y0": 860
+                        },
+                        "id": 10,
+                        "text": "70000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 736
+                        },
+                        "id": 11,
+                        "text": "Cashew nuts,\nfresh or dried"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 520
+                        },
+                        "id": 12,
+                        "text": "Potassium\nsulphate, in\npacks >10 kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 294
+                        },
+                        "id": 13,
+                        "text": "Play, fair-\nground\nequipment,\ntravellng\ncircus, theatr"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 100
+                        },
+                        "id": 14,
+                        "text": "Cigarette or\npipe tobacco\nand tobacco\nsubstitute mixe"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 92
+                        },
+                        "id": 16,
+                        "text": "trade usd"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1103,
+                        "y0": 68
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1103,
+                        "y0": 94
+                    },
+                    "id": 16
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 217,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Barbados 1997 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 90,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 401
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 706,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 20,
+                            "x0": 197,
+                            "y0": 860
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 318,
+                            "y0": 860
+                        },
+                        "id": 4,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 449,
+                            "y0": 860
+                        },
+                        "id": 5,
+                        "text": "20000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 580,
+                            "y0": 860
+                        },
+                        "id": 6,
+                        "text": "30000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 711,
+                            "y0": 860
+                        },
+                        "id": 7,
+                        "text": "40000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 841,
+                            "y0": 860
+                        },
+                        "id": 8,
+                        "text": "50000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 972,
+                            "y0": 860
+                        },
+                        "id": 9,
+                        "text": "60000"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 29,
+                            "x0": 1103,
+                            "y0": 860
+                        },
+                        "id": 10,
+                        "text": "70000"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 736
+                        },
+                        "id": 11,
+                        "text": "Cashew nuts,\nfresh or dried"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 77,
+                            "y0": 520
+                        },
+                        "id": 12,
+                        "text": "Potassium\nsulphate, in\npacks >10 kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 140,
+                            "x0": 57,
+                            "y0": 294
+                        },
+                        "id": 13,
+                        "text": "Play, fair-\nground\nequipment,\ntravellng\ncircus, theatr"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 150,
+                            "x0": 47,
+                            "y0": 100
+                        },
+                        "id": 14,
+                        "text": "Cigarette or\npipe tobacco\nand tobacco\nsubstitute mixe"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 92
+                        },
+                        "id": 16,
+                        "text": "trade usd"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 797,
+                    "width": 1045,
+                    "x0": 213,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 752
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 547
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 342
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 213,
+                                "y": 137
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 216,
+                                "y": 840
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 346,
+                                "y": 840
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 477,
+                                "y": 840
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 608,
+                                "y": 840
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 739,
+                                "y": 840
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 869,
+                                "y": 840
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1000,
+                                "y": 840
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1131,
+                                "y": 840
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1103,
+                            "y0": 68
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1103,
+                            "y0": 94
+                        },
+                        "id": 16
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Cashew nuts, fresh or dried",
+                            "y": "11562.0"
+                        },
+                        {
+                            "x": "Potassium sulphate, in packs >10 kg",
+                            "y": "3.0"
+                        },
+                        {
+                            "x": "Play, fair-ground equipment, travellng circus, theatr",
+                            "y": "4534.0"
+                        },
+                        {
+                            "x": "Cigarette or pipe tobacco and tobacco substitute mixe",
+                            "y": "1215.0"
+                        }
+                    ],
+                    "name": "weight kg"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Cashew nuts, fresh or dried",
+                            "y": "64063"
+                        },
+                        {
+                            "x": "Potassium sulphate, in packs >10 kg",
+                            "y": "180"
+                        },
+                        {
+                            "x": "Play, fair-ground equipment, travellng circus, theatr",
+                            "y": "45952"
+                        },
+                        {
+                            "x": "Cigarette or pipe tobacco and tobacco substitute mixe",
+                            "y": "35371"
+                        }
+                    ],
+                    "name": "trade usd"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 103,
+                        "width": 151,
+                        "x0": 217,
+                        "y0": 702
+                    },
+                    {
+                        "height": 103,
+                        "width": 838,
+                        "x0": 368,
+                        "y0": 702
+                    },
+                    {
+                        "height": 103,
+                        "width": 2,
+                        "x0": 217,
+                        "y0": 497
+                    },
+                    {
+                        "height": 103,
+                        "width": 59,
+                        "x0": 217,
+                        "y0": 292
+                    },
+                    {
+                        "height": 103,
+                        "width": 601,
+                        "x0": 276,
+                        "y0": 292
+                    },
+                    {
+                        "height": 103,
+                        "width": 16,
+                        "x0": 217,
+                        "y0": 87
+                    },
+                    {
+                        "height": 103,
+                        "width": 463,
+                        "x0": 232,
+                        "y0": 87
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

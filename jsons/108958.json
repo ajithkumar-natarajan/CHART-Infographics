@@ -1,0 +1,2477 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 576,
+                        "x0": 98,
+                        "y0": 14
+                    },
+                    "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 660,
+                        "y0": 927
+                    },
+                    "text": "2003"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 440
+                    },
+                    "text": "2008"
+                },
+                {
+                    "bb": {
+                        "height": 16,
+                        "width": 13,
+                        "x0": 180,
+                        "y0": 892
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 29,
+                        "x0": 377,
+                        "y0": 892
+                    },
+                    "text": "500"
+                },
+                {
+                    "bb": {
+                        "height": 24,
+                        "width": 38,
+                        "x0": 582,
+                        "y0": 892
+                    },
+                    "text": "1000"
+                },
+                {
+                    "bb": {
+                        "height": 24,
+                        "width": 38,
+                        "x0": 795,
+                        "y0": 892
+                    },
+                    "text": "1500"
+                },
+                {
+                    "bb": {
+                        "height": 24,
+                        "width": 38,
+                        "x0": 1009,
+                        "y0": 892
+                    },
+                    "text": "2000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 69,
+                        "y0": 799
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 52,
+                        "y0": 699
+                    },
+                    "text": "250"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 52,
+                        "y0": 599
+                    },
+                    "text": "500"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 52,
+                        "y0": 499
+                    },
+                    "text": "750"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 43,
+                        "y0": 399
+                    },
+                    "text": "1000"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 43,
+                        "y0": 299
+                    },
+                    "text": "1250"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 43,
+                        "y0": 199
+                    },
+                    "text": "1500"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 43,
+                        "y0": 99
+                    },
+                    "text": "1750"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 576,
+                            "x0": 98,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 660,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "2003"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 440
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 16,
+                            "width": 13,
+                            "x0": 180,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 29,
+                            "x0": 377,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 582,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 795,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 1009,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 69,
+                            "y0": 799
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 699
+                        },
+                        "id": 9,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 599
+                        },
+                        "id": 10,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 499
+                        },
+                        "id": 11,
+                        "text": "750"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 399
+                        },
+                        "id": 12,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 299
+                        },
+                        "id": 13,
+                        "text": "1250"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 199
+                        },
+                        "id": 14,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 99
+                        },
+                        "id": 15,
+                        "text": "1750"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 576,
+                            "x0": 98,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 660,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "2003"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 440
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 16,
+                            "width": 13,
+                            "x0": 180,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 29,
+                            "x0": 377,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 582,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 795,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 1009,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 69,
+                            "y0": 799
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 699
+                        },
+                        "id": 9,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 599
+                        },
+                        "id": 10,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 499
+                        },
+                        "id": 11,
+                        "text": "750"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 399
+                        },
+                        "id": 12,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 299
+                        },
+                        "id": 13,
+                        "text": "1250"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 199
+                        },
+                        "id": 14,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 99
+                        },
+                        "id": 15,
+                        "text": "1750"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 836,
+                "width": 1167,
+                "x0": 94,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 192,
+                            "y": 876
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 405,
+                            "y": 876
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 619,
+                            "y": 876
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 832,
+                            "y": 876
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1045,
+                            "y": 876
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 94,
+                            "y": 803
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 94,
+                            "y": 703
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 94,
+                            "y": 603
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 94,
+                            "y": 504
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 94,
+                            "y": 404
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 94,
+                            "y": 304
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 94,
+                            "y": 204
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 94,
+                            "y": 104
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 576,
+                            "x0": 98,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 660,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "2003"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 440
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 16,
+                            "width": 13,
+                            "x0": 180,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 29,
+                            "x0": 377,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 582,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 795,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 1009,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 69,
+                            "y0": 799
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 699
+                        },
+                        "id": 9,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 599
+                        },
+                        "id": 10,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 499
+                        },
+                        "id": 11,
+                        "text": "750"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 399
+                        },
+                        "id": 12,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 299
+                        },
+                        "id": 13,
+                        "text": "1250"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 199
+                        },
+                        "id": 14,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 99
+                        },
+                        "id": 15,
+                        "text": "1750"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 576,
+                            "x0": 98,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 660,
+                            "y0": 927
+                        },
+                        "id": 1,
+                        "text": "2003"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 440
+                        },
+                        "id": 2,
+                        "text": "2008"
+                    },
+                    {
+                        "bb": {
+                            "height": 16,
+                            "width": 13,
+                            "x0": 180,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 29,
+                            "x0": 377,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 582,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 795,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 24,
+                            "width": 38,
+                            "x0": 1009,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 69,
+                            "y0": 799
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 699
+                        },
+                        "id": 9,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 599
+                        },
+                        "id": 10,
+                        "text": "500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 52,
+                            "y0": 499
+                        },
+                        "id": 11,
+                        "text": "750"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 399
+                        },
+                        "id": 12,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 299
+                        },
+                        "id": 13,
+                        "text": "1250"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 199
+                        },
+                        "id": 14,
+                        "text": "1500"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 43,
+                            "y0": 99
+                        },
+                        "id": 15,
+                        "text": "1750"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 836,
+                    "width": 1167,
+                    "x0": 94,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 192,
+                                "y": 876
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 405,
+                                "y": 876
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 619,
+                                "y": 876
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 832,
+                                "y": 876
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1045,
+                                "y": 876
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 94,
+                                "y": 803
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 94,
+                                "y": 703
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 94,
+                                "y": 603
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 94,
+                                "y": 504
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 94,
+                                "y": 404
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 94,
+                                "y": 304
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 94,
+                                "y": 204
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 94,
+                                "y": 104
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "66.0",
+                            "y": 58.0
+                        },
+                        {
+                            "x": "26.0",
+                            "y": 20.0
+                        },
+                        {
+                            "x": "349.0",
+                            "y": 273.0
+                        },
+                        {
+                            "x": "10.0",
+                            "y": 8.0
+                        },
+                        {
+                            "x": "1150.0",
+                            "y": 963.0
+                        },
+                        {
+                            "x": "64.0",
+                            "y": 51.0
+                        },
+                        {
+                            "x": "883.0",
+                            "y": 838.0
+                        },
+                        {
+                            "x": "14.0",
+                            "y": 11.0
+                        },
+                        {
+                            "x": "120.0",
+                            "y": 99.0
+                        },
+                        {
+                            "x": "127.0",
+                            "y": 101.0
+                        },
+                        {
+                            "x": "201.0",
+                            "y": 172.0
+                        },
+                        {
+                            "x": "15.0",
+                            "y": 14.0
+                        },
+                        {
+                            "x": "305.0",
+                            "y": 258.0
+                        },
+                        {
+                            "x": "7.0",
+                            "y": 6.0
+                        },
+                        {
+                            "x": "28.0",
+                            "y": 20.0
+                        },
+                        {
+                            "x": "8.0",
+                            "y": 6.0
+                        },
+                        {
+                            "x": "371.0",
+                            "y": 309.0
+                        },
+                        {
+                            "x": "19.0",
+                            "y": 11.0
+                        },
+                        {
+                            "x": "747.0",
+                            "y": 566.0
+                        },
+                        {
+                            "x": "687.1070769456442",
+                            "y": 3.0
+                        },
+                        {
+                            "x": "39.0",
+                            "y": 29.0
+                        },
+                        {
+                            "x": "40.0",
+                            "y": 29.0
+                        },
+                        {
+                            "x": "367.0",
+                            "y": 237.0
+                        },
+                        {
+                            "x": "789.0",
+                            "y": 606.0
+                        },
+                        {
+                            "x": "775.0",
+                            "y": 614.0
+                        },
+                        {
+                            "x": "50.0",
+                            "y": 30.0
+                        },
+                        {
+                            "x": "42.0",
+                            "y": 40.0
+                        },
+                        {
+                            "x": "522.0",
+                            "y": 468.0
+                        },
+                        {
+                            "x": "48.0",
+                            "y": 37.0
+                        },
+                        {
+                            "x": "1260.0",
+                            "y": 1070.0
+                        },
+                        {
+                            "x": "17.0",
+                            "y": 14.0
+                        },
+                        {
+                            "x": "81.0",
+                            "y": 68.0
+                        },
+                        {
+                            "x": "109.0",
+                            "y": 103.0
+                        },
+                        {
+                            "x": "722.0",
+                            "y": 668.0
+                        },
+                        {
+                            "x": "207.76899510889615",
+                            "y": 108.94343029765808
+                        },
+                        {
+                            "x": "567.0",
+                            "y": 387.0
+                        },
+                        {
+                            "x": "817.3424351335068",
+                            "y": 271.08756699921497
+                        },
+                        {
+                            "x": "27.0",
+                            "y": 25.0
+                        },
+                        {
+                            "x": "43.0",
+                            "y": 39.0
+                        },
+                        {
+                            "x": "106.0",
+                            "y": 125.0
+                        },
+                        {
+                            "x": "146.0",
+                            "y": 119.0
+                        },
+                        {
+                            "x": "928.0",
+                            "y": 743.0
+                        },
+                        {
+                            "x": "125.0",
+                            "y": 129.0
+                        },
+                        {
+                            "x": "43.970820746714594",
+                            "y": 53.015007551445336
+                        },
+                        {
+                            "x": "487.6853858174476",
+                            "y": 296.159637576519
+                        },
+                        {
+                            "x": "36.0",
+                            "y": 30.0
+                        },
+                        {
+                            "x": "1190.0",
+                            "y": 928.0
+                        },
+                        {
+                            "x": "188.0",
+                            "y": 167.0
+                        },
+                        {
+                            "x": "64.51515533452124",
+                            "y": 366.6972816422136
+                        },
+                        {
+                            "x": "768.0",
+                            "y": 660.0
+                        },
+                        {
+                            "x": "462.0",
+                            "y": 398.0
+                        },
+                        {
+                            "x": "16.0",
+                            "y": 15.0
+                        },
+                        {
+                            "x": "647.0",
+                            "y": 614.0
+                        },
+                        {
+                            "x": "68.0",
+                            "y": 58.0
+                        },
+                        {
+                            "x": "55.0",
+                            "y": 48.0
+                        },
+                        {
+                            "x": "841.0",
+                            "y": 774.0
+                        },
+                        {
+                            "x": "187.26104823884071",
+                            "y": 541.1994362852837
+                        },
+                        {
+                            "x": "828.8317765014683",
+                            "y": 3.0
+                        },
+                        {
+                            "x": "657.0",
+                            "y": 533.0
+                        },
+                        {
+                            "x": "429.0",
+                            "y": 417.0
+                        },
+                        {
+                            "x": "117.0",
+                            "y": 74.0
+                        },
+                        {
+                            "x": "102.0",
+                            "y": 138.0
+                        },
+                        {
+                            "x": "754.0",
+                            "y": 674.0
+                        },
+                        {
+                            "x": "182.0",
+                            "y": 147.0
+                        },
+                        {
+                            "x": "472.0",
+                            "y": 289.0
+                        },
+                        {
+                            "x": "89.0",
+                            "y": 73.0
+                        },
+                        {
+                            "x": "804.0",
+                            "y": 682.0
+                        },
+                        {
+                            "x": "999.0",
+                            "y": 865.0
+                        },
+                        {
+                            "x": "153.0",
+                            "y": 148.0
+                        },
+                        {
+                            "x": "57.0",
+                            "y": 50.0
+                        },
+                        {
+                            "x": "732.0",
+                            "y": 707.0
+                        },
+                        {
+                            "x": "334.0",
+                            "y": 208.0
+                        },
+                        {
+                            "x": "538.0",
+                            "y": 469.0
+                        },
+                        {
+                            "x": "271.0",
+                            "y": 223.0
+                        },
+                        {
+                            "x": "641.0",
+                            "y": 537.0
+                        },
+                        {
+                            "x": "700.0",
+                            "y": 745.0
+                        },
+                        {
+                            "x": "808.0",
+                            "y": 792.0
+                        },
+                        {
+                            "x": "261.0",
+                            "y": 194.0
+                        },
+                        {
+                            "x": "420.0",
+                            "y": 337.0
+                        },
+                        {
+                            "x": "63.0",
+                            "y": 66.0
+                        },
+                        {
+                            "x": "29.0",
+                            "y": 32.0
+                        },
+                        {
+                            "x": "814.0",
+                            "y": 608.0
+                        },
+                        {
+                            "x": "389.0",
+                            "y": 335.0
+                        },
+                        {
+                            "x": "427.2766346232205",
+                            "y": 33.83574373495131
+                        },
+                        {
+                            "x": "479.0",
+                            "y": 424.0
+                        },
+                        {
+                            "x": "199.0",
+                            "y": 167.0
+                        },
+                        {
+                            "x": "71.0",
+                            "y": 82.0
+                        },
+                        {
+                            "x": "82.0",
+                            "y": 69.0
+                        },
+                        {
+                            "x": "96.99966387049076",
+                            "y": 496.0423289465522
+                        },
+                        {
+                            "x": "2270.0",
+                            "y": 1730.0
+                        },
+                        {
+                            "x": "317.0",
+                            "y": 277.0
+                        },
+                        {
+                            "x": "41.0",
+                            "y": 35.0
+                        },
+                        {
+                            "x": "321.1210110295126",
+                            "y": 129.18960864669748
+                        },
+                        {
+                            "x": "376.4196220330224",
+                            "y": 3.0
+                        },
+                        {
+                            "x": "88.0",
+                            "y": 92.0
+                        },
+                        {
+                            "x": "208.0",
+                            "y": 200.0
+                        },
+                        {
+                            "x": "21.0",
+                            "y": 17.0
+                        },
+                        {
+                            "x": "383.2047043674273",
+                            "y": 3.0
+                        },
+                        {
+                            "x": "458.0",
+                            "y": 407.0
+                        },
+                        {
+                            "x": "231.0",
+                            "y": 181.0
+                        },
+                        {
+                            "x": "446.0",
+                            "y": 402.0
+                        },
+                        {
+                            "x": "78.0",
+                            "y": 69.0
+                        },
+                        {
+                            "x": "12.0",
+                            "y": 11.0
+                        },
+                        {
+                            "x": "650.1976777896546",
+                            "y": 570.3950291901
+                        },
+                        {
+                            "x": "293.538690840909",
+                            "y": 74.2541268893959
+                        },
+                        {
+                            "x": "99.0",
+                            "y": 97.0
+                        },
+                        {
+                            "x": "6.0",
+                            "y": 6.0
+                        },
+                        {
+                            "x": "143.0",
+                            "y": 122.0
+                        },
+                        {
+                            "x": "5.0",
+                            "y": 5.0
+                        },
+                        {
+                            "x": "33.0",
+                            "y": 21.0
+                        },
+                        {
+                            "x": "70.0",
+                            "y": 32.0
+                        },
+                        {
+                            "x": "163.0",
+                            "y": 149.0
+                        },
+                        {
+                            "x": "558.0",
+                            "y": 451.0
+                        },
+                        {
+                            "x": "4.0",
+                            "y": 3.0
+                        },
+                        {
+                            "x": "757.0",
+                            "y": 679.0
+                        },
+                        {
+                            "x": "38.0",
+                            "y": 46.0
+                        },
+                        {
+                            "x": "11.0",
+                            "y": 9.0
+                        },
+                        {
+                            "x": "783.0",
+                            "y": 629.0
+                        },
+                        {
+                            "x": "468.0",
+                            "y": 341.0
+                        },
+                        {
+                            "x": "69.0",
+                            "y": 59.0
+                        },
+                        {
+                            "x": "273.0",
+                            "y": 218.0
+                        },
+                        {
+                            "x": "182.40592304575046",
+                            "y": 81.02731704074569
+                        },
+                        {
+                            "x": "601.0",
+                            "y": 476.0
+                        },
+                        {
+                            "x": "450.06311348696727",
+                            "y": 466.31417275007186
+                        },
+                        {
+                            "x": "86.16936996051811",
+                            "y": 3.0
+                        },
+                        {
+                            "x": "52.0",
+                            "y": 40.0
+                        },
+                        {
+                            "x": "706.6651850611839",
+                            "y": 95.14755113189514
+                        },
+                        {
+                            "x": "13.0",
+                            "y": 14.0
+                        },
+                        {
+                            "x": "1200.0",
+                            "y": 851.0
+                        },
+                        {
+                            "x": "387.0",
+                            "y": 331.0
+                        },
+                        {
+                            "x": "3.0",
+                            "y": 80.62531248013657
+                        },
+                        {
+                            "x": "62.0",
+                            "y": 63.0
+                        },
+                        {
+                            "x": "623.8462633524641",
+                            "y": 337.250783937298
+                        },
+                        {
+                            "x": "564.0",
+                            "y": 408.0
+                        },
+                        {
+                            "x": "37.0",
+                            "y": 37.0
+                        },
+                        {
+                            "x": "486.0",
+                            "y": 376.0
+                        },
+                        {
+                            "x": "56.0",
+                            "y": 49.0
+                        },
+                        {
+                            "x": "61.0",
+                            "y": 57.0
+                        },
+                        {
+                            "x": "35.0",
+                            "y": 30.0
+                        },
+                        {
+                            "x": "941.0",
+                            "y": 676.0
+                        },
+                        {
+                            "x": "136.0",
+                            "y": 96.0
+                        },
+                        {
+                            "x": "90.0",
+                            "y": 93.0
+                        },
+                        {
+                            "x": "482.0",
+                            "y": 386.0
+                        },
+                        {
+                            "x": "20.0",
+                            "y": 15.0
+                        },
+                        {
+                            "x": "500.0",
+                            "y": 436.0
+                        },
+                        {
+                            "x": "46.0",
+                            "y": 38.0
+                        },
+                        {
+                            "x": "67.42263739717697",
+                            "y": 355.35293031633387
+                        },
+                        {
+                            "x": "49.0",
+                            "y": 32.0
+                        },
+                        {
+                            "x": "770.0",
+                            "y": 452.0
+                        },
+                        {
+                            "x": "781.0",
+                            "y": 739.0
+                        },
+                        {
+                            "x": "1040.0",
+                            "y": 829.0
+                        },
+                        {
+                            "x": "353.0",
+                            "y": 242.0
+                        },
+                        {
+                            "x": "32.0",
+                            "y": 27.0
+                        },
+                        {
+                            "x": "141.0",
+                            "y": 157.0
+                        },
+                        {
+                            "x": "1127.6859294160865",
+                            "y": 474.206605203149
+                        },
+                        {
+                            "x": "201.20063650569546",
+                            "y": 380.38007920683185
+                        },
+                        {
+                            "x": "9.0",
+                            "y": 8.0
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": [
+                    {
+                        "x": 221,
+                        "y": 781
+                    },
+                    {
+                        "x": 204,
+                        "y": 796
+                    },
+                    {
+                        "x": 342,
+                        "y": 695
+                    },
+                    {
+                        "x": 197,
+                        "y": 801
+                    },
+                    {
+                        "x": 684,
+                        "y": 419
+                    },
+                    {
+                        "x": 220,
+                        "y": 784
+                    },
+                    {
+                        "x": 570,
+                        "y": 469
+                    },
+                    {
+                        "x": 199,
+                        "y": 800
+                    },
+                    {
+                        "x": 244,
+                        "y": 765
+                    },
+                    {
+                        "x": 247,
+                        "y": 764
+                    },
+                    {
+                        "x": 279,
+                        "y": 736
+                    },
+                    {
+                        "x": 199,
+                        "y": 799
+                    },
+                    {
+                        "x": 323,
+                        "y": 701
+                    },
+                    {
+                        "x": 196,
+                        "y": 802
+                    },
+                    {
+                        "x": 205,
+                        "y": 796
+                    },
+                    {
+                        "x": 196,
+                        "y": 802
+                    },
+                    {
+                        "x": 351,
+                        "y": 681
+                    },
+                    {
+                        "x": 201,
+                        "y": 800
+                    },
+                    {
+                        "x": 512,
+                        "y": 578
+                    },
+                    {
+                        "x": 486,
+                        "y": 803
+                    },
+                    {
+                        "x": 210,
+                        "y": 793
+                    },
+                    {
+                        "x": 210,
+                        "y": 793
+                    },
+                    {
+                        "x": 350,
+                        "y": 710
+                    },
+                    {
+                        "x": 530,
+                        "y": 562
+                    },
+                    {
+                        "x": 524,
+                        "y": 559
+                    },
+                    {
+                        "x": 214,
+                        "y": 792
+                    },
+                    {
+                        "x": 211,
+                        "y": 788
+                    },
+                    {
+                        "x": 416,
+                        "y": 617
+                    },
+                    {
+                        "x": 213,
+                        "y": 790
+                    },
+                    {
+                        "x": 730,
+                        "y": 377
+                    },
+                    {
+                        "x": 200,
+                        "y": 799
+                    },
+                    {
+                        "x": 228,
+                        "y": 777
+                    },
+                    {
+                        "x": 239,
+                        "y": 763
+                    },
+                    {
+                        "x": 501,
+                        "y": 537
+                    },
+                    {
+                        "x": 282,
+                        "y": 761
+                    },
+                    {
+                        "x": 435,
+                        "y": 650
+                    },
+                    {
+                        "x": 542,
+                        "y": 696
+                    },
+                    {
+                        "x": 204,
+                        "y": 794
+                    },
+                    {
+                        "x": 211,
+                        "y": 789
+                    },
+                    {
+                        "x": 238,
+                        "y": 754
+                    },
+                    {
+                        "x": 255,
+                        "y": 757
+                    },
+                    {
+                        "x": 589,
+                        "y": 507
+                    },
+                    {
+                        "x": 246,
+                        "y": 753
+                    },
+                    {
+                        "x": 212,
+                        "y": 783
+                    },
+                    {
+                        "x": 401,
+                        "y": 686
+                    },
+                    {
+                        "x": 208,
+                        "y": 792
+                    },
+                    {
+                        "x": 701,
+                        "y": 433
+                    },
+                    {
+                        "x": 273,
+                        "y": 738
+                    },
+                    {
+                        "x": 220,
+                        "y": 658
+                    },
+                    {
+                        "x": 521,
+                        "y": 541
+                    },
+                    {
+                        "x": 390,
+                        "y": 645
+                    },
+                    {
+                        "x": 200,
+                        "y": 798
+                    },
+                    {
+                        "x": 469,
+                        "y": 559
+                    },
+                    {
+                        "x": 222,
+                        "y": 781
+                    },
+                    {
+                        "x": 216,
+                        "y": 785
+                    },
+                    {
+                        "x": 552,
+                        "y": 495
+                    },
+                    {
+                        "x": 273,
+                        "y": 588
+                    },
+                    {
+                        "x": 547,
+                        "y": 803
+                    },
+                    {
+                        "x": 473,
+                        "y": 591
+                    },
+                    {
+                        "x": 376,
+                        "y": 638
+                    },
+                    {
+                        "x": 243,
+                        "y": 775
+                    },
+                    {
+                        "x": 236,
+                        "y": 749
+                    },
+                    {
+                        "x": 515,
+                        "y": 535
+                    },
+                    {
+                        "x": 271,
+                        "y": 746
+                    },
+                    {
+                        "x": 394,
+                        "y": 689
+                    },
+                    {
+                        "x": 231,
+                        "y": 775
+                    },
+                    {
+                        "x": 536,
+                        "y": 532
+                    },
+                    {
+                        "x": 619,
+                        "y": 459
+                    },
+                    {
+                        "x": 258,
+                        "y": 745
+                    },
+                    {
+                        "x": 217,
+                        "y": 784
+                    },
+                    {
+                        "x": 505,
+                        "y": 522
+                    },
+                    {
+                        "x": 335,
+                        "y": 721
+                    },
+                    {
+                        "x": 422,
+                        "y": 617
+                    },
+                    {
+                        "x": 309,
+                        "y": 715
+                    },
+                    {
+                        "x": 466,
+                        "y": 590
+                    },
+                    {
+                        "x": 492,
+                        "y": 507
+                    },
+                    {
+                        "x": 538,
+                        "y": 488
+                    },
+                    {
+                        "x": 304,
+                        "y": 727
+                    },
+                    {
+                        "x": 372,
+                        "y": 670
+                    },
+                    {
+                        "x": 220,
+                        "y": 778
+                    },
+                    {
+                        "x": 205,
+                        "y": 792
+                    },
+                    {
+                        "x": 540,
+                        "y": 561
+                    },
+                    {
+                        "x": 359,
+                        "y": 670
+                    },
+                    {
+                        "x": 375,
+                        "y": 791
+                    },
+                    {
+                        "x": 397,
+                        "y": 635
+                    },
+                    {
+                        "x": 278,
+                        "y": 738
+                    },
+                    {
+                        "x": 223,
+                        "y": 772
+                    },
+                    {
+                        "x": 228,
+                        "y": 777
+                    },
+                    {
+                        "x": 234,
+                        "y": 606
+                    },
+                    {
+                        "x": 1161,
+                        "y": 113
+                    },
+                    {
+                        "x": 328,
+                        "y": 694
+                    },
+                    {
+                        "x": 210,
+                        "y": 790
+                    },
+                    {
+                        "x": 330,
+                        "y": 753
+                    },
+                    {
+                        "x": 354,
+                        "y": 803
+                    },
+                    {
+                        "x": 231,
+                        "y": 768
+                    },
+                    {
+                        "x": 282,
+                        "y": 724
+                    },
+                    {
+                        "x": 202,
+                        "y": 798
+                    },
+                    {
+                        "x": 356,
+                        "y": 803
+                    },
+                    {
+                        "x": 388,
+                        "y": 642
+                    },
+                    {
+                        "x": 292,
+                        "y": 732
+                    },
+                    {
+                        "x": 383,
+                        "y": 644
+                    },
+                    {
+                        "x": 226,
+                        "y": 777
+                    },
+                    {
+                        "x": 198,
+                        "y": 800
+                    },
+                    {
+                        "x": 470,
+                        "y": 576
+                    },
+                    {
+                        "x": 318,
+                        "y": 775
+                    },
+                    {
+                        "x": 235,
+                        "y": 766
+                    },
+                    {
+                        "x": 196,
+                        "y": 802
+                    },
+                    {
+                        "x": 254,
+                        "y": 756
+                    },
+                    {
+                        "x": 195,
+                        "y": 802
+                    },
+                    {
+                        "x": 207,
+                        "y": 796
+                    },
+                    {
+                        "x": 223,
+                        "y": 792
+                    },
+                    {
+                        "x": 263,
+                        "y": 745
+                    },
+                    {
+                        "x": 431,
+                        "y": 624
+                    },
+                    {
+                        "x": 195,
+                        "y": 803
+                    },
+                    {
+                        "x": 516,
+                        "y": 533
+                    },
+                    {
+                        "x": 209,
+                        "y": 786
+                    },
+                    {
+                        "x": 198,
+                        "y": 801
+                    },
+                    {
+                        "x": 527,
+                        "y": 553
+                    },
+                    {
+                        "x": 393,
+                        "y": 668
+                    },
+                    {
+                        "x": 222,
+                        "y": 781
+                    },
+                    {
+                        "x": 309,
+                        "y": 717
+                    },
+                    {
+                        "x": 271,
+                        "y": 772
+                    },
+                    {
+                        "x": 449,
+                        "y": 614
+                    },
+                    {
+                        "x": 385,
+                        "y": 618
+                    },
+                    {
+                        "x": 230,
+                        "y": 803
+                    },
+                    {
+                        "x": 215,
+                        "y": 788
+                    },
+                    {
+                        "x": 494,
+                        "y": 766
+                    },
+                    {
+                        "x": 199,
+                        "y": 799
+                    },
+                    {
+                        "x": 705,
+                        "y": 464
+                    },
+                    {
+                        "x": 358,
+                        "y": 672
+                    },
+                    {
+                        "x": 194,
+                        "y": 772
+                    },
+                    {
+                        "x": 219,
+                        "y": 779
+                    },
+                    {
+                        "x": 459,
+                        "y": 670
+                    },
+                    {
+                        "x": 434,
+                        "y": 641
+                    },
+                    {
+                        "x": 209,
+                        "y": 790
+                    },
+                    {
+                        "x": 400,
+                        "y": 654
+                    },
+                    {
+                        "x": 217,
+                        "y": 785
+                    },
+                    {
+                        "x": 219,
+                        "y": 782
+                    },
+                    {
+                        "x": 208,
+                        "y": 792
+                    },
+                    {
+                        "x": 594,
+                        "y": 534
+                    },
+                    {
+                        "x": 251,
+                        "y": 766
+                    },
+                    {
+                        "x": 231,
+                        "y": 767
+                    },
+                    {
+                        "x": 399,
+                        "y": 650
+                    },
+                    {
+                        "x": 202,
+                        "y": 798
+                    },
+                    {
+                        "x": 406,
+                        "y": 630
+                    },
+                    {
+                        "x": 213,
+                        "y": 789
+                    },
+                    {
+                        "x": 222,
+                        "y": 662
+                    },
+                    {
+                        "x": 214,
+                        "y": 792
+                    },
+                    {
+                        "x": 521,
+                        "y": 624
+                    },
+                    {
+                        "x": 526,
+                        "y": 509
+                    },
+                    {
+                        "x": 637,
+                        "y": 473
+                    },
+                    {
+                        "x": 344,
+                        "y": 708
+                    },
+                    {
+                        "x": 207,
+                        "y": 794
+                    },
+                    {
+                        "x": 253,
+                        "y": 742
+                    },
+                    {
+                        "x": 674,
+                        "y": 615
+                    },
+                    {
+                        "x": 279,
+                        "y": 652
+                    },
+                    {
+                        "x": 197,
+                        "y": 801
+                    }
+                ]
+            }
+        }
+    }
+}

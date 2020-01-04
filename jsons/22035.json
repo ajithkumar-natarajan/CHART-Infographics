@@ -1,0 +1,1407 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 240,
+                        "x0": 127,
+                        "y0": 19
+                    },
+                    "text": "Ethiopia 2000 Export"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 646,
+                        "y0": 924
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 363
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 136,
+                        "width": 76,
+                        "x0": 159,
+                        "y0": 755
+                    },
+                    "text": "Garlic, fresh\nor chilled"
+                },
+                {
+                    "bb": {
+                        "height": 142,
+                        "width": 96,
+                        "x0": 367,
+                        "y0": 755
+                    },
+                    "text": "Marble and\ntravertine in\nblocks etc."
+                },
+                {
+                    "bb": {
+                        "height": 136,
+                        "width": 76,
+                        "x0": 615,
+                        "y0": 755
+                    },
+                    "text": "Fish fillets,\nfrozen"
+                },
+                {
+                    "bb": {
+                        "height": 158,
+                        "width": 119,
+                        "x0": 800,
+                        "y0": 755
+                    },
+                    "text": "Mineral and\naerated waters\nnot sweetened\nor flavoured"
+                },
+                {
+                    "bb": {
+                        "height": 117,
+                        "width": 70,
+                        "x0": 1077,
+                        "y0": 755
+                    },
+                    "text": "Furniture,\nwooden, nes"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 97,
+                        "y0": 729
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 57,
+                        "y0": 626
+                    },
+                    "text": "50000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 522
+                    },
+                    "text": "100000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 419
+                    },
+                    "text": "150000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 316
+                    },
+                    "text": "200000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 212
+                    },
+                    "text": "250000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 109
+                    },
+                    "text": "300000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 980,
+                        "y0": 66
+                    },
+                    "text": "weight kg"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 90,
+                        "x0": 1150,
+                        "y0": 66
+                    },
+                    "text": "trade usd"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 127,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Ethiopia 2000 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 646,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 363
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 76,
+                            "x0": 159,
+                            "y0": 755
+                        },
+                        "id": 3,
+                        "text": "Garlic, fresh\nor chilled"
+                    },
+                    {
+                        "bb": {
+                            "height": 142,
+                            "width": 96,
+                            "x0": 367,
+                            "y0": 755
+                        },
+                        "id": 4,
+                        "text": "Marble and\ntravertine in\nblocks etc."
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 76,
+                            "x0": 615,
+                            "y0": 755
+                        },
+                        "id": 5,
+                        "text": "Fish fillets,\nfrozen"
+                    },
+                    {
+                        "bb": {
+                            "height": 158,
+                            "width": 119,
+                            "x0": 800,
+                            "y0": 755
+                        },
+                        "id": 6,
+                        "text": "Mineral and\naerated waters\nnot sweetened\nor flavoured"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 70,
+                            "x0": 1077,
+                            "y0": 755
+                        },
+                        "id": 7,
+                        "text": "Furniture,\nwooden, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 97,
+                            "y0": 729
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 57,
+                            "y0": 626
+                        },
+                        "id": 9,
+                        "text": "50000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 522
+                        },
+                        "id": 10,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 419
+                        },
+                        "id": 11,
+                        "text": "150000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 316
+                        },
+                        "id": 12,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 212
+                        },
+                        "id": 13,
+                        "text": "250000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 109
+                        },
+                        "id": 14,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 980,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "trade usd"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 127,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Ethiopia 2000 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 646,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 363
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 76,
+                            "x0": 159,
+                            "y0": 755
+                        },
+                        "id": 3,
+                        "text": "Garlic, fresh\nor chilled"
+                    },
+                    {
+                        "bb": {
+                            "height": 142,
+                            "width": 96,
+                            "x0": 367,
+                            "y0": 755
+                        },
+                        "id": 4,
+                        "text": "Marble and\ntravertine in\nblocks etc."
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 76,
+                            "x0": 615,
+                            "y0": 755
+                        },
+                        "id": 5,
+                        "text": "Fish fillets,\nfrozen"
+                    },
+                    {
+                        "bb": {
+                            "height": 158,
+                            "width": 119,
+                            "x0": 800,
+                            "y0": 755
+                        },
+                        "id": 6,
+                        "text": "Mineral and\naerated waters\nnot sweetened\nor flavoured"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 70,
+                            "x0": 1077,
+                            "y0": 755
+                        },
+                        "id": 7,
+                        "text": "Furniture,\nwooden, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 97,
+                            "y0": 729
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 57,
+                            "y0": 626
+                        },
+                        "id": 9,
+                        "text": "50000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 522
+                        },
+                        "id": 10,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 419
+                        },
+                        "id": 11,
+                        "text": "150000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 316
+                        },
+                        "id": 12,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 212
+                        },
+                        "id": 13,
+                        "text": "250000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 109
+                        },
+                        "id": 14,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 980,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "trade usd"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 692,
+                "width": 1135,
+                "x0": 123,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 234,
+                            "y": 739
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 462,
+                            "y": 739
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 690,
+                            "y": 739
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 918,
+                            "y": 739
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1146,
+                            "y": 739
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 735
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 632
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 528
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 425
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 322
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 218
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 115
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 127,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Ethiopia 2000 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 646,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 363
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 76,
+                            "x0": 159,
+                            "y0": 755
+                        },
+                        "id": 3,
+                        "text": "Garlic, fresh\nor chilled"
+                    },
+                    {
+                        "bb": {
+                            "height": 142,
+                            "width": 96,
+                            "x0": 367,
+                            "y0": 755
+                        },
+                        "id": 4,
+                        "text": "Marble and\ntravertine in\nblocks etc."
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 76,
+                            "x0": 615,
+                            "y0": 755
+                        },
+                        "id": 5,
+                        "text": "Fish fillets,\nfrozen"
+                    },
+                    {
+                        "bb": {
+                            "height": 158,
+                            "width": 119,
+                            "x0": 800,
+                            "y0": 755
+                        },
+                        "id": 6,
+                        "text": "Mineral and\naerated waters\nnot sweetened\nor flavoured"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 70,
+                            "x0": 1077,
+                            "y0": 755
+                        },
+                        "id": 7,
+                        "text": "Furniture,\nwooden, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 97,
+                            "y0": 729
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 57,
+                            "y0": 626
+                        },
+                        "id": 9,
+                        "text": "50000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 522
+                        },
+                        "id": 10,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 419
+                        },
+                        "id": 11,
+                        "text": "150000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 316
+                        },
+                        "id": 12,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 212
+                        },
+                        "id": 13,
+                        "text": "250000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 109
+                        },
+                        "id": 14,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 980,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "trade usd"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 933,
+                        "y0": 68
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1103,
+                        "y0": 68
+                    },
+                    "id": 16
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 240,
+                            "x0": 127,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Ethiopia 2000 Export"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 646,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 363
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 76,
+                            "x0": 159,
+                            "y0": 755
+                        },
+                        "id": 3,
+                        "text": "Garlic, fresh\nor chilled"
+                    },
+                    {
+                        "bb": {
+                            "height": 142,
+                            "width": 96,
+                            "x0": 367,
+                            "y0": 755
+                        },
+                        "id": 4,
+                        "text": "Marble and\ntravertine in\nblocks etc."
+                    },
+                    {
+                        "bb": {
+                            "height": 136,
+                            "width": 76,
+                            "x0": 615,
+                            "y0": 755
+                        },
+                        "id": 5,
+                        "text": "Fish fillets,\nfrozen"
+                    },
+                    {
+                        "bb": {
+                            "height": 158,
+                            "width": 119,
+                            "x0": 800,
+                            "y0": 755
+                        },
+                        "id": 6,
+                        "text": "Mineral and\naerated waters\nnot sweetened\nor flavoured"
+                    },
+                    {
+                        "bb": {
+                            "height": 117,
+                            "width": 70,
+                            "x0": 1077,
+                            "y0": 755
+                        },
+                        "id": 7,
+                        "text": "Furniture,\nwooden, nes"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 97,
+                            "y0": 729
+                        },
+                        "id": 8,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 57,
+                            "y0": 626
+                        },
+                        "id": 9,
+                        "text": "50000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 522
+                        },
+                        "id": 10,
+                        "text": "100000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 419
+                        },
+                        "id": 11,
+                        "text": "150000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 316
+                        },
+                        "id": 12,
+                        "text": "200000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 212
+                        },
+                        "id": 13,
+                        "text": "250000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 109
+                        },
+                        "id": 14,
+                        "text": "300000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 980,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "weight kg"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 90,
+                            "x0": 1150,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "trade usd"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 692,
+                    "width": 1135,
+                    "x0": 123,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 234,
+                                "y": 739
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 462,
+                                "y": 739
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 690,
+                                "y": 739
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 918,
+                                "y": 739
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1146,
+                                "y": 739
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 735
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 632
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 528
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 425
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 322
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 218
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 115
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 933,
+                            "y0": 68
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1103,
+                            "y0": 68
+                        },
+                        "id": 16
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Garlic, fresh or chilled",
+                            "y": "221105.0"
+                        },
+                        {
+                            "x": "Marble and travertine in blocks etc.",
+                            "y": "218654.0"
+                        },
+                        {
+                            "x": "Fish fillets, frozen",
+                            "y": "2500.0"
+                        },
+                        {
+                            "x": "Mineral and aerated waters not sweetened or flavoured",
+                            "y": "183812.0"
+                        },
+                        {
+                            "x": "Furniture, wooden, nes",
+                            "y": "1964.0"
+                        }
+                    ],
+                    "name": "weight kg"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Garlic, fresh or chilled",
+                            "y": "66604"
+                        },
+                        {
+                            "x": "Marble and travertine in blocks etc.",
+                            "y": "97282"
+                        },
+                        {
+                            "x": "Fish fillets, frozen",
+                            "y": "3542"
+                        },
+                        {
+                            "x": "Mineral and aerated waters not sweetened or flavoured",
+                            "y": "67528"
+                        },
+                        {
+                            "x": "Furniture, wooden, nes",
+                            "y": "8957"
+                        }
+                    ],
+                    "name": "trade usd"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 457,
+                        "width": 114,
+                        "x0": 178,
+                        "y0": 279
+                    },
+                    {
+                        "height": 138,
+                        "width": 114,
+                        "x0": 178,
+                        "y0": 142
+                    },
+                    {
+                        "height": 452,
+                        "width": 114,
+                        "x0": 406,
+                        "y0": 284
+                    },
+                    {
+                        "height": 201,
+                        "width": 114,
+                        "x0": 406,
+                        "y0": 83
+                    },
+                    {
+                        "height": 5,
+                        "width": 114,
+                        "x0": 634,
+                        "y0": 731
+                    },
+                    {
+                        "height": 7,
+                        "width": 114,
+                        "x0": 634,
+                        "y0": 723
+                    },
+                    {
+                        "height": 380,
+                        "width": 114,
+                        "x0": 862,
+                        "y0": 356
+                    },
+                    {
+                        "height": 139,
+                        "width": 114,
+                        "x0": 862,
+                        "y0": 217
+                    },
+                    {
+                        "height": 4,
+                        "width": 114,
+                        "x0": 1090,
+                        "y0": 732
+                    },
+                    {
+                        "height": 18,
+                        "width": 114,
+                        "x0": 1090,
+                        "y0": 713
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,1510 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 1008,
+                        "x0": 247,
+                        "y0": 19
+                    },
+                    "text": "Estimates of Production and Per Capita Availability of Milk since 1950-51 to 2011-12"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 240,
+                        "x0": 561,
+                        "y0": 924
+                    },
+                    "text": "Year (March to Feburary)"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 406
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 39,
+                        "x0": 120,
+                        "y0": 841
+                    },
+                    "text": "1995-96"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 39,
+                        "x0": 269,
+                        "y0": 841
+                    },
+                    "text": "2003-04"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 39,
+                        "x0": 418,
+                        "y0": 841
+                    },
+                    "text": "1988-89"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 39,
+                        "x0": 567,
+                        "y0": 841
+                    },
+                    "text": "1955-56"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 39,
+                        "x0": 716,
+                        "y0": 841
+                    },
+                    "text": "1997-98"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 39,
+                        "x0": 865,
+                        "y0": 841
+                    },
+                    "text": "1973-74"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 39,
+                        "x0": 1015,
+                        "y0": 841
+                    },
+                    "text": "1996-97"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 39,
+                        "x0": 1164,
+                        "y0": 841
+                    },
+                    "text": "1992-93"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 57,
+                        "y0": 714
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 57,
+                        "y0": 568
+                    },
+                    "text": "400"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 57,
+                        "y0": 422
+                    },
+                    "text": "600"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 57,
+                        "y0": 277
+                    },
+                    "text": "800"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 47,
+                        "y0": 131
+                    },
+                    "text": "1000"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 120,
+                        "x0": 900,
+                        "y0": 66
+                    },
+                    "text": "Per Capita\nAvailability\n(gram/day)"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 140,
+                        "x0": 1100,
+                        "y0": 66
+                    },
+                    "text": "Human\nPopulation\n(million nos.)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 1008,
+                            "x0": 247,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Estimates of Production and Per Capita Availability of Milk since 1950-51 to 2011-12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 240,
+                            "x0": 561,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year (March to Feburary)"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 406
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 120,
+                            "y0": 841
+                        },
+                        "id": 3,
+                        "text": "1995-96"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 269,
+                            "y0": 841
+                        },
+                        "id": 4,
+                        "text": "2003-04"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 418,
+                            "y0": 841
+                        },
+                        "id": 5,
+                        "text": "1988-89"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 567,
+                            "y0": 841
+                        },
+                        "id": 6,
+                        "text": "1955-56"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 716,
+                            "y0": 841
+                        },
+                        "id": 7,
+                        "text": "1997-98"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 865,
+                            "y0": 841
+                        },
+                        "id": 8,
+                        "text": "1973-74"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 1015,
+                            "y0": 841
+                        },
+                        "id": 9,
+                        "text": "1996-97"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 1164,
+                            "y0": 841
+                        },
+                        "id": 10,
+                        "text": "1992-93"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 714
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 568
+                        },
+                        "id": 12,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 422
+                        },
+                        "id": 13,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 277
+                        },
+                        "id": 14,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 47,
+                            "y0": 131
+                        },
+                        "id": 15,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 900,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "Per Capita\nAvailability\n(gram/day)"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 140,
+                            "x0": 1100,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "Human\nPopulation\n(million nos.)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 1008,
+                            "x0": 247,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Estimates of Production and Per Capita Availability of Milk since 1950-51 to 2011-12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 240,
+                            "x0": 561,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year (March to Feburary)"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 406
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 120,
+                            "y0": 841
+                        },
+                        "id": 3,
+                        "text": "1995-96"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 269,
+                            "y0": 841
+                        },
+                        "id": 4,
+                        "text": "2003-04"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 418,
+                            "y0": 841
+                        },
+                        "id": 5,
+                        "text": "1988-89"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 567,
+                            "y0": 841
+                        },
+                        "id": 6,
+                        "text": "1955-56"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 716,
+                            "y0": 841
+                        },
+                        "id": 7,
+                        "text": "1997-98"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 865,
+                            "y0": 841
+                        },
+                        "id": 8,
+                        "text": "1973-74"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 1015,
+                            "y0": 841
+                        },
+                        "id": 9,
+                        "text": "1996-97"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 1164,
+                            "y0": 841
+                        },
+                        "id": 10,
+                        "text": "1992-93"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 714
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 568
+                        },
+                        "id": 12,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 422
+                        },
+                        "id": 13,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 277
+                        },
+                        "id": 14,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 47,
+                            "y0": 131
+                        },
+                        "id": 15,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 900,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "Per Capita\nAvailability\n(gram/day)"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 140,
+                            "x0": 1100,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "Human\nPopulation\n(million nos.)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 778,
+                "width": 1155,
+                "x0": 103,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 158,
+                            "y": 825
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 307,
+                            "y": 825
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 456,
+                            "y": 825
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 605,
+                            "y": 825
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 754,
+                            "y": 825
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 904,
+                            "y": 825
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1053,
+                            "y": 825
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1202,
+                            "y": 825
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 103,
+                            "y": 720
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 103,
+                            "y": 574
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 103,
+                            "y": 428
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 103,
+                            "y": 283
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 103,
+                            "y": 137
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 1008,
+                            "x0": 247,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Estimates of Production and Per Capita Availability of Milk since 1950-51 to 2011-12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 240,
+                            "x0": 561,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year (March to Feburary)"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 406
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 120,
+                            "y0": 841
+                        },
+                        "id": 3,
+                        "text": "1995-96"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 269,
+                            "y0": 841
+                        },
+                        "id": 4,
+                        "text": "2003-04"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 418,
+                            "y0": 841
+                        },
+                        "id": 5,
+                        "text": "1988-89"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 567,
+                            "y0": 841
+                        },
+                        "id": 6,
+                        "text": "1955-56"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 716,
+                            "y0": 841
+                        },
+                        "id": 7,
+                        "text": "1997-98"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 865,
+                            "y0": 841
+                        },
+                        "id": 8,
+                        "text": "1973-74"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 1015,
+                            "y0": 841
+                        },
+                        "id": 9,
+                        "text": "1996-97"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 1164,
+                            "y0": 841
+                        },
+                        "id": 10,
+                        "text": "1992-93"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 714
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 568
+                        },
+                        "id": 12,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 422
+                        },
+                        "id": 13,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 277
+                        },
+                        "id": 14,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 47,
+                            "y0": 131
+                        },
+                        "id": 15,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 900,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "Per Capita\nAvailability\n(gram/day)"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 140,
+                            "x0": 1100,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "Human\nPopulation\n(million nos.)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 15,
+                        "width": 33,
+                        "x0": 853,
+                        "y0": 90
+                    },
+                    "id": 16
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 33,
+                        "x0": 1053,
+                        "y0": 88
+                    },
+                    "id": 17
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 1008,
+                            "x0": 247,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Estimates of Production and Per Capita Availability of Milk since 1950-51 to 2011-12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 240,
+                            "x0": 561,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year (March to Feburary)"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 406
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 120,
+                            "y0": 841
+                        },
+                        "id": 3,
+                        "text": "1995-96"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 269,
+                            "y0": 841
+                        },
+                        "id": 4,
+                        "text": "2003-04"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 418,
+                            "y0": 841
+                        },
+                        "id": 5,
+                        "text": "1988-89"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 567,
+                            "y0": 841
+                        },
+                        "id": 6,
+                        "text": "1955-56"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 716,
+                            "y0": 841
+                        },
+                        "id": 7,
+                        "text": "1997-98"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 865,
+                            "y0": 841
+                        },
+                        "id": 8,
+                        "text": "1973-74"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 1015,
+                            "y0": 841
+                        },
+                        "id": 9,
+                        "text": "1996-97"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 39,
+                            "x0": 1164,
+                            "y0": 841
+                        },
+                        "id": 10,
+                        "text": "1992-93"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 714
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 568
+                        },
+                        "id": 12,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 422
+                        },
+                        "id": 13,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 57,
+                            "y0": 277
+                        },
+                        "id": 14,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 47,
+                            "y0": 131
+                        },
+                        "id": 15,
+                        "text": "1000"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 120,
+                            "x0": 900,
+                            "y0": 66
+                        },
+                        "id": 16,
+                        "text": "Per Capita\nAvailability\n(gram/day)"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 140,
+                            "x0": 1100,
+                            "y0": 66
+                        },
+                        "id": 17,
+                        "text": "Human\nPopulation\n(million nos.)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 778,
+                    "width": 1155,
+                    "x0": 103,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 158,
+                                "y": 825
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 307,
+                                "y": 825
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 456,
+                                "y": 825
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 605,
+                                "y": 825
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 754,
+                                "y": 825
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 904,
+                                "y": 825
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1053,
+                                "y": 825
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1202,
+                                "y": 825
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 103,
+                                "y": 720
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 103,
+                                "y": 574
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 103,
+                                "y": 428
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 103,
+                                "y": 283
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 103,
+                                "y": 137
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 33,
+                            "x0": 853,
+                            "y0": 90
+                        },
+                        "id": 16
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 33,
+                            "x0": 1053,
+                            "y0": 88
+                        },
+                        "id": 17
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1995-96",
+                            "y": "928"
+                        },
+                        {
+                            "x": "2003-04",
+                            "y": "1072"
+                        },
+                        {
+                            "x": "1988-89",
+                            "y": "805"
+                        },
+                        {
+                            "x": "1955-56",
+                            "y": "393"
+                        },
+                        {
+                            "x": "1997-98",
+                            "y": "964"
+                        },
+                        {
+                            "x": "1973-74",
+                            "y": "580"
+                        },
+                        {
+                            "x": "1996-97",
+                            "y": "946"
+                        },
+                        {
+                            "x": "1992-93",
+                            "y": "872"
+                        }
+                    ],
+                    "name": "Human Population (million nos.)"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "1995-96",
+                            "y": "195"
+                        },
+                        {
+                            "x": "2003-04",
+                            "y": "225"
+                        },
+                        {
+                            "x": "1988-89",
+                            "y": "165"
+                        },
+                        {
+                            "x": "1955-56",
+                            "y": "132"
+                        },
+                        {
+                            "x": "1997-98",
+                            "y": "205"
+                        },
+                        {
+                            "x": "1973-74",
+                            "y": "110"
+                        },
+                        {
+                            "x": "1996-97",
+                            "y": "200"
+                        },
+                        {
+                            "x": "1992-93",
+                            "y": "182"
+                        }
+                    ],
+                    "name": "Per Capita Availability (gram/day)"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 159,
+                            "y": 191
+                        },
+                        {
+                            "x": 308,
+                            "y": 86
+                        },
+                        {
+                            "x": 457,
+                            "y": 280
+                        },
+                        {
+                            "x": 606,
+                            "y": 580
+                        },
+                        {
+                            "x": 755,
+                            "y": 164
+                        },
+                        {
+                            "x": 905,
+                            "y": 444
+                        },
+                        {
+                            "x": 1054,
+                            "y": 177
+                        },
+                        {
+                            "x": 1203,
+                            "y": 231
+                        }
+                    ],
+                    [
+                        {
+                            "x": 159,
+                            "y": 724
+                        },
+                        {
+                            "x": 308,
+                            "y": 703
+                        },
+                        {
+                            "x": 457,
+                            "y": 746
+                        },
+                        {
+                            "x": 606,
+                            "y": 770
+                        },
+                        {
+                            "x": 755,
+                            "y": 717
+                        },
+                        {
+                            "x": 905,
+                            "y": 786
+                        },
+                        {
+                            "x": 1054,
+                            "y": 721
+                        },
+                        {
+                            "x": 1203,
+                            "y": 734
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

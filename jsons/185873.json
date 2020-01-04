@@ -1,0 +1,1423 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 373,
+                        "x0": 480,
+                        "y0": 15
+                    },
+                    "text": "Exports of goods and services (% of GDP) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 651,
+                        "y0": 933
+                    },
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 425
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 24,
+                        "x0": 106,
+                        "y0": 871
+                    },
+                    "text": "1993.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 24,
+                        "x0": 285,
+                        "y0": 871
+                    },
+                    "text": "2003.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 24,
+                        "x0": 464,
+                        "y0": 871
+                    },
+                    "text": "1997.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 24,
+                        "x0": 643,
+                        "y0": 871
+                    },
+                    "text": "2010.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 24,
+                        "x0": 822,
+                        "y0": 871
+                    },
+                    "text": "1969.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 24,
+                        "x0": 1001,
+                        "y0": 871
+                    },
+                    "text": "1964.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 24,
+                        "x0": 1180,
+                        "y0": 871
+                    },
+                    "text": "1976.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 742
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 576
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 409
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 243
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 76
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 1138,
+                        "y0": 58
+                    },
+                    "text": "Arab World"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 108,
+                        "x0": 1138,
+                        "y0": 79
+                    },
+                    "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 373,
+                            "x0": 480,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Exports of goods and services (% of GDP) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 651,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 425
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 106,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1993.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 285,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2003.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 464,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1997.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 643,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "2010.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 822,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "1969.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 1001,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "1964.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 1180,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "1976.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 742
+                        },
+                        "id": 10,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 576
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 409
+                        },
+                        "id": 12,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 243
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 76
+                        },
+                        "id": 14,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 1138,
+                            "y0": 58
+                        },
+                        "id": 15,
+                        "text": "Arab World"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 108,
+                            "x0": 1138,
+                            "y0": 79
+                        },
+                        "id": 16,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 16,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 373,
+                            "x0": 480,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Exports of goods and services (% of GDP) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 651,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 425
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 106,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1993.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 285,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2003.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 464,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1997.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 643,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "2010.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 822,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "1969.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 1001,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "1964.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 1180,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "1976.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 742
+                        },
+                        "id": 10,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 576
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 409
+                        },
+                        "id": 12,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 243
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 76
+                        },
+                        "id": 14,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 1138,
+                            "y0": 58
+                        },
+                        "id": 15,
+                        "text": "Arab World"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 108,
+                            "x0": 1138,
+                            "y0": 79
+                        },
+                        "id": 16,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 813,
+                "width": 1189,
+                "x0": 72,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 128,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 307,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 487,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 666,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 845,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1024,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 855
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 747
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 580
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 414
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 247
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 81
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 373,
+                            "x0": 480,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Exports of goods and services (% of GDP) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 651,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 425
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 106,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1993.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 285,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2003.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 464,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1997.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 643,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "2010.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 822,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "1969.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 1001,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "1964.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 1180,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "1976.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 742
+                        },
+                        "id": 10,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 576
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 409
+                        },
+                        "id": 12,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 243
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 76
+                        },
+                        "id": 14,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 1138,
+                            "y0": 58
+                        },
+                        "id": 15,
+                        "text": "Arab World"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 108,
+                            "x0": 1138,
+                            "y0": 79
+                        },
+                        "id": 16,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 28,
+                        "x0": 1099,
+                        "y0": 56
+                    },
+                    "id": 15
+                },
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 28,
+                        "x0": 1099,
+                        "y0": 102
+                    },
+                    "id": 16
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 373,
+                            "x0": 480,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Exports of goods and services (% of GDP) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 651,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 425
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 106,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1993.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 285,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "2003.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 464,
+                            "y0": 871
+                        },
+                        "id": 5,
+                        "text": "1997.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 643,
+                            "y0": 871
+                        },
+                        "id": 6,
+                        "text": "2010.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 822,
+                            "y0": 871
+                        },
+                        "id": 7,
+                        "text": "1969.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 1001,
+                            "y0": 871
+                        },
+                        "id": 8,
+                        "text": "1964.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 24,
+                            "x0": 1180,
+                            "y0": 871
+                        },
+                        "id": 9,
+                        "text": "1976.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 742
+                        },
+                        "id": 10,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 576
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 409
+                        },
+                        "id": 12,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 243
+                        },
+                        "id": 13,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 76
+                        },
+                        "id": 14,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 1138,
+                            "y0": 58
+                        },
+                        "id": 15,
+                        "text": "Arab World"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 108,
+                            "x0": 1138,
+                            "y0": 79
+                        },
+                        "id": 16,
+                        "text": "East Asia &\nPacific\n(excluding high\nincome)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 813,
+                    "width": 1189,
+                    "x0": 72,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 128,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 307,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 487,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 666,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 845,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1024,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 855
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 747
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 580
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 414
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 247
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 81
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 28,
+                            "x0": 1099,
+                            "y0": 56
+                        },
+                        "id": 15
+                    },
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 28,
+                            "x0": 1099,
+                            "y0": 102
+                        },
+                        "id": 16
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1993.0",
+                            "y": "28.4689759891"
+                        },
+                        {
+                            "x": "2003.0",
+                            "y": "45.5606234492"
+                        },
+                        {
+                            "x": "1997.0",
+                            "y": "37.318277851"
+                        },
+                        {
+                            "x": "2010.0",
+                            "y": "49.9583694143"
+                        },
+                        {
+                            "x": "1969.0",
+                            "y": "36.52344947817438"
+                        },
+                        {
+                            "x": "1964.0",
+                            "y": "39.18029648306336"
+                        },
+                        {
+                            "x": "1976.0",
+                            "y": "45.6955886743"
+                        }
+                    ],
+                    "name": "Arab World"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "1993.0",
+                            "y": "22.023272021"
+                        },
+                        {
+                            "x": "2003.0",
+                            "y": "32.778633824"
+                        },
+                        {
+                            "x": "1997.0",
+                            "y": "24.3567362125"
+                        },
+                        {
+                            "x": "2010.0",
+                            "y": "30.5725972047"
+                        },
+                        {
+                            "x": "1969.0",
+                            "y": "5.96638126204"
+                        },
+                        {
+                            "x": "1964.0",
+                            "y": "6.89385726926"
+                        },
+                        {
+                            "x": "1976.0",
+                            "y": "8.71105227368"
+                        }
+                    ],
+                    "name": "East Asia & Pacific (excluding high income)"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 129,
+                            "y": 440
+                        },
+                        {
+                            "x": 308,
+                            "y": 156
+                        },
+                        {
+                            "x": 488,
+                            "y": 293
+                        },
+                        {
+                            "x": 667,
+                            "y": 82
+                        },
+                        {
+                            "x": 846,
+                            "y": 306
+                        },
+                        {
+                            "x": 1025,
+                            "y": 262
+                        },
+                        {
+                            "x": 1204,
+                            "y": 153
+                        }
+                    ],
+                    [
+                        {
+                            "x": 129,
+                            "y": 548
+                        },
+                        {
+                            "x": 308,
+                            "y": 368
+                        },
+                        {
+                            "x": 488,
+                            "y": 509
+                        },
+                        {
+                            "x": 667,
+                            "y": 405
+                        },
+                        {
+                            "x": 846,
+                            "y": 815
+                        },
+                        {
+                            "x": 1025,
+                            "y": 799
+                        },
+                        {
+                            "x": 1204,
+                            "y": 769
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

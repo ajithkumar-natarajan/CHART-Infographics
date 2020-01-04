@@ -1,0 +1,1595 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 570,
+                        "x0": 688,
+                        "y0": 15
+                    },
+                    "text": "Received government payments in the past year, male (% age 15+)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 616,
+                        "y0": 933
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 403
+                    },
+                    "text": "2017"
+                },
+                {
+                    "bb": {
+                        "height": 29,
+                        "width": 19,
+                        "x0": 110,
+                        "y0": 814
+                    },
+                    "text": "Iraq"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 25,
+                        "x0": 212,
+                        "y0": 814
+                    },
+                    "text": "Lao PDR"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 29,
+                        "x0": 315,
+                        "y0": 814
+                    },
+                    "text": "Korea, Rep."
+                },
+                {
+                    "bb": {
+                        "height": 55,
+                        "width": 24,
+                        "x0": 428,
+                        "y0": 814
+                    },
+                    "text": "Norway"
+                },
+                {
+                    "bb": {
+                        "height": 57,
+                        "width": 24,
+                        "x0": 535,
+                        "y0": 814
+                    },
+                    "text": "Jamaica"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 27,
+                        "x0": 640,
+                        "y0": 814
+                    },
+                    "text": "Cambodia"
+                },
+                {
+                    "bb": {
+                        "height": 55,
+                        "width": 24,
+                        "x0": 751,
+                        "y0": 814
+                    },
+                    "text": "Zambia"
+                },
+                {
+                    "bb": {
+                        "height": 70,
+                        "width": 27,
+                        "x0": 855,
+                        "y0": 814
+                    },
+                    "text": "Argentina"
+                },
+                {
+                    "bb": {
+                        "height": 108,
+                        "width": 49,
+                        "x0": 940,
+                        "y0": 814
+                    },
+                    "text": "Central African\nRepublic"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 22,
+                        "x0": 1075,
+                        "y0": 814
+                    },
+                    "text": "Sudan"
+                },
+                {
+                    "bb": {
+                        "height": 91,
+                        "width": 46,
+                        "x0": 1158,
+                        "y0": 814
+                    },
+                    "text": "Bosnia and\nHerzegovina"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 708
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 594
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 480
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 366
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 252
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 138
+                    },
+                    "text": "60"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 570,
+                            "x0": 688,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Received government payments in the past year, male (% age 15+)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 403
+                        },
+                        "id": 2,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 19,
+                            "x0": 110,
+                            "y0": 814
+                        },
+                        "id": 3,
+                        "text": "Iraq"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 25,
+                            "x0": 212,
+                            "y0": 814
+                        },
+                        "id": 4,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 29,
+                            "x0": 315,
+                            "y0": 814
+                        },
+                        "id": 5,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 24,
+                            "x0": 428,
+                            "y0": 814
+                        },
+                        "id": 6,
+                        "text": "Norway"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 24,
+                            "x0": 535,
+                            "y0": 814
+                        },
+                        "id": 7,
+                        "text": "Jamaica"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 27,
+                            "x0": 640,
+                            "y0": 814
+                        },
+                        "id": 8,
+                        "text": "Cambodia"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 24,
+                            "x0": 751,
+                            "y0": 814
+                        },
+                        "id": 9,
+                        "text": "Zambia"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 27,
+                            "x0": 855,
+                            "y0": 814
+                        },
+                        "id": 10,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 49,
+                            "x0": 940,
+                            "y0": 814
+                        },
+                        "id": 11,
+                        "text": "Central African\nRepublic"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 22,
+                            "x0": 1075,
+                            "y0": 814
+                        },
+                        "id": 12,
+                        "text": "Sudan"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 46,
+                            "x0": 1158,
+                            "y0": 814
+                        },
+                        "id": 13,
+                        "text": "Bosnia and\nHerzegovina"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 708
+                        },
+                        "id": 14,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 594
+                        },
+                        "id": 15,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 480
+                        },
+                        "id": 16,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 366
+                        },
+                        "id": 17,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 252
+                        },
+                        "id": 18,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 138
+                        },
+                        "id": 19,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 570,
+                            "x0": 688,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Received government payments in the past year, male (% age 15+)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 403
+                        },
+                        "id": 2,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 19,
+                            "x0": 110,
+                            "y0": 814
+                        },
+                        "id": 3,
+                        "text": "Iraq"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 25,
+                            "x0": 212,
+                            "y0": 814
+                        },
+                        "id": 4,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 29,
+                            "x0": 315,
+                            "y0": 814
+                        },
+                        "id": 5,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 24,
+                            "x0": 428,
+                            "y0": 814
+                        },
+                        "id": 6,
+                        "text": "Norway"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 24,
+                            "x0": 535,
+                            "y0": 814
+                        },
+                        "id": 7,
+                        "text": "Jamaica"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 27,
+                            "x0": 640,
+                            "y0": 814
+                        },
+                        "id": 8,
+                        "text": "Cambodia"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 24,
+                            "x0": 751,
+                            "y0": 814
+                        },
+                        "id": 9,
+                        "text": "Zambia"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 27,
+                            "x0": 855,
+                            "y0": 814
+                        },
+                        "id": 10,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 49,
+                            "x0": 940,
+                            "y0": 814
+                        },
+                        "id": 11,
+                        "text": "Central African\nRepublic"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 22,
+                            "x0": 1075,
+                            "y0": 814
+                        },
+                        "id": 12,
+                        "text": "Sudan"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 46,
+                            "x0": 1158,
+                            "y0": 814
+                        },
+                        "id": 13,
+                        "text": "Bosnia and\nHerzegovina"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 708
+                        },
+                        "id": 14,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 594
+                        },
+                        "id": 15,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 480
+                        },
+                        "id": 16,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 366
+                        },
+                        "id": 17,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 252
+                        },
+                        "id": 18,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 138
+                        },
+                        "id": 19,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 756,
+                "width": 1189,
+                "x0": 72,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 128,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 236,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 343,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 451,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 558,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 666,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 773,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 881,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 988,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 1096,
+                            "y": 798
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 798
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 713
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 599
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 485
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 371
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 257
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 143
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 570,
+                            "x0": 688,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Received government payments in the past year, male (% age 15+)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 403
+                        },
+                        "id": 2,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 19,
+                            "x0": 110,
+                            "y0": 814
+                        },
+                        "id": 3,
+                        "text": "Iraq"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 25,
+                            "x0": 212,
+                            "y0": 814
+                        },
+                        "id": 4,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 29,
+                            "x0": 315,
+                            "y0": 814
+                        },
+                        "id": 5,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 24,
+                            "x0": 428,
+                            "y0": 814
+                        },
+                        "id": 6,
+                        "text": "Norway"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 24,
+                            "x0": 535,
+                            "y0": 814
+                        },
+                        "id": 7,
+                        "text": "Jamaica"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 27,
+                            "x0": 640,
+                            "y0": 814
+                        },
+                        "id": 8,
+                        "text": "Cambodia"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 24,
+                            "x0": 751,
+                            "y0": 814
+                        },
+                        "id": 9,
+                        "text": "Zambia"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 27,
+                            "x0": 855,
+                            "y0": 814
+                        },
+                        "id": 10,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 49,
+                            "x0": 940,
+                            "y0": 814
+                        },
+                        "id": 11,
+                        "text": "Central African\nRepublic"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 22,
+                            "x0": 1075,
+                            "y0": 814
+                        },
+                        "id": 12,
+                        "text": "Sudan"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 46,
+                            "x0": 1158,
+                            "y0": 814
+                        },
+                        "id": 13,
+                        "text": "Bosnia and\nHerzegovina"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 708
+                        },
+                        "id": 14,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 594
+                        },
+                        "id": 15,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 480
+                        },
+                        "id": 16,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 366
+                        },
+                        "id": 17,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 252
+                        },
+                        "id": 18,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 138
+                        },
+                        "id": 19,
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 570,
+                            "x0": 688,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Received government payments in the past year, male (% age 15+)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 403
+                        },
+                        "id": 2,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 19,
+                            "x0": 110,
+                            "y0": 814
+                        },
+                        "id": 3,
+                        "text": "Iraq"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 25,
+                            "x0": 212,
+                            "y0": 814
+                        },
+                        "id": 4,
+                        "text": "Lao PDR"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 29,
+                            "x0": 315,
+                            "y0": 814
+                        },
+                        "id": 5,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 24,
+                            "x0": 428,
+                            "y0": 814
+                        },
+                        "id": 6,
+                        "text": "Norway"
+                    },
+                    {
+                        "bb": {
+                            "height": 57,
+                            "width": 24,
+                            "x0": 535,
+                            "y0": 814
+                        },
+                        "id": 7,
+                        "text": "Jamaica"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 27,
+                            "x0": 640,
+                            "y0": 814
+                        },
+                        "id": 8,
+                        "text": "Cambodia"
+                    },
+                    {
+                        "bb": {
+                            "height": 55,
+                            "width": 24,
+                            "x0": 751,
+                            "y0": 814
+                        },
+                        "id": 9,
+                        "text": "Zambia"
+                    },
+                    {
+                        "bb": {
+                            "height": 70,
+                            "width": 27,
+                            "x0": 855,
+                            "y0": 814
+                        },
+                        "id": 10,
+                        "text": "Argentina"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 49,
+                            "x0": 940,
+                            "y0": 814
+                        },
+                        "id": 11,
+                        "text": "Central African\nRepublic"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 22,
+                            "x0": 1075,
+                            "y0": 814
+                        },
+                        "id": 12,
+                        "text": "Sudan"
+                    },
+                    {
+                        "bb": {
+                            "height": 91,
+                            "width": 46,
+                            "x0": 1158,
+                            "y0": 814
+                        },
+                        "id": 13,
+                        "text": "Bosnia and\nHerzegovina"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 708
+                        },
+                        "id": 14,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 594
+                        },
+                        "id": 15,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 480
+                        },
+                        "id": 16,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 366
+                        },
+                        "id": 17,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 252
+                        },
+                        "id": 18,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 138
+                        },
+                        "id": 19,
+                        "text": "60"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 756,
+                    "width": 1189,
+                    "x0": 72,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 128,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 236,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 343,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 451,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 558,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 666,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 773,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 881,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 988,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 1096,
+                                "y": 798
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 798
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 713
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 599
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 485
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 371
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 257
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 143
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Iraq",
+                            "y": "20.2869586945"
+                        },
+                        {
+                            "x": "Lao PDR",
+                            "y": "11.772277832"
+                        },
+                        {
+                            "x": "Korea, Rep.",
+                            "y": "38.9103393555"
+                        },
+                        {
+                            "x": "Norway",
+                            "y": "65.6375198364"
+                        },
+                        {
+                            "x": "Jamaica",
+                            "y": "5.86648416519"
+                        },
+                        {
+                            "x": "Cambodia",
+                            "y": "13.357793808"
+                        },
+                        {
+                            "x": "Zambia",
+                            "y": "16.5042705536"
+                        },
+                        {
+                            "x": "Argentina",
+                            "y": "20.3239059448"
+                        },
+                        {
+                            "x": "Central African Republic",
+                            "y": "9.26650619507"
+                        },
+                        {
+                            "x": "Sudan",
+                            "y": "17.480294807272465"
+                        },
+                        {
+                            "x": "Bosnia and Herzegovina",
+                            "y": "36.1697616577"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 129,
+                            "y": 596
+                        },
+                        {
+                            "x": 237,
+                            "y": 693
+                        },
+                        {
+                            "x": 344,
+                            "y": 384
+                        },
+                        {
+                            "x": 452,
+                            "y": 80
+                        },
+                        {
+                            "x": 559,
+                            "y": 761
+                        },
+                        {
+                            "x": 667,
+                            "y": 675
+                        },
+                        {
+                            "x": 774,
+                            "y": 639
+                        },
+                        {
+                            "x": 882,
+                            "y": 596
+                        },
+                        {
+                            "x": 989,
+                            "y": 722
+                        },
+                        {
+                            "x": 1097,
+                            "y": 628
+                        },
+                        {
+                            "x": 1204,
+                            "y": 415
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

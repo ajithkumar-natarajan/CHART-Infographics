@@ -1,0 +1,1128 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 640,
+                        "x0": 392,
+                        "y0": 19
+                    },
+                    "text": "Lifetime risk of maternal death (1 in: rate varies by country) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 32,
+                        "x0": 1018,
+                        "y0": 924
+                    },
+                    "text": "400"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 32,
+                        "x0": 313,
+                        "y0": 924
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 32,
+                        "x0": 783,
+                        "y0": 924
+                    },
+                    "text": "300"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 32,
+                        "x0": 548,
+                        "y0": 924
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 81,
+                        "width": 129,
+                        "x0": 21,
+                        "y0": 439
+                    },
+                    "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 108,
+                        "x0": 41,
+                        "y0": 119
+                    },
+                    "text": "Pacific island\nsmall states"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 121,
+                        "x0": 28,
+                        "y0": 812
+                    },
+                    "text": "Middle income"
+                },
+                {
+                    "bb": {
+                        "height": 81,
+                        "width": 114,
+                        "x0": 35,
+                        "y0": 610
+                    },
+                    "text": "Middle East &\nNorth Africa\n(IDA & IBRD\ncountries)"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 81,
+                        "x0": 68,
+                        "y0": 300
+                    },
+                    "text": "IBRD only"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 640,
+                            "x0": 392,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Lifetime risk of maternal death (1 in: rate varies by country) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 1018,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 313,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 783,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 548,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 129,
+                            "x0": 21,
+                            "y0": 439
+                        },
+                        "id": 5,
+                        "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 108,
+                            "x0": 41,
+                            "y0": 119
+                        },
+                        "id": 6,
+                        "text": "Pacific island\nsmall states"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 121,
+                            "x0": 28,
+                            "y0": 812
+                        },
+                        "id": 7,
+                        "text": "Middle income"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 114,
+                            "x0": 35,
+                            "y0": 610
+                        },
+                        "id": 8,
+                        "text": "Middle East &\nNorth Africa\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 81,
+                            "x0": 68,
+                            "y0": 300
+                        },
+                        "id": 9,
+                        "text": "IBRD only"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 640,
+                            "x0": 392,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Lifetime risk of maternal death (1 in: rate varies by country) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 1018,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 313,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 783,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 548,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 129,
+                            "x0": 21,
+                            "y0": 439
+                        },
+                        "id": 5,
+                        "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 108,
+                            "x0": 41,
+                            "y0": 119
+                        },
+                        "id": 6,
+                        "text": "Pacific island\nsmall states"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 121,
+                            "x0": 28,
+                            "y0": 812
+                        },
+                        "id": 7,
+                        "text": "Middle income"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 114,
+                            "x0": 35,
+                            "y0": 610
+                        },
+                        "id": 8,
+                        "text": "Middle East &\nNorth Africa\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 81,
+                            "x0": 68,
+                            "y0": 300
+                        },
+                        "id": 9,
+                        "text": "IBRD only"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 861,
+                "width": 1093,
+                "x0": 165,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 165,
+                            "y": 477
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 165,
+                            "y": 135
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 165,
+                            "y": 818
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 165,
+                            "y": 647
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 165,
+                            "y": 306
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1033,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 328,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 798,
+                            "y": 904
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 563,
+                            "y": 904
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 640,
+                            "x0": 392,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Lifetime risk of maternal death (1 in: rate varies by country) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 1018,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 313,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 783,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 548,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 129,
+                            "x0": 21,
+                            "y0": 439
+                        },
+                        "id": 5,
+                        "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 108,
+                            "x0": 41,
+                            "y0": 119
+                        },
+                        "id": 6,
+                        "text": "Pacific island\nsmall states"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 121,
+                            "x0": 28,
+                            "y0": 812
+                        },
+                        "id": 7,
+                        "text": "Middle income"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 114,
+                            "x0": 35,
+                            "y0": 610
+                        },
+                        "id": 8,
+                        "text": "Middle East &\nNorth Africa\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 81,
+                            "x0": 68,
+                            "y0": 300
+                        },
+                        "id": 9,
+                        "text": "IBRD only"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 640,
+                            "x0": 392,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Lifetime risk of maternal death (1 in: rate varies by country) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 1018,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 313,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 783,
+                            "y0": 924
+                        },
+                        "id": 3,
+                        "text": "300"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 32,
+                            "x0": 548,
+                            "y0": 924
+                        },
+                        "id": 4,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 129,
+                            "x0": 21,
+                            "y0": 439
+                        },
+                        "id": 5,
+                        "text": "Middle East &\nNorth Africa\n(excluding high\nincome)"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 108,
+                            "x0": 41,
+                            "y0": 119
+                        },
+                        "id": 6,
+                        "text": "Pacific island\nsmall states"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 121,
+                            "x0": 28,
+                            "y0": 812
+                        },
+                        "id": 7,
+                        "text": "Middle income"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 114,
+                            "x0": 35,
+                            "y0": 610
+                        },
+                        "id": 8,
+                        "text": "Middle East &\nNorth Africa\n(IDA & IBRD\ncountries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 81,
+                            "x0": 68,
+                            "y0": 300
+                        },
+                        "id": 9,
+                        "text": "IBRD only"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 861,
+                    "width": 1093,
+                    "x0": 165,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 165,
+                                "y": 477
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 165,
+                                "y": 135
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 165,
+                                "y": 818
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 165,
+                                "y": 647
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 165,
+                                "y": 306
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1033,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 328,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 798,
+                                "y": 904
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 563,
+                                "y": 904
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 121.44230055986333,
+                        "max": 220.0,
+                        "median": 151.25546777392555,
+                        "min": 76.0,
+                        "third_quartile": 192.40360278082053
+                    },
+                    "name": "Middle income"
+                },
+                {
+                    "data": {
+                        "first_quartile": 184.35334183240485,
+                        "max": 350.0,
+                        "median": 247.13122150021803,
+                        "min": 110.0,
+                        "third_quartile": 309.43972526306584
+                    },
+                    "name": "Middle East & North Africa (IDA & IBRD countries)"
+                },
+                {
+                    "data": {
+                        "first_quartile": 186.47048550873865,
+                        "max": 350.0,
+                        "median": 255.90900622701076,
+                        "min": 110.0,
+                        "third_quartile": 310.0
+                    },
+                    "name": "Middle East & North Africa (excluding high income)"
+                },
+                {
+                    "data": {
+                        "first_quartile": 160.03216493652954,
+                        "max": 450.0,
+                        "median": 226.4243183851748,
+                        "min": 110.0,
+                        "third_quartile": 315.64469651461826
+                    },
+                    "name": "IBRD only"
+                },
+                {
+                    "data": {
+                        "first_quartile": 169.2077473408075,
+                        "max": 400.0,
+                        "median": 230.22562519100683,
+                        "min": 120.0,
+                        "third_quartile": 293.9432983281982
+                    },
+                    "name": "Pacific island small states"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 527,
+                                "y0": 606
+                            },
+                            "x": 527,
+                            "y": 649
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 916,
+                                "y0": 627
+                            },
+                            "x": 916,
+                            "y": 648
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 675,
+                                "y0": 606
+                            },
+                            "x": 675,
+                            "y": 649
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 353,
+                                "y0": 627
+                            },
+                            "x": 353,
+                            "y": 648
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 821,
+                                "y0": 606
+                            },
+                            "x": 821,
+                            "y": 649
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 470,
+                                "y0": 264
+                            },
+                            "x": 470,
+                            "y": 307
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 1151,
+                                "y0": 285
+                            },
+                            "x": 1151,
+                            "y": 306
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 626,
+                                "y0": 264
+                            },
+                            "x": 626,
+                            "y": 307
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 353,
+                                "y0": 285
+                            },
+                            "x": 353,
+                            "y": 306
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 835,
+                                "y0": 264
+                            },
+                            "x": 835,
+                            "y": 307
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 492,
+                                "y0": 93
+                            },
+                            "x": 492,
+                            "y": 136
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 1034,
+                                "y0": 115
+                            },
+                            "x": 1034,
+                            "y": 136
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 635,
+                                "y0": 93
+                            },
+                            "x": 635,
+                            "y": 136
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 376,
+                                "y0": 115
+                            },
+                            "x": 376,
+                            "y": 136
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 785,
+                                "y0": 93
+                            },
+                            "x": 785,
+                            "y": 136
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 379,
+                                "y0": 776
+                            },
+                            "x": 379,
+                            "y": 819
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 611,
+                                "y0": 798
+                            },
+                            "x": 611,
+                            "y": 819
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 449,
+                                "y0": 776
+                            },
+                            "x": 449,
+                            "y": 819
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 273,
+                                "y0": 798
+                            },
+                            "x": 273,
+                            "y": 819
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 546,
+                                "y0": 776
+                            },
+                            "x": 546,
+                            "y": 819
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 532,
+                                "y0": 435
+                            },
+                            "x": 532,
+                            "y": 478
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 916,
+                                "y0": 456
+                            },
+                            "x": 916,
+                            "y": 477
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 695,
+                                "y0": 435
+                            },
+                            "x": 695,
+                            "y": 478
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 43,
+                                "width": 0,
+                                "x0": 353,
+                                "y0": 456
+                            },
+                            "x": 353,
+                            "y": 477
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 85,
+                                "width": 0,
+                                "x0": 822,
+                                "y0": 435
+                            },
+                            "x": 822,
+                            "y": 478
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

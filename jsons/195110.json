@@ -1,0 +1,1581 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 719,
+                        "x0": 539,
+                        "y0": 15
+                    },
+                    "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 616,
+                        "y0": 933
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 395
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 93,
+                        "width": 38,
+                        "x0": 91,
+                        "y0": 811
+                    },
+                    "text": "Liechtenstein"
+                },
+                {
+                    "bb": {
+                        "height": 92,
+                        "width": 38,
+                        "x0": 245,
+                        "y0": 811
+                    },
+                    "text": "Faroe Islands"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 30,
+                        "x0": 407,
+                        "y0": 811
+                    },
+                    "text": "Malaysia"
+                },
+                {
+                    "bb": {
+                        "height": 81,
+                        "width": 35,
+                        "x0": 555,
+                        "y0": 811
+                    },
+                    "text": "Korea, Rep."
+                },
+                {
+                    "bb": {
+                        "height": 93,
+                        "width": 53,
+                        "x0": 691,
+                        "y0": 811
+                    },
+                    "text": "Trinidad and\nTobago"
+                },
+                {
+                    "bb": {
+                        "height": 111,
+                        "width": 43,
+                        "x0": 854,
+                        "y0": 811
+                    },
+                    "text": "United Kingdom"
+                },
+                {
+                    "bb": {
+                        "height": 106,
+                        "width": 42,
+                        "x0": 1009,
+                        "y0": 811
+                    },
+                    "text": "Czech Republic"
+                },
+                {
+                    "bb": {
+                        "height": 65,
+                        "width": 31,
+                        "x0": 1174,
+                        "y0": 811
+                    },
+                    "text": "Bermuda"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 47,
+                        "y0": 752
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 626
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 501
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 375
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 249
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 123
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1210,
+                        "y0": 58
+                    },
+                    "text": "2003"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1210,
+                        "y0": 79
+                    },
+                    "text": "2006"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 719,
+                            "x0": 539,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 395
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 38,
+                            "x0": 91,
+                            "y0": 811
+                        },
+                        "id": 3,
+                        "text": "Liechtenstein"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 38,
+                            "x0": 245,
+                            "y0": 811
+                        },
+                        "id": 4,
+                        "text": "Faroe Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 30,
+                            "x0": 407,
+                            "y0": 811
+                        },
+                        "id": 5,
+                        "text": "Malaysia"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 35,
+                            "x0": 555,
+                            "y0": 811
+                        },
+                        "id": 6,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 53,
+                            "x0": 691,
+                            "y0": 811
+                        },
+                        "id": 7,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 43,
+                            "x0": 854,
+                            "y0": 811
+                        },
+                        "id": 8,
+                        "text": "United Kingdom"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 42,
+                            "x0": 1009,
+                            "y0": 811
+                        },
+                        "id": 9,
+                        "text": "Czech Republic"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 31,
+                            "x0": 1174,
+                            "y0": 811
+                        },
+                        "id": 10,
+                        "text": "Bermuda"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 47,
+                            "y0": 752
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 626
+                        },
+                        "id": 12,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 501
+                        },
+                        "id": 13,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 375
+                        },
+                        "id": 14,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 249
+                        },
+                        "id": 15,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 123
+                        },
+                        "id": 16,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2003"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 79
+                        },
+                        "id": 18,
+                        "text": "2006"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 18,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 719,
+                            "x0": 539,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 395
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 38,
+                            "x0": 91,
+                            "y0": 811
+                        },
+                        "id": 3,
+                        "text": "Liechtenstein"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 38,
+                            "x0": 245,
+                            "y0": 811
+                        },
+                        "id": 4,
+                        "text": "Faroe Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 30,
+                            "x0": 407,
+                            "y0": 811
+                        },
+                        "id": 5,
+                        "text": "Malaysia"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 35,
+                            "x0": 555,
+                            "y0": 811
+                        },
+                        "id": 6,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 53,
+                            "x0": 691,
+                            "y0": 811
+                        },
+                        "id": 7,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 43,
+                            "x0": 854,
+                            "y0": 811
+                        },
+                        "id": 8,
+                        "text": "United Kingdom"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 42,
+                            "x0": 1009,
+                            "y0": 811
+                        },
+                        "id": 9,
+                        "text": "Czech Republic"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 31,
+                            "x0": 1174,
+                            "y0": 811
+                        },
+                        "id": 10,
+                        "text": "Bermuda"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 47,
+                            "y0": 752
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 626
+                        },
+                        "id": 12,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 501
+                        },
+                        "id": 13,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 375
+                        },
+                        "id": 14,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 249
+                        },
+                        "id": 15,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 123
+                        },
+                        "id": 16,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2003"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 79
+                        },
+                        "id": 18,
+                        "text": "2006"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 753,
+                "width": 1189,
+                "x0": 72,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 128,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 282,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 435,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 589,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 743,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 896,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1050,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 795
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 757
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 631
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 505
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 379
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 254
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 719,
+                            "x0": 539,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 395
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 38,
+                            "x0": 91,
+                            "y0": 811
+                        },
+                        "id": 3,
+                        "text": "Liechtenstein"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 38,
+                            "x0": 245,
+                            "y0": 811
+                        },
+                        "id": 4,
+                        "text": "Faroe Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 30,
+                            "x0": 407,
+                            "y0": 811
+                        },
+                        "id": 5,
+                        "text": "Malaysia"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 35,
+                            "x0": 555,
+                            "y0": 811
+                        },
+                        "id": 6,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 53,
+                            "x0": 691,
+                            "y0": 811
+                        },
+                        "id": 7,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 43,
+                            "x0": 854,
+                            "y0": 811
+                        },
+                        "id": 8,
+                        "text": "United Kingdom"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 42,
+                            "x0": 1009,
+                            "y0": 811
+                        },
+                        "id": 9,
+                        "text": "Czech Republic"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 31,
+                            "x0": 1174,
+                            "y0": 811
+                        },
+                        "id": 10,
+                        "text": "Bermuda"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 47,
+                            "y0": 752
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 626
+                        },
+                        "id": 12,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 501
+                        },
+                        "id": 13,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 375
+                        },
+                        "id": 14,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 249
+                        },
+                        "id": 15,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 123
+                        },
+                        "id": 16,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2003"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 79
+                        },
+                        "id": 18,
+                        "text": "2006"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 28,
+                        "x0": 1171,
+                        "y0": 55
+                    },
+                    "id": 17
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 28,
+                        "x0": 1171,
+                        "y0": 77
+                    },
+                    "id": 18
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 719,
+                            "x0": 539,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Employment in agriculture, female (% of female employment) (modeled ILO estimate)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 395
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 38,
+                            "x0": 91,
+                            "y0": 811
+                        },
+                        "id": 3,
+                        "text": "Liechtenstein"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 38,
+                            "x0": 245,
+                            "y0": 811
+                        },
+                        "id": 4,
+                        "text": "Faroe Islands"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 30,
+                            "x0": 407,
+                            "y0": 811
+                        },
+                        "id": 5,
+                        "text": "Malaysia"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 35,
+                            "x0": 555,
+                            "y0": 811
+                        },
+                        "id": 6,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 93,
+                            "width": 53,
+                            "x0": 691,
+                            "y0": 811
+                        },
+                        "id": 7,
+                        "text": "Trinidad and\nTobago"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 43,
+                            "x0": 854,
+                            "y0": 811
+                        },
+                        "id": 8,
+                        "text": "United Kingdom"
+                    },
+                    {
+                        "bb": {
+                            "height": 106,
+                            "width": 42,
+                            "x0": 1009,
+                            "y0": 811
+                        },
+                        "id": 9,
+                        "text": "Czech Republic"
+                    },
+                    {
+                        "bb": {
+                            "height": 65,
+                            "width": 31,
+                            "x0": 1174,
+                            "y0": 811
+                        },
+                        "id": 10,
+                        "text": "Bermuda"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 47,
+                            "y0": 752
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 626
+                        },
+                        "id": 12,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 501
+                        },
+                        "id": 13,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 375
+                        },
+                        "id": 14,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 249
+                        },
+                        "id": 15,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 123
+                        },
+                        "id": 16,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2003"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 79
+                        },
+                        "id": 18,
+                        "text": "2006"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 753,
+                    "width": 1189,
+                    "x0": 72,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 128,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 282,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 435,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 589,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 743,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 896,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1050,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 795
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 757
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 631
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 505
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 379
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 254
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 128
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 28,
+                            "x0": 1171,
+                            "y0": 55
+                        },
+                        "id": 17
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 28,
+                            "x0": 1171,
+                            "y0": 77
+                        },
+                        "id": 18
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Liechtenstein",
+                            "y": 0.03031886120729299
+                        },
+                        {
+                            "x": "Faroe Islands",
+                            "y": "50.11055157832698"
+                        },
+                        {
+                            "x": "Malaysia",
+                            "y": "9.97000026703"
+                        },
+                        {
+                            "x": "Korea, Rep.",
+                            "y": "8.63500022888"
+                        },
+                        {
+                            "x": "Trinidad and Tobago",
+                            "y": "1.99399995804"
+                        },
+                        {
+                            "x": "United Kingdom",
+                            "y": "0.667999982834"
+                        },
+                        {
+                            "x": "Czech Republic",
+                            "y": "2.79399991035"
+                        },
+                        {
+                            "x": "Bermuda",
+                            "y": 0.6776608290473538
+                        }
+                    ],
+                    "name": "2006"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Liechtenstein",
+                            "y": "53.91725631436795"
+                        },
+                        {
+                            "x": "Faroe Islands",
+                            "y": "0.0270000007004"
+                        },
+                        {
+                            "x": "Malaysia",
+                            "y": "10.9479999542"
+                        },
+                        {
+                            "x": "Korea, Rep.",
+                            "y": "10.1440000534"
+                        },
+                        {
+                            "x": "Trinidad and Tobago",
+                            "y": "2.03399991989"
+                        },
+                        {
+                            "x": "United Kingdom",
+                            "y": "0.583000004292"
+                        },
+                        {
+                            "x": "Czech Republic",
+                            "y": "3.21399998665"
+                        },
+                        {
+                            "x": "Bermuda",
+                            "y": "0.9362577949689737"
+                        }
+                    ],
+                    "name": "2003"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 129,
+                            "y": 757
+                        },
+                        {
+                            "x": 283,
+                            "y": 127
+                        },
+                        {
+                            "x": 436,
+                            "y": 632
+                        },
+                        {
+                            "x": 590,
+                            "y": 649
+                        },
+                        {
+                            "x": 744,
+                            "y": 733
+                        },
+                        {
+                            "x": 897,
+                            "y": 749
+                        },
+                        {
+                            "x": 1051,
+                            "y": 723
+                        },
+                        {
+                            "x": 1204,
+                            "y": 749
+                        }
+                    ],
+                    [
+                        {
+                            "x": 129,
+                            "y": 80
+                        },
+                        {
+                            "x": 283,
+                            "y": 757
+                        },
+                        {
+                            "x": 436,
+                            "y": 620
+                        },
+                        {
+                            "x": 590,
+                            "y": 630
+                        },
+                        {
+                            "x": 744,
+                            "y": 732
+                        },
+                        {
+                            "x": 897,
+                            "y": 750
+                        },
+                        {
+                            "x": 1051,
+                            "y": 717
+                        },
+                        {
+                            "x": 1204,
+                            "y": 746
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

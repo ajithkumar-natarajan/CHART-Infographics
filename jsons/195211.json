@@ -1,0 +1,1565 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 502,
+                        "x0": 416,
+                        "y0": 15
+                    },
+                    "text": "CO2 emissions from transport (% of total fuel combustion) 2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 616,
+                        "y0": 933
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 46,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 394
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 99,
+                        "width": 48,
+                        "x0": 82,
+                        "y0": 807
+                    },
+                    "text": "Low & middle\nincome"
+                },
+                {
+                    "bb": {
+                        "height": 115,
+                        "width": 66,
+                        "x0": 242,
+                        "y0": 807
+                    },
+                    "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                },
+                {
+                    "bb": {
+                        "height": 69,
+                        "width": 27,
+                        "x0": 461,
+                        "y0": 807
+                    },
+                    "text": "IDA blend"
+                },
+                {
+                    "bb": {
+                        "height": 100,
+                        "width": 48,
+                        "x0": 619,
+                        "y0": 807
+                    },
+                    "text": "Middle East &\nNorth Africa"
+                },
+                {
+                    "bb": {
+                        "height": 75,
+                        "width": 28,
+                        "x0": 818,
+                        "y0": 807
+                    },
+                    "text": "South Asia"
+                },
+                {
+                    "bb": {
+                        "height": 69,
+                        "width": 27,
+                        "x0": 998,
+                        "y0": 807
+                    },
+                    "text": "Euro area"
+                },
+                {
+                    "bb": {
+                        "height": 108,
+                        "width": 80,
+                        "x0": 1124,
+                        "y0": 807
+                    },
+                    "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 701
+                    },
+                    "text": "15"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 603
+                    },
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 504
+                    },
+                    "text": "25"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 406
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 308
+                    },
+                    "text": "35"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 210
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 112
+                    },
+                    "text": "45"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1109,
+                        "y0": 58
+                    },
+                    "text": "2002"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 1210,
+                        "y0": 58
+                    },
+                    "text": "1977"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 502,
+                            "x0": 416,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "CO2 emissions from transport (% of total fuel combustion) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 394
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 99,
+                            "width": 48,
+                            "x0": 82,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "Low & middle\nincome"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 66,
+                            "x0": 242,
+                            "y0": 807
+                        },
+                        "id": 4,
+                        "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 27,
+                            "x0": 461,
+                            "y0": 807
+                        },
+                        "id": 5,
+                        "text": "IDA blend"
+                    },
+                    {
+                        "bb": {
+                            "height": 100,
+                            "width": 48,
+                            "x0": 619,
+                            "y0": 807
+                        },
+                        "id": 6,
+                        "text": "Middle East &\nNorth Africa"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 28,
+                            "x0": 818,
+                            "y0": 807
+                        },
+                        "id": 7,
+                        "text": "South Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 27,
+                            "x0": 998,
+                            "y0": 807
+                        },
+                        "id": 8,
+                        "text": "Euro area"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 80,
+                            "x0": 1124,
+                            "y0": 807
+                        },
+                        "id": 9,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 701
+                        },
+                        "id": 10,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 603
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 504
+                        },
+                        "id": 12,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 406
+                        },
+                        "id": 13,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 308
+                        },
+                        "id": 14,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 210
+                        },
+                        "id": 15,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 112
+                        },
+                        "id": 16,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2002"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "1977"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 18,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 502,
+                            "x0": 416,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "CO2 emissions from transport (% of total fuel combustion) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 394
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 99,
+                            "width": 48,
+                            "x0": 82,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "Low & middle\nincome"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 66,
+                            "x0": 242,
+                            "y0": 807
+                        },
+                        "id": 4,
+                        "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 27,
+                            "x0": 461,
+                            "y0": 807
+                        },
+                        "id": 5,
+                        "text": "IDA blend"
+                    },
+                    {
+                        "bb": {
+                            "height": 100,
+                            "width": 48,
+                            "x0": 619,
+                            "y0": 807
+                        },
+                        "id": 6,
+                        "text": "Middle East &\nNorth Africa"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 28,
+                            "x0": 818,
+                            "y0": 807
+                        },
+                        "id": 7,
+                        "text": "South Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 27,
+                            "x0": 998,
+                            "y0": 807
+                        },
+                        "id": 8,
+                        "text": "Euro area"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 80,
+                            "x0": 1124,
+                            "y0": 807
+                        },
+                        "id": 9,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 701
+                        },
+                        "id": 10,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 603
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 504
+                        },
+                        "id": 12,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 406
+                        },
+                        "id": 13,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 308
+                        },
+                        "id": 14,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 210
+                        },
+                        "id": 15,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 112
+                        },
+                        "id": 16,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2002"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "1977"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 749,
+                "width": 1189,
+                "x0": 72,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 128,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 307,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 487,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 666,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 845,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1024,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 791
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 705
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 607
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 509
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 411
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 313
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 215
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 117
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 502,
+                            "x0": 416,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "CO2 emissions from transport (% of total fuel combustion) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 394
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 99,
+                            "width": 48,
+                            "x0": 82,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "Low & middle\nincome"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 66,
+                            "x0": 242,
+                            "y0": 807
+                        },
+                        "id": 4,
+                        "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 27,
+                            "x0": 461,
+                            "y0": 807
+                        },
+                        "id": 5,
+                        "text": "IDA blend"
+                    },
+                    {
+                        "bb": {
+                            "height": 100,
+                            "width": 48,
+                            "x0": 619,
+                            "y0": 807
+                        },
+                        "id": 6,
+                        "text": "Middle East &\nNorth Africa"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 28,
+                            "x0": 818,
+                            "y0": 807
+                        },
+                        "id": 7,
+                        "text": "South Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 27,
+                            "x0": 998,
+                            "y0": 807
+                        },
+                        "id": 8,
+                        "text": "Euro area"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 80,
+                            "x0": 1124,
+                            "y0": 807
+                        },
+                        "id": 9,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 701
+                        },
+                        "id": 10,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 603
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 504
+                        },
+                        "id": 12,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 406
+                        },
+                        "id": 13,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 308
+                        },
+                        "id": 14,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 210
+                        },
+                        "id": 15,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 112
+                        },
+                        "id": 16,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2002"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "1977"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 28,
+                        "x0": 1070,
+                        "y0": 55
+                    },
+                    "id": 17
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 28,
+                        "x0": 1171,
+                        "y0": 55
+                    },
+                    "id": 18
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 502,
+                            "x0": 416,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "CO2 emissions from transport (% of total fuel combustion) 2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 933
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 46,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 394
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 99,
+                            "width": 48,
+                            "x0": 82,
+                            "y0": 807
+                        },
+                        "id": 3,
+                        "text": "Low & middle\nincome"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 66,
+                            "x0": 242,
+                            "y0": 807
+                        },
+                        "id": 4,
+                        "text": "Sub-Saharan\nAfrica (IDA &\nIBRD countries)"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 27,
+                            "x0": 461,
+                            "y0": 807
+                        },
+                        "id": 5,
+                        "text": "IDA blend"
+                    },
+                    {
+                        "bb": {
+                            "height": 100,
+                            "width": 48,
+                            "x0": 619,
+                            "y0": 807
+                        },
+                        "id": 6,
+                        "text": "Middle East &\nNorth Africa"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 28,
+                            "x0": 818,
+                            "y0": 807
+                        },
+                        "id": 7,
+                        "text": "South Asia"
+                    },
+                    {
+                        "bb": {
+                            "height": 69,
+                            "width": 27,
+                            "x0": 998,
+                            "y0": 807
+                        },
+                        "id": 8,
+                        "text": "Euro area"
+                    },
+                    {
+                        "bb": {
+                            "height": 108,
+                            "width": 80,
+                            "x0": 1124,
+                            "y0": 807
+                        },
+                        "id": 9,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 701
+                        },
+                        "id": 10,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 603
+                        },
+                        "id": 11,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 504
+                        },
+                        "id": 12,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 406
+                        },
+                        "id": 13,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 308
+                        },
+                        "id": 14,
+                        "text": "35"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 210
+                        },
+                        "id": 15,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 112
+                        },
+                        "id": 16,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1109,
+                            "y0": 58
+                        },
+                        "id": 17,
+                        "text": "2002"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 1210,
+                            "y0": 58
+                        },
+                        "id": 18,
+                        "text": "1977"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 749,
+                    "width": 1189,
+                    "x0": 72,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 128,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 307,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 487,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 666,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 845,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1024,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 791
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 705
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 607
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 509
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 411
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 313
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 215
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 117
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 28,
+                            "x0": 1070,
+                            "y0": 55
+                        },
+                        "id": 17
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 28,
+                            "x0": 1171,
+                            "y0": 55
+                        },
+                        "id": 18
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Low & middle income",
+                            "y": "15.996211652"
+                        },
+                        {
+                            "x": "Sub-Saharan Africa (IDA & IBRD countries)",
+                            "y": "20.90707722"
+                        },
+                        {
+                            "x": "IDA blend",
+                            "y": "23.9583333333"
+                        },
+                        {
+                            "x": "Middle East & North Africa",
+                            "y": "24.5770877944"
+                        },
+                        {
+                            "x": "South Asia",
+                            "y": "12.5482499791"
+                        },
+                        {
+                            "x": "Euro area",
+                            "y": "26.296361669"
+                        },
+                        {
+                            "x": "Heavily indebted poor countries (HIPC)",
+                            "y": "46.9615945552"
+                        }
+                    ],
+                    "name": "2002"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Low & middle income",
+                            "y": "16.7724618113"
+                        },
+                        {
+                            "x": "Sub-Saharan Africa (IDA & IBRD countries)",
+                            "y": "19.1766811557"
+                        },
+                        {
+                            "x": "IDA blend",
+                            "y": "37.3080757727"
+                        },
+                        {
+                            "x": "Middle East & North Africa",
+                            "y": "24.8028457331"
+                        },
+                        {
+                            "x": "South Asia",
+                            "y": "20.8725212465"
+                        },
+                        {
+                            "x": "Euro area",
+                            "y": "15.1836026497"
+                        },
+                        {
+                            "x": "Heavily indebted poor countries (HIPC)",
+                            "y": "39.7690257625"
+                        }
+                    ],
+                    "name": "1977"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 129,
+                            "y": 687
+                        },
+                        {
+                            "x": 308,
+                            "y": 590
+                        },
+                        {
+                            "x": 488,
+                            "y": 530
+                        },
+                        {
+                            "x": 667,
+                            "y": 518
+                        },
+                        {
+                            "x": 846,
+                            "y": 754
+                        },
+                        {
+                            "x": 1025,
+                            "y": 485
+                        },
+                        {
+                            "x": 1204,
+                            "y": 79
+                        }
+                    ],
+                    [
+                        {
+                            "x": 129,
+                            "y": 671
+                        },
+                        {
+                            "x": 308,
+                            "y": 624
+                        },
+                        {
+                            "x": 488,
+                            "y": 269
+                        },
+                        {
+                            "x": 667,
+                            "y": 514
+                        },
+                        {
+                            "x": 846,
+                            "y": 591
+                        },
+                        {
+                            "x": 1025,
+                            "y": 702
+                        },
+                        {
+                            "x": 1204,
+                            "y": 220
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

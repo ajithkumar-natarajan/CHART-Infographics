@@ -1,0 +1,1366 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 546,
+                        "x0": 401,
+                        "y0": 19
+                    },
+                    "text": "Legislation exists on domestic violence (1=yes; 0=no)"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 114,
+                        "x0": 617,
+                        "y0": 924
+                    },
+                    "text": "Country Code"
+                },
+                {
+                    "bb": {
+                        "height": 42,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 429
+                    },
+                    "text": "2017"
+                },
+                {
+                    "bb": {
+                        "height": 43,
+                        "width": 27,
+                        "x0": 119,
+                        "y0": 869
+                    },
+                    "text": "CUW"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 26,
+                        "x0": 252,
+                        "y0": 869
+                    },
+                    "text": "GNB"
+                },
+                {
+                    "bb": {
+                        "height": 37,
+                        "width": 26,
+                        "x0": 384,
+                        "y0": 869
+                    },
+                    "text": "ECU"
+                },
+                {
+                    "bb": {
+                        "height": 37,
+                        "width": 25,
+                        "x0": 517,
+                        "y0": 869
+                    },
+                    "text": "CHL"
+                },
+                {
+                    "bb": {
+                        "height": 42,
+                        "width": 27,
+                        "x0": 647,
+                        "y0": 869
+                    },
+                    "text": "DMA"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 25,
+                        "x0": 781,
+                        "y0": 869
+                    },
+                    "text": "ALB"
+                },
+                {
+                    "bb": {
+                        "height": 37,
+                        "width": 26,
+                        "x0": 912,
+                        "y0": 869
+                    },
+                    "text": "USA"
+                },
+                {
+                    "bb": {
+                        "height": 42,
+                        "width": 27,
+                        "x0": 1043,
+                        "y0": 869
+                    },
+                    "text": "MCO"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 26,
+                        "x0": 1176,
+                        "y0": 869
+                    },
+                    "text": "TKM"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 704
+                    },
+                    "text": "0.6"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 548
+                    },
+                    "text": "0.7"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 392
+                    },
+                    "text": "0.8"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 236
+                    },
+                    "text": "0.9"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 26,
+                        "x0": 47,
+                        "y0": 80
+                    },
+                    "text": "1.0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 546,
+                            "x0": 401,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Legislation exists on domestic violence (1=yes; 0=no)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 617,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 429
+                        },
+                        "id": 2,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 27,
+                            "x0": 119,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "CUW"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 26,
+                            "x0": 252,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "GNB"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 26,
+                            "x0": 384,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "ECU"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 25,
+                            "x0": 517,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "CHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 27,
+                            "x0": 647,
+                            "y0": 869
+                        },
+                        "id": 7,
+                        "text": "DMA"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 781,
+                            "y0": 869
+                        },
+                        "id": 8,
+                        "text": "ALB"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 26,
+                            "x0": 912,
+                            "y0": 869
+                        },
+                        "id": 9,
+                        "text": "USA"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 27,
+                            "x0": 1043,
+                            "y0": 869
+                        },
+                        "id": 10,
+                        "text": "MCO"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 26,
+                            "x0": 1176,
+                            "y0": 869
+                        },
+                        "id": 11,
+                        "text": "TKM"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 704
+                        },
+                        "id": 12,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 548
+                        },
+                        "id": 13,
+                        "text": "0.7"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 392
+                        },
+                        "id": 14,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 236
+                        },
+                        "id": 15,
+                        "text": "0.9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 80
+                        },
+                        "id": 16,
+                        "text": "1.0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 546,
+                            "x0": 401,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Legislation exists on domestic violence (1=yes; 0=no)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 617,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 429
+                        },
+                        "id": 2,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 27,
+                            "x0": 119,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "CUW"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 26,
+                            "x0": 252,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "GNB"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 26,
+                            "x0": 384,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "ECU"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 25,
+                            "x0": 517,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "CHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 27,
+                            "x0": 647,
+                            "y0": 869
+                        },
+                        "id": 7,
+                        "text": "DMA"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 781,
+                            "y0": 869
+                        },
+                        "id": 8,
+                        "text": "ALB"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 26,
+                            "x0": 912,
+                            "y0": 869
+                        },
+                        "id": 9,
+                        "text": "USA"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 27,
+                            "x0": 1043,
+                            "y0": 869
+                        },
+                        "id": 10,
+                        "text": "MCO"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 26,
+                            "x0": 1176,
+                            "y0": 869
+                        },
+                        "id": 11,
+                        "text": "TKM"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 704
+                        },
+                        "id": 12,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 548
+                        },
+                        "id": 13,
+                        "text": "0.7"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 392
+                        },
+                        "id": 14,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 236
+                        },
+                        "id": 15,
+                        "text": "0.9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 80
+                        },
+                        "id": 16,
+                        "text": "1.0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 806,
+                "width": 1169,
+                "x0": 90,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 145,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 277,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 409,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 541,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 673,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 805,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 937,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1069,
+                            "y": 853
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 1201,
+                            "y": 853
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 710
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 554
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 398
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 242
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 90,
+                            "y": 86
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 546,
+                            "x0": 401,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Legislation exists on domestic violence (1=yes; 0=no)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 617,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 429
+                        },
+                        "id": 2,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 27,
+                            "x0": 119,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "CUW"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 26,
+                            "x0": 252,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "GNB"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 26,
+                            "x0": 384,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "ECU"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 25,
+                            "x0": 517,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "CHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 27,
+                            "x0": 647,
+                            "y0": 869
+                        },
+                        "id": 7,
+                        "text": "DMA"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 781,
+                            "y0": 869
+                        },
+                        "id": 8,
+                        "text": "ALB"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 26,
+                            "x0": 912,
+                            "y0": 869
+                        },
+                        "id": 9,
+                        "text": "USA"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 27,
+                            "x0": 1043,
+                            "y0": 869
+                        },
+                        "id": 10,
+                        "text": "MCO"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 26,
+                            "x0": 1176,
+                            "y0": 869
+                        },
+                        "id": 11,
+                        "text": "TKM"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 704
+                        },
+                        "id": 12,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 548
+                        },
+                        "id": 13,
+                        "text": "0.7"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 392
+                        },
+                        "id": 14,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 236
+                        },
+                        "id": 15,
+                        "text": "0.9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 80
+                        },
+                        "id": 16,
+                        "text": "1.0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 546,
+                            "x0": 401,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Legislation exists on domestic violence (1=yes; 0=no)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 114,
+                            "x0": 617,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 429
+                        },
+                        "id": 2,
+                        "text": "2017"
+                    },
+                    {
+                        "bb": {
+                            "height": 43,
+                            "width": 27,
+                            "x0": 119,
+                            "y0": 869
+                        },
+                        "id": 3,
+                        "text": "CUW"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 26,
+                            "x0": 252,
+                            "y0": 869
+                        },
+                        "id": 4,
+                        "text": "GNB"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 26,
+                            "x0": 384,
+                            "y0": 869
+                        },
+                        "id": 5,
+                        "text": "ECU"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 25,
+                            "x0": 517,
+                            "y0": 869
+                        },
+                        "id": 6,
+                        "text": "CHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 27,
+                            "x0": 647,
+                            "y0": 869
+                        },
+                        "id": 7,
+                        "text": "DMA"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 25,
+                            "x0": 781,
+                            "y0": 869
+                        },
+                        "id": 8,
+                        "text": "ALB"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 26,
+                            "x0": 912,
+                            "y0": 869
+                        },
+                        "id": 9,
+                        "text": "USA"
+                    },
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 27,
+                            "x0": 1043,
+                            "y0": 869
+                        },
+                        "id": 10,
+                        "text": "MCO"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 26,
+                            "x0": 1176,
+                            "y0": 869
+                        },
+                        "id": 11,
+                        "text": "TKM"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 704
+                        },
+                        "id": 12,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 548
+                        },
+                        "id": 13,
+                        "text": "0.7"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 392
+                        },
+                        "id": 14,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 236
+                        },
+                        "id": 15,
+                        "text": "0.9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 26,
+                            "x0": 47,
+                            "y0": 80
+                        },
+                        "id": 16,
+                        "text": "1.0"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 806,
+                    "width": 1169,
+                    "x0": 90,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 145,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 277,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 409,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 541,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 673,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 805,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 937,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1069,
+                                "y": 853
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 1201,
+                                "y": 853
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 710
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 554
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 398
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 242
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 90,
+                                "y": 86
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "CUW",
+                            "y": "0.815597948434125"
+                        },
+                        {
+                            "x": "GNB",
+                            "y": "1.0"
+                        },
+                        {
+                            "x": "ECU",
+                            "y": "1.0"
+                        },
+                        {
+                            "x": "CHL",
+                            "y": "1.0"
+                        },
+                        {
+                            "x": "DMA",
+                            "y": "1.0"
+                        },
+                        {
+                            "x": "ALB",
+                            "y": "1.0"
+                        },
+                        {
+                            "x": "USA",
+                            "y": "1.0"
+                        },
+                        {
+                            "x": "MCO",
+                            "y": "0.5339796107378857"
+                        },
+                        {
+                            "x": "TKM",
+                            "y": "0.7511403199499668"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 146,
+                            "y": 374
+                        },
+                        {
+                            "x": 278,
+                            "y": 87
+                        },
+                        {
+                            "x": 410,
+                            "y": 87
+                        },
+                        {
+                            "x": 542,
+                            "y": 87
+                        },
+                        {
+                            "x": 674,
+                            "y": 87
+                        },
+                        {
+                            "x": 806,
+                            "y": 87
+                        },
+                        {
+                            "x": 938,
+                            "y": 87
+                        },
+                        {
+                            "x": 1070,
+                            "y": 813
+                        },
+                        {
+                            "x": 1202,
+                            "y": 475
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

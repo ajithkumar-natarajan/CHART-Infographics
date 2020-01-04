@@ -1,0 +1,1429 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 492,
+                        "x0": 440,
+                        "y0": 19
+                    },
+                    "text": "Peak Demand and Peak Met - September 2014"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 190,
+                        "x0": 591,
+                        "y0": 924
+                    },
+                    "text": "State/System/Region"
+                },
+                {
+                    "bb": {
+                        "height": 250,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 277
+                    },
+                    "text": "Availability(MW)-Sept2014"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 30,
+                        "x0": 138,
+                        "y0": 772
+                    },
+                    "text": "Manipur"
+                },
+                {
+                    "bb": {
+                        "height": 72,
+                        "width": 30,
+                        "x0": 286,
+                        "y0": 772
+                    },
+                    "text": "Gujarat"
+                },
+                {
+                    "bb": {
+                        "height": 111,
+                        "width": 37,
+                        "x0": 427,
+                        "y0": 772
+                    },
+                    "text": "West Bengal"
+                },
+                {
+                    "bb": {
+                        "height": 141,
+                        "width": 42,
+                        "x0": 570,
+                        "y0": 772
+                    },
+                    "text": "Madhya Pradesh"
+                },
+                {
+                    "bb": {
+                        "height": 111,
+                        "width": 37,
+                        "x0": 723,
+                        "y0": 772
+                    },
+                    "text": "Lakshadweep"
+                },
+                {
+                    "bb": {
+                        "height": 141,
+                        "width": 42,
+                        "x0": 866,
+                        "y0": 772
+                    },
+                    "text": "Andhra Pradesh"
+                },
+                {
+                    "bb": {
+                        "height": 62,
+                        "width": 28,
+                        "x0": 1027,
+                        "y0": 772
+                    },
+                    "text": "Sikkim"
+                },
+                {
+                    "bb": {
+                        "height": 92,
+                        "width": 33,
+                        "x0": 1170,
+                        "y0": 772
+                    },
+                    "text": "Meghalaya"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 87,
+                        "y0": 714
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 57,
+                        "y0": 617
+                    },
+                    "text": "2000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 57,
+                        "y0": 520
+                    },
+                    "text": "4000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 57,
+                        "y0": 422
+                    },
+                    "text": "6000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 57,
+                        "y0": 325
+                    },
+                    "text": "8000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 47,
+                        "y0": 228
+                    },
+                    "text": "10000"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 50,
+                        "x0": 47,
+                        "y0": 131
+                    },
+                    "text": "12000"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 492,
+                            "x0": 440,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Peak Demand and Peak Met - September 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 190,
+                            "x0": 591,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "State/System/Region"
+                    },
+                    {
+                        "bb": {
+                            "height": 250,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 277
+                        },
+                        "id": 2,
+                        "text": "Availability(MW)-Sept2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 138,
+                            "y0": 772
+                        },
+                        "id": 3,
+                        "text": "Manipur"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 286,
+                            "y0": 772
+                        },
+                        "id": 4,
+                        "text": "Gujarat"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 37,
+                            "x0": 427,
+                            "y0": 772
+                        },
+                        "id": 5,
+                        "text": "West Bengal"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 42,
+                            "x0": 570,
+                            "y0": 772
+                        },
+                        "id": 6,
+                        "text": "Madhya Pradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 37,
+                            "x0": 723,
+                            "y0": 772
+                        },
+                        "id": 7,
+                        "text": "Lakshadweep"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 42,
+                            "x0": 866,
+                            "y0": 772
+                        },
+                        "id": 8,
+                        "text": "Andhra Pradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 28,
+                            "x0": 1027,
+                            "y0": 772
+                        },
+                        "id": 9,
+                        "text": "Sikkim"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 33,
+                            "x0": 1170,
+                            "y0": 772
+                        },
+                        "id": 10,
+                        "text": "Meghalaya"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 87,
+                            "y0": 714
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 617
+                        },
+                        "id": 12,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 520
+                        },
+                        "id": 13,
+                        "text": "4000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 422
+                        },
+                        "id": 14,
+                        "text": "6000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 325
+                        },
+                        "id": 15,
+                        "text": "8000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 228
+                        },
+                        "id": 16,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 131
+                        },
+                        "id": 17,
+                        "text": "12000"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 492,
+                            "x0": 440,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Peak Demand and Peak Met - September 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 190,
+                            "x0": 591,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "State/System/Region"
+                    },
+                    {
+                        "bb": {
+                            "height": 250,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 277
+                        },
+                        "id": 2,
+                        "text": "Availability(MW)-Sept2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 138,
+                            "y0": 772
+                        },
+                        "id": 3,
+                        "text": "Manipur"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 286,
+                            "y0": 772
+                        },
+                        "id": 4,
+                        "text": "Gujarat"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 37,
+                            "x0": 427,
+                            "y0": 772
+                        },
+                        "id": 5,
+                        "text": "West Bengal"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 42,
+                            "x0": 570,
+                            "y0": 772
+                        },
+                        "id": 6,
+                        "text": "Madhya Pradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 37,
+                            "x0": 723,
+                            "y0": 772
+                        },
+                        "id": 7,
+                        "text": "Lakshadweep"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 42,
+                            "x0": 866,
+                            "y0": 772
+                        },
+                        "id": 8,
+                        "text": "Andhra Pradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 28,
+                            "x0": 1027,
+                            "y0": 772
+                        },
+                        "id": 9,
+                        "text": "Sikkim"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 33,
+                            "x0": 1170,
+                            "y0": 772
+                        },
+                        "id": 10,
+                        "text": "Meghalaya"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 87,
+                            "y0": 714
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 617
+                        },
+                        "id": 12,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 520
+                        },
+                        "id": 13,
+                        "text": "4000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 422
+                        },
+                        "id": 14,
+                        "text": "6000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 325
+                        },
+                        "id": 15,
+                        "text": "8000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 228
+                        },
+                        "id": 16,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 131
+                        },
+                        "id": 17,
+                        "text": "12000"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 709,
+                "width": 1145,
+                "x0": 113,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 167,
+                            "y": 756
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 315,
+                            "y": 756
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 463,
+                            "y": 756
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 611,
+                            "y": 756
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 759,
+                            "y": 756
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 907,
+                            "y": 756
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1054,
+                            "y": 756
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1202,
+                            "y": 756
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 720
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 623
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 526
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 428
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 331
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 234
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 113,
+                            "y": 137
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 492,
+                            "x0": 440,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Peak Demand and Peak Met - September 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 190,
+                            "x0": 591,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "State/System/Region"
+                    },
+                    {
+                        "bb": {
+                            "height": 250,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 277
+                        },
+                        "id": 2,
+                        "text": "Availability(MW)-Sept2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 138,
+                            "y0": 772
+                        },
+                        "id": 3,
+                        "text": "Manipur"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 286,
+                            "y0": 772
+                        },
+                        "id": 4,
+                        "text": "Gujarat"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 37,
+                            "x0": 427,
+                            "y0": 772
+                        },
+                        "id": 5,
+                        "text": "West Bengal"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 42,
+                            "x0": 570,
+                            "y0": 772
+                        },
+                        "id": 6,
+                        "text": "Madhya Pradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 37,
+                            "x0": 723,
+                            "y0": 772
+                        },
+                        "id": 7,
+                        "text": "Lakshadweep"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 42,
+                            "x0": 866,
+                            "y0": 772
+                        },
+                        "id": 8,
+                        "text": "Andhra Pradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 28,
+                            "x0": 1027,
+                            "y0": 772
+                        },
+                        "id": 9,
+                        "text": "Sikkim"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 33,
+                            "x0": 1170,
+                            "y0": 772
+                        },
+                        "id": 10,
+                        "text": "Meghalaya"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 87,
+                            "y0": 714
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 617
+                        },
+                        "id": 12,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 520
+                        },
+                        "id": 13,
+                        "text": "4000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 422
+                        },
+                        "id": 14,
+                        "text": "6000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 325
+                        },
+                        "id": 15,
+                        "text": "8000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 228
+                        },
+                        "id": 16,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 131
+                        },
+                        "id": 17,
+                        "text": "12000"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 492,
+                            "x0": 440,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Peak Demand and Peak Met - September 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 190,
+                            "x0": 591,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "State/System/Region"
+                    },
+                    {
+                        "bb": {
+                            "height": 250,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 277
+                        },
+                        "id": 2,
+                        "text": "Availability(MW)-Sept2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 138,
+                            "y0": 772
+                        },
+                        "id": 3,
+                        "text": "Manipur"
+                    },
+                    {
+                        "bb": {
+                            "height": 72,
+                            "width": 30,
+                            "x0": 286,
+                            "y0": 772
+                        },
+                        "id": 4,
+                        "text": "Gujarat"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 37,
+                            "x0": 427,
+                            "y0": 772
+                        },
+                        "id": 5,
+                        "text": "West Bengal"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 42,
+                            "x0": 570,
+                            "y0": 772
+                        },
+                        "id": 6,
+                        "text": "Madhya Pradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 111,
+                            "width": 37,
+                            "x0": 723,
+                            "y0": 772
+                        },
+                        "id": 7,
+                        "text": "Lakshadweep"
+                    },
+                    {
+                        "bb": {
+                            "height": 141,
+                            "width": 42,
+                            "x0": 866,
+                            "y0": 772
+                        },
+                        "id": 8,
+                        "text": "Andhra Pradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 62,
+                            "width": 28,
+                            "x0": 1027,
+                            "y0": 772
+                        },
+                        "id": 9,
+                        "text": "Sikkim"
+                    },
+                    {
+                        "bb": {
+                            "height": 92,
+                            "width": 33,
+                            "x0": 1170,
+                            "y0": 772
+                        },
+                        "id": 10,
+                        "text": "Meghalaya"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 87,
+                            "y0": 714
+                        },
+                        "id": 11,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 617
+                        },
+                        "id": 12,
+                        "text": "2000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 520
+                        },
+                        "id": 13,
+                        "text": "4000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 422
+                        },
+                        "id": 14,
+                        "text": "6000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 57,
+                            "y0": 325
+                        },
+                        "id": 15,
+                        "text": "8000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 228
+                        },
+                        "id": 16,
+                        "text": "10000"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 50,
+                            "x0": 47,
+                            "y0": 131
+                        },
+                        "id": 17,
+                        "text": "12000"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 709,
+                    "width": 1145,
+                    "x0": 113,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 167,
+                                "y": 756
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 315,
+                                "y": 756
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 463,
+                                "y": 756
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 611,
+                                "y": 756
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 759,
+                                "y": 756
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 907,
+                                "y": 756
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1054,
+                                "y": 756
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1202,
+                                "y": 756
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 720
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 623
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 526
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 428
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 331
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 234
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 113,
+                                "y": 137
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Manipur",
+                            "y": "126"
+                        },
+                        {
+                            "x": "Gujarat",
+                            "y": "13136"
+                        },
+                        {
+                            "x": "West Bengal ",
+                            "y": "7288"
+                        },
+                        {
+                            "x": "Madhya Pradesh",
+                            "y": "8159"
+                        },
+                        {
+                            "x": "Lakshadweep",
+                            "y": "8"
+                        },
+                        {
+                            "x": "Andhra Pradesh",
+                            "y": "6380"
+                        },
+                        {
+                            "x": "Sikkim",
+                            "y": "80"
+                        },
+                        {
+                            "x": "Meghalaya",
+                            "y": "280"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 168,
+                            "y": 715
+                        },
+                        {
+                            "x": 316,
+                            "y": 83
+                        },
+                        {
+                            "x": 464,
+                            "y": 367
+                        },
+                        {
+                            "x": 612,
+                            "y": 324
+                        },
+                        {
+                            "x": 760,
+                            "y": 721
+                        },
+                        {
+                            "x": 908,
+                            "y": 411
+                        },
+                        {
+                            "x": 1055,
+                            "y": 717
+                        },
+                        {
+                            "x": 1203,
+                            "y": 707
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

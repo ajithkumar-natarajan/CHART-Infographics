@@ -1,0 +1,738 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 583,
+                        "x0": 672,
+                        "y0": 19
+                    },
+                    "text": "Poverty gap at $3.20 a day (2011 PPP) (% of population) t"
+                },
+                {
+                    "bb": {
+                        "height": 73,
+                        "width": 20,
+                        "x0": 637,
+                        "y0": 867
+                    },
+                    "text": "Maldives"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 28,
+                        "y0": 610
+                    },
+                    "text": "8"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 51
+                    },
+                    "text": "12"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 28,
+                        "y0": 470
+                    },
+                    "text": "9"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 330
+                    },
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 18,
+                        "y0": 191
+                    },
+                    "text": "11"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 28,
+                        "y0": 750
+                    },
+                    "text": "7"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 583,
+                            "x0": 672,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Poverty gap at $3.20 a day (2011 PPP) (% of population) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 73,
+                            "width": 20,
+                            "x0": 637,
+                            "y0": 867
+                        },
+                        "id": 1,
+                        "text": "Maldives"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 610
+                        },
+                        "id": 2,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 51
+                        },
+                        "id": 3,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 470
+                        },
+                        "id": 4,
+                        "text": "9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 330
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 191
+                        },
+                        "id": 6,
+                        "text": "11"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 750
+                        },
+                        "id": 7,
+                        "text": "7"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 583,
+                            "x0": 672,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Poverty gap at $3.20 a day (2011 PPP) (% of population) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 73,
+                            "width": 20,
+                            "x0": 637,
+                            "y0": 867
+                        },
+                        "id": 1,
+                        "text": "Maldives"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 610
+                        },
+                        "id": 2,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 51
+                        },
+                        "id": 3,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 470
+                        },
+                        "id": 4,
+                        "text": "9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 330
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 191
+                        },
+                        "id": 6,
+                        "text": "11"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 750
+                        },
+                        "id": 7,
+                        "text": "7"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 804,
+                "width": 1204,
+                "x0": 55,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 656,
+                            "y": 851
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 614
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 57
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 475
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 336
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 197
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 55,
+                            "y": 752
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 583,
+                            "x0": 672,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Poverty gap at $3.20 a day (2011 PPP) (% of population) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 73,
+                            "width": 20,
+                            "x0": 637,
+                            "y0": 867
+                        },
+                        "id": 1,
+                        "text": "Maldives"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 610
+                        },
+                        "id": 2,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 51
+                        },
+                        "id": 3,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 470
+                        },
+                        "id": 4,
+                        "text": "9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 330
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 191
+                        },
+                        "id": 6,
+                        "text": "11"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 750
+                        },
+                        "id": 7,
+                        "text": "7"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 583,
+                            "x0": 672,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Poverty gap at $3.20 a day (2011 PPP) (% of population) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 73,
+                            "width": 20,
+                            "x0": 637,
+                            "y0": 867
+                        },
+                        "id": 1,
+                        "text": "Maldives"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 610
+                        },
+                        "id": 2,
+                        "text": "8"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 51
+                        },
+                        "id": 3,
+                        "text": "12"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 470
+                        },
+                        "id": 4,
+                        "text": "9"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 330
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 18,
+                            "y0": 191
+                        },
+                        "id": 6,
+                        "text": "11"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 28,
+                            "y0": 750
+                        },
+                        "id": 7,
+                        "text": "7"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 804,
+                    "width": 1204,
+                    "x0": 55,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 656,
+                                "y": 851
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 614
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 57
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 475
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 336
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 197
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 55,
+                                "y": 752
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 8.082824875350674,
+                        "max": 11.1,
+                        "median": 9.118116447694746,
+                        "min": 7.3,
+                        "third_quartile": 10.552291914166076
+                    },
+                    "name": "Maldives"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 567,
+                                "y0": 606
+                            },
+                            "x": 657,
+                            "y": 605
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 612,
+                                "y0": 184
+                            },
+                            "x": 657,
+                            "y": 184
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 567,
+                                "y0": 461
+                            },
+                            "x": 657,
+                            "y": 461
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 90,
+                                "x0": 612,
+                                "y0": 715
+                            },
+                            "x": 657,
+                            "y": 715
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 179,
+                                "x0": 567,
+                                "y0": 606
+                            },
+                            "x": 657,
+                            "y": 260
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

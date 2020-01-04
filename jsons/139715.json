@@ -1,0 +1,1465 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 320,
+                        "x0": 502,
+                        "y0": 17
+                    },
+                    "text": "Stock Markets, US$_monthly_2"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 27,
+                        "x0": 804,
+                        "y0": 860
+                    },
+                    "text": "2007M12"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 27,
+                        "x0": 1143,
+                        "y0": 860
+                    },
+                    "text": "2010M12"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 27,
+                        "x0": 296,
+                        "y0": 860
+                    },
+                    "text": "2011M06"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 27,
+                        "x0": 127,
+                        "y0": 860
+                    },
+                    "text": "2009M06"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 27,
+                        "x0": 466,
+                        "y0": 860
+                    },
+                    "text": "2010M06"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 27,
+                        "x0": 635,
+                        "y0": 860
+                    },
+                    "text": "2007M11"
+                },
+                {
+                    "bb": {
+                        "height": 82,
+                        "width": 27,
+                        "x0": 974,
+                        "y0": 860
+                    },
+                    "text": "2011M05"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 18,
+                        "y0": 113
+                    },
+                    "text": "250"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 29,
+                        "y0": 812
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 18,
+                        "y0": 637
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 18,
+                        "y0": 288
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 18,
+                        "y0": 462
+                    },
+                    "text": "150"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 320,
+                            "x0": 502,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 804,
+                            "y0": 860
+                        },
+                        "id": 1,
+                        "text": "2007M12"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 1143,
+                            "y0": 860
+                        },
+                        "id": 2,
+                        "text": "2010M12"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 296,
+                            "y0": 860
+                        },
+                        "id": 3,
+                        "text": "2011M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 127,
+                            "y0": 860
+                        },
+                        "id": 4,
+                        "text": "2009M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 466,
+                            "y0": 860
+                        },
+                        "id": 5,
+                        "text": "2010M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 635,
+                            "y0": 860
+                        },
+                        "id": 6,
+                        "text": "2007M11"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 974,
+                            "y0": 860
+                        },
+                        "id": 7,
+                        "text": "2011M05"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 113
+                        },
+                        "id": 8,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 29,
+                            "y0": 812
+                        },
+                        "id": 9,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 637
+                        },
+                        "id": 10,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 288
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 462
+                        },
+                        "id": 12,
+                        "text": "150"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 320,
+                            "x0": 502,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 804,
+                            "y0": 860
+                        },
+                        "id": 1,
+                        "text": "2007M12"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 1143,
+                            "y0": 860
+                        },
+                        "id": 2,
+                        "text": "2010M12"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 296,
+                            "y0": 860
+                        },
+                        "id": 3,
+                        "text": "2011M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 127,
+                            "y0": 860
+                        },
+                        "id": 4,
+                        "text": "2009M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 466,
+                            "y0": 860
+                        },
+                        "id": 5,
+                        "text": "2010M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 635,
+                            "y0": 860
+                        },
+                        "id": 6,
+                        "text": "2007M11"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 974,
+                            "y0": 860
+                        },
+                        "id": 7,
+                        "text": "2011M05"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 113
+                        },
+                        "id": 8,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 29,
+                            "y0": 812
+                        },
+                        "id": 9,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 637
+                        },
+                        "id": 10,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 288
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 462
+                        },
+                        "id": 12,
+                        "text": "150"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 799,
+                "width": 1193,
+                "x0": 66,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 831,
+                            "y": 844
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 1169,
+                            "y": 844
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 322,
+                            "y": 844
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 153,
+                            "y": 844
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 492,
+                            "y": 844
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 661,
+                            "y": 844
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1000,
+                            "y": 844
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 66,
+                            "y": 118
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 66,
+                            "y": 817
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 66,
+                            "y": 642
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 66,
+                            "y": 293
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 66,
+                            "y": 468
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 320,
+                            "x0": 502,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 804,
+                            "y0": 860
+                        },
+                        "id": 1,
+                        "text": "2007M12"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 1143,
+                            "y0": 860
+                        },
+                        "id": 2,
+                        "text": "2010M12"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 296,
+                            "y0": 860
+                        },
+                        "id": 3,
+                        "text": "2011M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 127,
+                            "y0": 860
+                        },
+                        "id": 4,
+                        "text": "2009M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 466,
+                            "y0": 860
+                        },
+                        "id": 5,
+                        "text": "2010M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 635,
+                            "y0": 860
+                        },
+                        "id": 6,
+                        "text": "2007M11"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 974,
+                            "y0": 860
+                        },
+                        "id": 7,
+                        "text": "2011M05"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 113
+                        },
+                        "id": 8,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 29,
+                            "y0": 812
+                        },
+                        "id": 9,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 637
+                        },
+                        "id": 10,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 288
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 462
+                        },
+                        "id": 12,
+                        "text": "150"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 320,
+                            "x0": 502,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 804,
+                            "y0": 860
+                        },
+                        "id": 1,
+                        "text": "2007M12"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 1143,
+                            "y0": 860
+                        },
+                        "id": 2,
+                        "text": "2010M12"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 296,
+                            "y0": 860
+                        },
+                        "id": 3,
+                        "text": "2011M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 127,
+                            "y0": 860
+                        },
+                        "id": 4,
+                        "text": "2009M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 466,
+                            "y0": 860
+                        },
+                        "id": 5,
+                        "text": "2010M06"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 635,
+                            "y0": 860
+                        },
+                        "id": 6,
+                        "text": "2007M11"
+                    },
+                    {
+                        "bb": {
+                            "height": 82,
+                            "width": 27,
+                            "x0": 974,
+                            "y0": 860
+                        },
+                        "id": 7,
+                        "text": "2011M05"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 113
+                        },
+                        "id": 8,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 29,
+                            "y0": 812
+                        },
+                        "id": 9,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 637
+                        },
+                        "id": 10,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 288
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 18,
+                            "y0": 462
+                        },
+                        "id": 12,
+                        "text": "150"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 799,
+                    "width": 1193,
+                    "x0": 66,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 831,
+                                "y": 844
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 1169,
+                                "y": 844
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 322,
+                                "y": 844
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 153,
+                                "y": 844
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 492,
+                                "y": 844
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 661,
+                                "y": 844
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1000,
+                                "y": 844
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 66,
+                                "y": 118
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 66,
+                                "y": 817
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 66,
+                                "y": 642
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 66,
+                                "y": 293
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 66,
+                                "y": 468
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 75.77532,
+                        "max": 105.709,
+                        "median": 79.61496,
+                        "min": 59.45241,
+                        "third_quartile": 88.41826
+                    },
+                    "name": "2009M06"
+                },
+                {
+                    "data": {
+                        "first_quartile": 95.77618,
+                        "max": 157.3411,
+                        "median": 110.0671,
+                        "min": 59.78253,
+                        "third_quartile": 121.7453
+                    },
+                    "name": "2011M06"
+                },
+                {
+                    "data": {
+                        "first_quartile": 83.42398,
+                        "max": 116.4059,
+                        "median": 91.97572,
+                        "min": 68.39229,
+                        "third_quartile": 98.38333
+                    },
+                    "name": "2010M06"
+                },
+                {
+                    "data": {
+                        "first_quartile": 120.7927,
+                        "max": 251.6641,
+                        "median": 142.8471,
+                        "min": 61.43901,
+                        "third_quartile": 175.9201
+                    },
+                    "name": "2007M11"
+                },
+                {
+                    "data": {
+                        "first_quartile": 116.9419,
+                        "max": 254.5083,
+                        "median": 138.2903,
+                        "min": 62.08825,
+                        "third_quartile": 174.8989
+                    },
+                    "name": "2007M12"
+                },
+                {
+                    "data": {
+                        "first_quartile": 97.25476,
+                        "max": 161.3157,
+                        "median": 112.5994,
+                        "min": 62.83278,
+                        "third_quartile": 125.8779
+                    },
+                    "name": "2011M05"
+                },
+                {
+                    "data": {
+                        "first_quartile": 93.68864,
+                        "max": 154.8852,
+                        "median": 106.5438,
+                        "min": 63.96181,
+                        "third_quartile": 118.5847
+                    },
+                    "name": "2010M12"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 789,
+                                "y0": 584
+                            },
+                            "x": 832,
+                            "y": 584
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 810,
+                                "y0": 104
+                            },
+                            "x": 832,
+                            "y": 104
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 789,
+                                "y0": 510
+                            },
+                            "x": 832,
+                            "y": 510
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 810,
+                                "y0": 776
+                            },
+                            "x": 832,
+                            "y": 776
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 789,
+                                "y0": 584
+                            },
+                            "x": 832,
+                            "y": 382
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 1128,
+                                "y0": 666
+                            },
+                            "x": 1170,
+                            "y": 666
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 1149,
+                                "y0": 452
+                            },
+                            "x": 1170,
+                            "y": 452
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 1128,
+                                "y0": 621
+                            },
+                            "x": 1170,
+                            "y": 621
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 1149,
+                                "y0": 769
+                            },
+                            "x": 1170,
+                            "y": 769
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 1128,
+                                "y0": 666
+                            },
+                            "x": 1170,
+                            "y": 579
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 281,
+                                "y0": 658
+                            },
+                            "x": 323,
+                            "y": 659
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 302,
+                                "y0": 443
+                            },
+                            "x": 323,
+                            "y": 443
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 281,
+                                "y0": 608
+                            },
+                            "x": 323,
+                            "y": 608
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 302,
+                                "y0": 784
+                            },
+                            "x": 323,
+                            "y": 784
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 281,
+                                "y0": 658
+                            },
+                            "x": 323,
+                            "y": 568
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 112,
+                                "y0": 728
+                            },
+                            "x": 154,
+                            "y": 728
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 133,
+                                "y0": 624
+                            },
+                            "x": 154,
+                            "y": 624
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 112,
+                                "y0": 715
+                            },
+                            "x": 154,
+                            "y": 715
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 133,
+                                "y0": 785
+                            },
+                            "x": 154,
+                            "y": 785
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 112,
+                                "y0": 728
+                            },
+                            "x": 154,
+                            "y": 684
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 451,
+                                "y0": 701
+                            },
+                            "x": 493,
+                            "y": 701
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 472,
+                                "y0": 586
+                            },
+                            "x": 493,
+                            "y": 586
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 451,
+                                "y0": 672
+                            },
+                            "x": 493,
+                            "y": 672
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 472,
+                                "y0": 754
+                            },
+                            "x": 493,
+                            "y": 754
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 451,
+                                "y0": 701
+                            },
+                            "x": 493,
+                            "y": 649
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 620,
+                                "y0": 571
+                            },
+                            "x": 662,
+                            "y": 571
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 641,
+                                "y0": 114
+                            },
+                            "x": 662,
+                            "y": 114
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 620,
+                                "y0": 494
+                            },
+                            "x": 662,
+                            "y": 494
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 641,
+                                "y0": 778
+                            },
+                            "x": 662,
+                            "y": 778
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 620,
+                                "y0": 571
+                            },
+                            "x": 662,
+                            "y": 378
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 959,
+                                "y0": 653
+                            },
+                            "x": 1001,
+                            "y": 653
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 980,
+                                "y0": 429
+                            },
+                            "x": 1001,
+                            "y": 429
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 959,
+                                "y0": 599
+                            },
+                            "x": 1001,
+                            "y": 599
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 42,
+                                "x0": 980,
+                                "y0": 773
+                            },
+                            "x": 1001,
+                            "y": 773
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 0,
+                                "width": 85,
+                                "x0": 959,
+                                "y0": 653
+                            },
+                            "x": 1001,
+                            "y": 553
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

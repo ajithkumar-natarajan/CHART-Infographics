@@ -1,0 +1,971 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 486,
+                        "x0": 429,
+                        "y0": 19
+                    },
+                    "text": "Pregnant women receiving prenatal care (%) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 37,
+                        "x0": 653,
+                        "y0": 924
+                    },
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 37,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 423
+                    },
+                    "text": "TMN"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 35,
+                        "x0": 106,
+                        "y0": 852
+                    },
+                    "text": "1986.0"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 35,
+                        "x0": 459,
+                        "y0": 852
+                    },
+                    "text": "1989.0"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 35,
+                        "x0": 813,
+                        "y0": 852
+                    },
+                    "text": "2008.0"
+                },
+                {
+                    "bb": {
+                        "height": 61,
+                        "width": 35,
+                        "x0": 1167,
+                        "y0": 852
+                    },
+                    "text": "1980.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 47,
+                        "y0": 769
+                    },
+                    "text": "82"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 48,
+                        "y0": 604
+                    },
+                    "text": "84"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 48,
+                        "y0": 439
+                    },
+                    "text": "86"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 48,
+                        "y0": 274
+                    },
+                    "text": "88"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 21,
+                        "x0": 48,
+                        "y0": 108
+                    },
+                    "text": "90"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 486,
+                            "x0": 429,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Pregnant women receiving prenatal care (%) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 653,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "TMN"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 106,
+                            "y0": 852
+                        },
+                        "id": 3,
+                        "text": "1986.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 459,
+                            "y0": 852
+                        },
+                        "id": 4,
+                        "text": "1989.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 813,
+                            "y0": 852
+                        },
+                        "id": 5,
+                        "text": "2008.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 1167,
+                            "y0": 852
+                        },
+                        "id": 6,
+                        "text": "1980.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 769
+                        },
+                        "id": 7,
+                        "text": "82"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 604
+                        },
+                        "id": 8,
+                        "text": "84"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 439
+                        },
+                        "id": 9,
+                        "text": "86"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 274
+                        },
+                        "id": 10,
+                        "text": "88"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 108
+                        },
+                        "id": 11,
+                        "text": "90"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 486,
+                            "x0": 429,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Pregnant women receiving prenatal care (%) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 653,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "TMN"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 106,
+                            "y0": 852
+                        },
+                        "id": 3,
+                        "text": "1986.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 459,
+                            "y0": 852
+                        },
+                        "id": 4,
+                        "text": "1989.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 813,
+                            "y0": 852
+                        },
+                        "id": 5,
+                        "text": "2008.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 1167,
+                            "y0": 852
+                        },
+                        "id": 6,
+                        "text": "1980.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 769
+                        },
+                        "id": 7,
+                        "text": "82"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 604
+                        },
+                        "id": 8,
+                        "text": "84"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 439
+                        },
+                        "id": 9,
+                        "text": "86"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 274
+                        },
+                        "id": 10,
+                        "text": "88"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 108
+                        },
+                        "id": 11,
+                        "text": "90"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 789,
+                "width": 1174,
+                "x0": 85,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 140,
+                            "y": 836
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 494,
+                            "y": 836
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 847,
+                            "y": 836
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1201,
+                            "y": 836
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 775
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 610
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 445
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 280
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 114
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 486,
+                            "x0": 429,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Pregnant women receiving prenatal care (%) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 653,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "TMN"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 106,
+                            "y0": 852
+                        },
+                        "id": 3,
+                        "text": "1986.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 459,
+                            "y0": 852
+                        },
+                        "id": 4,
+                        "text": "1989.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 813,
+                            "y0": 852
+                        },
+                        "id": 5,
+                        "text": "2008.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 1167,
+                            "y0": 852
+                        },
+                        "id": 6,
+                        "text": "1980.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 769
+                        },
+                        "id": 7,
+                        "text": "82"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 604
+                        },
+                        "id": 8,
+                        "text": "84"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 439
+                        },
+                        "id": 9,
+                        "text": "86"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 274
+                        },
+                        "id": 10,
+                        "text": "88"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 108
+                        },
+                        "id": 11,
+                        "text": "90"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 486,
+                            "x0": 429,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Pregnant women receiving prenatal care (%) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 37,
+                            "x0": 653,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 423
+                        },
+                        "id": 2,
+                        "text": "TMN"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 106,
+                            "y0": 852
+                        },
+                        "id": 3,
+                        "text": "1986.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 459,
+                            "y0": 852
+                        },
+                        "id": 4,
+                        "text": "1989.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 813,
+                            "y0": 852
+                        },
+                        "id": 5,
+                        "text": "2008.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 61,
+                            "width": 35,
+                            "x0": 1167,
+                            "y0": 852
+                        },
+                        "id": 6,
+                        "text": "1980.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 47,
+                            "y0": 769
+                        },
+                        "id": 7,
+                        "text": "82"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 604
+                        },
+                        "id": 8,
+                        "text": "84"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 439
+                        },
+                        "id": 9,
+                        "text": "86"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 274
+                        },
+                        "id": 10,
+                        "text": "88"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 21,
+                            "x0": 48,
+                            "y0": 108
+                        },
+                        "id": 11,
+                        "text": "90"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 789,
+                    "width": 1174,
+                    "x0": 85,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 140,
+                                "y": 836
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 494,
+                                "y": 836
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 847,
+                                "y": 836
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1201,
+                                "y": 836
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 775
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 610
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 445
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 280
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 114
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1986.0",
+                            "y": "86.0505917006"
+                        },
+                        {
+                            "x": "1989.0",
+                            "y": "86.0505917006"
+                        },
+                        {
+                            "x": "2008.0",
+                            "y": "86.0505917006"
+                        },
+                        {
+                            "x": "1980.0",
+                            "y": "86.0505917006"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 141,
+                            "y": 442
+                        },
+                        {
+                            "x": 495,
+                            "y": 442
+                        },
+                        {
+                            "x": 848,
+                            "y": 442
+                        },
+                        {
+                            "x": 1202,
+                            "y": 442
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

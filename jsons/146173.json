@@ -1,0 +1,880 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 320,
+                        "x0": 120,
+                        "y0": 17
+                    },
+                    "text": "Stock Markets, US$_monthly_2"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 778,
+                        "y0": 926
+                    },
+                    "text": "125"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 372,
+                        "y0": 926
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 235,
+                        "y0": 926
+                    },
+                    "text": "25"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 1052,
+                        "y0": 926
+                    },
+                    "text": "175"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 21,
+                        "x0": 509,
+                        "y0": 926
+                    },
+                    "text": "75"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 641,
+                        "y0": 926
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 1188,
+                        "y0": 926
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 32,
+                        "x0": 915,
+                        "y0": 926
+                    },
+                    "text": "150"
+                },
+                {
+                    "bb": {
+                        "height": 31,
+                        "width": 82,
+                        "x0": 18,
+                        "y0": 471
+                    },
+                    "text": "2006M04"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 320,
+                            "x0": 120,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 778,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 372,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 235,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 1052,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "175"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 509,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "75"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 641,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 1188,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 915,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 82,
+                            "x0": 18,
+                            "y0": 471
+                        },
+                        "id": 9,
+                        "text": "2006M04"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 320,
+                            "x0": 120,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 778,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 372,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 235,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 1052,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "175"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 509,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "75"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 641,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 1188,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 915,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 82,
+                            "x0": 18,
+                            "y0": 471
+                        },
+                        "id": 9,
+                        "text": "2006M04"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 865,
+                "width": 1142,
+                "x0": 116,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 116,
+                            "y": 477
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 793,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 382,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 245,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1066,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 519,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 656,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 930,
+                            "y": 906
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 320,
+                            "x0": 120,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 778,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 372,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 235,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 1052,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "175"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 509,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "75"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 641,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 1188,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 915,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 82,
+                            "x0": 18,
+                            "y0": 471
+                        },
+                        "id": 9,
+                        "text": "2006M04"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 320,
+                            "x0": 120,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "Stock Markets, US$_monthly_2"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 778,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 372,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 235,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 1052,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "175"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 21,
+                            "x0": 509,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "75"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 641,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 1188,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 32,
+                            "x0": 915,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 31,
+                            "width": 82,
+                            "x0": 18,
+                            "y0": 471
+                        },
+                        "id": 9,
+                        "text": "2006M04"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 865,
+                    "width": 1142,
+                    "x0": 116,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 116,
+                                "y": 477
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 793,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 382,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 245,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1066,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 519,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 656,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 930,
+                                "y": 906
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 78.25113,
+                        "max": 174.6981,
+                        "median": 98.77292,
+                        "min": 36.48697,
+                        "third_quartile": 124.4922062049838
+                    },
+                    "name": "2006M04"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 129,
+                                "width": 0,
+                                "x0": 538,
+                                "y0": 413
+                            },
+                            "x": 538,
+                            "y": 477
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 1066,
+                                "y0": 445
+                            },
+                            "x": 1066,
+                            "y": 477
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 129,
+                                "width": 0,
+                                "x0": 650,
+                                "y0": 413
+                            },
+                            "x": 650,
+                            "y": 477
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 309,
+                                "y0": 445
+                            },
+                            "x": 309,
+                            "y": 477
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 129,
+                                "width": 0,
+                                "x0": 791,
+                                "y0": 413
+                            },
+                            "x": 791,
+                            "y": 477
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

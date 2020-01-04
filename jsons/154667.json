@@ -1,0 +1,1013 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Horizontal box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 237,
+                        "x0": 81,
+                        "y0": 17
+                    },
+                    "text": "GNI growth (annual %)"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 37,
+                        "x0": 1077,
+                        "y0": 926
+                    },
+                    "text": "15.0"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 37,
+                        "x0": 931,
+                        "y0": 926
+                    },
+                    "text": "12.5"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 26,
+                        "x0": 204,
+                        "y0": 926
+                    },
+                    "text": "0.0"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 26,
+                        "x0": 351,
+                        "y0": 926
+                    },
+                    "text": "2.5"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 37,
+                        "x0": 785,
+                        "y0": 926
+                    },
+                    "text": "10.0"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 37,
+                        "x0": 1224,
+                        "y0": 926
+                    },
+                    "text": "17.5"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 26,
+                        "x0": 643,
+                        "y0": 926
+                    },
+                    "text": "7.5"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 26,
+                        "x0": 497,
+                        "y0": 926
+                    },
+                    "text": "5.0"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 44,
+                        "x0": 18,
+                        "y0": 257
+                    },
+                    "text": "2015"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 44,
+                        "x0": 18,
+                        "y0": 686
+                    },
+                    "text": "2011"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 237,
+                            "x0": 81,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "GNI growth (annual %)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 1077,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "15.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 931,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "12.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 204,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 351,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 785,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "10.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 1224,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "17.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 643,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "7.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 497,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "5.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 44,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 9,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 44,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 10,
+                        "text": "2011"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 237,
+                            "x0": 81,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "GNI growth (annual %)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 1077,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "15.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 931,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "12.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 204,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 351,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 785,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "10.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 1224,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "17.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 643,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "7.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 497,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "5.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 44,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 9,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 44,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 10,
+                        "text": "2011"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 865,
+                "width": 1174,
+                "x0": 78,
+                "y0": 45
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 262
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 78,
+                            "y": 691
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 1095,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 948,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 216,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 363,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 802,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1241,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 656,
+                            "y": 906
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 509,
+                            "y": 906
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 237,
+                            "x0": 81,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "GNI growth (annual %)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 1077,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "15.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 931,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "12.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 204,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 351,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 785,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "10.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 1224,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "17.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 643,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "7.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 497,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "5.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 44,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 9,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 44,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 10,
+                        "text": "2011"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Horizontal box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 20,
+                            "width": 237,
+                            "x0": 81,
+                            "y0": 17
+                        },
+                        "id": 0,
+                        "text": "GNI growth (annual %)"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 1077,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "15.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 931,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "12.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 204,
+                            "y0": 926
+                        },
+                        "id": 3,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 351,
+                            "y0": 926
+                        },
+                        "id": 4,
+                        "text": "2.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 785,
+                            "y0": 926
+                        },
+                        "id": 5,
+                        "text": "10.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 37,
+                            "x0": 1224,
+                            "y0": 926
+                        },
+                        "id": 6,
+                        "text": "17.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 643,
+                            "y0": 926
+                        },
+                        "id": 7,
+                        "text": "7.5"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 26,
+                            "x0": 497,
+                            "y0": 926
+                        },
+                        "id": 8,
+                        "text": "5.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 44,
+                            "x0": 18,
+                            "y0": 257
+                        },
+                        "id": 9,
+                        "text": "2015"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 44,
+                            "x0": 18,
+                            "y0": 686
+                        },
+                        "id": 10,
+                        "text": "2011"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 2,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 865,
+                    "width": 1174,
+                    "x0": 78,
+                    "y0": 45
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 262
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 78,
+                                "y": 691
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 1,
+                            "tick_pt": {
+                                "x": 1095,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "tick_pt": {
+                                "x": 948,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 216,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 363,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 802,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1241,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 656,
+                                "y": 906
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 509,
+                                "y": 906
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": {
+                        "first_quartile": 1.5788094613376784,
+                        "max": 12.9619697652,
+                        "median": 3.486730318395942,
+                        "min": -5.619398096263692,
+                        "third_quartile": 6.442366091581627
+                    },
+                    "name": "2011"
+                },
+                {
+                    "data": {
+                        "first_quartile": 1.06697483295,
+                        "max": 11.048892242506247,
+                        "median": 3.28220248326,
+                        "min": -5.1663097985,
+                        "third_quartile": 5.595240427680254
+                    },
+                    "name": "2015"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 280,
+                                "y0": 231
+                            },
+                            "x": 280,
+                            "y": 263
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 864,
+                                "y0": 247
+                            },
+                            "x": 864,
+                            "y": 263
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 410,
+                                "y0": 231
+                            },
+                            "x": 410,
+                            "y": 263
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": -85,
+                                "y0": 247
+                            },
+                            "x": -85,
+                            "y": 263
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 545,
+                                "y0": 231
+                            },
+                            "x": 545,
+                            "y": 263
+                        }
+                    },
+                    {
+                        "first_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 310,
+                                "y0": 660
+                            },
+                            "x": 310,
+                            "y": 692
+                        },
+                        "max": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": 977,
+                                "y0": 676
+                            },
+                            "x": 977,
+                            "y": 692
+                        },
+                        "median": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 422,
+                                "y0": 660
+                            },
+                            "x": 422,
+                            "y": 692
+                        },
+                        "min": {
+                            "_bb": {
+                                "height": 32,
+                                "width": 0,
+                                "x0": -112,
+                                "y0": 676
+                            },
+                            "x": -112,
+                            "y": 692
+                        },
+                        "third_quartile": {
+                            "_bb": {
+                                "height": 64,
+                                "width": 0,
+                                "x0": 595,
+                                "y0": 660
+                            },
+                            "x": 595,
+                            "y": 692
+                        }
+                    }
+                ],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

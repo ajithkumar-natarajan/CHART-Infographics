@@ -1,0 +1,1881 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 219,
+                        "x0": 561,
+                        "y0": 14
+                    },
+                    "text": "Saudi Arabia 2010 Import"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 78,
+                        "x0": 632,
+                        "y0": 926
+                    },
+                    "text": "commodity"
+                },
+                {
+                    "bb": {
+                        "height": 47,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 382
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 104,
+                        "width": 61,
+                        "x0": 77,
+                        "y0": 788
+                    },
+                    "text": "Titanium ores\nand\nconcentrates"
+                },
+                {
+                    "bb": {
+                        "height": 114,
+                        "width": 78,
+                        "x0": 193,
+                        "y0": 788
+                    },
+                    "text": "Rusks, toasted\nbread and\nsimilar toasted\nproducts"
+                },
+                {
+                    "bb": {
+                        "height": 123,
+                        "width": 63,
+                        "x0": 341,
+                        "y0": 788
+                    },
+                    "text": "Lead unwrought\ncontaining\nmostly antimony"
+                },
+                {
+                    "bb": {
+                        "height": 109,
+                        "width": 46,
+                        "x0": 492,
+                        "y0": 788
+                    },
+                    "text": "Cocoa powder,\nsweetened"
+                },
+                {
+                    "bb": {
+                        "height": 102,
+                        "width": 60,
+                        "x0": 611,
+                        "y0": 788
+                    },
+                    "text": "Wind musical\ninstruments\nexcept brass"
+                },
+                {
+                    "bb": {
+                        "height": 102,
+                        "width": 76,
+                        "x0": 728,
+                        "y0": 788
+                    },
+                    "text": "Textile fabric\nfor card\nclothing,\ntechnical use"
+                },
+                {
+                    "bb": {
+                        "height": 115,
+                        "width": 94,
+                        "x0": 844,
+                        "y0": 788
+                    },
+                    "text": "Chromium,\narticles\nthereof, waste\nor\nscrap/powders"
+                },
+                {
+                    "bb": {
+                        "height": 128,
+                        "width": 80,
+                        "x0": 991,
+                        "y0": 788
+                    },
+                    "text": "Carpets of\nmanmade yarn,\nwoven, made up,\nnes"
+                },
+                {
+                    "bb": {
+                        "height": 103,
+                        "width": 45,
+                        "x0": 1160,
+                        "y0": 788
+                    },
+                    "text": "Lead powders\nand flakes"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 730
+                    },
+                    "text": "0.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 645
+                    },
+                    "text": "0.2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 560
+                    },
+                    "text": "0.4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 474
+                    },
+                    "text": "0.6"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 389
+                    },
+                    "text": "0.8"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 304
+                    },
+                    "text": "1.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 219
+                    },
+                    "text": "1.2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 134
+                    },
+                    "text": "1.4"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 22,
+                        "x0": 43,
+                        "y0": 49
+                    },
+                    "text": "1.6"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 67,
+                        "x0": 1041,
+                        "y0": 56
+                    },
+                    "text": "trade usd"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 70,
+                        "x0": 1176,
+                        "y0": 56
+                    },
+                    "text": "weight kg"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 219,
+                            "x0": 561,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Saudi Arabia 2010 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 47,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 382
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 61,
+                            "x0": 77,
+                            "y0": 788
+                        },
+                        "id": 3,
+                        "text": "Titanium ores\nand\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 78,
+                            "x0": 193,
+                            "y0": 788
+                        },
+                        "id": 4,
+                        "text": "Rusks, toasted\nbread and\nsimilar toasted\nproducts"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 63,
+                            "x0": 341,
+                            "y0": 788
+                        },
+                        "id": 5,
+                        "text": "Lead unwrought\ncontaining\nmostly antimony"
+                    },
+                    {
+                        "bb": {
+                            "height": 109,
+                            "width": 46,
+                            "x0": 492,
+                            "y0": 788
+                        },
+                        "id": 6,
+                        "text": "Cocoa powder,\nsweetened"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 60,
+                            "x0": 611,
+                            "y0": 788
+                        },
+                        "id": 7,
+                        "text": "Wind musical\ninstruments\nexcept brass"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 76,
+                            "x0": 728,
+                            "y0": 788
+                        },
+                        "id": 8,
+                        "text": "Textile fabric\nfor card\nclothing,\ntechnical use"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 94,
+                            "x0": 844,
+                            "y0": 788
+                        },
+                        "id": 9,
+                        "text": "Chromium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 128,
+                            "width": 80,
+                            "x0": 991,
+                            "y0": 788
+                        },
+                        "id": 10,
+                        "text": "Carpets of\nmanmade yarn,\nwoven, made up,\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 45,
+                            "x0": 1160,
+                            "y0": 788
+                        },
+                        "id": 11,
+                        "text": "Lead powders\nand flakes"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 730
+                        },
+                        "id": 12,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 645
+                        },
+                        "id": 13,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 560
+                        },
+                        "id": 14,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 474
+                        },
+                        "id": 15,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 389
+                        },
+                        "id": 16,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 304
+                        },
+                        "id": 17,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 219
+                        },
+                        "id": 18,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 134
+                        },
+                        "id": 19,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 49
+                        },
+                        "id": 20,
+                        "text": "1.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 67,
+                            "x0": 1041,
+                            "y0": 56
+                        },
+                        "id": 21,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 70,
+                            "x0": 1176,
+                            "y0": 56
+                        },
+                        "id": 22,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 22,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 219,
+                            "x0": 561,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Saudi Arabia 2010 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 47,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 382
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 61,
+                            "x0": 77,
+                            "y0": 788
+                        },
+                        "id": 3,
+                        "text": "Titanium ores\nand\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 78,
+                            "x0": 193,
+                            "y0": 788
+                        },
+                        "id": 4,
+                        "text": "Rusks, toasted\nbread and\nsimilar toasted\nproducts"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 63,
+                            "x0": 341,
+                            "y0": 788
+                        },
+                        "id": 5,
+                        "text": "Lead unwrought\ncontaining\nmostly antimony"
+                    },
+                    {
+                        "bb": {
+                            "height": 109,
+                            "width": 46,
+                            "x0": 492,
+                            "y0": 788
+                        },
+                        "id": 6,
+                        "text": "Cocoa powder,\nsweetened"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 60,
+                            "x0": 611,
+                            "y0": 788
+                        },
+                        "id": 7,
+                        "text": "Wind musical\ninstruments\nexcept brass"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 76,
+                            "x0": 728,
+                            "y0": 788
+                        },
+                        "id": 8,
+                        "text": "Textile fabric\nfor card\nclothing,\ntechnical use"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 94,
+                            "x0": 844,
+                            "y0": 788
+                        },
+                        "id": 9,
+                        "text": "Chromium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 128,
+                            "width": 80,
+                            "x0": 991,
+                            "y0": 788
+                        },
+                        "id": 10,
+                        "text": "Carpets of\nmanmade yarn,\nwoven, made up,\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 45,
+                            "x0": 1160,
+                            "y0": 788
+                        },
+                        "id": 11,
+                        "text": "Lead powders\nand flakes"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 730
+                        },
+                        "id": 12,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 645
+                        },
+                        "id": 13,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 560
+                        },
+                        "id": 14,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 474
+                        },
+                        "id": 15,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 389
+                        },
+                        "id": 16,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 304
+                        },
+                        "id": 17,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 219
+                        },
+                        "id": 18,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 134
+                        },
+                        "id": 19,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 49
+                        },
+                        "id": 20,
+                        "text": "1.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 67,
+                            "x0": 1041,
+                            "y0": 56
+                        },
+                        "id": 21,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 70,
+                            "x0": 1176,
+                            "y0": 56
+                        },
+                        "id": 22,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 731,
+                "width": 1181,
+                "x0": 81,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 136,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 210,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 403,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 537,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 670,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 803,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 937,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1009,
+                            "y": 771
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 1204,
+                            "y": 771
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 734
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 649
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 564
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 479
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 394
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 309
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 224
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 139
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 81,
+                            "y": 54
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 219,
+                            "x0": 561,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Saudi Arabia 2010 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 47,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 382
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 61,
+                            "x0": 77,
+                            "y0": 788
+                        },
+                        "id": 3,
+                        "text": "Titanium ores\nand\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 78,
+                            "x0": 193,
+                            "y0": 788
+                        },
+                        "id": 4,
+                        "text": "Rusks, toasted\nbread and\nsimilar toasted\nproducts"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 63,
+                            "x0": 341,
+                            "y0": 788
+                        },
+                        "id": 5,
+                        "text": "Lead unwrought\ncontaining\nmostly antimony"
+                    },
+                    {
+                        "bb": {
+                            "height": 109,
+                            "width": 46,
+                            "x0": 492,
+                            "y0": 788
+                        },
+                        "id": 6,
+                        "text": "Cocoa powder,\nsweetened"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 60,
+                            "x0": 611,
+                            "y0": 788
+                        },
+                        "id": 7,
+                        "text": "Wind musical\ninstruments\nexcept brass"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 76,
+                            "x0": 728,
+                            "y0": 788
+                        },
+                        "id": 8,
+                        "text": "Textile fabric\nfor card\nclothing,\ntechnical use"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 94,
+                            "x0": 844,
+                            "y0": 788
+                        },
+                        "id": 9,
+                        "text": "Chromium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 128,
+                            "width": 80,
+                            "x0": 991,
+                            "y0": 788
+                        },
+                        "id": 10,
+                        "text": "Carpets of\nmanmade yarn,\nwoven, made up,\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 45,
+                            "x0": 1160,
+                            "y0": 788
+                        },
+                        "id": 11,
+                        "text": "Lead powders\nand flakes"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 730
+                        },
+                        "id": 12,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 645
+                        },
+                        "id": 13,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 560
+                        },
+                        "id": 14,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 474
+                        },
+                        "id": 15,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 389
+                        },
+                        "id": 16,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 304
+                        },
+                        "id": 17,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 219
+                        },
+                        "id": 18,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 134
+                        },
+                        "id": 19,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 49
+                        },
+                        "id": 20,
+                        "text": "1.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 67,
+                            "x0": 1041,
+                            "y0": 56
+                        },
+                        "id": 21,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 70,
+                            "x0": 1176,
+                            "y0": 56
+                        },
+                        "id": 22,
+                        "text": "weight kg"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 28,
+                        "x0": 1003,
+                        "y0": 54
+                    },
+                    "id": 21
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 28,
+                        "x0": 1137,
+                        "y0": 54
+                    },
+                    "id": 22
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 219,
+                            "x0": 561,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "Saudi Arabia 2010 Import"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 78,
+                            "x0": 632,
+                            "y0": 926
+                        },
+                        "id": 1,
+                        "text": "commodity"
+                    },
+                    {
+                        "bb": {
+                            "height": 47,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 382
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 104,
+                            "width": 61,
+                            "x0": 77,
+                            "y0": 788
+                        },
+                        "id": 3,
+                        "text": "Titanium ores\nand\nconcentrates"
+                    },
+                    {
+                        "bb": {
+                            "height": 114,
+                            "width": 78,
+                            "x0": 193,
+                            "y0": 788
+                        },
+                        "id": 4,
+                        "text": "Rusks, toasted\nbread and\nsimilar toasted\nproducts"
+                    },
+                    {
+                        "bb": {
+                            "height": 123,
+                            "width": 63,
+                            "x0": 341,
+                            "y0": 788
+                        },
+                        "id": 5,
+                        "text": "Lead unwrought\ncontaining\nmostly antimony"
+                    },
+                    {
+                        "bb": {
+                            "height": 109,
+                            "width": 46,
+                            "x0": 492,
+                            "y0": 788
+                        },
+                        "id": 6,
+                        "text": "Cocoa powder,\nsweetened"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 60,
+                            "x0": 611,
+                            "y0": 788
+                        },
+                        "id": 7,
+                        "text": "Wind musical\ninstruments\nexcept brass"
+                    },
+                    {
+                        "bb": {
+                            "height": 102,
+                            "width": 76,
+                            "x0": 728,
+                            "y0": 788
+                        },
+                        "id": 8,
+                        "text": "Textile fabric\nfor card\nclothing,\ntechnical use"
+                    },
+                    {
+                        "bb": {
+                            "height": 115,
+                            "width": 94,
+                            "x0": 844,
+                            "y0": 788
+                        },
+                        "id": 9,
+                        "text": "Chromium,\narticles\nthereof, waste\nor\nscrap/powders"
+                    },
+                    {
+                        "bb": {
+                            "height": 128,
+                            "width": 80,
+                            "x0": 991,
+                            "y0": 788
+                        },
+                        "id": 10,
+                        "text": "Carpets of\nmanmade yarn,\nwoven, made up,\nnes"
+                    },
+                    {
+                        "bb": {
+                            "height": 103,
+                            "width": 45,
+                            "x0": 1160,
+                            "y0": 788
+                        },
+                        "id": 11,
+                        "text": "Lead powders\nand flakes"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 730
+                        },
+                        "id": 12,
+                        "text": "0.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 645
+                        },
+                        "id": 13,
+                        "text": "0.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 560
+                        },
+                        "id": 14,
+                        "text": "0.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 474
+                        },
+                        "id": 15,
+                        "text": "0.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 389
+                        },
+                        "id": 16,
+                        "text": "0.8"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 304
+                        },
+                        "id": 17,
+                        "text": "1.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 219
+                        },
+                        "id": 18,
+                        "text": "1.2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 134
+                        },
+                        "id": 19,
+                        "text": "1.4"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 22,
+                            "x0": 43,
+                            "y0": 49
+                        },
+                        "id": 20,
+                        "text": "1.6"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 67,
+                            "x0": 1041,
+                            "y0": 56
+                        },
+                        "id": 21,
+                        "text": "trade usd"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 70,
+                            "x0": 1176,
+                            "y0": 56
+                        },
+                        "id": 22,
+                        "text": "weight kg"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 19,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 20,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 21,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 22,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 731,
+                    "width": 1181,
+                    "x0": 81,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 136,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 210,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 403,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 537,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 670,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 803,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 937,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1009,
+                                "y": 771
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 1204,
+                                "y": 771
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 734
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 649
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 564
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 479
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 394
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 309
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 224
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 139
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "tick_pt": {
+                                "x": 81,
+                                "y": 54
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 28,
+                            "x0": 1003,
+                            "y0": 54
+                        },
+                        "id": 21
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 28,
+                            "x0": 1137,
+                            "y0": 54
+                        },
+                        "id": 22
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Titanium ores and concentrates",
+                            "y": "94467051"
+                        },
+                        {
+                            "x": "Rusks, toasted bread and similar toasted products",
+                            "y": "3827738"
+                        },
+                        {
+                            "x": "Lead unwrought containing mostly antimony",
+                            "y": "4523472"
+                        },
+                        {
+                            "x": "Cocoa powder, sweetened",
+                            "y": "6308008"
+                        },
+                        {
+                            "x": "Wind musical instruments except brass",
+                            "y": "145867"
+                        },
+                        {
+                            "x": "Textile fabric for card clothing, technical use",
+                            "y": "3624538"
+                        },
+                        {
+                            "x": "Chromium, articles thereof, waste or scrap/powders",
+                            "y": "157334"
+                        },
+                        {
+                            "x": "Carpets of manmade yarn, woven, made up, nes",
+                            "y": "21580560"
+                        },
+                        {
+                            "x": "Lead powders and flakes",
+                            "y": "34400"
+                        }
+                    ],
+                    "name": "trade usd"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Titanium ores and concentrates",
+                            "y": "154829000.0"
+                        },
+                        {
+                            "x": "Rusks, toasted bread and similar toasted products",
+                            "y": "3022000.0"
+                        },
+                        {
+                            "x": "Lead unwrought containing mostly antimony",
+                            "y": "2095320.0"
+                        },
+                        {
+                            "x": "Cocoa powder, sweetened",
+                            "y": "1513000.0"
+                        },
+                        {
+                            "x": "Wind musical instruments except brass",
+                            "y": "10130.0"
+                        },
+                        {
+                            "x": "Textile fabric for card clothing, technical use",
+                            "y": "1188000.0"
+                        },
+                        {
+                            "x": "Chromium, articles thereof, waste or scrap/powders",
+                            "y": "32510.0"
+                        },
+                        {
+                            "x": "Carpets of manmade yarn, woven, made up, nes",
+                            "y": "7879000.0"
+                        },
+                        {
+                            "x": "Lead powders and flakes",
+                            "y": "10000.0"
+                        }
+                    ],
+                    "name": "weight kg"
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 137,
+                            "y": 333
+                        },
+                        {
+                            "x": 271,
+                            "y": 719
+                        },
+                        {
+                            "x": 404,
+                            "y": 716
+                        },
+                        {
+                            "x": 538,
+                            "y": 708
+                        },
+                        {
+                            "x": 671,
+                            "y": 735
+                        },
+                        {
+                            "x": 804,
+                            "y": 720
+                        },
+                        {
+                            "x": 938,
+                            "y": 735
+                        },
+                        {
+                            "x": 1071,
+                            "y": 643
+                        },
+                        {
+                            "x": 1205,
+                            "y": 735
+                        }
+                    ],
+                    [
+                        {
+                            "x": 137,
+                            "y": 77
+                        },
+                        {
+                            "x": 271,
+                            "y": 722
+                        },
+                        {
+                            "x": 404,
+                            "y": 726
+                        },
+                        {
+                            "x": 538,
+                            "y": 729
+                        },
+                        {
+                            "x": 671,
+                            "y": 735
+                        },
+                        {
+                            "x": 804,
+                            "y": 730
+                        },
+                        {
+                            "x": 938,
+                            "y": 735
+                        },
+                        {
+                            "x": 1071,
+                            "y": 702
+                        },
+                        {
+                            "x": 1205,
+                            "y": 735
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}

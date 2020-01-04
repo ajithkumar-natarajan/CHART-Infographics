@@ -1,0 +1,2931 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 298,
+                        "x0": 89,
+                        "y0": 14
+                    },
+                    "text": "School enrollment, primary (% net)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 35,
+                        "x0": 656,
+                        "y0": 928
+                    },
+                    "text": "1970"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 14,
+                        "x0": 18,
+                        "y0": 438
+                    },
+                    "text": "2002"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 18,
+                        "x0": 111,
+                        "y0": 888
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 18,
+                        "x0": 283,
+                        "y0": 888
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 18,
+                        "x0": 455,
+                        "y0": 888
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 18,
+                        "x0": 627,
+                        "y0": 888
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 18,
+                        "x0": 799,
+                        "y0": 888
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 18,
+                        "x0": 971,
+                        "y0": 888
+                    },
+                    "text": "90"
+                },
+                {
+                    "bb": {
+                        "height": 29,
+                        "width": 20,
+                        "x0": 1141,
+                        "y0": 888
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 804
+                    },
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 51,
+                        "y0": 705
+                    },
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 605
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 505
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 51,
+                        "y0": 405
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 306
+                    },
+                    "text": "80"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 52,
+                        "y0": 206
+                    },
+                    "text": "90"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 26,
+                        "x0": 43,
+                        "y0": 106
+                    },
+                    "text": "100"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 298,
+                            "x0": 89,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 656,
+                            "y0": 928
+                        },
+                        "id": 1,
+                        "text": "1970"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 438
+                        },
+                        "id": 2,
+                        "text": "2002"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 111,
+                            "y0": 888
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 283,
+                            "y0": 888
+                        },
+                        "id": 4,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 455,
+                            "y0": 888
+                        },
+                        "id": 5,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 627,
+                            "y0": 888
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 799,
+                            "y0": 888
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 971,
+                            "y0": 888
+                        },
+                        "id": 8,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 20,
+                            "x0": 1141,
+                            "y0": 888
+                        },
+                        "id": 9,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 804
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 705
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 605
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 505
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 405
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 306
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 206
+                        },
+                        "id": 16,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 106
+                        },
+                        "id": 17,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 298,
+                            "x0": 89,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 656,
+                            "y0": 928
+                        },
+                        "id": 1,
+                        "text": "1970"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 438
+                        },
+                        "id": 2,
+                        "text": "2002"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 111,
+                            "y0": 888
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 283,
+                            "y0": 888
+                        },
+                        "id": 4,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 455,
+                            "y0": 888
+                        },
+                        "id": 5,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 627,
+                            "y0": 888
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 799,
+                            "y0": 888
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 971,
+                            "y0": 888
+                        },
+                        "id": 8,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 20,
+                            "x0": 1141,
+                            "y0": 888
+                        },
+                        "id": 9,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 804
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 705
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 605
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 505
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 405
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 306
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 206
+                        },
+                        "id": 16,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 106
+                        },
+                        "id": 17,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 832,
+                "width": 1176,
+                "x0": 85,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 128,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 300,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 472,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 644,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 816,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 988,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1160,
+                            "y": 872
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 809
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 709
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 609
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 510
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 410
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 310
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 210
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 85,
+                            "y": 111
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 298,
+                            "x0": 89,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 656,
+                            "y0": 928
+                        },
+                        "id": 1,
+                        "text": "1970"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 438
+                        },
+                        "id": 2,
+                        "text": "2002"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 111,
+                            "y0": 888
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 283,
+                            "y0": 888
+                        },
+                        "id": 4,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 455,
+                            "y0": 888
+                        },
+                        "id": 5,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 627,
+                            "y0": 888
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 799,
+                            "y0": 888
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 971,
+                            "y0": 888
+                        },
+                        "id": 8,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 20,
+                            "x0": 1141,
+                            "y0": 888
+                        },
+                        "id": 9,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 804
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 705
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 605
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 505
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 405
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 306
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 206
+                        },
+                        "id": 16,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 106
+                        },
+                        "id": 17,
+                        "text": "100"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 298,
+                            "x0": 89,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 35,
+                            "x0": 656,
+                            "y0": 928
+                        },
+                        "id": 1,
+                        "text": "1970"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 18,
+                            "y0": 438
+                        },
+                        "id": 2,
+                        "text": "2002"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 111,
+                            "y0": 888
+                        },
+                        "id": 3,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 283,
+                            "y0": 888
+                        },
+                        "id": 4,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 455,
+                            "y0": 888
+                        },
+                        "id": 5,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 627,
+                            "y0": 888
+                        },
+                        "id": 6,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 799,
+                            "y0": 888
+                        },
+                        "id": 7,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 18,
+                            "x0": 971,
+                            "y0": 888
+                        },
+                        "id": 8,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 29,
+                            "width": 20,
+                            "x0": 1141,
+                            "y0": 888
+                        },
+                        "id": 9,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 804
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 705
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 605
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 505
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 51,
+                            "y0": 405
+                        },
+                        "id": 14,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 306
+                        },
+                        "id": 15,
+                        "text": "80"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 52,
+                            "y0": 206
+                        },
+                        "id": 16,
+                        "text": "90"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 26,
+                            "x0": 43,
+                            "y0": 106
+                        },
+                        "id": 17,
+                        "text": "100"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 832,
+                    "width": 1176,
+                    "x0": 85,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 128,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 300,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 472,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 644,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 816,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 988,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1160,
+                                "y": 872
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 809
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 709
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 609
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 510
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 410
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 310
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 210
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "tick_pt": {
+                                "x": 85,
+                                "y": 111
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "71.62148549517339",
+                            "y": 98.9354400635
+                        },
+                        {
+                            "x": "51.16249239428696",
+                            "y": 77.17664110768271
+                        },
+                        {
+                            "x": "43.3345985413",
+                            "y": 75.52569979439008
+                        },
+                        {
+                            "x": "43.350698095578736",
+                            "y": 58.9047317505
+                        },
+                        {
+                            "x": "77.28857968833269",
+                            "y": 96.1044311523
+                        },
+                        {
+                            "x": "47.715125600857746",
+                            "y": 96.04472451189773
+                        },
+                        {
+                            "x": "59.88809660957252",
+                            "y": 98.9320907593
+                        },
+                        {
+                            "x": "83.2465810368754",
+                            "y": 89.25600934809033
+                        },
+                        {
+                            "x": "66.96239778713598",
+                            "y": 83.36857856140165
+                        },
+                        {
+                            "x": "65.15201305832393",
+                            "y": 93.9638519287
+                        },
+                        {
+                            "x": "89.34187998873887",
+                            "y": 99.818359375
+                        },
+                        {
+                            "x": "79.9347229004",
+                            "y": 95.6312026978
+                        },
+                        {
+                            "x": "92.43659888703354",
+                            "y": 57.255307173833
+                        },
+                        {
+                            "x": "87.6900177002",
+                            "y": 55.12107471678348
+                        },
+                        {
+                            "x": "75.08382434674745",
+                            "y": 93.14204185352568
+                        },
+                        {
+                            "x": "91.68904803539898",
+                            "y": 79.76281149642142
+                        },
+                        {
+                            "x": "56.96271279966232",
+                            "y": 96.27076084228882
+                        },
+                        {
+                            "x": "60.0274581909",
+                            "y": 80.1273422241
+                        },
+                        {
+                            "x": "45.9396355129529",
+                            "y": 91.39560516280048
+                        },
+                        {
+                            "x": "67.92976965646479",
+                            "y": 82.79924092249068
+                        },
+                        {
+                            "x": "59.00190848186457",
+                            "y": 79.1710268956006
+                        },
+                        {
+                            "x": "91.49481258433147",
+                            "y": 96.84157502646804
+                        },
+                        {
+                            "x": "87.76110130722486",
+                            "y": 86.79620236602702
+                        },
+                        {
+                            "x": "46.52594286326193",
+                            "y": 88.3982086182
+                        },
+                        {
+                            "x": "60.3137152364851",
+                            "y": 99.2620010376
+                        },
+                        {
+                            "x": "77.07772055561855",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "69.35408559089117",
+                            "y": 96.671546936
+                        },
+                        {
+                            "x": "78.69241271284552",
+                            "y": 79.97406231553671
+                        },
+                        {
+                            "x": "94.95966341016896",
+                            "y": 97.5886077881
+                        },
+                        {
+                            "x": "79.7107467137883",
+                            "y": 36.7214202881
+                        },
+                        {
+                            "x": "99.9707107544",
+                            "y": 85.7266939465839
+                        },
+                        {
+                            "x": "48.306027551871715",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "73.49563172368022",
+                            "y": 99.2020874023
+                        },
+                        {
+                            "x": "55.7722206116",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "69.65025245642559",
+                            "y": 91.3457717896
+                        },
+                        {
+                            "x": "81.42917275868072",
+                            "y": 95.9427871704
+                        },
+                        {
+                            "x": "52.31351390953877",
+                            "y": 67.89967961960008
+                        },
+                        {
+                            "x": "79.98968517461202",
+                            "y": 93.4014434814
+                        },
+                        {
+                            "x": "89.1023344159351",
+                            "y": 94.23577001759863
+                        },
+                        {
+                            "x": "66.1868554929326",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "74.36105843521132",
+                            "y": 67.5284729004
+                        },
+                        {
+                            "x": "89.93078250279534",
+                            "y": 55.3796615601
+                        },
+                        {
+                            "x": "87.6659622192",
+                            "y": 86.48003576620437
+                        },
+                        {
+                            "x": "64.93919426301244",
+                            "y": 95.1703109741
+                        },
+                        {
+                            "x": "77.98982502201035",
+                            "y": 73.48342193931516
+                        },
+                        {
+                            "x": "43.753813872472136",
+                            "y": 68.0025634766
+                        },
+                        {
+                            "x": "69.73592561754646",
+                            "y": 94.8837509155
+                        },
+                        {
+                            "x": "96.65863382507209",
+                            "y": 98.407409668
+                        },
+                        {
+                            "x": "66.87828559550155",
+                            "y": 86.9329299927
+                        },
+                        {
+                            "x": "75.63299046524824",
+                            "y": 73.00929940423327
+                        },
+                        {
+                            "x": "77.0622144987927",
+                            "y": 98.02336838902916
+                        },
+                        {
+                            "x": "77.1583970631727",
+                            "y": 93.47256236134248
+                        },
+                        {
+                            "x": "91.48939045739085",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "67.96196053797593",
+                            "y": 95.6034927368
+                        },
+                        {
+                            "x": "87.28530457770272",
+                            "y": 94.4403305054
+                        },
+                        {
+                            "x": "82.31537648238442",
+                            "y": 95.8785095215
+                        },
+                        {
+                            "x": "77.5868280859862",
+                            "y": 97.832611084
+                        },
+                        {
+                            "x": "96.75893282428932",
+                            "y": 79.72599321163085
+                        },
+                        {
+                            "x": "57.52439303635706",
+                            "y": 84.3140335083
+                        },
+                        {
+                            "x": "91.90901413653552",
+                            "y": 91.0731887817
+                        },
+                        {
+                            "x": "90.82665458650938",
+                            "y": 86.38212732634591
+                        },
+                        {
+                            "x": "65.50441150805538",
+                            "y": 94.3341522217
+                        },
+                        {
+                            "x": "66.06930201508928",
+                            "y": 88.8596420288
+                        },
+                        {
+                            "x": "60.369898304527084",
+                            "y": 60.54662191195298
+                        },
+                        {
+                            "x": "72.5613512904503",
+                            "y": 75.76788644024896
+                        },
+                        {
+                            "x": "72.78483981923098",
+                            "y": 91.900718689
+                        },
+                        {
+                            "x": "73.05617192047934",
+                            "y": 90.88100190617486
+                        },
+                        {
+                            "x": "65.27567343925442",
+                            "y": 98.7147979736
+                        },
+                        {
+                            "x": "79.82420190793233",
+                            "y": 86.5682067871
+                        },
+                        {
+                            "x": "56.11537024288006",
+                            "y": 98.0869522095
+                        },
+                        {
+                            "x": "46.485859888492634",
+                            "y": 93.6151428223
+                        },
+                        {
+                            "x": "86.34376972251512",
+                            "y": 94.83955976468198
+                        },
+                        {
+                            "x": "79.69501814131233",
+                            "y": 92.5376281738
+                        },
+                        {
+                            "x": "85.43695854690463",
+                            "y": 97.4650802612
+                        },
+                        {
+                            "x": "59.99432863366036",
+                            "y": 98.4217357798006
+                        },
+                        {
+                            "x": "63.3477965701793",
+                            "y": 97.8974609375
+                        },
+                        {
+                            "x": "81.06288850864526",
+                            "y": 82.9513473511
+                        },
+                        {
+                            "x": "72.29574009427007",
+                            "y": 84.4904785156
+                        },
+                        {
+                            "x": "64.83588078133033",
+                            "y": 92.8658294678
+                        },
+                        {
+                            "x": "67.80433768194565",
+                            "y": 70.2302932739
+                        },
+                        {
+                            "x": "57.713872163148245",
+                            "y": 93.8987884521
+                        },
+                        {
+                            "x": "74.3503112793",
+                            "y": 98.3117675781
+                        },
+                        {
+                            "x": "45.9525108337",
+                            "y": 84.7857513428
+                        },
+                        {
+                            "x": "89.26139084348617",
+                            "y": 51.4972114563
+                        },
+                        {
+                            "x": "88.44909957627652",
+                            "y": 93.3837203979
+                        },
+                        {
+                            "x": "58.35382994755056",
+                            "y": 82.25890542572999
+                        },
+                        {
+                            "x": "64.7723663049272",
+                            "y": 90.07373580324224
+                        },
+                        {
+                            "x": "93.38736765947644",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "90.6096887531839",
+                            "y": 83.24773779350956
+                        },
+                        {
+                            "x": "66.65082919184945",
+                            "y": 81.84912204239889
+                        },
+                        {
+                            "x": "72.27723796590604",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "65.72037756329107",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "67.6150752394087",
+                            "y": 90.883972168
+                        },
+                        {
+                            "x": "72.67403511176364",
+                            "y": 60.6728401184
+                        },
+                        {
+                            "x": "90.23260425747408",
+                            "y": 94.47000494263631
+                        },
+                        {
+                            "x": "78.85644815954717",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "59.80510291558146",
+                            "y": 98.23652605977233
+                        },
+                        {
+                            "x": "90.57566275232355",
+                            "y": 94.4655609131
+                        },
+                        {
+                            "x": "66.45191208946225",
+                            "y": 45.8228187561
+                        },
+                        {
+                            "x": "69.44934460045265",
+                            "y": 88.6846923828
+                        },
+                        {
+                            "x": "50.646691464217604",
+                            "y": 92.4465637207
+                        },
+                        {
+                            "x": "61.90045749022752",
+                            "y": 88.39912337476252
+                        },
+                        {
+                            "x": "57.288689903756975",
+                            "y": 56.0016212463
+                        },
+                        {
+                            "x": "92.78731833985205",
+                            "y": 82.07095318962043
+                        },
+                        {
+                            "x": "73.06525742280157",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "65.2055732860965",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "57.07609809588828",
+                            "y": 89.2265396118
+                        },
+                        {
+                            "x": "45.7620909216959",
+                            "y": 69.1988677979
+                        },
+                        {
+                            "x": "77.2007714876233",
+                            "y": 95.3181381226
+                        },
+                        {
+                            "x": "65.64412679060565",
+                            "y": 94.9091491699
+                        },
+                        {
+                            "x": "52.4198188782",
+                            "y": 91.7519378662
+                        },
+                        {
+                            "x": "72.19991440312576",
+                            "y": 94.7922668457
+                        },
+                        {
+                            "x": "73.00886758071107",
+                            "y": 94.5788879395
+                        },
+                        {
+                            "x": "72.08310962877795",
+                            "y": 73.90341099405438
+                        },
+                        {
+                            "x": "70.94002535277322",
+                            "y": 64.69361573356763
+                        },
+                        {
+                            "x": "79.02167069933485",
+                            "y": 74.53848181148531
+                        },
+                        {
+                            "x": "69.77953803155307",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "79.0918816219421",
+                            "y": 84.95602531536022
+                        },
+                        {
+                            "x": "60.747918354271576",
+                            "y": 71.6595001221
+                        },
+                        {
+                            "x": "79.27670197727733",
+                            "y": 75.04060477794206
+                        },
+                        {
+                            "x": "54.423422410861455",
+                            "y": 98.7066192627
+                        },
+                        {
+                            "x": "66.28448628203664",
+                            "y": 89.8779830933
+                        },
+                        {
+                            "x": "86.53166611898952",
+                            "y": 65.13623550360296
+                        },
+                        {
+                            "x": "76.4766769409",
+                            "y": 97.69190979
+                        },
+                        {
+                            "x": "50.69726748744979",
+                            "y": 89.64766607656107
+                        },
+                        {
+                            "x": "68.03576465269262",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "98.22134358330118",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "52.8107251484513",
+                            "y": 89.5932006836
+                        },
+                        {
+                            "x": "74.01143216390147",
+                            "y": 46.5691795349
+                        },
+                        {
+                            "x": "64.66712356010578",
+                            "y": 83.2964782715
+                        },
+                        {
+                            "x": "71.785429110991",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "94.0445109319292",
+                            "y": 90.25154715745494
+                        },
+                        {
+                            "x": "77.15650090487017",
+                            "y": 97.3907394409
+                        },
+                        {
+                            "x": "83.63852690253471",
+                            "y": 90.4243621826
+                        },
+                        {
+                            "x": "62.734577727946615",
+                            "y": 98.5335769653
+                        },
+                        {
+                            "x": "83.14060414149192",
+                            "y": 71.57511181960994
+                        },
+                        {
+                            "x": "94.9729690552",
+                            "y": 79.30800042814843
+                        },
+                        {
+                            "x": "59.54924080756659",
+                            "y": 95.2194290161
+                        },
+                        {
+                            "x": "64.99692209002508",
+                            "y": 99.7267303467
+                        },
+                        {
+                            "x": "81.67996988923704",
+                            "y": 84.8268814087
+                        },
+                        {
+                            "x": "58.53029408552224",
+                            "y": 87.14915081237947
+                        },
+                        {
+                            "x": "68.73891763421166",
+                            "y": 59.1557312012
+                        },
+                        {
+                            "x": "71.12901225879052",
+                            "y": 92.52617585517268
+                        },
+                        {
+                            "x": "85.48529604561794",
+                            "y": 88.7345581055
+                        },
+                        {
+                            "x": "54.535110504425035",
+                            "y": 35.49688927325773
+                        },
+                        {
+                            "x": "86.78751933756621",
+                            "y": 92.86654335177289
+                        },
+                        {
+                            "x": "64.8908004761",
+                            "y": 91.4704208374
+                        },
+                        {
+                            "x": "92.27973281933797",
+                            "y": 66.85705809141123
+                        },
+                        {
+                            "x": "54.28628221123145",
+                            "y": 59.79027218558841
+                        },
+                        {
+                            "x": "56.132784023462825",
+                            "y": 88.405665278352
+                        },
+                        {
+                            "x": "82.68254466834546",
+                            "y": 72.04721539513056
+                        },
+                        {
+                            "x": "76.03824910918438",
+                            "y": 62.52298299107541
+                        },
+                        {
+                            "x": "53.012744327552355",
+                            "y": 50.4270401001
+                        },
+                        {
+                            "x": "52.859341347971665",
+                            "y": 92.8413772583
+                        },
+                        {
+                            "x": "73.23613717777921",
+                            "y": 76.30078125
+                        },
+                        {
+                            "x": "64.32676752842464",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "43.64368985110052",
+                            "y": 96.13752724583682
+                        },
+                        {
+                            "x": "95.6223495565009",
+                            "y": 95.4359664917
+                        },
+                        {
+                            "x": "87.0228881836",
+                            "y": 96.5319976807
+                        },
+                        {
+                            "x": "83.59182019920677",
+                            "y": 62.0133285522
+                        },
+                        {
+                            "x": "71.55304645248096",
+                            "y": 96.7181015015
+                        },
+                        {
+                            "x": "95.61448859871854",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "70.41107267089048",
+                            "y": 86.89066508550864
+                        },
+                        {
+                            "x": "77.7159706858848",
+                            "y": 91.8123703003
+                        },
+                        {
+                            "x": "95.97079814777297",
+                            "y": 93.31047049386095
+                        },
+                        {
+                            "x": "80.04618382865769",
+                            "y": 78.98758951495672
+                        },
+                        {
+                            "x": "56.61238639639649",
+                            "y": 33.7798995972
+                        },
+                        {
+                            "x": "77.00033648585058",
+                            "y": 71.56984904842447
+                        },
+                        {
+                            "x": "56.783560853134546",
+                            "y": 97.7015609741
+                        },
+                        {
+                            "x": "70.94718117832751",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "74.38696216364923",
+                            "y": 92.43709761519612
+                        },
+                        {
+                            "x": "59.80277314323931",
+                            "y": 91.2783737183
+                        },
+                        {
+                            "x": "64.903137207",
+                            "y": 87.9210662842
+                        },
+                        {
+                            "x": "72.4264337200912",
+                            "y": 78.42579671205661
+                        },
+                        {
+                            "x": "77.23456346402297",
+                            "y": 31.0326595306
+                        },
+                        {
+                            "x": "87.37054484514064",
+                            "y": 55.3611793518
+                        },
+                        {
+                            "x": "63.10555475165553",
+                            "y": 91.0753707886
+                        },
+                        {
+                            "x": "49.124392755106825",
+                            "y": 92.1738204956
+                        },
+                        {
+                            "x": "65.9128642542355",
+                            "y": 83.06477922024314
+                        },
+                        {
+                            "x": "78.35231402822514",
+                            "y": 95.7304916382
+                        },
+                        {
+                            "x": "69.16389314297786",
+                            "y": 99.8592071533
+                        },
+                        {
+                            "x": "98.408666168588",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "74.93146108961334",
+                            "y": 83.61028967178626
+                        },
+                        {
+                            "x": "50.8469390869",
+                            "y": 94.24117301064658
+                        },
+                        {
+                            "x": "66.12873335504548",
+                            "y": 85.311340332
+                        },
+                        {
+                            "x": "67.57854519124115",
+                            "y": 96.8181762695
+                        },
+                        {
+                            "x": "77.07315850129922",
+                            "y": 61.8772201538
+                        },
+                        {
+                            "x": "53.512118845057174",
+                            "y": 98.7312774658
+                        },
+                        {
+                            "x": "96.45688593261825",
+                            "y": 99.9247131348
+                        },
+                        {
+                            "x": "58.271150405977565",
+                            "y": 91.2975311279
+                        },
+                        {
+                            "x": "46.13653670980828",
+                            "y": 98.6787414551
+                        },
+                        {
+                            "x": "44.72297584844979",
+                            "y": 92.9048995972
+                        },
+                        {
+                            "x": "75.66535145057716",
+                            "y": 97.3015594482
+                        },
+                        {
+                            "x": "68.76304948356156",
+                            "y": 84.8256530762
+                        },
+                        {
+                            "x": "75.53667421594095",
+                            "y": 98.60476679738989
+                        },
+                        {
+                            "x": "79.987923780228",
+                            "y": 94.88408241411642
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": [
+                    {
+                        "x": 673,
+                        "y": 122
+                    },
+                    {
+                        "x": 321,
+                        "y": 339
+                    },
+                    {
+                        "x": 186,
+                        "y": 356
+                    },
+                    {
+                        "x": 186,
+                        "y": 522
+                    },
+                    {
+                        "x": 770,
+                        "y": 150
+                    },
+                    {
+                        "x": 261,
+                        "y": 151
+                    },
+                    {
+                        "x": 471,
+                        "y": 122
+                    },
+                    {
+                        "x": 873,
+                        "y": 219
+                    },
+                    {
+                        "x": 593,
+                        "y": 278
+                    },
+                    {
+                        "x": 561,
+                        "y": 172
+                    },
+                    {
+                        "x": 978,
+                        "y": 113
+                    },
+                    {
+                        "x": 816,
+                        "y": 155
+                    },
+                    {
+                        "x": 1031,
+                        "y": 538
+                    },
+                    {
+                        "x": 949,
+                        "y": 559
+                    },
+                    {
+                        "x": 732,
+                        "y": 180
+                    },
+                    {
+                        "x": 1018,
+                        "y": 313
+                    },
+                    {
+                        "x": 421,
+                        "y": 149
+                    },
+                    {
+                        "x": 473,
+                        "y": 310
+                    },
+                    {
+                        "x": 231,
+                        "y": 197
+                    },
+                    {
+                        "x": 609,
+                        "y": 283
+                    },
+                    {
+                        "x": 456,
+                        "y": 319
+                    },
+                    {
+                        "x": 1015,
+                        "y": 143
+                    },
+                    {
+                        "x": 950,
+                        "y": 243
+                    },
+                    {
+                        "x": 241,
+                        "y": 227
+                    },
+                    {
+                        "x": 478,
+                        "y": 119
+                    },
+                    {
+                        "x": 767,
+                        "y": 112
+                    },
+                    {
+                        "x": 634,
+                        "y": 145
+                    },
+                    {
+                        "x": 794,
+                        "y": 311
+                    },
+                    {
+                        "x": 1074,
+                        "y": 136
+                    },
+                    {
+                        "x": 812,
+                        "y": 743
+                    },
+                    {
+                        "x": 1161,
+                        "y": 254
+                    },
+                    {
+                        "x": 272,
+                        "y": 112
+                    },
+                    {
+                        "x": 705,
+                        "y": 120
+                    },
+                    {
+                        "x": 400,
+                        "y": 112
+                    },
+                    {
+                        "x": 639,
+                        "y": 198
+                    },
+                    {
+                        "x": 842,
+                        "y": 152
+                    },
+                    {
+                        "x": 341,
+                        "y": 432
+                    },
+                    {
+                        "x": 817,
+                        "y": 177
+                    },
+                    {
+                        "x": 974,
+                        "y": 169
+                    },
+                    {
+                        "x": 579,
+                        "y": 112
+                    },
+                    {
+                        "x": 720,
+                        "y": 435
+                    },
+                    {
+                        "x": 988,
+                        "y": 557
+                    },
+                    {
+                        "x": 949,
+                        "y": 246
+                    },
+                    {
+                        "x": 558,
+                        "y": 160
+                    },
+                    {
+                        "x": 782,
+                        "y": 376
+                    },
+                    {
+                        "x": 193,
+                        "y": 431
+                    },
+                    {
+                        "x": 640,
+                        "y": 163
+                    },
+                    {
+                        "x": 1104,
+                        "y": 128
+                    },
+                    {
+                        "x": 591,
+                        "y": 242
+                    },
+                    {
+                        "x": 742,
+                        "y": 381
+                    },
+                    {
+                        "x": 766,
+                        "y": 131
+                    },
+                    {
+                        "x": 768,
+                        "y": 177
+                    },
+                    {
+                        "x": 1015,
+                        "y": 112
+                    },
+                    {
+                        "x": 610,
+                        "y": 155
+                    },
+                    {
+                        "x": 942,
+                        "y": 167
+                    },
+                    {
+                        "x": 857,
+                        "y": 153
+                    },
+                    {
+                        "x": 775,
+                        "y": 133
+                    },
+                    {
+                        "x": 1105,
+                        "y": 314
+                    },
+                    {
+                        "x": 430,
+                        "y": 268
+                    },
+                    {
+                        "x": 1022,
+                        "y": 201
+                    },
+                    {
+                        "x": 1003,
+                        "y": 247
+                    },
+                    {
+                        "x": 567,
+                        "y": 168
+                    },
+                    {
+                        "x": 577,
+                        "y": 223
+                    },
+                    {
+                        "x": 479,
+                        "y": 505
+                    },
+                    {
+                        "x": 689,
+                        "y": 353
+                    },
+                    {
+                        "x": 693,
+                        "y": 192
+                    },
+                    {
+                        "x": 697,
+                        "y": 203
+                    },
+                    {
+                        "x": 564,
+                        "y": 124
+                    },
+                    {
+                        "x": 814,
+                        "y": 246
+                    },
+                    {
+                        "x": 406,
+                        "y": 131
+                    },
+                    {
+                        "x": 240,
+                        "y": 175
+                    },
+                    {
+                        "x": 926,
+                        "y": 163
+                    },
+                    {
+                        "x": 812,
+                        "y": 186
+                    },
+                    {
+                        "x": 910,
+                        "y": 137
+                    },
+                    {
+                        "x": 473,
+                        "y": 127
+                    },
+                    {
+                        "x": 530,
+                        "y": 133
+                    },
+                    {
+                        "x": 835,
+                        "y": 282
+                    },
+                    {
+                        "x": 684,
+                        "y": 266
+                    },
+                    {
+                        "x": 556,
+                        "y": 183
+                    },
+                    {
+                        "x": 607,
+                        "y": 409
+                    },
+                    {
+                        "x": 433,
+                        "y": 172
+                    },
+                    {
+                        "x": 720,
+                        "y": 128
+                    },
+                    {
+                        "x": 231,
+                        "y": 263
+                    },
+                    {
+                        "x": 976,
+                        "y": 595
+                    },
+                    {
+                        "x": 962,
+                        "y": 178
+                    },
+                    {
+                        "x": 444,
+                        "y": 289
+                    },
+                    {
+                        "x": 555,
+                        "y": 211
+                    },
+                    {
+                        "x": 1047,
+                        "y": 112
+                    },
+                    {
+                        "x": 999,
+                        "y": 279
+                    },
+                    {
+                        "x": 587,
+                        "y": 293
+                    },
+                    {
+                        "x": 684,
+                        "y": 112
+                    },
+                    {
+                        "x": 571,
+                        "y": 112
+                    },
+                    {
+                        "x": 604,
+                        "y": 203
+                    },
+                    {
+                        "x": 691,
+                        "y": 504
+                    },
+                    {
+                        "x": 993,
+                        "y": 167
+                    },
+                    {
+                        "x": 797,
+                        "y": 112
+                    },
+                    {
+                        "x": 469,
+                        "y": 129
+                    },
+                    {
+                        "x": 999,
+                        "y": 167
+                    },
+                    {
+                        "x": 584,
+                        "y": 652
+                    },
+                    {
+                        "x": 635,
+                        "y": 224
+                    },
+                    {
+                        "x": 312,
+                        "y": 187
+                    },
+                    {
+                        "x": 505,
+                        "y": 227
+                    },
+                    {
+                        "x": 426,
+                        "y": 550
+                    },
+                    {
+                        "x": 1037,
+                        "y": 290
+                    },
+                    {
+                        "x": 698,
+                        "y": 112
+                    },
+                    {
+                        "x": 562,
+                        "y": 112
+                    },
+                    {
+                        "x": 422,
+                        "y": 219
+                    },
+                    {
+                        "x": 228,
+                        "y": 419
+                    },
+                    {
+                        "x": 769,
+                        "y": 158
+                    },
+                    {
+                        "x": 570,
+                        "y": 162
+                    },
+                    {
+                        "x": 342,
+                        "y": 194
+                    },
+                    {
+                        "x": 683,
+                        "y": 164
+                    },
+                    {
+                        "x": 697,
+                        "y": 166
+                    },
+                    {
+                        "x": 681,
+                        "y": 372
+                    },
+                    {
+                        "x": 661,
+                        "y": 464
+                    },
+                    {
+                        "x": 800,
+                        "y": 366
+                    },
+                    {
+                        "x": 641,
+                        "y": 112
+                    },
+                    {
+                        "x": 801,
+                        "y": 262
+                    },
+                    {
+                        "x": 486,
+                        "y": 394
+                    },
+                    {
+                        "x": 804,
+                        "y": 361
+                    },
+                    {
+                        "x": 377,
+                        "y": 125
+                    },
+                    {
+                        "x": 581,
+                        "y": 213
+                    },
+                    {
+                        "x": 929,
+                        "y": 459
+                    },
+                    {
+                        "x": 756,
+                        "y": 135
+                    },
+                    {
+                        "x": 313,
+                        "y": 215
+                    },
+                    {
+                        "x": 611,
+                        "y": 112
+                    },
+                    {
+                        "x": 1130,
+                        "y": 112
+                    },
+                    {
+                        "x": 349,
+                        "y": 215
+                    },
+                    {
+                        "x": 714,
+                        "y": 645
+                    },
+                    {
+                        "x": 553,
+                        "y": 278
+                    },
+                    {
+                        "x": 676,
+                        "y": 112
+                    },
+                    {
+                        "x": 1059,
+                        "y": 209
+                    },
+                    {
+                        "x": 768,
+                        "y": 138
+                    },
+                    {
+                        "x": 880,
+                        "y": 207
+                    },
+                    {
+                        "x": 520,
+                        "y": 126
+                    },
+                    {
+                        "x": 871,
+                        "y": 395
+                    },
+                    {
+                        "x": 1075,
+                        "y": 318
+                    },
+                    {
+                        "x": 465,
+                        "y": 159
+                    },
+                    {
+                        "x": 559,
+                        "y": 114
+                    },
+                    {
+                        "x": 846,
+                        "y": 263
+                    },
+                    {
+                        "x": 447,
+                        "y": 240
+                    },
+                    {
+                        "x": 623,
+                        "y": 519
+                    },
+                    {
+                        "x": 664,
+                        "y": 186
+                    },
+                    {
+                        "x": 911,
+                        "y": 224
+                    },
+                    {
+                        "x": 379,
+                        "y": 755
+                    },
+                    {
+                        "x": 934,
+                        "y": 183
+                    },
+                    {
+                        "x": 557,
+                        "y": 197
+                    },
+                    {
+                        "x": 1028,
+                        "y": 442
+                    },
+                    {
+                        "x": 374,
+                        "y": 513
+                    },
+                    {
+                        "x": 406,
+                        "y": 227
+                    },
+                    {
+                        "x": 863,
+                        "y": 390
+                    },
+                    {
+                        "x": 749,
+                        "y": 485
+                    },
+                    {
+                        "x": 353,
+                        "y": 606
+                    },
+                    {
+                        "x": 350,
+                        "y": 183
+                    },
+                    {
+                        "x": 701,
+                        "y": 348
+                    },
+                    {
+                        "x": 547,
+                        "y": 112
+                    },
+                    {
+                        "x": 191,
+                        "y": 150
+                    },
+                    {
+                        "x": 1086,
+                        "y": 157
+                    },
+                    {
+                        "x": 938,
+                        "y": 146
+                    },
+                    {
+                        "x": 879,
+                        "y": 490
+                    },
+                    {
+                        "x": 672,
+                        "y": 144
+                    },
+                    {
+                        "x": 1086,
+                        "y": 112
+                    },
+                    {
+                        "x": 652,
+                        "y": 242
+                    },
+                    {
+                        "x": 778,
+                        "y": 193
+                    },
+                    {
+                        "x": 1092,
+                        "y": 178
+                    },
+                    {
+                        "x": 818,
+                        "y": 321
+                    },
+                    {
+                        "x": 414,
+                        "y": 772
+                    },
+                    {
+                        "x": 765,
+                        "y": 395
+                    },
+                    {
+                        "x": 417,
+                        "y": 135
+                    },
+                    {
+                        "x": 661,
+                        "y": 112
+                    },
+                    {
+                        "x": 720,
+                        "y": 187
+                    },
+                    {
+                        "x": 469,
+                        "y": 199
+                    },
+                    {
+                        "x": 557,
+                        "y": 232
+                    },
+                    {
+                        "x": 687,
+                        "y": 327
+                    },
+                    {
+                        "x": 769,
+                        "y": 799
+                    },
+                    {
+                        "x": 944,
+                        "y": 557
+                    },
+                    {
+                        "x": 526,
+                        "y": 201
+                    },
+                    {
+                        "x": 286,
+                        "y": 190
+                    },
+                    {
+                        "x": 575,
+                        "y": 281
+                    },
+                    {
+                        "x": 789,
+                        "y": 154
+                    },
+                    {
+                        "x": 630,
+                        "y": 113
+                    },
+                    {
+                        "x": 1134,
+                        "y": 112
+                    },
+                    {
+                        "x": 730,
+                        "y": 275
+                    },
+                    {
+                        "x": 315,
+                        "y": 169
+                    },
+                    {
+                        "x": 578,
+                        "y": 258
+                    },
+                    {
+                        "x": 603,
+                        "y": 143
+                    },
+                    {
+                        "x": 767,
+                        "y": 492
+                    },
+                    {
+                        "x": 361,
+                        "y": 124
+                    },
+                    {
+                        "x": 1100,
+                        "y": 112
+                    },
+                    {
+                        "x": 443,
+                        "y": 198
+                    },
+                    {
+                        "x": 234,
+                        "y": 125
+                    },
+                    {
+                        "x": 210,
+                        "y": 182
+                    },
+                    {
+                        "x": 742,
+                        "y": 139
+                    },
+                    {
+                        "x": 624,
+                        "y": 263
+                    },
+                    {
+                        "x": 740,
+                        "y": 126
+                    },
+                    {
+                        "x": 817,
+                        "y": 163
+                    }
+                ]
+            }
+        }
+    }
+}

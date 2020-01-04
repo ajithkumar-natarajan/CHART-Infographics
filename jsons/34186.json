@@ -1,0 +1,1549 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 600,
+                        "x0": 376,
+                        "y0": 19
+                    },
+                    "text": "Age dependency ratio (% of working-age population)"
+                },
+                {
+                    "bb": {
+                        "height": 120,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 396
+                    },
+                    "text": "Country Code"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 646,
+                        "y0": 924
+                    },
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 19,
+                        "x0": 77,
+                        "y0": 881
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 22,
+                        "width": 21,
+                        "x0": 215,
+                        "y0": 881
+                    },
+                    "text": "25"
+                },
+                {
+                    "bb": {
+                        "height": 22,
+                        "width": 21,
+                        "x0": 353,
+                        "y0": 881
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 22,
+                        "width": 21,
+                        "x0": 492,
+                        "y0": 881
+                    },
+                    "text": "75"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 22,
+                        "x0": 629,
+                        "y0": 881
+                    },
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 22,
+                        "x0": 768,
+                        "y0": 881
+                    },
+                    "text": "125"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 22,
+                        "x0": 907,
+                        "y0": 881
+                    },
+                    "text": "150"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 22,
+                        "x0": 1046,
+                        "y0": 881
+                    },
+                    "text": "175"
+                },
+                {
+                    "bb": {
+                        "height": 32,
+                        "width": 22,
+                        "x0": 1185,
+                        "y0": 881
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 776
+                    },
+                    "text": "TJK"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 613
+                    },
+                    "text": "SYR"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 449
+                    },
+                    "text": "VEN"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 285
+                    },
+                    "text": "PAN"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 121
+                    },
+                    "text": "KEN"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1080,
+                        "y0": 828
+                    },
+                    "text": "1980"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1200,
+                        "y0": 828
+                    },
+                    "text": "2006"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 600,
+                            "x0": 376,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 646,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 19,
+                            "x0": 77,
+                            "y0": 881
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 215,
+                            "y0": 881
+                        },
+                        "id": 4,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 353,
+                            "y0": 881
+                        },
+                        "id": 5,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 492,
+                            "y0": 881
+                        },
+                        "id": 6,
+                        "text": "75"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 629,
+                            "y0": 881
+                        },
+                        "id": 7,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 768,
+                            "y0": 881
+                        },
+                        "id": 8,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 907,
+                            "y0": 881
+                        },
+                        "id": 9,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 1046,
+                            "y0": 881
+                        },
+                        "id": 10,
+                        "text": "175"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 1185,
+                            "y0": 881
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 776
+                        },
+                        "id": 12,
+                        "text": "TJK"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 613
+                        },
+                        "id": 13,
+                        "text": "SYR"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 449
+                        },
+                        "id": 14,
+                        "text": "VEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 285
+                        },
+                        "id": 15,
+                        "text": "PAN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 121
+                        },
+                        "id": 16,
+                        "text": "KEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 828
+                        },
+                        "id": 17,
+                        "text": "1980"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 828
+                        },
+                        "id": 18,
+                        "text": "2006"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 18,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 600,
+                            "x0": 376,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 646,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 19,
+                            "x0": 77,
+                            "y0": 881
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 215,
+                            "y0": 881
+                        },
+                        "id": 4,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 353,
+                            "y0": 881
+                        },
+                        "id": 5,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 492,
+                            "y0": 881
+                        },
+                        "id": 6,
+                        "text": "75"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 629,
+                            "y0": 881
+                        },
+                        "id": 7,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 768,
+                            "y0": 881
+                        },
+                        "id": 8,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 907,
+                            "y0": 881
+                        },
+                        "id": 9,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 1046,
+                            "y0": 881
+                        },
+                        "id": 10,
+                        "text": "175"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 1185,
+                            "y0": 881
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 776
+                        },
+                        "id": 12,
+                        "text": "TJK"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 613
+                        },
+                        "id": 13,
+                        "text": "SYR"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 449
+                        },
+                        "id": 14,
+                        "text": "VEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 285
+                        },
+                        "id": 15,
+                        "text": "PAN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 121
+                        },
+                        "id": 16,
+                        "text": "KEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 828
+                        },
+                        "id": 17,
+                        "text": "1980"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 828
+                        },
+                        "id": 18,
+                        "text": "2006"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 818,
+                "width": 1165,
+                "x0": 93,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 782
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 619
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 455
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 291
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 127
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 96,
+                            "y": 861
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 234,
+                            "y": 861
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 373,
+                            "y": 861
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 512,
+                            "y": 861
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 651,
+                            "y": 861
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 789,
+                            "y": 861
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 928,
+                            "y": 861
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 1067,
+                            "y": 861
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 1206,
+                            "y": 861
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 600,
+                            "x0": 376,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 646,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 19,
+                            "x0": 77,
+                            "y0": 881
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 215,
+                            "y0": 881
+                        },
+                        "id": 4,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 353,
+                            "y0": 881
+                        },
+                        "id": 5,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 492,
+                            "y0": 881
+                        },
+                        "id": 6,
+                        "text": "75"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 629,
+                            "y0": 881
+                        },
+                        "id": 7,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 768,
+                            "y0": 881
+                        },
+                        "id": 8,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 907,
+                            "y0": 881
+                        },
+                        "id": 9,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 1046,
+                            "y0": 881
+                        },
+                        "id": 10,
+                        "text": "175"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 1185,
+                            "y0": 881
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 776
+                        },
+                        "id": 12,
+                        "text": "TJK"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 613
+                        },
+                        "id": 13,
+                        "text": "SYR"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 449
+                        },
+                        "id": 14,
+                        "text": "VEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 285
+                        },
+                        "id": 15,
+                        "text": "PAN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 121
+                        },
+                        "id": 16,
+                        "text": "KEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 828
+                        },
+                        "id": 17,
+                        "text": "1980"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 828
+                        },
+                        "id": 18,
+                        "text": "2006"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1033,
+                        "y0": 831
+                    },
+                    "id": 17
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1153,
+                        "y0": 831
+                    },
+                    "id": 18
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 600,
+                            "x0": 376,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Age dependency ratio (% of working-age population)"
+                    },
+                    {
+                        "bb": {
+                            "height": 120,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 396
+                        },
+                        "id": 1,
+                        "text": "Country Code"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 646,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 19,
+                            "x0": 77,
+                            "y0": 881
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 215,
+                            "y0": 881
+                        },
+                        "id": 4,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 353,
+                            "y0": 881
+                        },
+                        "id": 5,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 22,
+                            "width": 21,
+                            "x0": 492,
+                            "y0": 881
+                        },
+                        "id": 6,
+                        "text": "75"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 629,
+                            "y0": 881
+                        },
+                        "id": 7,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 768,
+                            "y0": 881
+                        },
+                        "id": 8,
+                        "text": "125"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 907,
+                            "y0": 881
+                        },
+                        "id": 9,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 1046,
+                            "y0": 881
+                        },
+                        "id": 10,
+                        "text": "175"
+                    },
+                    {
+                        "bb": {
+                            "height": 32,
+                            "width": 22,
+                            "x0": 1185,
+                            "y0": 881
+                        },
+                        "id": 11,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 776
+                        },
+                        "id": 12,
+                        "text": "TJK"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 613
+                        },
+                        "id": 13,
+                        "text": "SYR"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 449
+                        },
+                        "id": 14,
+                        "text": "VEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 285
+                        },
+                        "id": 15,
+                        "text": "PAN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 121
+                        },
+                        "id": 16,
+                        "text": "KEN"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 828
+                        },
+                        "id": 17,
+                        "text": "1980"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 828
+                        },
+                        "id": 18,
+                        "text": "2006"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 17,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 18,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 818,
+                    "width": 1165,
+                    "x0": 93,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 782
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 619
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 455
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 291
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 127
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 96,
+                                "y": 861
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 234,
+                                "y": 861
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 373,
+                                "y": 861
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 512,
+                                "y": 861
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 651,
+                                "y": 861
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 789,
+                                "y": 861
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 928,
+                                "y": 861
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 1067,
+                                "y": 861
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 1206,
+                                "y": 861
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1033,
+                            "y0": 831
+                        },
+                        "id": 17
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1153,
+                            "y0": 831
+                        },
+                        "id": 18
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "TJK",
+                            "y": "70.0299228854"
+                        },
+                        {
+                            "x": "SYR",
+                            "y": "71.9164366037"
+                        },
+                        {
+                            "x": "VEN",
+                            "y": "56.9214617508"
+                        },
+                        {
+                            "x": "PAN",
+                            "y": "57.1155609905"
+                        },
+                        {
+                            "x": "KEN",
+                            "y": "85.9950513496"
+                        }
+                    ],
+                    "name": "2006"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "TJK",
+                            "y": "90.042578661"
+                        },
+                        {
+                            "x": "SYR",
+                            "y": "107.97352142"
+                        },
+                        {
+                            "x": "VEN",
+                            "y": "79.2209755099"
+                        },
+                        {
+                            "x": "PAN",
+                            "y": "81.9507552245"
+                        },
+                        {
+                            "x": "KEN",
+                            "y": "112.775092966"
+                        }
+                    ],
+                    "name": "1980"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 82,
+                        "width": 500,
+                        "x0": 97,
+                        "y0": 742
+                    },
+                    {
+                        "height": 82,
+                        "width": 389,
+                        "x0": 596,
+                        "y0": 742
+                    },
+                    {
+                        "height": 82,
+                        "width": 599,
+                        "x0": 97,
+                        "y0": 579
+                    },
+                    {
+                        "height": 82,
+                        "width": 399,
+                        "x0": 696,
+                        "y0": 579
+                    },
+                    {
+                        "height": 82,
+                        "width": 440,
+                        "x0": 97,
+                        "y0": 415
+                    },
+                    {
+                        "height": 82,
+                        "width": 316,
+                        "x0": 536,
+                        "y0": 415
+                    },
+                    {
+                        "height": 82,
+                        "width": 455,
+                        "x0": 97,
+                        "y0": 251
+                    },
+                    {
+                        "height": 82,
+                        "width": 317,
+                        "x0": 551,
+                        "y0": 251
+                    },
+                    {
+                        "height": 82,
+                        "width": 626,
+                        "x0": 97,
+                        "y0": 88
+                    },
+                    {
+                        "height": 82,
+                        "width": 477,
+                        "x0": 723,
+                        "y0": 88
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,815 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 393,
+                        "x0": 466,
+                        "y0": 15
+                    },
+                    "text": "Agriculture, value added (constant 2010 US$) t"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 31,
+                        "x0": 647,
+                        "y0": 932
+                    },
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 49,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 424
+                    },
+                    "text": "Austria"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 23,
+                        "x0": 278,
+                        "y0": 871
+                    },
+                    "text": "1992.0"
+                },
+                {
+                    "bb": {
+                        "height": 50,
+                        "width": 23,
+                        "x0": 1001,
+                        "y0": 871
+                    },
+                    "text": "1970.0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 38,
+                        "y0": 846
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 38,
+                        "y0": 668
+                    },
+                    "text": "1"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 38,
+                        "y0": 490
+                    },
+                    "text": "2"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 38,
+                        "y0": 312
+                    },
+                    "text": "3"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 9,
+                        "x0": 38,
+                        "y0": 135
+                    },
+                    "text": "4"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 393,
+                            "x0": 466,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Agriculture, value added (constant 2010 US$) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 647,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 424
+                        },
+                        "id": 2,
+                        "text": "Austria"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 23,
+                            "x0": 278,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1992.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 23,
+                            "x0": 1001,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "1970.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 846
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 668
+                        },
+                        "id": 6,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 490
+                        },
+                        "id": 7,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 312
+                        },
+                        "id": 8,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 135
+                        },
+                        "id": 9,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 393,
+                            "x0": 466,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Agriculture, value added (constant 2010 US$) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 647,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 424
+                        },
+                        "id": 2,
+                        "text": "Austria"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 23,
+                            "x0": 278,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1992.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 23,
+                            "x0": 1001,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "1970.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 846
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 668
+                        },
+                        "id": 6,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 490
+                        },
+                        "id": 7,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 312
+                        },
+                        "id": 8,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 135
+                        },
+                        "id": 9,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 813,
+                "width": 1198,
+                "x0": 63,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 300,
+                            "y": 855
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1022,
+                            "y": 855
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 63,
+                            "y": 851
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 63,
+                            "y": 673
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 63,
+                            "y": 495
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 63,
+                            "y": 317
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 63,
+                            "y": 143
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 393,
+                            "x0": 466,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Agriculture, value added (constant 2010 US$) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 647,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 424
+                        },
+                        "id": 2,
+                        "text": "Austria"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 23,
+                            "x0": 278,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1992.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 23,
+                            "x0": 1001,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "1970.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 846
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 668
+                        },
+                        "id": 6,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 490
+                        },
+                        "id": 7,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 312
+                        },
+                        "id": 8,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 135
+                        },
+                        "id": 9,
+                        "text": "4"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 393,
+                            "x0": 466,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Agriculture, value added (constant 2010 US$) t"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 31,
+                            "x0": 647,
+                            "y0": 932
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 49,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 424
+                        },
+                        "id": 2,
+                        "text": "Austria"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 23,
+                            "x0": 278,
+                            "y0": 871
+                        },
+                        "id": 3,
+                        "text": "1992.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 50,
+                            "width": 23,
+                            "x0": 1001,
+                            "y0": 871
+                        },
+                        "id": 4,
+                        "text": "1970.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 846
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 668
+                        },
+                        "id": 6,
+                        "text": "1"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 490
+                        },
+                        "id": 7,
+                        "text": "2"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 312
+                        },
+                        "id": 8,
+                        "text": "3"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 9,
+                            "x0": 38,
+                            "y0": 135
+                        },
+                        "id": 9,
+                        "text": "4"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 813,
+                    "width": 1198,
+                    "x0": 63,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 300,
+                                "y": 855
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1022,
+                                "y": 855
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 63,
+                                "y": 851
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 63,
+                                "y": 673
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 63,
+                                "y": 495
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 63,
+                                "y": 317
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 63,
+                                "y": 143
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1992.0",
+                            "y": "4269417061.2"
+                        },
+                        {
+                            "x": "1970.0",
+                            "y": "4315070991.062014"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 759,
+                        "width": 361,
+                        "x0": 121,
+                        "y0": 92
+                    },
+                    {
+                        "height": 768,
+                        "width": 361,
+                        "x0": 843,
+                        "y0": 84
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

@@ -1,0 +1,896 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 507,
+                        "x0": 461,
+                        "y0": 14
+                    },
+                    "text": "District wise Rainfall in Madhya Pradesh from 2011 to 2014"
+                },
+                {
+                    "bb": {
+                        "height": 53,
+                        "width": 14,
+                        "x0": 17,
+                        "y0": 431
+                    },
+                    "text": "District"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 250,
+                        "x0": 589,
+                        "y0": 928
+                    },
+                    "text": "Long Term Normal Rainfall (LTNR)"
+                },
+                {
+                    "bb": {
+                        "height": 10,
+                        "width": 15,
+                        "x0": 156,
+                        "y0": 890
+                    },
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 27,
+                        "width": 16,
+                        "x0": 372,
+                        "y0": 890
+                    },
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 27,
+                        "width": 16,
+                        "x0": 591,
+                        "y0": 890
+                    },
+                    "text": "400"
+                },
+                {
+                    "bb": {
+                        "height": 27,
+                        "width": 16,
+                        "x0": 809,
+                        "y0": 890
+                    },
+                    "text": "600"
+                },
+                {
+                    "bb": {
+                        "height": 27,
+                        "width": 16,
+                        "x0": 1027,
+                        "y0": 890
+                    },
+                    "text": "800"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 108,
+                        "x0": 42,
+                        "y0": 752
+                    },
+                    "text": "CHHINDWADA"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 55,
+                        "x0": 96,
+                        "y0": 451
+                    },
+                    "text": "DEWAS"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 107,
+                        "x0": 44,
+                        "y0": 151
+                    },
+                    "text": "ASHOKNAGAR"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 507,
+                            "x0": 461,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "District wise Rainfall in Madhya Pradesh from 2011 to 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 431
+                        },
+                        "id": 1,
+                        "text": "District"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 250,
+                            "x0": 589,
+                            "y0": 928
+                        },
+                        "id": 2,
+                        "text": "Long Term Normal Rainfall (LTNR)"
+                    },
+                    {
+                        "bb": {
+                            "height": 10,
+                            "width": 15,
+                            "x0": 156,
+                            "y0": 890
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 372,
+                            "y0": 890
+                        },
+                        "id": 4,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 591,
+                            "y0": 890
+                        },
+                        "id": 5,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 809,
+                            "y0": 890
+                        },
+                        "id": 6,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 1027,
+                            "y0": 890
+                        },
+                        "id": 7,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 108,
+                            "x0": 42,
+                            "y0": 752
+                        },
+                        "id": 8,
+                        "text": "CHHINDWADA"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 55,
+                            "x0": 96,
+                            "y0": 451
+                        },
+                        "id": 9,
+                        "text": "DEWAS"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 107,
+                            "x0": 44,
+                            "y0": 151
+                        },
+                        "id": 10,
+                        "text": "ASHOKNAGAR"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 507,
+                            "x0": 461,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "District wise Rainfall in Madhya Pradesh from 2011 to 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 431
+                        },
+                        "id": 1,
+                        "text": "District"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 250,
+                            "x0": 589,
+                            "y0": 928
+                        },
+                        "id": 2,
+                        "text": "Long Term Normal Rainfall (LTNR)"
+                    },
+                    {
+                        "bb": {
+                            "height": 10,
+                            "width": 15,
+                            "x0": 156,
+                            "y0": 890
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 372,
+                            "y0": 890
+                        },
+                        "id": 4,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 591,
+                            "y0": 890
+                        },
+                        "id": 5,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 809,
+                            "y0": 890
+                        },
+                        "id": 6,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 1027,
+                            "y0": 890
+                        },
+                        "id": 7,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 108,
+                            "x0": 42,
+                            "y0": 752
+                        },
+                        "id": 8,
+                        "text": "CHHINDWADA"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 55,
+                            "x0": 96,
+                            "y0": 451
+                        },
+                        "id": 9,
+                        "text": "DEWAS"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 107,
+                            "x0": 44,
+                            "y0": 151
+                        },
+                        "id": 10,
+                        "text": "ASHOKNAGAR"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 834,
+                "width": 1095,
+                "x0": 167,
+                "y0": 40
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 167,
+                            "y": 763
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 167,
+                            "y": 456
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 167,
+                            "y": 162
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 169,
+                            "y": 870
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 387,
+                            "y": 870
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 606,
+                            "y": 870
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 824,
+                            "y": 870
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 1042,
+                            "y": 870
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 507,
+                            "x0": 461,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "District wise Rainfall in Madhya Pradesh from 2011 to 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 431
+                        },
+                        "id": 1,
+                        "text": "District"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 250,
+                            "x0": 589,
+                            "y0": 928
+                        },
+                        "id": 2,
+                        "text": "Long Term Normal Rainfall (LTNR)"
+                    },
+                    {
+                        "bb": {
+                            "height": 10,
+                            "width": 15,
+                            "x0": 156,
+                            "y0": 890
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 372,
+                            "y0": 890
+                        },
+                        "id": 4,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 591,
+                            "y0": 890
+                        },
+                        "id": 5,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 809,
+                            "y0": 890
+                        },
+                        "id": 6,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 1027,
+                            "y0": 890
+                        },
+                        "id": 7,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 108,
+                            "x0": 42,
+                            "y0": 752
+                        },
+                        "id": 8,
+                        "text": "CHHINDWADA"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 55,
+                            "x0": 96,
+                            "y0": 451
+                        },
+                        "id": 9,
+                        "text": "DEWAS"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 107,
+                            "x0": 44,
+                            "y0": 151
+                        },
+                        "id": 10,
+                        "text": "ASHOKNAGAR"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 507,
+                            "x0": 461,
+                            "y0": 14
+                        },
+                        "id": 0,
+                        "text": "District wise Rainfall in Madhya Pradesh from 2011 to 2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 53,
+                            "width": 14,
+                            "x0": 17,
+                            "y0": 431
+                        },
+                        "id": 1,
+                        "text": "District"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 250,
+                            "x0": 589,
+                            "y0": 928
+                        },
+                        "id": 2,
+                        "text": "Long Term Normal Rainfall (LTNR)"
+                    },
+                    {
+                        "bb": {
+                            "height": 10,
+                            "width": 15,
+                            "x0": 156,
+                            "y0": 890
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 372,
+                            "y0": 890
+                        },
+                        "id": 4,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 591,
+                            "y0": 890
+                        },
+                        "id": 5,
+                        "text": "400"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 809,
+                            "y0": 890
+                        },
+                        "id": 6,
+                        "text": "600"
+                    },
+                    {
+                        "bb": {
+                            "height": 27,
+                            "width": 16,
+                            "x0": 1027,
+                            "y0": 890
+                        },
+                        "id": 7,
+                        "text": "800"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 108,
+                            "x0": 42,
+                            "y0": 752
+                        },
+                        "id": 8,
+                        "text": "CHHINDWADA"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 55,
+                            "x0": 96,
+                            "y0": 451
+                        },
+                        "id": 9,
+                        "text": "DEWAS"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 107,
+                            "x0": 44,
+                            "y0": 151
+                        },
+                        "id": 10,
+                        "text": "ASHOKNAGAR"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 834,
+                    "width": 1095,
+                    "x0": 167,
+                    "y0": 40
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 167,
+                                "y": 763
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 167,
+                                "y": 456
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 167,
+                                "y": 162
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 169,
+                                "y": 870
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 387,
+                                "y": 870
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 606,
+                                "y": 870
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 824,
+                                "y": 870
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 1042,
+                                "y": 870
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "CHHINDWADA",
+                            "y": "882.8"
+                        },
+                        {
+                            "x": "DEWAS",
+                            "y": "949.8"
+                        },
+                        {
+                            "x": "ASHOKNAGAR",
+                            "y": "865.1"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 150,
+                        "width": 963,
+                        "x0": 170,
+                        "y0": 682
+                    },
+                    {
+                        "height": 150,
+                        "width": 1036,
+                        "x0": 170,
+                        "y0": 382
+                    },
+                    {
+                        "height": 150,
+                        "width": 944,
+                        "x0": 170,
+                        "y0": 81
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

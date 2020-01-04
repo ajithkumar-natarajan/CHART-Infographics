@@ -1,0 +1,1350 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 424,
+                        "x0": 455,
+                        "y0": 15
+                    },
+                    "text": "Borrowed any money in the past year (% age 15+)"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 101,
+                        "x0": 616,
+                        "y0": 934
+                    },
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 35,
+                        "width": 14,
+                        "x0": 13,
+                        "y0": 413
+                    },
+                    "text": "2014"
+                },
+                {
+                    "bb": {
+                        "height": 75,
+                        "width": 38,
+                        "x0": 92,
+                        "y0": 834
+                    },
+                    "text": "Philippines"
+                },
+                {
+                    "bb": {
+                        "height": 88,
+                        "width": 42,
+                        "x0": 266,
+                        "y0": 834
+                    },
+                    "text": "Saudi Arabia"
+                },
+                {
+                    "bb": {
+                        "height": 41,
+                        "width": 26,
+                        "x0": 462,
+                        "y0": 834
+                    },
+                    "text": "Malta"
+                },
+                {
+                    "bb": {
+                        "height": 63,
+                        "width": 33,
+                        "x0": 633,
+                        "y0": 834
+                    },
+                    "text": "Australia"
+                },
+                {
+                    "bb": {
+                        "height": 81,
+                        "width": 40,
+                        "x0": 806,
+                        "y0": 834
+                    },
+                    "text": "Korea, Rep."
+                },
+                {
+                    "bb": {
+                        "height": 88,
+                        "width": 56,
+                        "x0": 969,
+                        "y0": 834
+                    },
+                    "text": "United Arab\nEmirates"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 25,
+                        "x0": 1179,
+                        "y0": 834
+                    },
+                    "text": "Libya"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 761
+                    },
+                    "text": "45"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 650
+                    },
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 540
+                    },
+                    "text": "55"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 430
+                    },
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 38,
+                        "y0": 320
+                    },
+                    "text": "65"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 210
+                    },
+                    "text": "70"
+                },
+                {
+                    "bb": {
+                        "height": 14,
+                        "width": 18,
+                        "x0": 39,
+                        "y0": 99
+                    },
+                    "text": "75"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 424,
+                            "x0": 455,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Borrowed any money in the past year (% age 15+)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 413
+                        },
+                        "id": 2,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 38,
+                            "x0": 92,
+                            "y0": 834
+                        },
+                        "id": 3,
+                        "text": "Philippines"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 42,
+                            "x0": 266,
+                            "y0": 834
+                        },
+                        "id": 4,
+                        "text": "Saudi Arabia"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 26,
+                            "x0": 462,
+                            "y0": 834
+                        },
+                        "id": 5,
+                        "text": "Malta"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 33,
+                            "x0": 633,
+                            "y0": 834
+                        },
+                        "id": 6,
+                        "text": "Australia"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 40,
+                            "x0": 806,
+                            "y0": 834
+                        },
+                        "id": 7,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 56,
+                            "x0": 969,
+                            "y0": 834
+                        },
+                        "id": 8,
+                        "text": "United Arab\nEmirates"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 25,
+                            "x0": 1179,
+                            "y0": 834
+                        },
+                        "id": 9,
+                        "text": "Libya"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 761
+                        },
+                        "id": 10,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 650
+                        },
+                        "id": 11,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 540
+                        },
+                        "id": 12,
+                        "text": "55"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 430
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 320
+                        },
+                        "id": 14,
+                        "text": "65"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 210
+                        },
+                        "id": 15,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 99
+                        },
+                        "id": 16,
+                        "text": "75"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 424,
+                            "x0": 455,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Borrowed any money in the past year (% age 15+)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 413
+                        },
+                        "id": 2,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 38,
+                            "x0": 92,
+                            "y0": 834
+                        },
+                        "id": 3,
+                        "text": "Philippines"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 42,
+                            "x0": 266,
+                            "y0": 834
+                        },
+                        "id": 4,
+                        "text": "Saudi Arabia"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 26,
+                            "x0": 462,
+                            "y0": 834
+                        },
+                        "id": 5,
+                        "text": "Malta"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 33,
+                            "x0": 633,
+                            "y0": 834
+                        },
+                        "id": 6,
+                        "text": "Australia"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 40,
+                            "x0": 806,
+                            "y0": 834
+                        },
+                        "id": 7,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 56,
+                            "x0": 969,
+                            "y0": 834
+                        },
+                        "id": 8,
+                        "text": "United Arab\nEmirates"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 25,
+                            "x0": 1179,
+                            "y0": 834
+                        },
+                        "id": 9,
+                        "text": "Libya"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 761
+                        },
+                        "id": 10,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 650
+                        },
+                        "id": 11,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 540
+                        },
+                        "id": 12,
+                        "text": "55"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 430
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 320
+                        },
+                        "id": 14,
+                        "text": "65"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 210
+                        },
+                        "id": 15,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 99
+                        },
+                        "id": 16,
+                        "text": "75"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 776,
+                "width": 1189,
+                "x0": 72,
+                "y0": 42
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 128,
+                            "y": 818
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 307,
+                            "y": 818
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 487,
+                            "y": 818
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 666,
+                            "y": 818
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 845,
+                            "y": 818
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1024,
+                            "y": 818
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1203,
+                            "y": 818
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 765
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 655
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 545
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 435
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 324
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 214
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 72,
+                            "y": 104
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 424,
+                            "x0": 455,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Borrowed any money in the past year (% age 15+)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 413
+                        },
+                        "id": 2,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 38,
+                            "x0": 92,
+                            "y0": 834
+                        },
+                        "id": 3,
+                        "text": "Philippines"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 42,
+                            "x0": 266,
+                            "y0": 834
+                        },
+                        "id": 4,
+                        "text": "Saudi Arabia"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 26,
+                            "x0": 462,
+                            "y0": 834
+                        },
+                        "id": 5,
+                        "text": "Malta"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 33,
+                            "x0": 633,
+                            "y0": 834
+                        },
+                        "id": 6,
+                        "text": "Australia"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 40,
+                            "x0": 806,
+                            "y0": 834
+                        },
+                        "id": 7,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 56,
+                            "x0": 969,
+                            "y0": 834
+                        },
+                        "id": 8,
+                        "text": "United Arab\nEmirates"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 25,
+                            "x0": 1179,
+                            "y0": 834
+                        },
+                        "id": 9,
+                        "text": "Libya"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 761
+                        },
+                        "id": 10,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 650
+                        },
+                        "id": 11,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 540
+                        },
+                        "id": 12,
+                        "text": "55"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 430
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 320
+                        },
+                        "id": 14,
+                        "text": "65"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 210
+                        },
+                        "id": 15,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 99
+                        },
+                        "id": 16,
+                        "text": "75"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 424,
+                            "x0": 455,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Borrowed any money in the past year (% age 15+)"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 101,
+                            "x0": 616,
+                            "y0": 934
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 35,
+                            "width": 14,
+                            "x0": 13,
+                            "y0": 413
+                        },
+                        "id": 2,
+                        "text": "2014"
+                    },
+                    {
+                        "bb": {
+                            "height": 75,
+                            "width": 38,
+                            "x0": 92,
+                            "y0": 834
+                        },
+                        "id": 3,
+                        "text": "Philippines"
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 42,
+                            "x0": 266,
+                            "y0": 834
+                        },
+                        "id": 4,
+                        "text": "Saudi Arabia"
+                    },
+                    {
+                        "bb": {
+                            "height": 41,
+                            "width": 26,
+                            "x0": 462,
+                            "y0": 834
+                        },
+                        "id": 5,
+                        "text": "Malta"
+                    },
+                    {
+                        "bb": {
+                            "height": 63,
+                            "width": 33,
+                            "x0": 633,
+                            "y0": 834
+                        },
+                        "id": 6,
+                        "text": "Australia"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 40,
+                            "x0": 806,
+                            "y0": 834
+                        },
+                        "id": 7,
+                        "text": "Korea, Rep."
+                    },
+                    {
+                        "bb": {
+                            "height": 88,
+                            "width": 56,
+                            "x0": 969,
+                            "y0": 834
+                        },
+                        "id": 8,
+                        "text": "United Arab\nEmirates"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 25,
+                            "x0": 1179,
+                            "y0": 834
+                        },
+                        "id": 9,
+                        "text": "Libya"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 761
+                        },
+                        "id": 10,
+                        "text": "45"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 650
+                        },
+                        "id": 11,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 540
+                        },
+                        "id": 12,
+                        "text": "55"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 430
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 38,
+                            "y0": 320
+                        },
+                        "id": 14,
+                        "text": "65"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 210
+                        },
+                        "id": 15,
+                        "text": "70"
+                    },
+                    {
+                        "bb": {
+                            "height": 14,
+                            "width": 18,
+                            "x0": 39,
+                            "y0": 99
+                        },
+                        "id": 16,
+                        "text": "75"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 16,
+                        "role": "tick_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 776,
+                    "width": 1189,
+                    "x0": 72,
+                    "y0": 42
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 128,
+                                "y": 818
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 307,
+                                "y": 818
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 487,
+                                "y": 818
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 666,
+                                "y": 818
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 845,
+                                "y": 818
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1024,
+                                "y": 818
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1203,
+                                "y": 818
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 765
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 655
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 545
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 435
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 324
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 214
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "tick_pt": {
+                                "x": 72,
+                                "y": 104
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": []
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Philippines",
+                            "y": "70.1457443237"
+                        },
+                        {
+                            "x": "Saudi Arabia",
+                            "y": "56.4993515015"
+                        },
+                        {
+                            "x": "Malta",
+                            "y": "44.3734779358"
+                        },
+                        {
+                            "x": "Australia",
+                            "y": "76.1014251709"
+                        },
+                        {
+                            "x": "Korea, Rep.",
+                            "y": "67.8764648438"
+                        },
+                        {
+                            "x": "United Arab Emirates",
+                            "y": "63.8358306885"
+                        },
+                        {
+                            "x": "Libya",
+                            "y": "64.76963285684748"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "visual elements": {
+                "bars": [],
+                "boxplots": [],
+                "lines": [
+                    [
+                        {
+                            "x": 129,
+                            "y": 212
+                        },
+                        {
+                            "x": 308,
+                            "y": 513
+                        },
+                        {
+                            "x": 488,
+                            "y": 780
+                        },
+                        {
+                            "x": 667,
+                            "y": 81
+                        },
+                        {
+                            "x": 846,
+                            "y": 262
+                        },
+                        {
+                            "x": 1025,
+                            "y": 351
+                        },
+                        {
+                            "x": 1204,
+                            "y": 330
+                        }
+                    ]
+                ],
+                "scatter points": []
+            }
+        }
+    }
+}
