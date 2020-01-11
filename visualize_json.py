@@ -39,9 +39,9 @@ if chart_type in ['Pie', 'Donut']:
     exit()
 
 # task 2 & 3
-for text_block in in_obj['task2']['output']['text_blocks']:
-    bb = text_block['bb']
-    _id = text_block['id']
+for text_block_2_op, text_block_3_ip in zip(in_obj['task2']['output']['text_blocks'], in_obj['task3']['input']['task2_output']['text_blocks']):
+    bb = text_block_2_op['bb']
+    _id = text_block_3_ip['id']
     obj = find_by_id(_id, in_obj['task3']['output']['text_roles'])
     assert obj is not None
 
@@ -51,7 +51,7 @@ for text_block in in_obj['task2']['output']['text_blocks']:
     p2 = (int(bb['x0'] + bb['width']), int(bb['y0'] + bb['height']))
     cv2.rectangle(im, p1, p2, color, thickness=2)
     #if role == 'axis_title':
-    cv2.putText(im, text_block['text'], p2, cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), thickness=2, bottomLeftOrigin=False)
+    cv2.putText(im, text_block_2_op['text'], p2, cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), thickness=2, bottomLeftOrigin=False)
 
 # task 4
 bb = in_obj['task4']['output']['_plot_bb']
