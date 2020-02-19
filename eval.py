@@ -29,7 +29,7 @@ count = 1
 error = 0
 for img in rotated_imgs_list:
 	loc = find(img, '_')
-	print(img)
+	# print(img)
 	# print('./jsons/'+img[loc[-2]+1:loc[-1]]+'.json')
 	obj = json.load(open('./jsons/'+img[loc[-2]+1:loc[-1]]+'.json'))
 	# print(img[loc[-1]+1:img.find('.')])
