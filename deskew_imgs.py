@@ -31,7 +31,6 @@ def imshow_components(labels, midpoints, file_name):
 	# set bg label to black
 	labeled_img[label_hue==0] = 1
 
-	# cv2.imshow(file_name, labeled_img)
 	# cv2.imshow("cc", labeled_img)
 	# cv2.waitKey()
 
@@ -155,14 +154,15 @@ for file in cropped_imgs_list:
 	h, c = img.shape
 	if not os.path.exists(cropped_imgs_loc+"/rotated"):
 		os.makedirs(cropped_imgs_loc+"/rotated")
-	if(angle_to_rotate<80):
+	# if(angle_to_rotate<80):
 		# if(h>c and CC_output[0] != 2):
 		# 	cv2.imwrite(cropped_imgs_loc+"/rotated/rotated_"+file, rotateImage(img, 90-angle_to_rotate, borderValue=(255,255,255)))
 		# else:
 		# 	cv2.imwrite(cropped_imgs_loc+"/rotated/rotated_"+file, rotateImage
 		# 	(img, angle_to_rotate, borderValue=(255,255,255)))
+	if(CC_output[0] != 2):
 		cv2.imwrite(cropped_imgs_loc+"/rotated/rotated_"+file, rotateImage
-			(img, angle_to_rotate, borderValue=(255,255,255)))
+		(img, angle_to_rotate, borderValue=(255,255,255)))
 			
 	else:
 		cv2.imwrite(cropped_imgs_loc+"/rotated/rotated_"+file, img)
