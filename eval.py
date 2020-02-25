@@ -4,6 +4,7 @@ import pytesseract
 import json
 from PIL import Image
 import os
+import progressbar
 
 
 def parse_args():
@@ -27,7 +28,7 @@ rotated_imgs_loc = "./cropped_imgs/"+im_dir+"/rotated/"
 rotated_imgs_list = os.listdir(rotated_imgs_loc)
 count = 1
 error = 0
-for img in rotated_imgs_list:
+for img in progressbar.progressbar(rotated_imgs_list):
 	loc = find(img, '_')
 	# print(img)
 	# print('./jsons/'+img[loc[-2]+1:loc[-1]]+'.json')
@@ -39,11 +40,15 @@ for img in rotated_imgs_list:
 	# print(gt_text)
 	# print(op_text)
 	# print(jellyfish.levenshtein_distance(op_text, gt_text))
-	error += jellyfish.levenshtein_distance(op_text, gt_text)/len(gt_text)
-	error_percent = error/count
-	# print(error, error_percent, count)
-	print(count)
+	levenshtein_dist = jellyfish.levenshtein_distance(op_text, gt_text)/len(gt_text)
+	error += max(0, levenshtein_dist)
+	# error_percent = error/count
+	# if(levenshtein_dist<0):
+	# 	print(img)
+	# if not (count % 500):
+	# 	print(count)
 	count += 1
-	# if(count == 5):
-		# break
-print(error, error_percent)
+
+error_percent = error/count
+print(error, "Error %: ", error_percent)
+# print("Error %: ", error_percent)
